@@ -1,0 +1,358 @@
+{
+    "tema": "TEMA-1",
+    "fecha": "2025-10-24T19:48:50.010Z",
+    "feedback": "en general bien, faltan mas preguntas sobre puntos de inflamación de las mas importantes, butano, metano, propano, etano, gasolina, diesel...",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué sucede con el número de oxidación de una especie que se oxida en una reacción REDOX?",
+        "opciones": {
+          "A": "Disminuye su número de oxidación",
+          "B": "Aumenta su número de oxidación",
+          "C": "Su número de oxidación permanece constante"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En el contexto de una reacción de combustión, ¿qué rol desempeña el oxígeno?",
+        "opciones": {
+          "A": "Actúa como agente reductor",
+          "B": "Actúa como agente oxidante",
+          "C": "No participa en la reacción"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe correctamente la relación entre combustible y comburente en una reacción REDOX?",
+        "opciones": {
+          "A": "El comburente se oxida y el combustible se reduce",
+          "B": "El combustible se oxida y el comburente se reduce",
+          "C": "Tanto el combustible como el comburente se oxidan"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Según las definiciones proporcionadas, ¿qué diferencia fundamental existe entre el fuego y el incendio según la norma ISO 13943?",
+        "opciones": {
+          "A": "El fuego está controlado y el incendio no",
+          "B": "El incendio está controlado y el fuego no",
+          "C": "No hay diferencia entre fuego e incendio"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué condiciones deben cumplirse para que se produzca una combustión según el texto?",
+        "opciones": {
+          "A": "Presencia de materiales reaccionantes, fase líquida y energía de activación",
+          "B": "Presencia de materiales reaccionantes, fase sólida y energía de activación",
+          "C": "Presencia de materiales reaccionantes, fase gaseosa y energía de activación"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué papel desempeña el combustible en el proceso de combustión según el texto?",
+        "opciones": {
+          "A": "Actúa como agente oxidante, proporcionando oxígeno a la reacción.",
+          "B": "Actúa como agente reductor, cediendo electrones al agente oxidante.",
+          "C": "Actúa como catalizador, aumentando la velocidad de la reacción sin cambiar."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Según el texto, ¿qué sucede durante la pirólisis?",
+        "opciones": {
+          "A": "El material arde en presencia de oxígeno produciendo llamas.",
+          "B": "El material se descompone térmicamente en ausencia de oxígeno.",
+          "C": "El material se vaporiza y luego se condensa sin descomposición."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué característica aumenta la inflamabilidad de los combustibles líquidos pulverizados?",
+        "opciones": {
+          "A": "Menor relación superficie/masa.",
+          "B": "Menor presión de vapor del líquido.",
+          "C": "Mayor superficie de contacto entre el combustible y el comburente."
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué indica el límite inferior de inflamabilidad (LII) según el texto?",
+        "opciones": {
+          "A": "Es la máxima concentración de gas en el aire que permite la combustión.",
+          "B": "Es la mínima concentración de gas en el aire necesaria para que se produzca una combustión.",
+          "C": "Es la temperatura mínima a la que un líquido se inflama."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué porcentaje de oxígeno se encuentra en el aire según el volumen?",
+        "opciones": {
+          "A": "21%",
+          "B": "79%",
+          "C": "50%"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué tipo de combustión ocurre cuando hay suficiente oxígeno?",
+        "opciones": {
+          "A": "Combustión completa",
+          "B": "Combustión incompleta",
+          "C": "Combustión espontánea"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué productos se obtienen principalmente de una combustión completa?",
+        "opciones": {
+          "A": "Monóxido de carbono y humo",
+          "B": "Dióxido de carbono y vapor de agua",
+          "C": "Hidrógeno y ozono"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la principal composición de las fibras vegetales como el algodón y el lino?",
+        "opciones": {
+          "A": "Polímeros sintéticos",
+          "B": "Celulosa",
+          "C": "Proteínas"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué ocurre con la madera cuando se alcanza una temperatura entre 300 °C y 500 °C?",
+        "opciones": {
+          "A": "Se desarrolla una pirólisis intensa y la llama comienza a disminuir",
+          "B": "Se elimina la humedad en forma de vapor de agua y gases volátiles",
+          "C": "La madera entra en autoinflamación"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué sucede con los límites de inflamabilidad de una sustancia al aumentar la temperatura?",
+        "opciones": {
+          "A": "El rango se estrecha",
+          "B": "El rango se ensancha",
+          "C": "El rango no cambia"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué efecto tiene un aumento de la concentración de oxígeno en el aire sobre los límites de inflamabilidad de un combustible?",
+        "opciones": {
+          "A": "Disminuye tanto el LII como el LSI",
+          "B": "Aumenta tanto el LII como el LSI",
+          "C": "Aumenta el LSI y el LII permanece estable"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la principal característica del punto estequiométrico en una mezcla de combustible y comburente?",
+        "opciones": {
+          "A": "Es el punto con la menor velocidad de combustión",
+          "B": "Es el punto donde la mezcla tiene una proporción óptima para una combustión intensa",
+          "C": "Es el punto donde se consume menos oxígeno"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué sucede con los límites de inflamabilidad cuando aumenta la temperatura?",
+        "opciones": {
+          "A": "El LII y el LSI se reducen",
+          "B": "El LII aumenta y el LSI disminuye",
+          "C": "El LII disminuye y el LSI aumenta"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué indica un bajo punto de inflamación en una sustancia?",
+        "opciones": {
+          "A": "Que es menos propensa a inflamarse",
+          "B": "Que necesita una temperatura muy alta para inflamarse",
+          "C": "Que tiene un mayor riesgo de incendio"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la diferencia principal entre el punto de autoignición y el punto de inflamación?",
+        "opciones": {
+          "A": "El punto de autoignición es la temperatura a la que una sustancia se inflama sin fuente externa de ignición, mientras que el punto de inflamación requiere una fuente de ignición",
+          "B": "El punto de inflamación es siempre mayor que el punto de autoignición",
+          "C": "No hay diferencia significativa entre ambos"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué caracteriza principalmente a un fuego clase D?",
+        "opciones": {
+          "A": "Se pueden apagar fácilmente con agua.",
+          "B": "No deben apagarse con agua debido a posibles salpicaduras violentas.",
+          "C": "Son fuegos que se producen únicamente en exteriores."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué diferencia un ILC (Incendio Limitado por Combustible) de un ILV (Incendio Limitado por Ventilación)?",
+        "opciones": {
+          "A": "Un ILC tiene mala visibilidad y alta concentración de gases tóxicos, mientras que un ILV tiene buena visibilidad y baja concentración de gases tóxicos.",
+          "B": "Un ILV es un entorno especialmente peligroso con visibilidad reducida, mientras que un ILC tiene un entorno relativamente seguro para la progresión interior.",
+          "C": "Un ILC se caracteriza por temperaturas muy elevadas, mientras que un ILV tiene temperaturas moderadas."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué unidades se utilizan para medir el poder calorífico de un combustible?",
+        "opciones": {
+          "A": "Litros por kilogramo, metros cúbicos por kilogramo",
+          "B": "Kilogramos por metro cúbico, gramos por litro",
+          "C": "Kilojulios por kilogramo, kilojulios por metro cúbico"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la diferencia principal entre el 'poder calorífico superior' y el 'poder calorífico inferior'?",
+        "opciones": {
+          "A": "El PCS es el calor aprovechable y el PCI es el calor emitido",
+          "B": "El PCS es el calor emitido y el PCI es el calor aprovechable",
+          "C": "El PCS mide el calor por volumen y el PCI por masa"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué caracteriza principalmente a una llama de premezcla?",
+        "opciones": {
+          "A": "Se produce cuando el combustible y el comburente no se mezclan antes de la ignición.",
+          "B": "Se produce cuando el combustible y el comburente se mezclan antes de la ignición.",
+          "C": "No requiere oxígeno para su formación."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la temperatura correspondiente al color azulado de la llama, según el texto?",
+        "opciones": {
+          "A": "3200 ºC",
+          "B": "6500 ºC",
+          "C": "9000 ºC"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "De acuerdo con el texto, ¿qué sucede en la zona interna de una llama?",
+        "opciones": {
+          "A": "Es la zona más caliente y luminosa de la llama.",
+          "B": "Hay combustión completa debido a la abundancia de oxígeno.",
+          "C": "Es una zona fría y oscura donde no hay combustión por falta de oxígeno."
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué factor NO favorece la formación de humo en un incendio?",
+        "opciones": {
+          "A": "Alta concentración de oxígeno",
+          "B": "Humedad de los materiales",
+          "C": "Naturaleza resinosos de los combustibles"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es el principal componente del humo blanco según el texto?",
+        "opciones": {
+          "A": "Monóxido de carbono (CO)",
+          "B": "Vapor de agua",
+          "C": "Dióxido de azufre (SO₂)"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué efecto tiene la inhalación de dióxido de carbono (CO₂) en situaciones de incendio?",
+        "opciones": {
+          "A": "Provoca un aumento del ritmo respiratorio",
+          "B": "Reduce la visibilidad dificultando la evacuación",
+          "C": "Genera irritación ocular y mucosas"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué indica un aumento de monóxido de carbono (CO) en un incendio?",
+        "opciones": {
+          "A": "Que la combustión es completa",
+          "B": "Que hay una presencia abundante de oxígeno",
+          "C": "Que la combustión es incompleta"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es el tratamiento adecuado para una intoxicación por monóxido de carbono (CO)?",
+        "opciones": {
+          "A": "Administración de oxígeno al 50%",
+          "B": "Administración de oxígeno al 100%",
+          "C": "No administrar oxígeno, solo ventilación natural"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué propiedad tiene el amoniaco en contacto con la humedad de las mucosas?",
+        "opciones": {
+          "A": "Se convierte en hidróxido amónico, que es poco reactivo",
+          "B": "No reacciona con la humedad de las mucosas",
+          "C": "Se convierte en hidróxido amónico, muy cáustico e irritante"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la densidad relativa del vapor de cianuro de hidrógeno comparado con el aire?",
+        "opciones": {
+          "A": "0.94, menos pesado que el aire",
+          "B": "1.19, más pesado que el aire",
+          "C": "Igual al aire"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es el rango de inflamabilidad del ácido sulfhídrico en mezclas con el aire?",
+        "opciones": {
+          "A": "16% - 25%",
+          "B": "4,5% - 45%",
+          "C": "5% - 40%"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué es una reacción química según el texto?",
+        "opciones": {
+          "A": "Un proceso donde no se altera la composición de la materia.",
+          "B": "Un proceso donde las sustancias se transforman en otras con una naturaleza distinta.",
+          "C": "Un proceso donde las sustancias se mezclan sin cambiar su naturaleza."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué indica la presencia de humo negro en un incendio?",
+        "opciones": {
+          "A": "Combustión completa y baja producción de CO₂",
+          "B": "Combustión incompleta y presencia de hollín",
+          "C": "Alta eficiencia en la quema de materiales"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la principal causa de muerte relacionada con la exposición al monóxido de carbono (CO) en incendios?",
+        "opciones": {
+          "A": "Explosión por mezclas inflamables",
+          "B": "Formación de carboxihemoglobina que impide el transporte de O₂",
+          "C": "Congelación al contacto con el gas"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de gas produce el amoniaco cuando reacciona con la humedad de las mucosas?",
+        "opciones": {
+          "A": "Hidróxido de sodio",
+          "B": "Ácido clorhídrico",
+          "C": "Hidróxido amónico"
+        },
+        "correcta": "C"
+      }
+    ]
+  }
