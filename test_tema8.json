@@ -1,0 +1,520 @@
+{
+    "tema": "TEMA-8",
+    "fecha": "2025-10-24T13:19:23.676Z",
+    "feedback": "",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué porcentaje de muertes en incendios se debe a productos no térmicos de la combustión?",
+        "opciones": {
+          "A": "75%",
+          "B": "25%",
+          "C": "50%"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué material se utiliza como aislante en la construcción?",
+        "opciones": {
+          "A": "Hierro",
+          "B": "Corcho",
+          "C": "Cemento"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué sistema constructivo ha sido reemplazado mayormente por el hormigón armado debido a su practicidad y respuesta óptima?",
+        "opciones": {
+          "A": "Ladrillo de fábrica cerámica",
+          "B": "Mampostería",
+          "C": "Hormigón ciclópeo"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es el principal objetivo de la protección en términos de seguridad contra incendios?",
+        "opciones": {
+          "A": "Evitar que se inicie el incendio",
+          "B": "Evitar la propagación del incendio",
+          "C": "Realizar evacuaciones rápidas"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Por qué se ha reducido el uso del hormigón ciclópeo en construcciones modernas?",
+        "opciones": {
+          "A": "Por su alto costo y menor resistencia comparado con el hormigón armado",
+          "B": "Por su baja resistencia al fuego",
+          "C": "Por la dificultad de encontrar piedras grandes"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué caracteriza a una zapata aislada?",
+        "opciones": {
+          "A": "Soporta múltiples pilares o columnas",
+          "B": "Es de forma circular y sin armadura de hierro",
+          "C": "Sirve de soporte de un pilar o columna y es de forma cuadrada o rectangular"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿En qué tipo de terreno se suele emplear la zapata de losa?",
+        "opciones": {
+          "A": "Terreno rocoso",
+          "B": "Terreno blando",
+          "C": "Terreno inclinado"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué función principal tienen los muros de contención?",
+        "opciones": {
+          "A": "Decorativa y estructural",
+          "B": "Soportar esfuerzos horizontales del empuje de tierras",
+          "C": "Aislar térmicamente el edificio"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué característica tienen los muros de contención por gravedad?",
+        "opciones": {
+          "A": "Están hechos de madera",
+          "B": "Se construyen con hormigón ciclópeo o en masa debido a su peso",
+          "C": "Son generalmente de gran altura y delgados"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la diferencia principal entre un pilar y una columna?",
+        "opciones": {
+          "A": "El pilar es siempre de sección circular, mientras que la columna no",
+          "B": "El pilar no tiene base ni capitel y puede tener una sección no circular",
+          "C": "La columna no puede soportar cargas de compresión"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de cargas soportan las jácenas?",
+        "opciones": {
+          "A": "Solo cargas verticales",
+          "B": "Cargas de tracción",
+          "C": "Cargas de otros elementos estructurales y las trasladan a pilares o muros de carga"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué función cumplen las vigas en construcción?",
+        "opciones": {
+          "A": "Soportar cargas laterales",
+          "B": "Transmitir cargas verticales a los cimientos",
+          "C": "Recoger y transferir cargas de otros elementos estructurales"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es una de las formas de los muros de contención según su diseño?",
+        "opciones": {
+          "A": "Muros con Talón y Puntera",
+          "B": "Muros con base amplia",
+          "C": "Muros con soportes externos"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué se necesita para que un muro de contención de líquidos sea efectivo?",
+        "opciones": {
+          "A": "Alta porosidad en el hormigón",
+          "B": "Continuidad en el hormigón para una buena impermeabilización",
+          "C": "Bajo peso del hormigón utilizado"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la característica principal de una fachada ventilada?",
+        "opciones": {
+          "A": "Utiliza ladrillo exclusivamente",
+          "B": "Incluye una cámara intermedia ventilada",
+          "C": "Es completamente opaca"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es el tipo de fachada más común en la actualidad?",
+        "opciones": {
+          "A": "Fachada de vidrio",
+          "B": "Fachada de madera",
+          "C": "Fachada de fábrica"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué criterios se utilizan para clasificar las cubiertas?",
+        "opciones": {
+          "A": "Por su visibilidad y transitabilidad",
+          "B": "Por su material y durabilidad",
+          "C": "Por su forma y función"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué función cumplen los zunchos o vigas de borde en los forjados?",
+        "opciones": {
+          "A": "Decorativa",
+          "B": "De protección contra incendios",
+          "C": "De transmisión de acciones horizontales"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la solución eficaz que ofrece la inclinación de los faldones en las cubiertas inclinadas?",
+        "opciones": {
+          "A": "Mejorar la estética del edificio",
+          "B": "Facilitar el deslizamiento del agua",
+          "C": "Incrementar la resistencia al viento"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué característica debe tener el material de acabado final en una cubierta para evitar la penetración del agua?",
+        "opciones": {
+          "A": "Ser de color claro",
+          "B": "Ser impermeable o con bajo coeficiente de absorción",
+          "C": "Ser altamente reflectante"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la pendiente mínima requerida para cubiertas de tejas?",
+        "opciones": {
+          "A": "5%",
+          "B": "10%",
+          "C": "15%"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué se recomienda hacer con los solapes en cubiertas de poca pendiente?",
+        "opciones": {
+          "A": "Reducir su tamaño",
+          "B": "Aumentar su tamaño",
+          "C": "Eliminarlos completamente"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de lima en una cubierta inclinada recoge las aguas?",
+        "opciones": {
+          "A": "Lima tesa",
+          "B": "Lima hoya",
+          "C": "Lima recta"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cómo se denomina la arista horizontal máxima en una cubierta inclinada?",
+        "opciones": {
+          "A": "Alero",
+          "B": "Cumbrera o Caballete",
+          "C": "Lima"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de escaleras se considera menos adecuado para el cuerpo humano?",
+        "opciones": {
+          "A": "Escaleras de rampa",
+          "B": "Escaleras rectas",
+          "C": "Escaleras en espiral"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué material se recomienda para una cubierta caliente para evitar el ingreso de humedad?",
+        "opciones": {
+          "A": "Placas rígidas de aislante térmico con impermeabilizantes debajo",
+          "B": "Madera tratada con resinas",
+          "C": "Concreto con revestimiento cerámico"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué papel juegan los materiales de construcción en el desarrollo de un incendio?",
+        "opciones": {
+          "A": "Pueden ser propagadores del fuego",
+          "B": "Solo resisten el fuego",
+          "C": "Solo liberan humos y gases tóxicos"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es uno de los principales objetivos de la prevención en materia de incendios?",
+        "opciones": {
+          "A": "Evitar que se inicie el incendio",
+          "B": "Facilitar la evacuación rápida",
+          "C": "Reducir el costo de los materiales"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es la función principal de las fachadas en la construcción?",
+        "opciones": {
+          "A": "Decoración exterior",
+          "B": "Protección y aislamiento del edificio",
+          "C": "Soporte estructural"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de edificio requiere mejores condiciones de protección y evacuación según aumenta su altura?",
+        "opciones": {
+          "A": "Residencial",
+          "B": "Comercial",
+          "C": "Todos los tipos"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué característica hace útil al hierro en la construcción?",
+        "opciones": {
+          "A": "Su capacidad aislante",
+          "B": "Su resistencia estructural",
+          "C": "Su capacidad para liberar humos"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de cimentación se utiliza comúnmente hoy en día?",
+        "opciones": {
+          "A": "Cimentaciones de madera",
+          "B": "Cimentaciones de piedra",
+          "C": "Cimentaciones de hormigón"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la principal medida de protección en caso de incendio?",
+        "opciones": {
+          "A": "Evitar que se inicie el incendio",
+          "B": "Minimizar las consecuencias del incendio",
+          "C": "Facilitar la evacuación del edificio"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué efecto tiene el tipo de terreno en la superficie de las cimentaciones?",
+        "opciones": {
+          "A": "No tiene efecto",
+          "B": "Mayor superficie en terrenos menos consistentes",
+          "C": "Menor superficie en terrenos más consistentes"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es el principal riesgo para las personas en un incendio según las estadísticas?",
+        "opciones": {
+          "A": "El calor y las llamas",
+          "B": "El derrumbe de estructuras",
+          "C": "El humo y los gases tóxicos"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué función tienen los materiales aglomerantes en la construcción?",
+        "opciones": {
+          "A": "Decorativa",
+          "B": "Estructural y de unión",
+          "C": "Aislante térmico"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la principal razón por la que se ha reducido el uso de hormigón ciclópeo en construcciones modernas?",
+        "opciones": {
+          "A": "Por su alta resistencia a la compresión",
+          "B": "Por su alto coste y menor eficiencia comparado con el hormigón armado",
+          "C": "Por su rapidez en la instalación"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de cimentación se utiliza cuando el terreno consistente está cerca de la superficie?",
+        "opciones": {
+          "A": "Cimentación profunda",
+          "B": "Cimentación superficial",
+          "C": "Cimentación flotante"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué característica describe mejor a una zapata aislada?",
+        "opciones": {
+          "A": "Soporta cargas ligeras",
+          "B": "Soporta una carga puntual de un pilar o columna",
+          "C": "Es utilizada principalmente para muros de carga"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Para qué tipo de terreno es ideal la zapata de losa?",
+        "opciones": {
+          "A": "Terreno rocoso",
+          "B": "Terreno blando",
+          "C": "Terreno con pendiente"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la función principal de los muros de contención?",
+        "opciones": {
+          "A": "Estética y división de espacios",
+          "B": "Soportar cargas verticales",
+          "C": "Contener los empujes horizontales del terreno"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué tipo de muro de contención utiliza su peso propio para soportar los empujes?",
+        "opciones": {
+          "A": "Muro de contención ligero",
+          "B": "Muro de contención por gravedad",
+          "C": "Muro de contención flexible"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué tipo de cargas son principalmente soportadas por las jácenas?",
+        "opciones": {
+          "A": "Cargas dinámicas",
+          "B": "Cargas de flexión",
+          "C": "Cargas de otros elementos estructurales"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué función tiene el vibrado del hormigón en la construcción de muros de contención de líquidos?",
+        "opciones": {
+          "A": "Crear una superficie más rugosa",
+          "B": "Aumentar la porosidad del hormigón",
+          "C": "Mejorar la impermeabilización evitando huecos y juntas"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué forma de muro de contención es necesaria para sobrepasar la línea de edificación?",
+        "opciones": {
+          "A": "Muros con Talón y Puntera",
+          "B": "Muros sin Talón",
+          "C": "Muros con base ampliada"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué ventajas ofrece el hormigón armado en los cimientos de construcciones?",
+        "opciones": {
+          "A": "Solo absorbe esfuerzos de compresión",
+          "B": "Absorbe tanto esfuerzos de compresión como de tracción",
+          "C": "Es más económico que otros materiales"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la principal ventaja de usar zapatas continuas en la construcción?",
+        "opciones": {
+          "A": "Soportan estructuras ligeras",
+          "B": "Permiten construir sobre terrenos inclinados",
+          "C": "Apoyan muros de carga o terrenos con soporte débil"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la función principal de las vigas en una estructura?",
+        "opciones": {
+          "A": "Transmitir cargas laterales",
+          "B": "Soportar y distribuir cargas verticales",
+          "C": "Solo soportar el peso propio"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En los forjados, ¿qué elemento es esencial para transmitir acciones horizontales?",
+        "opciones": {
+          "A": "Zunchos o vigas de borde",
+          "B": "Pilares únicamente",
+          "C": "Solo las vigas principales"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué caracteriza principalmente a una fachada ventilada?",
+        "opciones": {
+          "A": "Utiliza un único material",
+          "B": "Incluye una cámara intermedia ventilada",
+          "C": "Está compuesta exclusivamente por vidrio"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué función tiene la ventilación en las cubiertas inclinadas tradicionales?",
+        "opciones": {
+          "A": "Evitar la condensación y aislar térmicamente",
+          "B": "Solo aislar térmicamente",
+          "C": "Solo evitar la condensación"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué tipo de cubierta se denomina 'cubierta caliente'?",
+        "opciones": {
+          "A": "Una cubierta con ventilación tradicional",
+          "B": "Una cubierta con trasteros habitados",
+          "C": "Una cubierta con aislamiento y sin ventilación continua"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué solución se emplea para cubiertas con espesor de 30 cm para evitar problemas de humedad y temperatura?",
+        "opciones": {
+          "A": "Uso de materiales superpuestos con distintas funciones",
+          "B": "Incrementar la ventilación",
+          "C": "Reducir el número de faldones"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué elemento de la cubierta inclinada se define como la arista horizontal a la máxima altura?",
+        "opciones": {
+          "A": "Alero",
+          "B": "Cumbrera o Caballete",
+          "C": "Lima"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En una cubierta inclinada, ¿qué es una lima hoya?",
+        "opciones": {
+          "A": "Una arista que separa las aguas",
+          "B": "Una arista que recoge las aguas",
+          "C": "Una arista sin función específica"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la función principal de los aleros en las cubiertas?",
+        "opciones": {
+          "A": "Decoración arquitectónica",
+          "B": "Control térmico",
+          "C": "Protección contra el viento"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué se debe considerar al construir una cubierta en zonas de vientos fuertes?",
+        "opciones": {
+          "A": "Disminuir la pendiente de los faldones",
+          "B": "Aumentar la ventilación de la cubierta",
+          "C": "Asegurar una ventilación adecuada para prevenir humedades"
+        },
+        "correcta": "C"
+      }
+    ]
+  }

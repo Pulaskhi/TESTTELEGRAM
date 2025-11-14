@@ -1,0 +1,627 @@
+{
+    "tema": "TEMA-5",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué efecto tiene el caudal requerido en la altura de aspiración de una bomba?",
+        "opciones": {
+          "A": "No afecta la altura de aspiración",
+          "B": "Aumenta la altura de aspiración",
+          "C": "Disminuye la altura de aspiración"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la principal diferencia respecto a la compresibilidad entre líquidos y gases según la teoría cinética de la materia?",
+        "opciones": {
+          "A": "Los líquidos son completamente compresibles, mientras que los gases son incompresibles.",
+          "B": "Los gases son menos compresibles que los líquidos bajo condiciones normales.",
+          "C": "Los líquidos son generalmente considerados incompresibles, mientras que los gases son compresibles."
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es el propósito principal de utilizar el principio de Pascal en aplicaciones hidráulicas?",
+        "opciones": {
+          "A": "Incrementar la densidad del fluido.",
+          "B": "Transferir la presión de manera uniforme en todo el fluido.",
+          "C": "Reducir la temperatura del fluido en sistemas cerrados."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué relación existe entre la pérdida de carga en una conducción y el diámetro de la misma?",
+        "opciones": {
+          "A": "No hay relación clara entre ambos parámetros.",
+          "B": "La pérdida de carga disminuye al aumentar el diámetro de la conducción.",
+          "C": "La pérdida de carga aumenta al disminuir la temperatura del fluido."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué fenómeno describe la 'reacción de lanza' en el contexto de las operaciones de bomberos?",
+        "opciones": {
+          "A": "La resistencia al flujo de agua en mangueras largas.",
+          "B": "La fuerza opuesta que experimenta una lanza al expulsar agua a alta presión.",
+          "C": "El calentamiento del agua al pasar rápidamente por una lanza."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué representa el 'golpe de ariete' en sistemas hidráulicos?",
+        "opciones": {
+          "A": "Una técnica para aumentar la eficacia de las bombas.",
+          "B": "Un fenómeno donde se produce un aumento súbito de la presión por un cambio rápido en el flujo.",
+          "C": "Un método de limpieza de tuberías usando presión alterna."
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la relación entre el volumen específico y la densidad de una sustancia?",
+        "opciones": {
+          "A": "Directamente proporcional",
+          "B": "Inversamente proporcional",
+          "C": "No hay relación establecida"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "De acuerdo con la hidrostática, ¿cómo varía la presión hidrostática en un punto dado de un fluido en función de la profundidad?",
+        "opciones": {
+          "A": "Es constante con la profundidad",
+          "B": "Disminuye con la profundidad",
+          "C": "Aumenta con la profundidad"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "Si se utiliza mercurio en lugar de agua en una columna de la misma altura, ¿cuántas veces mayor será la presión en el fondo debido a la diferencia de densidades?",
+        "opciones": {
+          "A": "13.6 veces mayor",
+          "B": "10 veces mayor",
+          "C": "5 veces mayor"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué unidad se utiliza comúnmente para medir la presión atmosférica y equivale a la presión ejercida por una columna de mercurio de 76 cm a 0 °C a nivel del mar?",
+        "opciones": {
+          "A": "Pascal",
+          "B": "Bar",
+          "C": "Hectopascal"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué instrumento se utiliza para medir la presión manométrica, que es la diferencia entre la presión absoluta y la atmosférica?",
+        "opciones": {
+          "A": "Barómetro",
+          "B": "Manómetro",
+          "C": "Termómetro"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cómo se denomina a la presión cuando el valor medido está por debajo de la presión atmosférica?",
+        "opciones": {
+          "A": "Presión de vacío",
+          "B": "Presión absoluta",
+          "C": "Presión de vapor"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es la principal consecuencia de aplicar el Principio de Pascal en una prensa hidráulica?",
+        "opciones": {
+          "A": "Multiplicación de la velocidad",
+          "B": "Multiplicación de la fuerza",
+          "C": "Reducción del trabajo requerido"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Según la ecuación de continuidad en hidrodinámica, si el área de sección de una tubería disminuye, ¿qué sucede con la velocidad del fluido?",
+        "opciones": {
+          "A": "Disminuye",
+          "B": "Permanece constante",
+          "C": "Aumenta"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué representa la presión absoluta según la definición hidráulica?",
+        "opciones": {
+          "A": "La presión manométrica solamente",
+          "B": "La suma de la presión atmosférica y la presión manométrica",
+          "C": "La presión atmosférica menos la presión manométrica"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es el efecto de la reducción del diámetro de una manguera en la pérdida de carga bajo un flujo constante de 200 litros por minuto?",
+        "opciones": {
+          "A": "Aumenta significativamente la pérdida de carga",
+          "B": "Disminuye la pérdida de carga",
+          "C": "No tiene efecto sobre la pérdida de carga"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "En el contexto de la hidrodinámica, ¿cómo influye el aumento de la longitud de una manguera en la pérdida de carga?",
+        "opciones": {
+          "A": "Aumenta proporcionalmente",
+          "B": "Disminuye proporcionalmente",
+          "C": "No afecta la pérdida de carga"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué función cumple un manómetro en un tubo de Venturi?",
+        "opciones": {
+          "A": "Mide la velocidad del fluido",
+          "B": "Mide la diferencia de presión entre dos secciones",
+          "C": "Controla el flujo de fluido"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Según el principio de Bernoulli, ¿qué ocurre con la presión en la sección más estrecha de un tubo de Venturi cuando la velocidad del fluido aumenta?",
+        "opciones": {
+          "A": "La presión aumenta",
+          "B": "La presión disminuye",
+          "C": "La presión permanece constante"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cómo se puede minimizar la pérdida de carga en un sistema hidráulico según las recomendaciones básicas?",
+        "opciones": {
+          "A": "Utilizando mangueras de menor diámetro",
+          "B": "Aumentando el número de curvas y codos",
+          "C": "Utilizando mangueras lisas y de gran diámetro"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la principal precaución que se debe tomar para evitar el fenómeno del golpe de ariete en las conducciones hidráulicas?",
+        "opciones": {
+          "A": "Cierre rápido de válvulas",
+          "B": "Apertura lenta de válvulas",
+          "C": "Mantener las válvulas constantemente abiertas"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En relación con las bombas dinámicas, ¿qué elemento es fundamental para su funcionamiento y transfiere energía cinética al fluido?",
+        "opciones": {
+          "A": "Válvula reguladora",
+          "B": "Rodete",
+          "C": "Filtro"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué fenómeno ocurre en las bombas cuando la presión cae por debajo de la presión de vapor del líquido, formando burbujas de vapor?",
+        "opciones": {
+          "A": "Cavitación",
+          "B": "Ebullición",
+          "C": "Condensación"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Qué tipo de bomba desplaza un volumen fijo de fluido en cada ciclo operativo?",
+        "opciones": {
+          "A": "Bombas dinámicas",
+          "B": "Bombas volumétricas",
+          "C": "Bombas centrífugas"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la principal consecuencia de no controlar adecuadamente la velocidad de cierre en válvulas hidráulicas?",
+        "opciones": {
+          "A": "Mejora en la eficiencia del sistema",
+          "B": "Reducción del ruido en las tuberías",
+          "C": "Incremento brusco de presión que puede dañar las conducciones"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué tipo de bomba utiliza un movimiento de vaivén del pistón para generar un efecto de succión y expulsión del fluido?",
+        "opciones": {
+          "A": "Bombas centrífugas",
+          "B": "Bombas dinámicas",
+          "C": "Bombas alternativas"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "Dentro de las bombas alternativas, ¿cómo se clasifica una bomba que realiza el bombeo del líquido en ambos lados del pistón en cada ciclo de movimiento?",
+        "opciones": {
+          "A": "Bomba de acción simple",
+          "B": "Bomba de acción doble",
+          "C": "Bomba neumática"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la función principal del carrete o rodete en una bomba centrífuga?",
+        "opciones": {
+          "A": "Crear un vacío para el cebado de la bomba",
+          "B": "Impulsar el agua hacia el exterior mediante la fuerza centrífuga",
+          "C": "Recoger el agua y convertir la energía cinética en presión"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En el contexto de las bombas centrífugas, ¿qué efecto tiene la temperatura del agua sobre la altura de aspiración?",
+        "opciones": {
+          "A": "La aumenta por incremento de la evaporación",
+          "B": "La disminuye por reducción de la presión de succión efectiva",
+          "C": "No tiene efecto sobre la altura de aspiración"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es el límite teórico de altura de aspiración para una bomba por aspiración, antes de considerar factores externos?",
+        "opciones": {
+          "A": "6 metros",
+          "B": "10,3 metros",
+          "C": "30 metros"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué elemento utiliza una turbobomba para movilizar un líquido?",
+        "opciones": {
+          "A": "Un pistón",
+          "B": "Un rodete",
+          "C": "Una válvula reguladora"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes es un mecanismo auxiliar de cebado utilizado en bombas centrífugas?",
+        "opciones": {
+          "A": "Anillos de agua",
+          "B": "Filtros de aire",
+          "C": "Sensores de presión"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "En una bomba de dos etapas, ¿qué sucede con el agua después de ser impulsada por el primer rodete?",
+        "opciones": {
+          "A": "Es expulsada directamente hacia el colector",
+          "B": "Regresa por la entrada axial del segundo rodete para incrementar presión",
+          "C": "Se descarga fuera de la bomba"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes es un método de cebado de bombas centrífugas utilizado en operaciones de bomberos?",
+        "opciones": {
+          "A": "Cebado manual",
+          "B": "Cebado con jeringa",
+          "C": "Cebado automático de vacío"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué factor aumentarían los bomberos para mejorar la eficiencia en la lucha contra incendios al utilizar una bomba hidráulica?",
+        "opciones": {
+          "A": "La temperatura del fluido",
+          "B": "El caudal del fluido",
+          "C": "La viscosidad del fluido"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la principal ventaja de usar bombas centrífugas en operaciones de bomberos en comparación con las bombas alternativas?",
+        "opciones": {
+          "A": "Mayor precisión en el control del flujo",
+          "B": "Menor mantenimiento requerido",
+          "C": "Mayor resistencia a fluidos viscosos"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En el contexto de la hidráulica, ¿qué implicaciones tiene el punto crítico de una sustancia para las operaciones de bomberos?",
+        "opciones": {
+          "A": "Indica la temperatura máxima de operación segura",
+          "B": "Define los límites para el uso de espumas de supresión",
+          "C": "Determina las condiciones bajo las cuales un gas no puede ser licuado"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué principio físico es fundamental para el diseño de mangueras en operaciones de bomberos para minimizar la pérdida de carga?",
+        "opciones": {
+          "A": "Principio de Pascal",
+          "B": "Principio de Arquímedes",
+          "C": "Ecuación de Bernoulli"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula correcta para calcular la densidad de un fluido?",
+        "opciones": {
+          "A": "δ = m / V",
+          "B": "δ = V / m",
+          "C": "δ = P / V"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "En mecánica de fluidos, ¿qué propiedad se observa cuando un insecto camina sobre el agua sin hundirse?",
+        "opciones": {
+          "A": "Viscosidad",
+          "B": "Tensión superficial",
+          "C": "Peso específico"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cómo se denomina el fenómeno que permite que algunos líquidos empapen superficies?",
+        "opciones": {
+          "A": "Cohesión",
+          "B": "Adhesión",
+          "C": "Tensión superficial"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué propiedad de los fluidos describe su resistencia a fluir bajo la acción de una fuerza?",
+        "opciones": {
+          "A": "Densidad",
+          "B": "Viscosidad",
+          "C": "Peso específico"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Según el principio de Pascal, si se aplica una presión en un punto de un fluido encerrado e incompresible, ¿cómo se transmite esta presión?",
+        "opciones": {
+          "A": "De manera decreciente",
+          "B": "Solo en la dirección de la gravedad",
+          "C": "Por igual en todas las direcciones"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué fórmula representa correctamente la presión hidrostática en un punto de un fluido?",
+        "opciones": {
+          "A": "ph = pa + d·g·h",
+          "B": "ph = pa - d·g·h",
+          "C": "ph = pa / d·g·h"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es la principal consideración operativa al utilizar un manómetro de vacío en intervenciones de bomberos?",
+        "opciones": {
+          "A": "Medir la presión de fluidos no inflamables",
+          "B": "Controlar el nivel de vacío en operaciones de rescate",
+          "C": "Regular la presión atmosférica en la zona"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es el efecto de la densidad del fluido en la fuerza de empuje, según el Principio de Arquímedes, en operaciones de rescate con uso de flotadores?",
+        "opciones": {
+          "A": "Mayor densidad del fluido disminuye la fuerza de empuje",
+          "B": "Mayor densidad del fluido aumenta la fuerza de empuje",
+          "C": "La densidad del fluido no afecta la fuerza de empuje"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En la aplicación de técnicas de extinción de incendios, ¿cómo influye la altura de una columna de agua en la eficacia del alcance de los chorros de agua?",
+        "opciones": {
+          "A": "La altura no influye en el alcance del chorro",
+          "B": "Mayor altura proporciona mayor alcance debido a la mayor presión en la base",
+          "C": "Menor altura resulta en un chorro más fuerte y con mayor alcance"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué factor debe considerarse al evaluar la presión ejercida por diferentes columnas de líquidos de la misma altura pero con densidades distintas?",
+        "opciones": {
+          "A": "El volumen de la columna",
+          "B": "El peso específico de los líquidos",
+          "C": "La temperatura de los líquidos"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula utilizada para calcular la velocidad de salida de un líquido a través de un orificio según el Teorema de Torricelli?",
+        "opciones": {
+          "A": "v = √(2gh)",
+          "B": "v = gh",
+          "C": "v = g/h"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "En el contexto de las actuaciones de bomberos, ¿qué tipo de régimen de flujo se preferiría en operaciones de extinción de incendios para asegurar un chorro más controlado y dirigido?",
+        "opciones": {
+          "A": "Régimen turbulento",
+          "B": "Régimen laminar",
+          "C": "Régimen mixto"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Bajo el principio de Bernoulli, ¿qué se mantiene constante a lo largo de un conducto cerrado con flujo estacionario de un fluido ideal?",
+        "opciones": {
+          "A": "La presión total",
+          "B": "La energía total",
+          "C": "La velocidad del fluido"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué elemento mide la diferencia entre la presión atmosférica y la presión absoluta de un fluido?",
+        "opciones": {
+          "A": "Barómetro",
+          "B": "Manómetro",
+          "C": "Termómetro"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la relación entre las áreas de sección transversal y las fuerzas aplicadas en una prensa hidráulica según el principio de Pascal?",
+        "opciones": {
+          "A": "Las áreas son directamente proporcionales a las fuerzas aplicadas",
+          "B": "Las áreas son inversamente proporcionales a las fuerzas aplicadas",
+          "C": "Las áreas y las fuerzas no están relacionadas"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué parámetro debe ajustarse para mantener un caudal constante si se aumenta la longitud de una conducción hidráulica, según los principios de pérdida de carga?",
+        "opciones": {
+          "A": "La presión de la bomba",
+          "B": "El diámetro de la manguera",
+          "C": "El número de curvas en la instalación"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "En el contexto de la hidrodinámica, ¿cuál de las siguientes afirmaciones describe correctamente el efecto de la rugosidad interna de la manguera en la pérdida de carga?",
+        "opciones": {
+          "A": "Aumenta la presión del fluido",
+          "B": "Reduce la velocidad del fluido",
+          "C": "Aumenta la pérdida de carga"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es el principal propósito del uso del tubo de Venturi en operaciones de bomberos?",
+        "opciones": {
+          "A": "Medir la presión estática del fluido",
+          "B": "Medir la velocidad del fluido",
+          "C": "Regular el flujo de salida del agua"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "Al duplicar el diámetro de una manguera, ¿qué efecto se observa sobre la pérdida de carga en el contexto de las operaciones de bomberos?",
+        "opciones": {
+          "A": "Se reduce significativamente",
+          "B": "Se mantiene constante",
+          "C": "Aumenta exponencialmente"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "En la operación de lanzas multi-efectos, ¿qué factor debe consultarse en el catálogo del fabricante antes de su uso?",
+        "opciones": {
+          "A": "El tipo de material utilizado en la fabricación",
+          "B": "Las especificaciones de caudal y presión",
+          "C": "El año de fabricación de la lanza"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué técnica es recomendable para minimizar las pérdidas de carga en las instalaciones hidráulicas de los bomberos?",
+        "opciones": {
+          "A": "Usar mangueras de diámetro pequeño",
+          "B": "Disminuir el número de conexiones y accesorios",
+          "C": "Aumentar la cantidad de codos y curvas"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cómo debe regularse la apertura o cierre de las válvulas de alimentación de agua para minimizar los efectos negativos del golpe de ariete?",
+        "opciones": {
+          "A": "De forma brusca",
+          "B": "De manera gradual",
+          "C": "Intermitentemente"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "En el contexto de actuaciones de bomberos, ¿cuál es la principal ventaja de utilizar bombas de doble acción frente a las de acción simple?",
+        "opciones": {
+          "A": "Menos mantenimiento requerido",
+          "B": "Mayor durabilidad",
+          "C": "Aspiración y expulsión de líquido en ambos movimientos del pistón"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Cuál es la relación entre la sección de la lanza y la fuerza de reacción en la operación de extinción de incendios?",
+        "opciones": {
+          "A": "Directamente proporcional",
+          "B": "Inversamente proporcional",
+          "C": "No hay relación"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es el efecto principal del golpe de ariete en las instalaciones hidráulicas de un sistema de extinción de incendios?",
+        "opciones": {
+          "A": "Incremento temporal de la eficiencia",
+          "B": "Daño potencial a las conducciones y accesorios",
+          "C": "Reducción del consumo eléctrico"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué método se recomienda para calcular la fuerza de reacción en la lanza durante el uso de una manguera de incendios?",
+        "opciones": {
+          "A": "Multiplicar la presión por la sección transversal de la lanza",
+          "B": "Dividir la presión por la sección transversal de la lanza",
+          "C": "Sumar la presión a la sección transversal de la lanza"
+        },
+        "correcta": "A"
+      },
+      {
+        "pregunta": "¿Cuál es la principal causa de cavitación en bombas utilizadas en la lucha contra incendios?",
+        "opciones": {
+          "A": "Alto caudal de agua",
+          "B": "Presión por debajo de la presión de vapor del líquido",
+          "C": "Temperatura elevada del líquido"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Cuál es la principal precaución que se debe tomar al cerrar válvulas en las operaciones de extinción para evitar el golpe de ariete?",
+        "opciones": {
+          "A": "Cerrarlas lo más rápidamente posible",
+          "B": "Cerrarlas durante los picos de consumo de agua",
+          "C": "Cerrarlas lentamente"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "¿Qué componente de una bomba centrífuga se encarga de transformar la energía cinética en energía potencial o presión?",
+        "opciones": {
+          "A": "Entrada axial",
+          "B": "Rodete",
+          "C": "Colector de salida tangencial"
+        },
+        "correcta": "C"
+      },
+      {
+        "pregunta": "En una bomba de dos etapas, ¿cómo se incrementa la presión del agua en la segunda etapa?",
+        "opciones": {
+          "A": "El agua pasa por un colector de salida tangencial",
+          "B": "El agua reingresa por la entrada axial del segundo rodete",
+          "C": "El agua es impulsada directamente al exterior"
+        },
+        "correcta": "B"
+      },
+      {
+        "pregunta": "¿Qué mecanismos auxiliares de cebado se utilizan en las bombas para crear el vacío inicial necesario para la aspiración?",
+        "opciones": {
+          "A": "Pistones, anillos de agua y sistemas basados en el efecto Venturi",
+          "B": "Solo sistemas basados en el efecto Venturi",
+          "C": "Solo pistones"
+        },
+        "correcta": "A"
+      }
+    ],
+    "feedback": ""
+  }

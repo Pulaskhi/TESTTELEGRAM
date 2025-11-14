@@ -8,24 +8,46 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 // Log de errores reales
 bot.on("polling_error", (err) => console.log("ERROR POLLING:", err));
 
-// Cargar test
-const data = JSON.parse(fs.readFileSync("test_tema1.json", "utf8"));
-const preguntas = data.preguntas;
+/**
+ * MAPA DE TESTS POR TEMA
+ * Aquí puedes ir añadiendo más temas en el futuro
+ * Ejemplo:
+ *  "TEMA-2": JSON.parse(fs.readFileSync("test_tema2.json", "utf8"))
+ */
+const TESTS = {
+  "TEMA-1": JSON.parse(fs.readFileSync("test_tema1.json", "utf8")),
+  "TEMA-5": JSON.parse(fs.readFileSync("test_tema5.json", "utf8")),
+  "TEMA-8": JSON.parse(fs.readFileSync("test_tema8.json", "utf8")),
+
+  // "TEMA-2": JSON.parse(fs.readFileSync("test_tema2.json", "utf8")),
+  
+};
 
 let usuarios = {};
 
 // -------------------------------------------------------------------
-//  INICIO
+//  /start → mostrar menú de temas
 // -------------------------------------------------------------------
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
 
-  usuarios[chatId] = {
-    indice: 0,
-    aciertos: 0,
-  };
+  const botonesTemas = Object.keys(TESTS).map((tema) => [
+    {
+      text: tema,                // texto del botón
+      callback_data: `tema:${tema}`, // identificador para el callback
+    },
+  ]);
 
-  enviarPregunta(chatId);
+  const texto =
+`Bienvenido al test 🔥
+
+Selecciona el tema que quieres practicar:`;
+
+  bot.sendMessage(chatId, texto, {
+    reply_markup: {
+      inline_keyboard: botonesTemas,
+    },
+  });
 });
 
 // -------------------------------------------------------------------
@@ -57,18 +79,19 @@ function formatearOpciones(p, seleccion = null, correcta = null) {
 }
 
 // -------------------------------------------------------------------
-//  ENVÍO DE PREGUNTA
+//  ENVIAR PREGUNTA
 // -------------------------------------------------------------------
 function enviarPregunta(chatId) {
-  if (!usuarios[chatId]) return;
-
   const estado = usuarios[chatId];
+  if (!estado) return; // protección extra
+
+  const preguntas = TESTS[estado.tema].preguntas;
   const i = estado.indice;
 
   if (i >= preguntas.length) {
     return bot.sendMessage(
       chatId,
-      `🏁 <b>TEST FINALIZADO</b>\n\nAciertos: <b>${estado.aciertos}/${preguntas.length}</b>\n\n🎯 ¡Buen trabajo!`,
+      `🏁 <b>TEST FINALIZADO (${estado.tema})</b>\n\nAciertos: <b>${estado.aciertos}/${preguntas.length}</b>\n\n🎯 ¡Buen trabajo!`,
       { parse_mode: "HTML" }
     );
   }
@@ -91,28 +114,60 @@ Selecciona una opción ⬇️`;
         [
           { text: "A", callback_data: "A" },
           { text: "B", callback_data: "B" },
-          { text: "C", callback_data: "C" }
-        ]
-      ]
-    }
+          { text: "C", callback_data: "C" },
+        ],
+      ],
+    },
   });
 }
 
 // -------------------------------------------------------------------
-//  RESPUESTA DEL USUARIO
+//  GESTIÓN DE TODOS LOS BOTONES (temas + respuestas)
 // -------------------------------------------------------------------
 bot.on("callback_query", (cb) => {
   bot.answerCallbackQuery(cb.id);
 
   const chatId = cb.message.chat.id;
-  const seleccion = cb.data;
+  const data = cb.data;
 
-  // Si no hay estado, no rompemos
+  // 1) Si el callback es de selección de tema
+  if (data.startsWith("tema:")) {
+    const tema = data.split(":")[1];
+
+    if (!TESTS[tema]) {
+      return bot.sendMessage(chatId, "⚠️ Tema no disponible.");
+    }
+
+    // Inicializamos estado del usuario para ese tema
+    usuarios[chatId] = {
+      tema,
+      indice: 0,
+      aciertos: 0,
+    };
+
+    // Editamos el mensaje del menú para que no queden botones antiguos
+    bot.editMessageText(
+      `Has seleccionado: <b>${tema}</b>\n\nEmpezamos el test ✅`,
+      {
+        chat_id: chatId,
+        message_id: cb.message.message_id,
+        parse_mode: "HTML",
+      }
+    );
+
+    // Lanzamos la primera pregunta
+    return enviarPregunta(chatId);
+  }
+
+  // 2) Si el callback es una respuesta (A, B, C)
+  const seleccion = data;
+
   if (!usuarios[chatId]) {
     return bot.sendMessage(chatId, "⚠️ Debes iniciar el test con /start");
   }
 
   const estado = usuarios[chatId];
+  const preguntas = TESTS[estado.tema].preguntas;
   const i = estado.indice;
   const p = preguntas[i];
   const correcta = p.correcta;
@@ -122,7 +177,7 @@ bot.on("callback_query", (cb) => {
   const opcionesMarcadas = formatearOpciones(p, seleccion, correcta);
 
   const texto =
-`<b>Pregunta ${i + 1}/${preguntas.length}</b>
+`<b>Pregunta ${i + 1}/${preguntas.length} — ${estado.tema}</b>
 ━━━━━━━━━━━━━━━━━━
 ${p.pregunta}
 
@@ -132,7 +187,7 @@ ${opcionesMarcadas}
   bot.editMessageText(texto, {
     chat_id: chatId,
     message_id: cb.message.message_id,
-    parse_mode: "HTML"
+    parse_mode: "HTML",
   });
 
   estado.indice++;
