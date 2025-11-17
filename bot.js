@@ -2,39 +2,37 @@ require("dotenv").config();
 const fs = require("fs");
 const TelegramBot = require("node-telegram-bot-api");
 
+// ------------------ VERIFICACIÓN DEL TOKEN ------------------
 const TOKEN = process.env.TELEGRAM_TOKEN;
+console.log("TOKEN CARGADO:", TOKEN);
+
 const bot = new TelegramBot(TOKEN, { polling: true });
 
-// Log de errores reales
+// Log de cualquier error de Telegram
 bot.on("polling_error", (err) => console.log("ERROR POLLING:", err));
 
-/**
- * MAPA DE TESTS POR TEMA
- * Aquí puedes ir añadiendo más temas en el futuro
- * Ejemplo:
- *  "TEMA-2": JSON.parse(fs.readFileSync("test_tema2.json", "utf8"))
- */
+// Log para comprobar que los mensajes llegan
+bot.on("message", (msg) => {
+  console.log("Mensaje recibido:", msg.text);
+});
+
+// ------------------ CARGA DE TESTS ------------------
 const TESTS = {
   "TEMA-1": JSON.parse(fs.readFileSync("test_tema1.json", "utf8")),
   "TEMA-5": JSON.parse(fs.readFileSync("test_tema5.json", "utf8")),
   "TEMA-8": JSON.parse(fs.readFileSync("test_tema8.json", "utf8")),
-
-  // "TEMA-2": JSON.parse(fs.readFileSync("test_tema2.json", "utf8")),
-  
 };
 
 let usuarios = {};
 
-// -------------------------------------------------------------------
-//  /start → mostrar menú de temas
-// -------------------------------------------------------------------
+// ------------------ /start → MENÚ DE TEMAS ------------------
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
 
   const botonesTemas = Object.keys(TESTS).map((tema) => [
     {
-      text: tema,                // texto del botón
-      callback_data: `tema:${tema}`, // identificador para el callback
+      text: tema,
+      callback_data: `tema:${tema}`,
     },
   ]);
 
@@ -50,9 +48,7 @@ Selecciona el tema que quieres practicar:`;
   });
 });
 
-// -------------------------------------------------------------------
-//  FORMATEO DE OPCIONES (solo colores, sin textos extra)
-// -------------------------------------------------------------------
+// ------------------ FORMATEAR OPCIONES ------------------
 function formatearOpciones(p, seleccion = null, correcta = null) {
   let out = "";
 
@@ -60,16 +56,9 @@ function formatearOpciones(p, seleccion = null, correcta = null) {
     let marcador = "";
 
     if (seleccion !== null) {
-      if (clave === seleccion && clave === correcta) {
-        // Elegida y correcta → verde
-        marcador = "  🟢";
-      } else if (clave === seleccion && clave !== correcta) {
-        // Elegida y incorrecta → rojo
-        marcador = "  🔴";
-      } else if (clave === correcta) {
-        // No elegida pero correcta → verde
-        marcador = "  🟢";
-      }
+      if (clave === seleccion && clave === correcta) marcador = "  🟢";
+      else if (clave === seleccion && clave !== correcta) marcador = "  🔴";
+      else if (clave === correcta) marcador = "  🟢";
     }
 
     out += `${clave}) ${texto}${marcador}\n`;
@@ -78,12 +67,10 @@ function formatearOpciones(p, seleccion = null, correcta = null) {
   return out;
 }
 
-// -------------------------------------------------------------------
-//  ENVIAR PREGUNTA
-// -------------------------------------------------------------------
+// ------------------ ENVIAR PREGUNTA ------------------
 function enviarPregunta(chatId) {
   const estado = usuarios[chatId];
-  if (!estado) return; // protección extra
+  if (!estado) return;
 
   const preguntas = TESTS[estado.tema].preguntas;
   const i = estado.indice;
@@ -121,16 +108,14 @@ Selecciona una opción ⬇️`;
   });
 }
 
-// -------------------------------------------------------------------
-//  GESTIÓN DE TODOS LOS BOTONES (temas + respuestas)
-// -------------------------------------------------------------------
+// ------------------ CALLBACKS (TEMA + RESPUESTAS) ------------------
 bot.on("callback_query", (cb) => {
   bot.answerCallbackQuery(cb.id);
 
   const chatId = cb.message.chat.id;
   const data = cb.data;
 
-  // 1) Si el callback es de selección de tema
+  // ---- Selección de tema ----
   if (data.startsWith("tema:")) {
     const tema = data.split(":")[1];
 
@@ -138,14 +123,12 @@ bot.on("callback_query", (cb) => {
       return bot.sendMessage(chatId, "⚠️ Tema no disponible.");
     }
 
-    // Inicializamos estado del usuario para ese tema
     usuarios[chatId] = {
       tema,
       indice: 0,
       aciertos: 0,
     };
 
-    // Editamos el mensaje del menú para que no queden botones antiguos
     bot.editMessageText(
       `Has seleccionado: <b>${tema}</b>\n\nEmpezamos el test ✅`,
       {
@@ -155,11 +138,10 @@ bot.on("callback_query", (cb) => {
       }
     );
 
-    // Lanzamos la primera pregunta
     return enviarPregunta(chatId);
   }
 
-  // 2) Si el callback es una respuesta (A, B, C)
+  // ---- Selección de respuesta ----
   const seleccion = data;
 
   if (!usuarios[chatId]) {
