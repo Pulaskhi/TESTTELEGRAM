@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T09:07:35.193Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es la longitud del carretel del faro?",
+      "opciones": {
+        "A": "25 m",
+        "B": "150 m",
+        "C": "30 m",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el ángulo de vuelco de un vehículo clase ligero, categoría 1 (urbano) según en 1846?",
+      "opciones": {
+        "A": ">32°",
+        "B": "=27°",
+        "C": "Ninguna es correcta",
+        "D": "=25°"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el peso total según UNE 22900?",
+      "opciones": {
+        "A": "Peso del vehículo carrozado en orden de marcha",
+        "B": "Peso total del vehículo aislado",
+        "C": "Ninguna es correcta",
+        "D": "Peso del vehículo carrozado en orden de marcha, menos la carga normalizada"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es el tiempo máximo para recorrer 100 m desde parado con su peso total real?",
+      "opciones": {
+        "A": "17 segundos máximo para vehículo normal",
+        "B": "40 segundos máximo para vehículo normal",
+        "C": "17 segundos máximo para todoterrenos",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En 1846, ¿cuál es la distancia mínima desde el asiento al techo interior de la cabina?",
+      "opciones": {
+        "A": "105 cm",
+        "B": "90 cm",
+        "C": "Ninguna es correcta",
+        "D": "80 cm"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23800, la potencia sonora mínima de la sirena debe ser:",
+      "opciones": {
+        "A": "95 dB a 30 m delante del vehículo",
+        "B": "90 dB a 30 m a 45° del eje del vehículo",
+        "C": "Ninguna es correcta",
+        "D": "105 dB a 30 m delante del vehículo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿qué color se establece para los tramos de escalera?",
+      "opciones": {
+        "A": "Gris azulado",
+        "B": "Blanco",
+        "C": "Ninguna es correcta",
+        "D": "Rojo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no pertenece al grupo de bombas rotativas?",
+      "opciones": {
+        "A": "Las bombas de engranajes",
+        "B": "Las bombas de pistones",
+        "C": "Las bombas de diafragma",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de bomba se suele utilizar como norma general para el trasvase o movimiento de líquidos evitando peligros?",
+      "opciones": {
+        "A": "Turbobomba",
+        "B": "Bomba de diafragma",
+        "C": "Inductoras de flujo",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la profundidad máxima operativa para una turbobomba?",
+      "opciones": {
+        "A": "20 metros",
+        "B": "Entre 28 m",
+        "C": "Entre 28 m y 15 m",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la profundidad máxima operativa para un hidroeyector?",
+      "opciones": {
+        "A": "20 metros",
+        "B": "Entre 28 m",
+        "C": "Entre 28 m y 15 m",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no corresponde a la clasificación de las bombas contra incendios según su aplicación?",
+      "opciones": {
+        "A": "Bombas de canicas",
+        "B": "Bombas de pistones",
+        "C": "Trasiegos",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Las bombas transforman la energía mecánica en energía?",
+      "opciones": {
+        "A": "Cinetica",
+        "B": "Potencial",
+        "C": "Hidráulica",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué característica no corresponde a los motores eléctricos de corriente continua?",
+      "opciones": {
+        "A": "Estator fijo",
+        "B": "Estator imanes o electroimanes",
+        "C": "Rotor espiral de hilo de cobre",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué partes son fundamentales de un motor eléctrico?",
+      "opciones": {
+        "A": "Carcasa, cuerpo de motor y eje",
+        "B": "Rotor y estator",
+        "C": "Carcasa, bobinas y eje",
+        "D": "Motor y bomba hidráulica"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la clasificación de las bombas según el movimiento que genera la impulsión?",
+      "opciones": {
+        "A": "Alternativas",
+        "B": "Rotativas",
+        "C": "Rotoestáticas y Rotodinámicas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué nos indica el '1.000' dentro de la designación abreviada de una bomba FPN 6?",
+      "opciones": {
+        "A": "El caudal de descarga nominal",
+        "B": "La presión límite",
+        "C": "1 HP son las iniciales de 'caballo de vapor'",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué característica corresponde al concepto 'factor de potencia' en motores eléctricos?",
+      "opciones": {
+        "A": "Conciende a motores eléctricos tanto de corriente continua como de corriente alterna",
+        "B": "Alude al desfase entre tensión y corriente",
+        "C": "Alude al desfase entre corriente continua y alterna",
+        "D": "Todas son incorrectas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué característica que corresponde a las bombas rotativas peristálticas proporciona?",
+      "opciones": {
+        "A": "Rendimiento eficiente pero desgaste acentuado",
+        "B": "Rendimiento poco eficiente y desgaste acentuado",
+        "C": "Ay b son correctas",
+        "D": "Todas son incorrectas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Se considera una profundidad máxima operativa para una turbobomba, de:",
+      "opciones": {
+        "A": "20 metros",
+        "B": "Entre 28 m",
+        "C": "15 m",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué característica no corresponde a las bombas peristálticas?",
+      "opciones": {
+        "A": "Mueven el fluido en su interior en la misma dirección",
+        "B": "Son autoaspirantes",
+        "C": "Se emplean como mecanismos de cebado en bombas centrífugas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál no es una característica del concepto 'PAR' en motores eléctricos?",
+      "opciones": {
+        "A": "Implica dos fuerzas paralelas de sentido contrario",
+        "B": "Implica fuerzas perpendiculares de sentido contrario",
+        "C": "Más espirales implica más PAR",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la función de la válvula de alimentación en el circuito de refrigeración de una autobomba?",
+      "opciones": {
+        "A": "Permite la refrigeración del agua del cuerpo de bomba",
+        "B": "Sólo permite la purga del agua del cuerpo de bomba",
+        "C": "Permite la refrigeración del motor del vehículo",
+        "D": "Esta válvula no se encuentra en el puesto de control de la bomba"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál no es una clasificación de bombas según el sistema de cebado?",
+      "opciones": {
+        "A": "De cebado previo",
+        "B": "Autoaspirantes",
+        "C": "De cebado automático",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuándo marcará el manovacuómero valores positivos?",
+      "opciones": {
+        "A": "Cuando se alimenta el vehículo a través de la válvula de clapeta",
+        "B": "Cuando se alimenta el vehículo a través de un hidrante",
+        "C": "El manómetro nunca marcará valores positivos",
+        "D": "Todas son correctas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la principal función de las motobombas?",
+      "opciones": {
+        "A": "Presurizar el agua desde el punto de suministros hasta el incendio",
+        "B": "Aspirar toda clase de líquidos",
+        "C": "Todas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué mide el termómetro de temperaura del agua de refrigeración en las motobombas?",
+      "opciones": {
+        "A": "La temperatura del motor del vehículo",
+        "B": "La temperatura del agua del depósito",
+        "C": "La temperatura del agua del cuerpo de bomba",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la limitación de las motobombas portátiles?",
+      "opciones": {
+        "A": "Su elevado peso",
+        "B": "No pueden dar agua directamente a la línea de manguera",
+        "C": "No pueden ser intercaladas como 'puente'",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué tipo de motor utilizan las motobombas flotantes?",
+      "opciones": {
+        "A": "Diesel",
+        "B": "Dos tiempos de gasolina",
+        "C": "Cuatro tiempos de gasolina",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué regula la norma UNE en 14710?",
+      "opciones": {
+        "A": "Bombas para lucha contra incendios",
+        "B": "Bombas centrífugas sin cebador para lucha contra incendios",
+        "C": "Bombas centrífugas con cebador para lucha contra incendios",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cómo se clasifican las bombas según su capacidad de aspiración?",
+      "opciones": {
+        "A": "Autoaspirantes y no autoaspirantes",
+        "B": "Autobombas y motobombas",
+        "C": "Hidroeyectores",
+        "D": "Todas son correctas según bibliografías"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué diferencia de nivel de aspiración se menciona en la norma UNE?",
+      "opciones": {
+        "A": "Unos 6 metros",
+        "B": "Unos 7,5 metros",
+        "C": "De 25 a 30 pies",
+        "D": "De 50 a 100 mm"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según la normativa UNE, ¿cómo debe aspirar la bomba en los vehículos autobomba de bomberos?",
+      "opciones": {
+        "A": "Desde la caja de engranajes a la transmisión",
+        "B": "Desde la caja de cambios al eje de la bomba",
+        "C": "Desde la toma de fuerza que llega a la caja de engranajes",
+        "D": "Desde la toma de impulsión que llega al eje de los rodetes de la bomba"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Cuando hablamos del cebado de una bomba, nos referimos a:",
+      "opciones": {
+        "A": "Realizar el vacío inicial de la bomba para poder aspirar",
+        "B": "Alimentar la bomba de combustible",
+        "C": "Eliminar el aire del circuito de combustible",
+        "D": "Poner en funcionamiento la bomba"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué definición sobre bomba centrífuga contra incendios es más correcta?",
+      "opciones": {
+        "A": "Máquina hidráulica destinada al suministro de fluidos para luchar contra incendios",
+        "B": "Conjunto hidráulico que acciona una bomba",
+        "C": "Máquina que necesita de fluidos para ser accionada",
+        "D": "Conjunto de rodetes accionados por un fluido"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según la norma UNE, las salidas de impulsión de agua en los vehículos contra incendios tendrán los siguientes diámetros:",
+      "opciones": {
+        "A": "25, 45, 70 y 100 mm",
+        "B": "70 y 45 mm",
+        "C": "50, 70, 100 y 125 mm",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué se denomina 'cebado' de una bomba?",
+      "opciones": {
+        "A": "Al proceso de aspiración frente al de impulsión",
+        "B": "A la succión del agua cuando se encuentra su nivel por debajo del eje de la bomba",
+        "C": "Al vaciado de la bomba",
+        "D": "A la alimentación de la bomba"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las motobombas portátiles de dos tiempos usan un combustible con qué proporción de aceite?",
+      "opciones": {
+        "A": "0,5 litros de aceite por cada 10 litros de gasolina",
+        "B": "1 litro de aceite por cada 16 litros de gasolina",
+        "C": "15 litros de aceite por cada 10 litros de gasolina",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Las bombas transforman la energía mecánica en:",
+      "opciones": {
+        "A": "Energía potencial",
+        "B": "Energía cinética",
+        "C": "Energía de presión",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué nombre reciben las bombas con motor de explosión?",
+      "opciones": {
+        "A": "Electrobombas",
+        "B": "Turbobombas",
+        "C": "Motobombas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La altura de aspiración geodésica se refiere a:",
+      "opciones": {
+        "A": "La presión en el manómetro",
+        "B": "La medida de vacío o presión en el centro de la bomba",
+        "C": "La presión de entrada",
+        "D": "La altura en la que se debe montar la bomba"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La presión en el manómetro de baja de la autobomba, no sobrepasará:",
+      "opciones": {
+        "A": "Los 2 bar",
+        "B": "Los 6 bar",
+        "C": "Los 16 bar",
+        "D": "Los 60 bar"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según la norma UNE, ¿cuál será la presión máxima de llenado a través de la bomba?",
+      "opciones": {
+        "A": "3 bar",
+        "B": "5 bar",
+        "C": "10 bar",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de bomba se considera de cebado por anillo de agua?",
+      "opciones": {
+        "A": "Bomba de pistones",
+        "B": "Bomba de membrana",
+        "C": "Bomba de paletas",
+        "D": "Eyector de gases del escape"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En el llenado por presión de la autobomba, ¿cuál es la presión máxima para los mangotes?",
+      "opciones": {
+        "A": "3 bar",
+        "B": "5 bar",
+        "C": "10 bar",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Los tiempos de cebado según normativa UNE-EN 1846 son:",
+      "opciones": {
+        "A": "Igual o inferior a 30 segundos",
+        "B": "Igual o inferior a 40 segundos",
+        "C": "Igual o inferior a 60 segundos",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la característica que NO corresponde al sistema de cebado por anillo de agua?",
+      "opciones": {
+        "A": "Son sensibles a las altas temperaturas",
+        "B": "Requieren elevado régimen de motor",
+        "C": "Son susceptibles de obstrucción",
+        "D": "Junto a la cebado por efecto venturi, es uno de los más empleados"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes bombas rotativas se suele usar para lodos y líquidos muy densos?",
+      "opciones": {
+        "A": "Peristáticos",
+        "B": "Cerrada",
+        "C": "De engranajes",
+        "D": "Cerrada salvo demanda de grandes caudales"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Si conectamos un hidrante a la entrada de una fuerza que provoca el movimiento circular, esta es:",
+      "opciones": {
+        "A": "Fuerza centrípeta",
+        "B": "Fuerza centrífuga",
+        "C": "Se suman las presiones",
+        "D": "Se restan las presiones"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "En caso de cebador automático, la presión de desconexión en la sección de salida 'Pa' no debe ser superior a:",
+      "opciones": {
+        "A": "1,0 bar",
+        "B": "2,5 bar",
+        "C": "4 bar",
+        "D": "25 bar"
+      },
+      "correcta": "A"
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "tema": "TEMA-2",
+  "fecha": "2025-11-26T07:56:45.340Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "La columna seca debe disponer de una toma en fachada:",
+      "opciones": {
+        "A": "A nivel de planta baja.",
+        "B": "En una zona de fácil acceso para los bomberos.",
+        "C": "En la planta sótano.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El sistema de columna seca se someterá a una prueba de estanqueidad y resistencia mecánica, sometiéndolo a:",
+      "opciones": {
+        "A": "15 kg/cm2 durante 2 horas.",
+        "B": "A una presión estática igual a la máxima de servicio.",
+        "C": "A 1.470 kPa.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Las mangueras de 25 tipo semirrígida deberán cumplir:",
+      "opciones": {
+        "A": "Las normas RIPCI sobre mangueras de impulsión.",
+        "B": "Las normas UNE 23400 sobre mangueras de impulsión.",
+        "C": "Las normas EN 694.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La columna seca es:",
+      "opciones": {
+        "A": "Una instalación de extinción que la utiliza el personal del edificio.",
+        "B": "Una instalación de extinción para uso exclusivo de bomberos.",
+        "C": "Una instalación de tuberías eléctricas.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuáles son las medidas de la hornacina de toma de alimentación de una columna seca?",
+      "opciones": {
+        "A": "90 x 60 x 90 cm.",
+        "B": "55 x 60 x 30 cm.",
+        "C": "55 x 40 x 30 cm.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué norma UNE regula los componentes de los sistemas fijos de agua pulverizada?",
+      "opciones": {
+        "A": "23.502.",
+        "B": "23.503.",
+        "C": "23.406.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los hidrantes contra incendios bajo tierra, con presión nominal de 16 bar, deben ser adecuados para su uso a la presión máxima admisible de:",
+      "opciones": {
+        "A": "16 bar.",
+        "B": "20 bar.",
+        "C": "25 bar.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué norma debe cumplir la señalización de ubicación?",
+      "opciones": {
+        "A": "UNE 29035.",
+        "B": "norma EN 681.",
+        "C": "UNE 20033.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué distancia mínima debe haber entre el nivel de rotura y la red hidráulica que abastece a las BIE?",
+      "opciones": {
+        "A": "Entre 200 y 300 mm.",
+        "B": "400 mm.",
+        "C": "300 mm.",
+        "D": "1 hora, a una presión dinámica a su entrada mínima de 800 kPa."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la norma UNE-EN 14384?",
+      "opciones": {
+        "A": "Hidrante tipo columna exterior húmeda.",
+        "B": "Hidrante tipo columna exterior seca.",
+        "C": "Hidrante bajo nivel de tierra.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué requisitos se exigen para los sistemas de bombeo para abastecimiento de agua?",
+      "opciones": {
+        "A": "1 boca de 150 mm y 2 de 100 mm.",
+        "B": "4 bocas de 100 mm y 2 de 150 mm.",
+        "C": "2 bocas de 150 mm.",
+        "D": "1 boca de 100 mm."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la presión mínima que debe mantener la bomba jockey?",
+      "opciones": {
+        "A": "3 bares.",
+        "B": "4 bares.",
+        "C": "5 bares.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se exige para la instalación de columnas secas en edificios?",
+      "opciones": {
+        "A": "4 plantas sobre rasante.",
+        "B": "3 plantas bajo rasante.",
+        "C": "Más de 28 m de altura.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cada cuánto se deben comprobar los sistemas de detección y alarma de incendios según el MIPOL?",
+      "opciones": {
+        "A": "Cada 3 meses.",
+        "B": "Cada 6 meses.",
+        "C": "Una vez al año.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la normativa que regula las mantas ignífugas?",
+      "opciones": {
+        "A": "UNE-EN 1869.",
+        "B": "UNE-EN 1896.",
+        "C": "UNE-EN 1689.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué concentración del orden de % se necesita para los sistemas de extinción por halón?",
+      "opciones": {
+        "A": "15%.",
+        "B": "95%.",
+        "C": "7%.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué norma regula la iluminación de emergencia?",
+      "opciones": {
+        "A": "EN 1841.",
+        "B": "EN 1840.",
+        "C": "EN 1838.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué extintores llevarán manómetros?",
+      "opciones": {
+        "A": "Los de CO. y los cartuchos extintores.",
+        "B": "Todos los de presión permanente incluidos los de CO.",
+        "C": "Todos los de presión permanente, menos los de CO.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo funciona un detector termovelocimétrico?",
+      "opciones": {
+        "A": "Detecta si la temperatura excede de un valor determinado.",
+        "B": "Detecta si la velocidad de aumento de la temperatura sobrepasa un valor determinado en un tiempo prefijado.",
+        "C": "Ninguna es correcta.",
+        "D": "Este detector no existe."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuántas clases de detectores de llama existen en función de la distancia?",
+      "opciones": {
+        "A": "Clase 1 (hasta 25 m), clase 2 (hasta 17 m), clase 3 (hasta 12 m)",
+        "B": "Clase A (hasta 20 m), clase B (hasta 15 m), clase C (hasta 10 m)",
+        "C": "Ninguna es correcta.",
+        "D": "Todas las anteriores son incorrectas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué regula la EN 14384?",
+      "opciones": {
+        "A": "Hidrantes contra incendios bajo tierra.",
+        "B": "Hidrantes de columna seca.",
+        "C": "Hidrantes de columna seca y los de presión permanente.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia máxima desde el acceso al edificio a un hidrante?",
+      "opciones": {
+        "A": "50m.",
+        "B": "25m.",
+        "C": "100m.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se prueba un extintor de CO2?",
+      "opciones": {
+        "A": "A 24.5 MPa (250 kg/cm²) durante 30 segundos.",
+        "B": "A 25.4 MPa (255 kg/cm²) durante 45 segundos.",
+        "C": "A 26 MPa (250 kg/cm²) durante 30 segundos.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántas partes se divide el marcado de un extintor?",
+      "opciones": {
+        "A": "Sistemas de control de humo y calor.",
+        "B": "Sistemas de extinción por polvo.",
+        "C": "Sistemas de detección y alarma de incendio.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué elementos de seguridad llevarán los extintores sin presión permanente superiores a 3 litros?",
+      "opciones": {
+        "A": "Un disco de seguridad tarada a 0.8 veces la presión de prueba.",
+        "B": "Una válvula de seguridad tarada a 0.8 veces la presión de prueba.",
+        "C": "Ninguna es correcta.",
+        "D": "Ambas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué norma regula los racores y tapas de conexión siamesa en una columna seca?",
+      "opciones": {
+        "A": "UNE 23400 Racor barcelona diámetro 70 mm.",
+        "B": "UNE 23400 Racor barcelona diámetro 45 mm.",
+        "C": "Esta normativa no regula lo indicado.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué parte del marcado del extintor irá en la misma etiqueta?",
+      "opciones": {
+        "A": "Las partes 1, 2, 4 y 5.",
+        "B": "Las partes 1, 3 y 5.",
+        "C": "Ninguna es correcta.",
+        "D": "Las partes 1, 2 y 3."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se clasifican las causas de los incendios?",
+      "opciones": {
+        "A": "Estructurales e inmediatas.",
+        "B": "Estructurales y accidentales.",
+        "C": "Intencionadas y estructurales.",
+        "D": "Estructurales y humanas."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿A quién corresponde la dirección del Plan INFOCA?",
+      "opciones": {
+        "A": "Al titular de la Consejería de Medio Ambiente.",
+        "B": "Al Delegado del Gobierno.",
+        "C": "Al titular de la Junta de Andalucía.",
+        "D": "A ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de incendio es más fácil de iniciarse?",
+      "opciones": {
+        "A": "Ninguna de las siguientes.",
+        "B": "Superficie.",
+        "C": "Copa.",
+        "D": "Subsuelo."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué decisión de ataque se debe tomar si el fuego sube por la pendiente y el viento sopla en el mismo sentido?",
+      "opciones": {
+        "A": "Atacar directamente el fuego por la cola del incendio.",
+        "B": "Atacar el fuego por los flancos del incendio.",
+        "C": "Atacar el fuego bajando por la pendiente.",
+        "D": "Abrir línea de defensa tras la cumbre."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la velocidad de los vientos locales de ladera descendente?",
+      "opciones": {
+        "A": "12 km/h.",
+        "B": "16 km/h.",
+        "C": "4 km/h.",
+        "D": "10 km/h."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de vegetación forman una barrera resistente al fuego?",
+      "opciones": {
+        "A": "Hidrofitas.",
+        "B": "Suelo mineral.",
+        "C": "Suelo superficial.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La humedad que posee el combustible ligero es:",
+      "opciones": {
+        "A": "Entre el 5 y el 30%.",
+        "B": "Hasta el 50%.",
+        "C": "Entre el 30 y el 50%.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes puede considerarse como velocidad de propagación muy alta?",
+      "opciones": {
+        "A": "De 2 a 10 m/min.",
+        "B": "De 10 a 40 m/min.",
+        "C": "De 40 a 70 m/min.",
+        "D": "De 70 a 100 m/min."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué color tendrá un fuego de roble y encina?",
+      "opciones": {
+        "A": "Gris.",
+        "B": "Amarillo.",
+        "C": "Azul.",
+        "D": "Negro."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los vientos de valle se generan por:",
+      "opciones": {
+        "A": "Alturas de llama.",
+        "B": "Temperatura variable.",
+        "C": "Las pendientes ascendentes.",
+        "D": "Laderas enfrentadas."
+      },
+      "correcta": "D"
+    }
+  ]
+}

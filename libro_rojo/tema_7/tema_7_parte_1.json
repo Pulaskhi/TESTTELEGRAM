@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:23:19.183Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la tensión de la línea de distribución de alta tensión?",
+      "opciones": {
+        "A": "De 380 a 66 kV entre fases.",
+        "B": "De 10 a 45 kV entre fases.",
+        "C": "De 0 a 10 kV.",
+        "D": "De 100 a 200 kV."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué produce una subestación de transformación?",
+      "opciones": {
+        "A": "Aumenta la tensión eléctrica.",
+        "B": "Reduce la alta tensión de transporte a alta tensión de distribución.",
+        "C": "Transforma energía eléctrica en energía térmica.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la tensión máxima de una línea de primera categoría?",
+      "opciones": {
+        "A": "Inferior a 20 kV.",
+        "B": "Superior a 30 kV e igual o inferior a 66 kV.",
+        "C": "Superior a 20 kV e igual o inferior a 66 kV.",
+        "D": "380 kV."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la tensión de consumo que eleva una estación de transformación?",
+      "opciones": {
+        "A": "La tensión de transporte (de 10 a 45 kV entre fases).",
+        "B": "La tensión de transporte (de 66 a 380 kV entre fases).",
+        "C": "La tensión de consumo (de 66 a 380 kV entre fases).",
+        "D": "La tensión de consumo (de 10 a 45 kV entre fases)."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima entre un cable de baja tensión y otros cables de baja tensión?",
+      "opciones": {
+        "A": "0.10 m.",
+        "B": "0.50 m.",
+        "C": "Igual o superior a 220.000 voltios.",
+        "D": "Igual o superior a 66 kV."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La tensión máxima de una línea de segunda categoría es:",
+      "opciones": {
+        "A": "Igual o inferior a 30 kV.",
+        "B": "Hasta 30 kV.",
+        "C": "ITC-BT.",
+        "D": "TC-BT."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la tensión máxima permitida en una línea de baja tensión?",
+      "opciones": {
+        "A": "Igual o inferior a 1.000 voltios en C.A.",
+        "B": "Igual o inferior a 1.500 voltios en C.A.",
+        "C": "Inferior a 1.500 voltios en C.A.",
+        "D": "Todas son falsas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La función del transformador en una subestación es:",
+      "opciones": {
+        "A": "Controlar el consumo de luz.",
+        "B": "Reducir la tensión y la frecuencia de las líneas de entradas a las de salidas.",
+        "C": "Servir de interconexión entre subestaciones.",
+        "D": "Unir las centrales hasta las subestaciones."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál no corresponde a un tipo de línea de distribución de alta tensión?",
+      "opciones": {
+        "A": "Líneas subterráneas.",
+        "B": "Líneas aéreas desnuda (convencional).",
+        "C": "Líneas aéreas tronzada aislada.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué tipo de tensión existe en la celda de entrada de un centro de transformación?",
+      "opciones": {
+        "A": "Baja tensión.",
+        "B": "Alta tensión.",
+        "C": "La correspondiente a la línea de 2ª categoría.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la separación mínima entre conductores de las líneas de transporte de alta tensión?",
+      "opciones": {
+        "A": "La separación media entre conductores es fija a 4 m.",
+        "B": "La separación media entre conductores suele variar entre 4 y 5 metros.",
+        "C": "La separación entre conductores es fija a 5 m.",
+        "D": "La separación media entre conductores suele variar entre 2 y 3 metros."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Quién controla la apalamenta de salida de las subestaciones?",
+      "opciones": {
+        "A": "Las líneas de entrada.",
+        "B": "Las líneas de salida.",
+        "C": "Las líneas de fuera de categoría.",
+        "D": "La baja tensión."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la rigidez dieléctrica de los aisladores en redes subterráneas para conductores de líneas aéreas de baja tensión que soportan lluvia durante un minuto?",
+      "opciones": {
+        "A": "Más de 5.000 V",
+        "B": "Más de 1.000 V",
+        "C": "Cuatro veces la de servicio",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué clasifica como muy baja tensión en corriente alterna según el Reglamento Electrotécnico de Baja Tensión?",
+      "opciones": {
+        "A": "Inferior o igual a 50 V",
+        "B": "De 50 V a 400 V",
+        "C": "De 50 V a 500 V",
+        "D": "Inferior o igual a 75 V"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué afirmación no es correcta sobre instalaciones subterráneas accesibles?",
+      "opciones": {
+        "A": "Se utilizarán agentes extintores gaseosos en presencia de corriente eléctrica",
+        "B": "Se usará solo agua pulverizada",
+        "C": "Ambas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál no corresponde a una de las formas de instalación de cables subterráneos de las líneas de baja tensión?",
+      "opciones": {
+        "A": "Cables aislados en canalizaciones subterráneas",
+        "B": "Cables aislados en galerías",
+        "C": "Cables sólidos directamente enterrados",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima del suelo a la red con conductores sobre fachada de las instalaciones aéreas de baja tensión?",
+      "opciones": {
+        "A": "1,5 metros",
+        "B": "2,5 metros",
+        "C": "3,5 metros",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Los transformadores de las subestaciones deben llevar?",
+      "opciones": {
+        "A": "Aceites minerales",
+        "B": "Vaselina de refrigeración",
+        "C": "Aceites naturales",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Dónde se sitúa el cuadro general de distribución de una instalación de consumo doméstica?",
+      "opciones": {
+        "A": "En el exterior del edificio",
+        "B": "Dentro de la vivienda",
+        "C": "En el interior del edificio",
+        "D": "Su ubicación es libre"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué clasifica como tensión especial en corriente continua según el Reglamento Electrotécnico de Baja Tensión?",
+      "opciones": {
+        "A": "De 750 V a 1.500 V",
+        "B": "De 1.500 V a 1.750 V",
+        "C": "De 50 V a 500 V",
+        "D": "Superior a 500 V"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se requiere para la instalación de más de una acometida por edificio?",
+      "opciones": {
+        "A": "En ninguna circunstancia",
+        "B": "En algunos casos",
+        "C": "Hasta un máximo de tres",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuáles son los componentes mínimos de la caja general de protección?",
+      "opciones": {
+        "A": "Un cortacircuitos y un seccionador",
+        "B": "Dos seccionadores",
+        "C": "Un cortacircuitos por conductor activo",
+        "D": "Todo lo anterior"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué tipo de acometida se dispondrá generalmente por edificio en instalaciones de pública concurrencia?",
+      "opciones": {
+        "A": "Una sola acometida",
+        "B": "Varias acometidas independientes",
+        "C": "No se puede especificar",
+        "D": "Cualquier acometida"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de fuentes de alimentación podrán utilizarse en las instalaciones de seguridad?",
+      "opciones": {
+        "A": "Baterías de acumuladores",
+        "B": "Baterías de arranque de vehículos",
+        "C": "Generadores independientes",
+        "D": "Ninguna"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la separación mínima entre los cables de energía eléctrica y los de telecomunicación en redes subterráneas?",
+      "opciones": {
+        "A": "1,20 m",
+        "B": "1,00 m",
+        "C": "0,50 m",
+        "D": "0,80 m"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En una instalación eléctrica, ¿cuál es el voltaje que consideramos alta tensión entre fases?",
+      "opciones": {
+        "A": "1.000 V",
+        "B": "400 V",
+        "C": "1.500 V",
+        "D": "230 V"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según el reglamento electrotécnico de baja tensión, ¿cómo se clasifican los suministros de seguridad?",
+      "opciones": {
+        "A": "Normales, de socorro y de reserva",
+        "B": "Complementarios, de socorro y duplicado",
+        "C": "Sólo de reserva",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En qué situaciones enlaza la caja general de protección directamente con el contador?",
+      "opciones": {
+        "A": "En suministros a un solo abonado",
+        "B": "En edificios públicos",
+        "C": "En industrias",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué tipo de fusibles necesitan las cajas generales de protección de hasta 80 amperios?",
+      "opciones": {
+        "A": "De cuchillas",
+        "B": "Cilíndricos",
+        "C": "No necesitan empuñaduras",
+        "D": "Todos son correctos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Es cierto que en un suministro a un solo abonado no puede haber líneas repartidoras?",
+      "opciones": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "Dependiendo de la situación",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué se conoce como circuito de acometida?",
+      "opciones": {
+        "A": "La línea repartidora",
+        "B": "La derivación individual",
+        "C": "El cuadro de distribución",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la altura mínima para la concentración de contadores desde el suelo?",
+      "opciones": {
+        "A": "0,50 m",
+        "B": "0,30 m",
+        "C": "1,00 m",
+        "D": "1,80 m"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el elemento que NO es común encontrar en un cuadro general de distribución?",
+      "opciones": {
+        "A": "Interruptor de control de potencia",
+        "B": "Interruptor conmutador",
+        "C": "Interruptor diferencial",
+        "D": "Todos son elementos comunes"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Los contadores eléctricos llevan un fusible de protección:",
+      "opciones": {
+        "A": "Uno por cada fase y vivienda",
+        "B": "Uno por vivienda",
+        "C": "Uno por cada dos fases y vivienda",
+        "D": "Todos son correctos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima desde la pared donde se instala la centralización hasta el primer obstáculo enfrente?",
+      "opciones": {
+        "A": "1,8 metros",
+        "B": "1,10 metros",
+        "C": "1,25 metros",
+        "D": "2,9 metros"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué característica debe tener una línea repartidora en edificios de un solo abonado?",
+      "opciones": {
+        "A": "Instalación en zonas de uso común",
+        "B": "Colocada en cajas de derivación",
+        "C": "Puede usar fusibles de seguridad",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cómo está formado un sistema normal de alimentación eléctrica?",
+      "opciones": {
+        "A": "Trifásico, formado por tres conductores de fase y uno de protección.",
+        "B": "Dos conductores de fase, un neutro y otro de protección.",
+        "C": "Un único conductor neutro.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Dónde debe localizarse el cuadro general de distribución?",
+      "opciones": {
+        "A": "En el portal, en una habitación destinada a ello, junto con los contadores.",
+        "B": "En la caja de escalera, en el exterior de la vivienda.",
+        "C": "En la vivienda, próxima a la entrada de esta.",
+        "D": "En la parte superior de la puerta de entrada a la vivienda."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué es un contacto indirecto?",
+      "opciones": {
+        "A": "Contactar a personas con partes metálicas de los aparatos.",
+        "B": "Falta de tensión en el circuito.",
+        "C": "Una fuga de corriente a tierra.",
+        "D": "Un contacto accidental con masas bajo tensión."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son las funciones del interruptor general automático de corte?",
+      "opciones": {
+        "A": "Corte automático general del circuito de fuerza.",
+        "B": "Protección contra sobrecargas y cortocircuitos.",
+        "C": "Control de potencia general de la instalación.",
+        "D": "A y B son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué dispositivo controla que los usuarios no consuman más potencia de la contratada?",
+      "opciones": {
+        "A": "Interruptor diferencial.",
+        "B": "Interruptor central de protección.",
+        "C": "Interruptor de control de potencia.",
+        "D": "Interruptor de corte general."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué intensidad máxima deja pasar un ICP para una potencia contratada de 2300 W?",
+      "opciones": {
+        "A": "19 amperios.",
+        "B": "20 amperios.",
+        "C": "10 amperios.",
+        "D": "25 amperios."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Un interruptor diferencial es de alta sensibilidad si detecta una corriente de fuga igual o inferior a:",
+      "opciones": {
+        "A": "0,1 amperios.",
+        "B": "50 miliamperios.",
+        "C": "30 miliamperios.",
+        "D": "15 miliamperios."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Dentro del cuadro de distribución, ¿cómo se consideran los circuitos interiores de la instalación eléctrica de una vivienda?",
+      "opciones": {
+        "A": "Derivaciones individuales.",
+        "B": "Interruptor general.",
+        "C": "Cuadro general de distribución.",
+        "D": "Magnetotérmico."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué distancia mínima debe tener la caja de derivación de una vivienda respecto al techo?",
+      "opciones": {
+        "A": "15 cm.",
+        "B": "20 cm.",
+        "C": "30 cm.",
+        "D": "No hay regulación."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la función de los dispositivos de protección contra sobreintensidades?",
+      "opciones": {
+        "A": "Protegen contra contactos directos.",
+        "B": "Disipar al terreno las corrientes de fuga.",
+        "C": "Detener el paso de corrientes eléctricas excesivas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la función del sistema de puestas a tierra?",
+      "opciones": {
+        "A": "Proteger contra contactos directos.",
+        "B": "Proteger contra un rayo a la instalación eléctrica.",
+        "C": "Proteger de la falta de tensión.",
+        "D": "Proteger de la subida puntual de la tensión."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La resistencia de tierra de un electrodo de una instalación eléctrica depende de:",
+      "opciones": {
+        "A": "Sus dimensiones y forma.",
+        "B": "La resistencia del terreno en el que se establece.",
+        "C": "El número de líneas que le lleguen.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿A qué altura se coloca la puerta de conexión respecto a la utilización de agua en la extinción?",
+      "opciones": {
+        "A": "A 90 centímetros.",
+        "B": "A 0,3 kilómetros.",
+        "C": "No se colocan en este tipo de alumbrado.",
+        "D": "No utilizar agua si existe riesgo eléctrico bajo ningún caso."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El alumbrado de emergencia estará previsto para entrar en funcionamiento automáticamente cuando:",
+      "opciones": {
+        "A": "Se produzca el fallo de los alumbrados generales.",
+        "B": "Cuando la tensión de los alumbrados generales baje a menos del 80 % de su valor nominal.",
+        "C": "Depende del nivel de electrificación.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    }
+  ]
+}

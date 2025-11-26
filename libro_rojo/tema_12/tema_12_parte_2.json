@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:48:43.013Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es el máximo calor que puede soportar un hombre en carencia de humedad?",
+      "opciones": {
+        "A": "136 °C.",
+        "B": "149 °C.",
+        "C": "153 °C.",
+        "D": "162 °C."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué no corresponde a los glóbulos blancos?",
+      "opciones": {
+        "A": "Ejecutan la respuesta inmune.",
+        "B": "Pueden ser agranulocitos o granulocitos.",
+        "C": "Pueden ser linfocitos.",
+        "D": "Pueden ser eritrocitos."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la vida estimada de los glóbulos rojos?",
+      "opciones": {
+        "A": "7 días.",
+        "B": "21 días.",
+        "C": "28 días.",
+        "D": "100 días."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la fuerza con que el corazón impulsa la sangre?",
+      "opciones": {
+        "A": "Tensidad arterial.",
+        "B": "Tensión hipotérmica.",
+        "C": "El corazón no impulsa la sangre.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué porcentaje de sudoración se elimina a través de la cabeza y brazos?",
+      "opciones": {
+        "A": "El 75 % de la sudoración.",
+        "B": "El 50 % de la sudoración.",
+        "C": "El 25 % de la sudoración.",
+        "D": "El 15 % de la sudoración."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el primer paso ante una quemadura por productos químicos?",
+      "opciones": {
+        "A": "Tapar con gasas la herida.",
+        "B": "Lavar con agua abundante.",
+        "C": "Despojar de las prendas impregnadas.",
+        "D": "Traslado inmediato al hospital."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué se considera un déficit salino muy severo?",
+      "opciones": {
+        "A": "Pérdida de sodio superior a 0,75 gr de sal por kg de peso.",
+        "B": "Pérdida de sodio superior a 0,50 gr de sal por kg de peso.",
+        "C": "Pérdida de sodio superior a 0,25 gr de sal por kg de peso.",
+        "D": "Pérdida de sodio superior a 0,15 gr de sal por kg de peso."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál no se considera un golpe de calor?",
+      "opciones": {
+        "A": "Hiperpirexia.",
+        "B": "Anhidrosis.",
+        "C": "Déficit salino.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el porcentaje de pérdida de calor en ambiente fresco y seco a través de evaporación?",
+      "opciones": {
+        "A": "El 70%.",
+        "B": "El 30%.",
+        "C": "Todas son lesiones por uso excesivo de la termorregulación.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Una pérdida de agua del 6% del peso corporal se considerará como:",
+      "opciones": {
+        "A": "Ligera.",
+        "B": "Severa.",
+        "C": "Muy severa.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué cantidad de gramos de sal se pierde por litro de sudor en personas aclimatadas?",
+      "opciones": {
+        "A": "De 4 a 5 gramos.",
+        "B": "1 gramo o menos.",
+        "C": "De 5 a 9 gramos.",
+        "D": "De 1 a 3 gramos."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el primer paso ante una quemadura eléctrica?",
+      "opciones": {
+        "A": "Anhidrosis.",
+        "B": "Hiperpirexia.",
+        "C": "Ninguna es correcta.",
+        "D": "Lavar con agua abundante."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de quemaduras se produce por productos ácidos?",
+      "opciones": {
+        "A": "Quemaduras por productos ácidos",
+        "B": "Quemaduras por productos básicos",
+        "C": "Quemaduras por productos caústicos",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es una clasificación de las quemaduras según la intensidad del déficit salino?",
+      "opciones": {
+        "A": "Calambres y desequilibrio hidroeléctrico",
+        "B": "Agotamiento y anhidrosis",
+        "C": "Calambres y agotamiento",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Cuando un bombero siente calor y agotamiento al menor esfuerzo físico y una gran parte de su cuerpo no transpira produciéndose un déficit de sudor, esta sufriendo:",
+      "opciones": {
+        "A": "Anhidrosis",
+        "B": "Deshidratación",
+        "C": "Hematoma",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se denomina carga térmica del organismo?",
+      "opciones": {
+        "A": "Calor producido por el metabolismo corporal",
+        "B": "Calor recibido del ambiente más el producido por el metabolismo corporal",
+        "C": "Calor recibido del ambiente",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La escaldadura es un tipo de quemadura:",
+      "opciones": {
+        "A": "Química",
+        "B": "Eléctrica",
+        "C": "Térmica",
+        "D": "Todas las respuestas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Aspecto de la quemadura por álcalis:",
+      "opciones": {
+        "A": "Costra negra y dura",
+        "B": "Blanquecina, blanda y húmeda",
+        "C": "Costra negra, blanda y húmeda",
+        "D": "Depende del tipo de base"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de quemaduras afectan a las capas internas de la piel, provocando ampollas?",
+      "opciones": {
+        "A": "Primer grado",
+        "B": "Segundo grado",
+        "C": "Tercer grado",
+        "D": "Cuarto grado"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué porcentaje de la superficie corporal se considera muy grave en quemaduras de tercer grado?",
+      "opciones": {
+        "A": "Superior al 10%",
+        "B": "Cualquier quemadura de 3° grado",
+        "C": "Superior al 10% en niños",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Número de huesos impares del maxilar superior:",
+      "opciones": {
+        "A": "1, el hueso vómer",
+        "B": "1, el hueso maxilares superiores",
+        "C": "Todos los huesos del maxilar superior son pares",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Número de huesos de la cara:",
+      "opciones": {
+        "A": "18",
+        "B": "14",
+        "C": "16",
+        "D": "22"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Número de huesos del tronco:",
+      "opciones": {
+        "A": "57 a 58",
+        "B": "32 a 33",
+        "C": "25",
+        "D": "26"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Los huesos cornetes se localizan:",
+      "opciones": {
+        "A": "En la parte interna de la órbita",
+        "B": "En la región híidea",
+        "C": "Dentro de la nariz",
+        "D": "En el pabellón auricular"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuántos huesos forman la bóveda del cráneo?",
+      "opciones": {
+        "A": "Parietales",
+        "B": "Occipitales",
+        "C": "Ninguno pertenece a la lectura",
+        "D": "Todos son correctos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Número total de dientes en la dentadura completa de un adulto:",
+      "opciones": {
+        "A": "32 piezas",
+        "B": "28 piezas",
+        "C": "26 piezas",
+        "D": "20 piezas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Número total de huesos de la columna vertebral:",
+      "opciones": {
+        "A": "32",
+        "B": "33",
+        "C": "25",
+        "D": "34"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el número total de huesos de la mano?",
+      "opciones": {
+        "A": "27 huesos",
+        "B": "14 huesos",
+        "C": "8 huesos",
+        "D": "5 huesos"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el número total de huesos de la región cervical de la columna vertebral?",
+      "opciones": {
+        "A": "5 huesos",
+        "B": "8 huesos",
+        "C": "12 huesos",
+        "D": "3 a 4 huesos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el número total de huesos del carpo?",
+      "opciones": {
+        "A": "5 huesos",
+        "B": "8 huesos",
+        "C": "7 huesos",
+        "D": "14 huesos"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Un herido con una fuerte lesión en la parte superior del cráneo puede tener afectado el hueso:",
+      "opciones": {
+        "A": "Occipital",
+        "B": "Frontal",
+        "C": "Parietal",
+        "D": "Temporal"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no forma parte de la pierna?",
+      "opciones": {
+        "A": "Choquezuela",
+        "B": "Tibia",
+        "C": "Peroné",
+        "D": "Todos pertenecen a la pierna"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La segunda vértebra cervical se denomina:",
+      "opciones": {
+        "A": "Atlas",
+        "B": "Bela",
+        "C": "Axis",
+        "D": "Todos pertenecen a la columna"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no forma parte de la muñeca?",
+      "opciones": {
+        "A": "Escafoides",
+        "B": "Semilunar",
+        "C": "Calcáneo",
+        "D": "Trapecio"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el número total de huesos de los miembros?",
+      "opciones": {
+        "A": "106 huesos",
+        "B": "32 huesos",
+        "C": "126 huesos",
+        "D": "64 huesos"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el número total de falanges en la mano?",
+      "opciones": {
+        "A": "4 huesos",
+        "B": "5 huesos",
+        "C": "15 huesos",
+        "D": "10 huesos"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el número total de huesos de la cintura escapular torácica?",
+      "opciones": {
+        "A": "1 hueso",
+        "B": "2 huesos",
+        "C": "14 huesos",
+        "D": "27 huesos"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "En la zona del hombro se encuentra:",
+      "opciones": {
+        "A": "La clavícula y el omóplato",
+        "B": "El húmero",
+        "C": "El cúbito",
+        "D": "Todos son correctos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no forma parte del tarso?",
+      "opciones": {
+        "A": "Astrágalo",
+        "B": "Calcáneo",
+        "C": "Ganchoso",
+        "D": "Escafoides"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El músculo iliaco se localiza en:",
+      "opciones": {
+        "A": "La cabeza",
+        "B": "El cuello",
+        "C": "El antebrazo",
+        "D": "El muslo"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El control del funcionamiento de todos los órganos depende del sistema:",
+      "opciones": {
+        "A": "Circulatorio",
+        "B": "Respiratorio",
+        "C": "Nervioso",
+        "D": "Endocrino"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "El músculo supinador se localiza en:",
+      "opciones": {
+        "A": "La cabeza",
+        "B": "El cuello",
+        "C": "El antebrazo",
+        "D": "El muslo"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Los músculos cigomáticos se localizan en:",
+      "opciones": {
+        "A": "La cabeza",
+        "B": "El cuello",
+        "C": "El antebrazo",
+        "D": "La cara interna del muslo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el número total de huesos de la región coxígea de la columna vertebral?",
+      "opciones": {
+        "A": "3 a 4 huesos",
+        "B": "5 huesos",
+        "C": "12 huesos",
+        "D": "14 huesos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La causa más frecuente de obstrucción de la vía aérea en una víctima inconsciente es:",
+      "opciones": {
+        "A": "Falta de pulso",
+        "B": "Falta de respiración",
+        "C": "Falta de consciencia",
+        "D": "Falta de reflejos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Ante un estado de shock hipovolémico, ¿es recomendable elevar las piernas de la víctima?",
+      "opciones": {
+        "A": "Sí",
+        "B": "Depende del tipo de shock",
+        "C": "No",
+        "D": "Depende del estado del paciente"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes signos y síntomas no es característico de una infección?",
+      "opciones": {
+        "A": "Fiebre",
+        "B": "Malestar general",
+        "C": "Irritabilidad",
+        "D": "Disminución de la consciencia"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las articulaciones pueden ser:",
+      "opciones": {
+        "A": "Sinartrosis, diartrosis y anfiartrosis",
+        "B": "Articulaciones fijas y móviles",
+        "C": "Articulaciones sinoviales",
+        "D": "Articulaciones cerradas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Dónde se encuentra la base de la lengua?",
+      "opciones": {
+        "A": "En la muñeca (arteria radial).",
+        "B": "En la ingle (artería femoral).",
+        "C": "En el cuello (arteria carótida).",
+        "D": "Tragarse objetos."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué indica la fórmula de Baux?",
+      "opciones": {
+        "A": "Evalúa la extensión de la superficie congelada.",
+        "B": "Tiene una parada cardiorrespiratoria.",
+        "C": "Determina la mortalidad en quemaduras.",
+        "D": "Está inconsciente."
+      },
+      "correcta": "C"
+    }
+  ]
+}

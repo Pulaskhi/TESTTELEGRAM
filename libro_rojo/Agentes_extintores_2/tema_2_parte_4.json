@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-2",
+  "fecha": "2025-11-26T07:56:45.337Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿A qué presión se produce la primera ETA en el manorreductor?",
+      "opciones": {
+        "A": "Al bajar de 50 bar.",
+        "B": "Al alcanzar unos 30 bar.",
+        "C": "Al alcanzar unos 55 bar.",
+        "D": "Al bajar de 150 bar."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué caudal se debe realizar según el fabricante para el mantenimiento de los equipos?",
+      "opciones": {
+        "A": "1.000 a 550 litros/minuto a 20 bar.",
+        "B": "1.000 a 550 litros/minuto a 30 bar.",
+        "C": "800 a 550 litros/minuto a 30 bar.",
+        "D": "Las anteriores son falsas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué presión sonará el avisador acústico del manómetro?",
+      "opciones": {
+        "A": "Aproximadamente a 50 bar.",
+        "B": "Aproximadamente a 90 bar.",
+        "C": "Aproximadamente a 80 bar.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Según la norma EN 443, el casco que protege al respirador puede clasificarse en:",
+      "opciones": {
+        "A": "Casco Tipo A.",
+        "B": "Casco Tipo B.",
+        "C": "Casco Tipo 1A.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿En qué rango de temperaturas debe operar sin problemas el equipo según la norma EN 137?",
+      "opciones": {
+        "A": "De 0°C y 60°C.",
+        "B": "De -10°C y 60°C.",
+        "C": "De -20°C y 60°C.",
+        "D": "De 0°C y 40°C."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cada cuánto tiempo se deben someter a prueba hidrostática las botellas de composite?",
+      "opciones": {
+        "A": "Cada 10 años.",
+        "B": "Cada 20 años.",
+        "C": "Cada 3 años.",
+        "D": "Nunca."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el volumen normal de las botellas de acero?",
+      "opciones": {
+        "A": "8 litros.",
+        "B": "6,8 litros.",
+        "C": "6 litros.",
+        "D": "Las respuestas B y C son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la máxima penetración permitida de la máscara en el guante de bomberos?",
+      "opciones": {
+        "A": "0,10 %",
+        "B": "0,03 %",
+        "C": "0,05 %",
+        "D": "Categoría IV."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuánto aire consume un bombero que inicia su trabajo en un incendio con un equipo de respiración?",
+      "opciones": {
+        "A": "1520 litros.",
+        "B": "1680 litros.",
+        "C": "1720 litros.",
+        "D": "1200 litros."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué norma regula los equipos de protección respiratoria y en la que aparecen las definiciones?",
+      "opciones": {
+        "A": "UNE-EN 192.",
+        "B": "UNE-EN 12942.",
+        "C": "UNE-EN 114.",
+        "D": "UNE-EN 12941."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Los filtros clasificados con la letra E son para unidad de control integrado con fuente de energía. ¿Cuál es el tenedor de dióxido de azufre?",
+      "opciones": {
+        "A": "Batería de 12 V.",
+        "B": "Pila de 9 V.",
+        "C": "Amoniaco.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El factor TL áxio permitido en los equipos de respiración autónomos debe ser:",
+      "opciones": {
+        "A": "Superior a 900 bar.",
+        "B": "Superior a 800 bar.",
+        "C": "Superior a 1.000 bar.",
+        "D": "Superior a 1.200 bar."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Un filtro contra partículas con una eficacia de filtración baja tiene un poder de retención:",
+      "opciones": {
+        "A": ">95% y <98%.",
+        "B": "900<05%.",
+        "C": "285e<90%.",
+        "D": ">93e<98%."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En los equipos de respiración autónomos, ¿qué línea está conectada a la línea de segundo usuario (by-pass)?",
+      "opciones": {
+        "A": "Media.",
+        "B": "Baja.",
+        "C": "Depende del tipo de espaldera.",
+        "D": "No tiene certificación CE."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El factor de protección en los equipos respiratorios se define como:",
+      "opciones": {
+        "A": "Relación entre la concentración de contaminante en el aire ambiental y en el aire inhalado por el usuario.",
+        "B": "Relación entre la concentración en el aire inhalado y en el aire ambiental.",
+        "C": "Relación de la concentración en el aire inhalado por el usuario.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de cartucho regenerador suele ser de color en los equipos de respiración autónomos de circuito cerrado?",
+      "opciones": {
+        "A": "Rojo.",
+        "B": "Blanco.",
+        "C": "Azul.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Respecto al cartucho regenerador en equipos de respiración autónomos de circuito cerrado, se debe tener en cuenta que su temperatura de almacenaje se encuentre:",
+      "opciones": {
+        "A": "0°C y 50°C.",
+        "B": "*C y 50°C.",
+        "C": "10°C y 50°C.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La inspección visual de la membrana de la válvula de la máscara a demanda se realizará cada:",
+      "opciones": {
+        "A": "Año.",
+        "B": "3 meses.",
+        "C": "6 meses.",
+        "D": "9 meses."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La comprobación de la estanqueidad del grifo de las botellas de aire comprimido se realiza cada:",
+      "opciones": {
+        "A": "Año.",
+        "B": "3 meses.",
+        "C": "6 meses.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En los equipos de respiración autónomos, ¿qué se establece para la resistencia a la radiación del traje de intervención?",
+      "opciones": {
+        "A": "40 KW/m.",
+        "B": "15 KW/m.",
+        "C": "20 KW/m.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los guantes de trabajo mecánico tienen un grosor de:",
+      "opciones": {
+        "A": "1,3 mm.",
+        "B": "2,3 mm.",
+        "C": "8,1 mm.",
+        "D": " Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de traje de protección química lleva el ERA dentro del traje?",
+      "opciones": {
+        "A": "Traje Tipo B.",
+        "B": "Traje Tipo A o TE.",
+        "C": "Traje Tipo BOT.",
+        "D": "Traje Tipo AoT."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La hermeticidad a gases de los trajes de intervención tipo NBO, debe conservarse:",
+      "opciones": {
+        "A": "De *C hasta 70°C.",
+        "B": "Deseable.",
+        "C": "Ninguna de las anteriores.",
+        "D": "De *C a 70°C."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Respecto a la temperatura de utilización de los trajes de intervención del tipo NBQ, hay que tener en cuenta que se encuentra:",
+      "opciones": {
+        "A": "De hasta 70°C.",
+        "B": "De hasta 65°C.",
+        "C": "De hasta 70°C.",
+        "D": "De hasta 70°C."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Para que un producto químico se considere soluble en agua, qué debe cumplir?",
+      "opciones": {
+        "A": "Solubilidad en agua inferior a 40 g/l.",
+        "B": "Solubilidad en agua superior a 40 g/l.",
+        "C": "Solubilidad en agua inferior a 60 g/l.",
+        "D": "Solubilidad en agua superior a 60 g/l."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué normativa regula el contenido de CO en aire comprimido para equipos de protección respiratoria aislantes?",
+      "opciones": {
+        "A": "UNE EN 407.",
+        "B": "UNE EN 388.",
+        "C": "UNE EN 420.",
+        "D": "UNE EN 12021."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Según normativa, el contenido en agua en el aire comprimido de las botellas de los ERAs, debe ser inferior a:",
+      "opciones": {
+        "A": "35 mg/m³.",
+        "B": "50 mg/m³.",
+        "C": "40 mg/m³.",
+        "D": "30 mg/m³."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué debe suceder cuando las condiciones de utilización y almacenamiento no se conocen, respecto al punto de rocío del agua del aire comprimido?",
+      "opciones": {
+        "A": "No debe exceder de 5 °C.",
+        "B": "No debe exceder de 10 °C.",
+        "C": "No debe exceder de 15 °C.",
+        "D": "No debe exceder de 20 °C."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el nivel de protección que ofrece un traje NBO en presencia de sustancias químicas?",
+      "opciones": {
+        "A": "Nivel 1.",
+        "B": "Nivel 2.",
+        "C": "Nivel 3.",
+        "D": "Nivel 0."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según normativa, el contenido de lubricante en el aire comprimido no debe exceder de:",
+      "opciones": {
+        "A": "0,1 mg/m³.",
+        "B": "0,5 mg/m³.",
+        "C": "0,05 mg/m³.",
+        "D": "Nulo."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué significan las siglas 'EPA' en los equipos de protección respiratoria filtrante?",
+      "opciones": {
+        "A": "Equipo de protección ante incendios.",
+        "B": "Equipo de Protección Aislante.",
+        "C": "Equipo de Protección desde el Ambiente.",
+        "D": "Equipo de Protección con Filtración."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Según qué norma la mezcla de gases con el aire respirable no está permitida?",
+      "opciones": {
+        "A": "EN 12021.",
+        "B": "EN 12022.",
+        "C": "EN 12020.",
+        "D": "EN 14387."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de filtro es el P2?",
+      "opciones": {
+        "A": "95 < % retención.",
+        "B": "< 95 y > 98 % retención.",
+        "C": "< 98 %. ",
+        "D": "> 90 %."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué indican las botellas de aire comprimido en fibras de composite?",
+      "opciones": {
+        "A": "Solo se pueden llenar con aire respirable.",
+        "B": "Se pueden llenar con cualquier gas.",
+        "C": "Están diseñadas solo para aire comprimido.",
+        "D": "Pueden contener cualquier tipo de aire."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la presión mínima de limpieza del silbato o avisador acústico de un EPR?",
+      "opciones": {
+        "A": "> 90 bar.",
+        "B": "> 120 bar.",
+        "C": "> 80 bar.",
+        "D": "> 100 bar."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuánto tiempo a 900 °C se requiere para producir la segunda etapa de reducción?",
+      "opciones": {
+        "A": "4 minutos",
+        "B": "2 minutos",
+        "C": "1 minuto",
+        "D": "Nunca"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué temperatura regula la EN 15614 para el techo térmico del traje de aproximación?",
+      "opciones": {
+        "A": "600 °C",
+        "B": "250 °C",
+        "C": "400 °C",
+        "D": "Nunca se descompone"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuántos Newton se requiere durante el ensayo de aplastamiento lateral de un casco de bombero?",
+      "opciones": {
+        "A": "630 N durante 30 seg.",
+        "B": "660 N durante 300 seg.",
+        "C": "600 N durante 30 seg.",
+        "D": "570 N durante 60 seg."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿A qué categoría pertenece el capuz o sotocas que regula la UNE-EN ISO 20471?",
+      "opciones": {
+        "A": "Categoría I",
+        "B": "Categoría II",
+        "C": "Categoría III",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la norma que regula los guantes térmicos de intervención según la EN 407?",
+      "opciones": {
+        "A": "Categoría I",
+        "B": "Categoría II",
+        "C": "Categoría III",
+        "D": "No están regulados por la normativa EPI"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la calidad que debe cumplir un traje de protección química?",
+      "opciones": {
+        "A": "Aislamiento que permita que la temperatura del material alcance hasta 1.000 °C",
+        "B": "Aislamiento que permita que la temperatura del material alcance hasta 500 °C",
+        "C": "Aislamiento que permita que la temperatura del material alcance hasta 300 °C",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el significado de las letras NA en una mascarilla autofiltrante para partículas según la EN 140?",
+      "opciones": {
+        "A": "NR = no reutilizable",
+        "B": "NR = un solo uso",
+        "C": "NA = usos varios",
+        "D": "NR = que caduca"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué reglamento regula los guantes mecánicos según la UNE-EN 388?",
+      "opciones": {
+        "A": "Guantes térmicos (EPI Cat II)",
+        "B": "Guantes mecánicos (EPI categoría II)",
+        "C": "Guantes bomberos (EPI Cat I)",
+        "D": "Guantes de protección (EPI categoría I)"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué regula la UNE-EN 15090?",
+      "opciones": {
+        "A": "Calzado para bomberos",
+        "B": "Guantes para bomberos",
+        "C": "Casco para bomberos",
+        "D": "Linternas para bomberos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el intervalo recomendado de mantenimiento de un arnés anticaídas?",
+      "opciones": {
+        "A": "Al menos cada 12 meses",
+        "B": "Al menos cada 5 años",
+        "C": "Al menos cada 6 meses",
+        "D": "Siempre a indicación del fabricante"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son los criterios que definen la calidad de un extintor según el RD 2060/2008?",
+      "opciones": {
+        "A": "Seguridad, eficacia y conservación en el tiempo.",
+        "B": "Seguridad, la eficacia, la conservación en el tiempo y la calidad.",
+        "C": "Ninguna de las anteriores.",
+        "D": "Todos los anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se entiende por presión máxima de servicio en un equipo a presión según el reglamento?",
+      "opciones": {
+        "A": "Presión más alta en condiciones de ensayo.",
+        "B": "Presión más alta en condiciones de funcionamiento.",
+        "C": "Presión más alta o más baja estimada en el interior del equipo.",
+        "D": "Presión a la que se somete el equipo en la prueba de presión."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo definimos la eficacia de un extintor?",
+      "opciones": {
+        "A": "Es la amplitud para la extinción de una o varias clases de fuego.",
+        "B": "Aptitud para la extinción de una o varias clases de fuegos.",
+        "C": "Ambas son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la eficacia mínima que deben tener los extintores?",
+      "opciones": {
+        "A": "21AB.",
+        "B": "15A.",
+        "C": "25A.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En los extintores portátiles de halón, el halón sale al exterior...",
+      "opciones": {
+        "A": "En estado gaseoso.",
+        "B": "En estado líquido.",
+        "C": "Como nieve carbónica.",
+        "D": "Gasificado."
+      },
+      "correcta": "A"
+    }
+  ]
+}

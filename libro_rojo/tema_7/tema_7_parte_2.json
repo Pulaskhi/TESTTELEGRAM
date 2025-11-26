@@ -1,0 +1,375 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:23:19.194Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "Profundidad mínima de los conductores subterráneos en farolas tipo columna:",
+      "opciones": {
+        "A": "40 centímetros.",
+        "B": "1,2 metros.",
+        "C": "Ninguna es correcta.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué dispositivo es necesario para el funcionamiento de un tubo luminoso de descarga?",
+      "opciones": {
+        "A": "Un dispositivo especial de encendido.",
+        "B": "Un reactor.",
+        "C": "Un capacitor.",
+        "D": "Un transformador."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La corriente alterna es considerada más peligrosa que la corriente continua porque:",
+      "opciones": {
+        "A": "El doble.",
+        "B": "De 3 a 5 veces.",
+        "C": "Es la continua la más peligrosa para igual voltaje.",
+        "D": "Todas son incorrectas."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Para la identificación de los conductores en instalaciones interiores en viviendas, cuando se considere necesario identificar tres fases diferentes, se podrá utilizar el color:",
+      "opciones": {
+        "A": "Verde.",
+        "B": "Gris.",
+        "C": "Violeta.",
+        "D": "Rojo."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El hexafluoruro de tungsteno se utiliza en subestaciones para:",
+      "opciones": {
+        "A": "Los calentamientos.",
+        "B": "Extinguir los arcos voltaicos.",
+        "C": "Enfriar.",
+        "D": "Cortar la corriente."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima del extintor a punto de tensión, en caso de 1 a 15 kV?",
+      "opciones": {
+        "A": "1 metro.",
+        "B": "2 metros.",
+        "C": "3 metros.",
+        "D": "4 metros."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Cuando un volquete de un camión toca dos cables de extensión se produce:",
+      "opciones": {
+        "A": "Un aumento de la tensión.",
+        "B": "Nunca se producirá un cortocircuito.",
+        "C": "Un cortocircuito.",
+        "D": "Una electrolisis."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima de seguridad en incendios en viviendas antiguas?",
+      "opciones": {
+        "A": "15 metros",
+        "B": "5 millas",
+        "C": "5 yardas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "En un rescate en alta tensión, ¿qué se debe utilizar?",
+      "opciones": {
+        "A": "Una pértiga aislante",
+        "B": "Una pértiga aislante y una banqueta dieléctrica",
+        "C": "Ponerse en contacto con la compañía suministradora",
+        "D": "Utilizar guantes de protección eléctrica y careta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo se pueden cortar la corriente en caso de incendio?",
+      "opciones": {
+        "A": "Quitando el fusible de la caja general de protección",
+        "B": "Seccionando la línea repartidora",
+        "C": "Quitando los fusibles y el seccionador del contador",
+        "D": "Quitando el fusible del contador"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la tensión normal de trabajo de las luminarias (farolas) en la ciudad de Madrid?",
+      "opciones": {
+        "A": "380 voltios con algunas excepciones",
+        "B": "1000 vatios con algunas excepciones",
+        "C": "15 amperios con algunas excepciones",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el color identificativo del conductor neutro?",
+      "opciones": {
+        "A": "Rojo",
+        "B": "Verde",
+        "C": "Azul",
+        "D": "Amarillo"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el REBT, las instalaciones eléctricas en baja tensión las ejecutarán:",
+      "opciones": {
+        "A": "Los electricistas especializados",
+        "B": "Los instaladores autorizados",
+        "C": "Los instaladores especializados",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la frecuencia normal de la red según el REBT?",
+      "opciones": {
+        "A": "50 herzios",
+        "B": "100 voltios",
+        "C": "150 amperios",
+        "D": "125 voltios"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Dónde se puede cortar la corriente en un incendio de una centralización de contadores?",
+      "opciones": {
+        "A": "En la caja general de protección (C.G.P)",
+        "B": "En la vivienda",
+        "C": "En la caja general de distribución",
+        "D": "En el interruptor general de corte omnipolar"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La tensión nominal de un conductor es la tensión máxima que puede soportar. ¿Es verdadero o falso?",
+      "opciones": {
+        "A": "Verdadero",
+        "B": "Falso"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se considera efecto del paso de la corriente eléctrica por el cuerpo humano?",
+      "opciones": {
+        "A": "Electrocución",
+        "B": "Fibrilación ventricular",
+        "C": "Tetanización",
+        "D": "Fibrocontracción"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se entiende por corriente de cortocircuito franco según el reglamento electrotécnico de baja tensión?",
+      "opciones": {
+        "A": "Sobreintensidad producida por un fallo de impedancia despreciable entre dos conductores activos con diferencia de potencial.",
+        "B": "Valor especificado que provoca el funcionamiento del dispositivo de protección.",
+        "C": "Valor máximo de la corriente que circula permanentemente por un conductor.",
+        "D": "A partir de 100 miliamperios."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la consecuencia de una trayectoria de corriente eléctrica desde la cabeza a los pies en una persona?",
+      "opciones": {
+        "A": "Peligro de muerte.",
+        "B": "Desorientación.",
+        "C": "Cosquilleo.",
+        "D": "Cefalea remanente."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A partir de qué corriente se considera que hay peligro para el ser humano?",
+      "opciones": {
+        "A": "A partir de 10 amperios.",
+        "B": "A partir de 100 miliamperios.",
+        "C": "A partir de 30 miliamperios.",
+        "D": "A partir de 50 miliamperios."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué protección ofrece la pantalla de los cascos eléctricos?",
+      "opciones": {
+        "A": "Protección contra arcos voltaicos.",
+        "B": "Protección contra contactos directos.",
+        "C": "Protección contra contactos indirectos.",
+        "D": "No nos proporcionan ningún tipo de protección."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuándo se estima que se producirá un paro respiratorio por contacto con tensión?",
+      "opciones": {
+        "A": "900 voltios para corriente continua y 150 voltios para corriente alterna.",
+        "B": "150 voltios para corriente continua y 300 voltios para corriente alterna.",
+        "C": "500 voltios para corriente continua y 300 voltios para corriente alterna.",
+        "D": "300 voltios para corriente continua y 300 voltios para corriente alterna."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se considera material de clase II según el reglamento electrotécnico de baja tensión?",
+      "opciones": {
+        "A": "Material en el cuál la protección contra el choque eléctrico no se basa en la alimentación a muy baja tensión.",
+        "B": "Material en el cuál la protección contra el choque eléctrico se basa en el aislamiento principal.",
+        "C": "Material donde puede haber polvos inflamables.",
+        "D": "Material que no tiene ninguna disposición prevista para conexión a un conductor de protección."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuáles son los conductores que llegan a una vivienda?",
+      "opciones": {
+        "A": "Conductor de fase y conductor de tierra.",
+        "B": "Fase y neutro.",
+        "C": "Conductor neutro.",
+        "D": "Todos son conductores activos."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la intensidad máxima que puede soportar una persona sin peligro?",
+      "opciones": {
+        "A": "Corriente doméstica.",
+        "B": "Umbral de seguridad.",
+        "C": "Umbral viable.",
+        "D": "Material en el cuál la protección no se basa únicamente en el aislamiento."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Cuando el equipo de ataque se introduce en una vivienda y se corta el suministro eléctrico, ¿qué se debe hacer?",
+      "opciones": {
+        "A": "No deben abrir el interruptor sino cerrarlo.",
+        "B": "Este interruptor no se encuentra en este cuadro.",
+        "C": "La maniobra es mal efectuada, debe actuarse sobre el interruptor diferencial.",
+        "D": "Todas son incorrectas."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué indica el reglamento electrotécnico de baja tensión respecto a los interruptores diferenciales?",
+      "opciones": {
+        "A": "Son de alta sensibilidad si esta es igual o inferior a 30 mA.",
+        "B": "Son de alta sensibilidad si esta es igual o inferior a 15 mA.",
+        "C": "Son de alta sensibilidad si esta es igual o inferior a 40 mA.",
+        "D": "Son de alta sensibilidad si esta es igual o inferior a 20 mA."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de servicio no debe cortarse en un edificio derrumbado?",
+      "opciones": {
+        "A": "Agua",
+        "B": "Gas",
+        "C": "Electricidad",
+        "D": "Todos menos el agua si hay sepultados"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Para qué sirve un grupo electrógeno?",
+      "opciones": {
+        "A": "Para electrosoldaduras",
+        "B": "Para dar presión a las herramientas hidráulicas",
+        "C": "Para generar electricidad",
+        "D": "Hay que cortarlos todos"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de corriente eléctrica encontramos habitualmente en una vivienda?",
+      "opciones": {
+        "A": "Corriente C.C.",
+        "B": "Corriente A.C.",
+        "C": "Corriente A.C. y C.C.",
+        "D": "Toda la instalación eléctrica es responsabilidad de la compañía"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el material de los cables utilizados en las acometidas subterráneas?",
+      "opciones": {
+        "A": "Aluminio",
+        "B": "Cobre",
+        "C": "Ambos son correctos",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué función tiene un cable de color verde y amarillo en un cuadro eléctrico?",
+      "opciones": {
+        "A": "Circuito de transporte",
+        "B": "Toma de tierra",
+        "C": "Línea de positivo",
+        "D": "Línea de negativo"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el falso respecto a los gases utilizados por las luces de neón?",
+      "opciones": {
+        "A": "Helio",
+        "B": "Argón",
+        "C": "Radón",
+        "D": "Mercurio"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué función tiene un interruptor diferencial en un cuadro eléctrico?",
+      "opciones": {
+        "A": "Aumentar la potencia cuando se demande más",
+        "B": "Interfiere la frecuencia modulada",
+        "C": "Proteger a las personas de posibles derivaciones o defecto a tierra",
+        "D": "Cortar el suministro en caso de emergencia"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La acometida de desagüe de un edificio pertenece a:",
+      "opciones": {
+        "A": "La compañía de aguas",
+        "B": "El Ayuntamiento",
+        "C": "Al canal de Isabel II",
+        "D": "Propietario del edificio"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué es un convector?",
+      "opciones": {
+        "A": "Un transformador",
+        "B": "Un emisor calorífico",
+        "C": "Un detentor reductor",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima entre la red de distribución de agua y las redes subterráneas para la distribución en B.T?",
+      "opciones": {
+        "A": "20 cm",
+        "B": "80 cm",
+        "C": "20 cm en horizontal y 80 cm en vertical",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    }
+  ]
+}

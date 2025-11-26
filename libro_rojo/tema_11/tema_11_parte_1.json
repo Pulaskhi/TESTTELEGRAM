@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T09:03:35.100Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿A qué se determina la posición del airbag?",
+      "opciones": {
+        "A": "20 cm por encima del carrete del cinturón.",
+        "B": "15 cm por encima del carrete del cinturón.",
+        "C": "Es indiferente.",
+        "D": "Justo encima del carrete del cinturón."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué elemento se utiliza para la reacción química del airbag?",
+      "opciones": {
+        "A": "Azida de sodio.",
+        "B": "Hidrógeno.",
+        "C": "Sistema de deformación inteligente del chasis.",
+        "D": "Aire a presión."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Es necesario vaciar los airbags de los vehículos una vez activados e inflados?",
+      "opciones": {
+        "A": "Sí, desconectando la batería.",
+        "B": "No, no se deben de vaciar hasta rescatar a la víctima.",
+        "C": "Sí, pinchándolos con una navaja o punzón.",
+        "D": "No, se vacían solos después de su activación."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de accionamiento suelen tener los airbags de gas presurizado?",
+      "opciones": {
+        "A": "Electrónico.",
+        "B": "Eléctrico.",
+        "C": "Pirotécnico.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En la excarcelación de una víctima, ¿cuál es la secuencia más correcta?",
+      "opciones": {
+        "A": "Estabilización, empaquetamiento, inmovilización, extracción.",
+        "B": "Estabilización, inmovilización, empaquetamiento, extracción.",
+        "C": "Estabilización, acceso, inmovilización, extracción.",
+        "D": "Acceso, empaquetamiento, extracción."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Durante una colisión frontal, las maniobras de abordaje consistirán en:",
+      "opciones": {
+        "A": "Colocar el cilindro (RAM) entre los marcos de la puerta.",
+        "B": "Quitar las puertas y abatir el techo.",
+        "C": "Fijar cadenas a la columna de dirección.",
+        "D": "Colocar bandas de compresión."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuántos centímetros suelen desplegarse los airbags de cortina instalados en el techo?",
+      "opciones": {
+        "A": "10 a 12 centímetros.",
+        "B": "10 a 15 centímetros.",
+        "C": "20 centímetros.",
+        "D": "30 centímetros."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿A qué se refiere el pilar 'C' en un vehículo?",
+      "opciones": {
+        "A": "Longitudinal izquierdo.",
+        "B": "Transversal medio derecho.",
+        "C": "Transversal trasero izquierdo.",
+        "D": "Transversal delantero derecho."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En un accidente de ferrocarril, ¿cuál es la afirmación incorrecta?",
+      "opciones": {
+        "A": "Las tareas de liberación serán para acitar la llegada de nuevos equipos de socorro.",
+        "B": "Se debe establecer un control de accesos desde el primer momento.",
+        "C": "Se intentará evacuar a los viajeros si su seguridad corre peligro.",
+        "D": "Siempre se debe cortar la circulación por la vía contigua."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué técnica utilizaremos para un abatimiento trasero del techo de un vehículo accidentado?",
+      "opciones": {
+        "A": "Maniobra de Heimlich.",
+        "B": "Maniobra de Reutek.",
+        "C": "Maniobra de Schater.",
+        "D": "Cortaremos los pilares A por la zona más baja."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima del ancho del carril de emergencia destinado a crear vías libres?",
+      "opciones": {
+        "A": "2,50 metros.",
+        "B": "Entre 2,50 m y 3,50 metros.",
+        "C": "Mínimo 6,50 metros.",
+        "D": "Hasta 2,50 metros."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la forma más correcta de desconectar la batería de un vehículo accidentado?",
+      "opciones": {
+        "A": "Cortando el cable del polo negativo lo más cercano posible a la batería.",
+        "B": "Cortando los cables de los dos polos lo más cerca posible.",
+        "C": "Desembornando el cable del polo negativo con la llave correspondiente.",
+        "D": "No es indispensable la desconexión de la batería."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se denomina al anillo transversal en la estructura de un vehículo?",
+      "opciones": {
+        "A": "Montante.",
+        "B": "Columna.",
+        "C": "Transversal.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Según el procedimiento operativo, la desconexión de baterías se lleva a cabo en la fase:",
+      "opciones": {
+        "A": "Primera.",
+        "B": "Segunda.",
+        "C": "Tercera.",
+        "D": "Cuarta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Durante la evaluación del número de personas atrapadas, se lleva a cabo en:",
+      "opciones": {
+        "A": "Primera.",
+        "B": "Segunda.",
+        "C": "Tercera.",
+        "D": "Cuarta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el concepto de seguridad pasiva?",
+      "opciones": {
+        "A": "Elementos que proporcionan mayor eficacia y estabilidad en marcha y contribuyen a evitar un accidente.",
+        "B": "Elementos que reducen al mínimo los posibles daños que se producen en caso de accidente.",
+        "C": "Elementos que proporcionan menor eficacia y estabilidad en marcha y contribuyen a evitar un accidente.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cómo se debe actuar ante una fuga de gasolina del depósito de un vehículo?",
+      "opciones": {
+        "A": "No cortar nunca la bolsa.",
+        "B": "Nada, actúan igual que los de una etapa.",
+        "C": "Cortarlo lo antes posible para evitar una reacción del gas generado.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son los lugares donde podemos encontrar los anagramas de los airbags?",
+      "opciones": {
+        "A": "Airbag del conductor: en el centro del triángulo del volante.",
+        "B": "Airbag de acompañante: en el salpicadero en el tapizado o en el interior de la guantera.",
+        "C": "Cortina de techo: una etiqueta de tela cosida en los laterales.",
+        "D": "Todos son lugares donde podemos encontrar los correspondientes anagramas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes se considera un elemento de seguridad activa?",
+      "opciones": {
+        "A": "Sistema de dirección.",
+        "B": "Sistema de pretensores.",
+        "C": "Sistema de suspensión.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es un material del que están formados los cristales laminados de seguridad?",
+      "opciones": {
+        "A": "Dos láminas de vidrio entre las que se insertan PBV.",
+        "B": "Dos láminas de policarbonato entre las que se insertan PBV.",
+        "C": "Ninguna respuesta es correcta.",
+        "D": "Ambas respuestas son correctas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántos anillos longitudinales poseen los vehículos más comunes?",
+      "opciones": {
+        "A": "Son dos, ambos lados del vehículo.",
+        "B": "Uno en la parte inferior del vehículo.",
+        "C": "Uno en la parte superior del vehículo.",
+        "D": "De dos a tres en la parte delantera y trasera del vehículo."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué significa la norma UNE-EN 1846?",
+      "opciones": {
+        "A": "Norma que regula los vehículos contra incendios en España.",
+        "B": "Norma que regula la capacidad de un vehí­culo contra incendios.",
+        "C": "Norma que especifica los requisitos de seguridad para vehículos industriales.",
+        "D": "Norma que indica los tipos de vehículos utilizados en rescate."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la norma que regula los vehículos contra incendios y servicios auxiliares en España?",
+      "opciones": {
+        "A": "UNE 21.900.",
+        "B": "UNE 23.900.",
+        "C": "UNE 23.603.",
+        "D": "UNE 23.300."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué norma regula la señalización óptica del vehículo?",
+      "opciones": {
+        "A": "UNE 23900.",
+        "B": "UNE 26150.",
+        "C": "Reglamento general de vehículos.",
+        "D": "UNE 23902."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué significa UlV?",
+      "opciones": {
+        "A": "Unidad de inteligencia y vigilancia",
+        "B": "Unidad de intendencia y vigilancia",
+        "C": "Unidad de intervención y vigilancia",
+        "D": "Unidad de inspección y vigilancia"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué significa RUV?",
+      "opciones": {
+        "A": "Remolque urbano de viveres",
+        "B": "Remolque químico",
+        "C": "Remolque usos varios",
+        "D": "Este vehiculo no existe"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Diámetros de las salidas de impulsión de una autobomba, según norma:",
+      "opciones": {
+        "A": "25, 45, 70 mm",
+        "B": "25, 45, 70, 100 mm",
+        "C": "25, 45, 70, 100, 150 mm",
+        "D": "25, 45 mm"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Carga normalizada (CN) en una autobomba urbana ligera es:",
+      "opciones": {
+        "A": "1.000 kg, mínimo",
+        "B": "2.000 kg, mínimo",
+        "C": "3.000 kg, mínimo",
+        "D": "4.000 kg, mínimo"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La inclinación de las salidas de impulsión de una autobomba será:",
+      "opciones": {
+        "A": "Hacia abajo entre 15° y 30°",
+        "B": "Hacia abajo entre 15° y 25°",
+        "C": "Hacia abajo entre 10° y 15°",
+        "D": "Hacia abajo entre 15° y 35°"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El peso disponible (PD) en una autobomba es:",
+      "opciones": {
+        "A": "100 kg, mínimo",
+        "B": "200 kg, mínimo",
+        "C": "300 kg, mínimo",
+        "D": "400 kg, mínimo"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "El vehículo BUP permite el acceso a incendios de tipo forestal porque:",
+      "opciones": {
+        "A": "Esta descripción corresponde a la BUP",
+        "B": "Esta descripción corresponde a la BRP",
+        "C": "Esta descripción corresponde al BUS",
+        "D": "Esta descripción corresponde a la BFP"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Capacidad del dispositivo de remolque en el BUP es:",
+      "opciones": {
+        "A": "1.000 kg",
+        "B": "750 kg",
+        "C": "350 kg",
+        "D": "850 kg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El ataque a incendio con 200 Um de caudal mínimo, es requisito para:",
+      "opciones": {
+        "A": "BUP",
+        "B": "BRL",
+        "C": "Ninguna de las anteriores",
+        "D": "Todos los anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Segun norma UNE 23902, la relación potencia-peso de un BUP es de:",
+      "opciones": {
+        "A": "19,26 CV/ton",
+        "B": "14 kW/ton",
+        "C": "200 kg",
+        "D": "437 kg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las dimensiones máximas de una autobomba urbana ligera son:",
+      "opciones": {
+        "A": "3,00 m de longitud, por 2,2 m de ancho, por 6,00 m de alto",
+        "B": "2,2 m de longitud, por 6 m de ancho, por 3,00 m de alto",
+        "C": "6,00 m de longitud, por 2,2 m de ancho, por 3,00 m de alto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El peso en que se valora, al bombero equipado, es:",
+      "opciones": {
+        "A": "95 kg",
+        "B": "80 kg",
+        "C": "90 kg",
+        "D": "100 kg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La norma UNE obliga a dotar al vehículo de otros accesorios, recambios y herramientas:",
+      "opciones": {
+        "A": "Sí",
+        "B": "No",
+        "C": "Solo en caso de accidente",
+        "D": "No aplica a bomberos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las devanaderas fijas tendrán una longitud de:",
+      "opciones": {
+        "A": "25 metros y un diámetro de 40 mm",
+        "B": "40 metros y un diámetro de 40 mm",
+        "C": "40 metros y un diámetro de 25 mm",
+        "D": "25 metros y un diámetro de 25 mm"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El volumen disponible mínimo en la BUP es:",
+      "opciones": {
+        "A": "0,5 m², mínimo",
+        "B": "0,2 m², mínimo",
+        "C": "0,1 m², mínimo",
+        "D": "0,3 m², mínimo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La capacidad mínima de la cisterna en el BNP, según norma es:",
+      "opciones": {
+        "A": "Desde 5.500 litros",
+        "B": "Hasta 3.500 litros",
+        "C": "Inferior a 8.000 litros",
+        "D": "Gupdona 4500 litros"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La altura manométrica de una bomba se refiere a:",
+      "opciones": {
+        "A": "Altura manométrica medida en mca cuando la bomba trabaja a su potencia y revoluciones/minuto nominales",
+        "B": "Diferencia entre el nivel del agua y el centro de la bomba",
+        "C": "Presión en m.c.a., medida inmediatamente después del racor de acoplamiento de la bomba",
+        "D": "Vacio o presión en m.ca. medida en el centro de la boca de aspiración"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La definición de altura de transporte nominal de una bomba es:",
+      "opciones": {
+        "A": "Altura manométrica medida en mca cuando la bomba trabaja a su potencia y revoluciones/minuto nominales",
+        "B": "Presión en m.c.a. medida en el centro de la boca de aspiración",
+        "C": "Diferencia entre el nivel del agua y el centro de la bomba",
+        "D": "Vacio o presión en m.ca"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre el nivel del agua en el lado de aspiración y el centro de la boca de aspiración?",
+      "opciones": {
+        "A": "Vacio o presión en m.c.a. medida en el centro de la boca de aspiración.",
+        "B": "Presión en m.c.a., medida inmediatamente después del racor de acoplamiento.",
+        "C": "Diferencia entre el nivel del agua y el centro de la boca de aspiración.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué color debe tener un parachoques según normativa?",
+      "opciones": {
+        "A": "Blanco mate.",
+        "B": "Negro brillante.",
+        "C": "Blanco brillante.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La carga normalizada es:",
+      "opciones": {
+        "A": "Peso en orden de marcha y personal, valorando el peso de un bombero equipado en 90 kg.",
+        "B": "El peso máximo autorizado y el peso total real.",
+        "C": "Pesos del material de intervención, productos extintores.",
+        "D": "El peso de un bombero equipado en 90 kg."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué especifica la normativa sobre la conexión de las baterías para sumar 24 voltios?",
+      "opciones": {
+        "A": "Se conecta el borne negativo de la primera, con el borne negativo de la segunda.",
+        "B": "Se conecta el borne positivo de la primera, con el borne positivo de la segunda.",
+        "C": "El borne negativo de la primera está conectado al generador.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la capacidad de una autobomba rural ligera construida en 2006 según normativa?",
+      "opciones": {
+        "A": "Norma UNE 23.900",
+        "B": "Norma UNE 23.901",
+        "C": "Norma UNE 23.400",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La capacidad de carga de las cestas de las autoescalas es aproximadamente:",
+      "opciones": {
+        "A": "240 kg.",
+        "B": "210 kg.",
+        "C": "180 kg.",
+        "D": "290 kg."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La presión que resistirá la columna seca en las autoescalas es:",
+      "opciones": {
+        "A": "Hasta 15 bares de presión.",
+        "B": "Hasta 10 bares de presión.",
+        "C": "Ninguna de las anteriores.",
+        "D": "Hasta 20 bares de presión."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué indica un testigo de color amarillo en el tablero de instrumentos del vehículo?",
+      "opciones": {
+        "A": "Indica fallo en algún sistema debiendo inmovilizar el vehículo.",
+        "B": "Indica fallo en algún sistema pero no tiene por qué implicar la inmovilización del vehículo.",
+        "C": "Indica fallo en algún sistema, pero podemos seguir circulando sin preocuparnos por ello.",
+        "D": "Todos los anteriores."
+      },
+      "correcta": "B"
+    }
+  ]
+}

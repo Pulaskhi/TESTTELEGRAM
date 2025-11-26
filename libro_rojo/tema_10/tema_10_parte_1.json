@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:57:11.891Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la altura más conveniente de la escalera?",
+      "opciones": {
+        "A": "500 mm",
+        "B": "700 mm",
+        "C": "1 contrahuella + 2 huella = 540 a 700 mm",
+        "D": "Ambas respuestas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué función tiene el 'prisionero' en un puntal?",
+      "opciones": {
+        "A": "Es la pieza que se inserta a través de los agujeros del tubo exterior, que marca la longitud aproximada.",
+        "B": "Es una tuerca que ajusta de manera más exacta la altura del puntal.",
+        "C": "Incapacidad o dificultad para doblarse o torcerse.",
+        "D": "Propiedad de poder deformarse en frío sin romperse."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué denominamos 'solivos'?",
+      "opciones": {
+        "A": "Un martillo de madera utilizado en los apeos.",
+        "B": "Una pieza inclinada que recoge cargas en una cercha.",
+        "C": "Avigas de madera que se emplea en la construcción.",
+        "D": "Ninguna de las respuestas es correcta."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes piezas de un apeo se consideran verticales?",
+      "opciones": {
+        "A": "Puente",
+        "B": "Codal",
+        "C": "Sopanda",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la longitud mínima por cada conducto independiente de un 'shunt'?",
+      "opciones": {
+        "A": "Pretil",
+        "B": "Tapial",
+        "C": "Mural",
+        "D": "Ninguna respuesta es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántas exigencias básicas de seguridad en caso de incendio componen el documento básico SI5?",
+      "opciones": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué se entiende por recinto interior destinado al uso de personas cuya densidad de ocupación y tiempo de estancia exigen condiciones acústicas, térmicas y de salubridad adecuadas?",
+      "opciones": {
+        "A": "Recinto",
+        "B": "Recinto habitado",
+        "C": "Recinto protegido",
+        "D": "Ninguna de las respuestas anteriores es acertada."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el Código Técnico de la Edificación, la reacción al fuego es un concepto que se refiere a:",
+      "opciones": {
+        "A": "Elementos constructivos y se mide en minutos.",
+        "B": "Elementos constructivos y se califican por su potencial aportación al fuego.",
+        "C": "Materiales de construcción y se mide en minutos.",
+        "D": "Materiales de construcción y se califican por su potencial aportación al fuego."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El comportamiento frente al fuego de un material de construcción se estudia desde el punto de vista de:",
+      "opciones": {
+        "A": "El coste económico de los daños.",
+        "B": "La estabilidad posterior de la edificación.",
+        "C": "Las fases de iniciación, desarrollo y propagación.",
+        "D": "La fase de extinción."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Los aparcamientos robotizados en estacionamientos convencionales deberán estar compartimentados en sectores de incendios que no excedan de:",
+      "opciones": {
+        "A": "25 mm",
+        "B": "45 mm",
+        "C": "70 mm",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La normativa española de ensayos de reacción al fuego es:",
+      "opciones": {
+        "A": "UNE-EN 29097.",
+        "B": "UNE-EN 13501.",
+        "C": "UNE-EN 1363.",
+        "D": "UNE-EN 23727."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El símbolo 'S' en la clasificación de reacción al fuego de los materiales nos indica:",
+      "opciones": {
+        "A": "Indica que cumplen los requisitos relativos al fuego semiprobado.",
+        "B": "Indica que se ajusta a una restricción suplementaria de fugas.",
+        "C": "Indica que es adecuado exclusivamente para ser utilizado en un único sector de incendio.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la temperatura máxima para la clase de un nuevo elemento constructivo que debe ser ensayado?",
+      "opciones": {
+        "A": "Menor que 300 °C",
+        "B": "Mayor que 300 °C",
+        "C": "Igual a 300 °C",
+        "D": "No especificada"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la altura mínima para la evacuación en los ascensores de emergencia?",
+      "opciones": {
+        "A": "Mayor de 15 m",
+        "B": "Mayor de 25 m",
+        "C": "Mayor de 50 m",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué longitud de los recorridos de evacuación es válida si la superficie construida no excede de 50 m?",
+      "opciones": {
+        "A": "En cualquier caso",
+        "B": "300 m",
+        "C": "400 m",
+        "D": "500 m"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué es lo fundamental en la fase inicial de un incendio?",
+      "opciones": {
+        "A": "La reacción al fuego de los materiales",
+        "B": "La reacción al fuego de los elementos",
+        "C": "La resistencia al fuego de los elementos",
+        "D": "La resistencia al fuego de los materiales"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la exigencia básica SI2?",
+      "opciones": {
+        "A": "Resistencia al fuego de la estructura",
+        "B": "Intervención de bomberos",
+        "C": "Evacuación de ocupantes",
+        "D": "Propagación exterior"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué indica el subíndice 'ROOF' en la clasificación de materiales?",
+      "opciones": {
+        "A": "Cubiertas",
+        "B": "Estructuras portantes",
+        "C": "Puertas",
+        "D": "Elementos constructivos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué norma clasifica los materiales según su reacción al fuego?",
+      "opciones": {
+        "A": "UNE-EN 13500",
+        "B": "UNE-EN 13501 y RD 842/2013",
+        "C": "UNE-EN 13501",
+        "D": "ISO 11925"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué significa A2 s1 d0 en la clasificación de materiales?",
+      "opciones": {
+        "A": "No combustible, contribución de grado menor",
+        "B": "No combustible, sin contribución de grado menor",
+        "C": "Combustible, contribución de grado menor",
+        "D": "No inflamable, sin contribución de grado menor"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "En qué tipo de centros se requiere que haya comunicación directa con el exterior cuando exceden de 100 camas?",
+      "opciones": {
+        "A": "Solo en hospitales",
+        "B": "En todos los centros sanitarios",
+        "C": "En centros de salud",
+        "D": "En residencias de ancianos"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué disposición debe tener un sistema de cierre automático de puertas resistentes al fuego?",
+      "opciones": {
+        "A": "Conforme a la norma UNE-EN 1154:2003",
+        "B": "Conforme a la norma UNE-EN 1054:2003",
+        "C": "Conforme a la norma UNE-EN 1054:2002",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Un material con contribución media al fuego será:",
+      "opciones": {
+        "A": "Clase C",
+        "B": "Clase E",
+        "C": "Clase D",
+        "D": "Clase F"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Se exige la instalación de sistemas de detección de incendio en zonas de riesgo alto si la superficie construida es:",
+      "opciones": {
+        "A": "> 2.000 m²",
+        "B": "> 1.000 m²",
+        "C": "> 500 m²",
+        "D": "> 10.000 m²"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La distancia máxima de observación de una señal entre sistemas de alarma si la ocupación excede de:",
+      "opciones": {
+        "A": "1.500 personas",
+        "B": "100 personas",
+        "C": "500 personas",
+        "D": "10 personas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En uso administrativo, se exige la instalación de al menos un hidrante exterior si la superficie total construida:",
+      "opciones": {
+        "A": "Excede de 10.001 m²",
+        "B": "Excede de 10.000 m²",
+        "C": "Se encuentra entre 5.000 y 10.000 m²",
+        "D": "Es inferior a 5.000 m²"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las dimensiones requeridas para la señalización de emergencia serán como mínimo:",
+      "opciones": {
+        "A": "150 x 150 mm",
+        "B": "210 x 210 mm",
+        "C": "420 x 420 mm",
+        "D": "500 x 500 mm"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Respecto al entorno de edificios, la distancia máxima hasta cualquier acceso principal es:",
+      "opciones": {
+        "A": "50 metros",
+        "B": "40 metros",
+        "C": "60 metros",
+        "D": "30 metros"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En general, la distancia máxima en cada planta desde cualquier punto de la superficie construida hasta un extintor será:",
+      "opciones": {
+        "A": "15 metros",
+        "B": "10 metros",
+        "C": "5 metros",
+        "D": "20 metros"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En la clasificación según caída de gotas o partículas inflamadas, las clases que no se clasifican bajo este concepto son:",
+      "opciones": {
+        "A": "Las clases A, Al, F y Fi",
+        "B": "S3",
+        "C": "S1",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La clasificación para productos de construcción según la resistencia al fuego, el símbolo 'SMOGRA' nos indica:",
+      "opciones": {
+        "A": "Velocidad de propagación del fuego",
+        "B": "Propagación lateral de las llamas",
+        "C": "Velocidad de propagación del humo",
+        "D": "Todas las respuestas anteriores son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "En el uso hospitalario, en zonas de riesgo especial alto, cuya superficie construida sea mayor de 500 m², se exige la instalación de extintores:",
+      "opciones": {
+        "A": "De polvo de 50 kg",
+        "B": "De agua",
+        "C": "De espuma",
+        "D": "De dióxido de carbono"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo del requisito básico 'Seguridad en caso de incendio' del Código Técnico de Edificación?",
+      "opciones": {
+        "A": "Limitar el riesgo de inicio de incendio relacionado con las instalaciones reguladas",
+        "B": "Garantizar la seguridad de los bomberos que han de intervenir",
+        "C": "Facilitar la evacuación de los ocupantes",
+        "D": "Criterio de radiación"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué porcentaje de usuarios de un edificio deben sufrir daños derivados de un fuego de origen accidental?",
+      "opciones": {
+        "A": "60",
+        "B": "90",
+        "C": "120",
+        "D": "100"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál debe ser la superficie máxima de un sector de incendios de un centro docente que ocupa un edificio de dos plantas?",
+      "opciones": {
+        "A": "2.500 m²",
+        "B": "4.000 m²",
+        "C": "500 m²",
+        "D": "3.000 m²"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué tipo de edificios se refiere el requerimiento de que los aparcamientos robotizados estén compartimentados en sectores de incendio?",
+      "opciones": {
+        "A": "Edificios de altura total superior a 10 m",
+        "B": "Edificios cuya altura de evacuación sea mayor de 9 m",
+        "C": "Edificios de 3 plantas",
+        "D": "Edificios que no excedan 10.000 m²"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes puntos es el más importante dentro de la prevención de incendios según el Código Técnico de la Edificación?",
+      "opciones": {
+        "A": "La accesibilidad",
+        "B": "La compartimentación",
+        "C": "Las instalaciones de protección contra incendios",
+        "D": "La evacuación"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué normativa regula la clasificación según aplicación final de los materiales en el contexto de incendios?",
+      "opciones": {
+        "A": "No se establece límite alguno",
+        "B": "Es de 400 m²",
+        "C": "Es de 2.500 m²",
+        "D": "Es de 1.000 m²"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Es obligada la instalación de columna seca en el uso residencial vivienda cuando la altura de evacuación exceda de?",
+      "opciones": {
+        "A": "24 metros",
+        "B": "28 metros",
+        "C": "30 metros",
+        "D": "20 metros"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Según el Código Técnico de Edificación, la distancia máxima del vehículo de bomberos a fachadas de un edificio de hasta 15 m de altura de evacuación debe ser?",
+      "opciones": {
+        "A": "10 metros",
+        "B": "15 metros",
+        "C": "18 metros",
+        "D": "25 metros"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "En términos generales, ¿qué normativa regula la seguridad en caso de incendios en edificios industriales?",
+      "opciones": {
+        "A": "Reglamento de seguridad contra incendios",
+        "B": "Código Técnico de la Edificación",
+        "C": "Reglamento de seguridad y salud industrial",
+        "D": "Real Decreto 2177/1996 de 4 de octubre"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué se establece en las condiciones de aproximación y entorno a los edificios según el Código Técnico de la Edificación?",
+      "opciones": {
+        "A": "Separación entre zona edificada y forestal libre de vegetación",
+        "B": "Camino perimetral de 5 m",
+        "C": "Ambas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuándo se aplican las acciones automáticas de extinción salvo otra indicación en relación al uso?",
+      "opciones": {
+        "A": "La altura de evacuación exceda de 80 m.",
+        "B": "La altura de evacuación exceda de 50 m.",
+        "C": "La altura de evacuación exceda de 30 m.",
+        "D": "La altura de evacuación exceda de 25 m."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Los extintores móviles en uso hospitalario serán de qué tipo en zonas de riesgo especial alto?",
+      "opciones": {
+        "A": "En general serán del tipo 45 mm.",
+        "B": "De 25 mm para el uso residencial vivienda.",
+        "C": "Ambas son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según el SI 3, las dimensiones de una zona de refugio para usuarios en sillas de rueda serán de?",
+      "opciones": {
+        "A": "0,80 x 0,60 m.",
+        "B": "1,20 x 0,80 m.",
+        "C": "1,20 x 1,80 m.",
+        "D": "1,20 x 1,50 m."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no corresponde a un uso según el DB-SI?",
+      "opciones": {
+        "A": "Uso residencial vivienda.",
+        "B": "Uso residencial público.",
+        "C": "Uso comercial.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Según el CTE DBLA, ¿cuál es la separación máxima del vehículo de bomberos a la fachada de un edificio con altura de evacuación inferior a 15 metros?",
+      "opciones": {
+        "A": "10 m.",
+        "B": "18 m.",
+        "C": "10 m. e inferiores.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "En los aparcamientos robotizados, ¿se exige la instalación de bocas de incendios si la superficie es mayor de?",
+      "opciones": {
+        "A": "500 m².",
+        "B": "1.500 m².",
+        "C": "5.000 m².",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El sistema de detección y alarma de incendio en uso hospitalario se debe instalar si la superficie construida es?",
+      "opciones": {
+        "A": "Mayor de 2.000 m².",
+        "B": "Mayor de 5.000 m².",
+        "C": "Mayor de 1.000 m².",
+        "D": "En uso hospitalario será en todo caso."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué resistencia característica del acero según el CTE DB-SI es correcta?",
+      "opciones": {
+        "A": "Desde 4.350 a 6.500 kg/m3.",
+        "B": "Desde 3.350 a 5.500 kg/cm.",
+        "C": "Desde 2.350 a 5.500 kg/cm.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "D"
+    }
+  ]
+}

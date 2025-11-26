@@ -1,0 +1,167 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:44:10.599Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Dónde se instalan generalmente los mecanismos de accionamiento eléctrico de las puertas automáticas en caso de maniobra de socorro?",
+      "opciones": {
+        "A": "Sobre el techo de la cabina.",
+        "B": "Sobre el alfeizar de la puerta del piso.",
+        "C": "En un lateral de la puerta de la cabina.",
+        "D": "Este mecanismo se puede encontrar en cualquiera de los sitios mencionados."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones indica una medida superior a 30 cm para el guardapiés?",
+      "opciones": {
+        "A": "Superior de 30 cm.",
+        "B": "Superior de 50 cm.",
+        "C": "Superior de 80 cm.",
+        "D": "Superior de 1:00 m."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué característica no corresponde a un montacargas accesible solo para cargas?",
+      "opciones": {
+        "A": "Aparato elevador que por sus dimensiones resulta inaccesible a las personas.",
+        "B": "La profundidad de la unidad transportadora será de 1 metro máximo.",
+        "C": "Entre sus condiciones de inaccesibilidad, tendrá una superficie de piso de 1 m² máximo.",
+        "D": "Todas son características de un montacargas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La distancia máxima en un hueco de ascensor sin apertura para la posible evacuación de los ocupantes de la cabina es:",
+      "opciones": {
+        "A": "No superior a 5 metros.",
+        "B": "No superior a 11 metros.",
+        "C": "Hasta 9 metros.",
+        "D": "No superior a 8 metros."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Dónde estará situado el interruptor general?",
+      "opciones": {
+        "A": "En el cuarto de máquinas del ascensor.",
+        "B": "En el interior del camarín.",
+        "C": "Junto al operador de puertas de la cabina.",
+        "D": "En el interior del camarín o junto al operador de puertas de la cabina."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "En una maniobra de socorro, en un ascensor eléctrico, después de desactivar el freno motor, deberemos:",
+      "opciones": {
+        "A": "Liberar el limitador de velocidad.",
+        "B": "Asegurar el volante.",
+        "C": "Colocar las mordazas sobre los cables.",
+        "D": "Purgar el circuito hidráulico."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El mecanismo a activar en el caso de disparo del paracaídas es:",
+      "opciones": {
+        "A": "Bajar la cabina.",
+        "B": "Subir la cabina.",
+        "C": "Estabilizar la cabina.",
+        "D": "No tiene freno motor."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de ascensor no corresponde a un tipo de elevador hidráulico?",
+      "opciones": {
+        "A": "Ascensores hidráulicos con impulsión directa.",
+        "B": "Ascensores hidráulicos con pistón de doble efecto.",
+        "C": "Ascensores hidráulicos con impulsión diferencial.",
+        "D": "Todos son tipos de ascensores hidráulicos."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La ubicación de los dispositivos para la maniobra de socorro en ascensores sin sala de máquinas es:",
+      "opciones": {
+        "A": "En la parte superior de la cabina.",
+        "B": "En un armario situado junto a la puerta de plantas.",
+        "C": "En un armario situado junto a la puerta de la última planta.",
+        "D": "Todos los ascensores hidráulicos necesitan tener foso."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes características no corresponde a un ascensor neumático de vacío?",
+      "opciones": {
+        "A": "La cabina asciende al generarse en la parte superior del conducto una depresión neumática.",
+        "B": "Una válvula que permite la entrada de aire a la parte superior del conducto.",
+        "C": "Posee un sistema de freno (paracaídas) que actúa en caso de haber presión atmosférica en la parte inferior del pistón.",
+        "D": "Todos son características de un ascensor neumático."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué tipo de ascensor posee motores de gran potencia y alta velocidad?",
+      "opciones": {
+        "A": "Con engranajes",
+        "B": "Sin engranajes",
+        "C": "Rampas móviles",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los accesos a los ascensores deben estar debidamente iluminados. ¿Qué nivel mínimo de iluminación se requiere?",
+      "opciones": {
+        "A": "50 lux a nivel del suelo",
+        "B": "100 lux a nivel del suelo",
+        "C": "150 lux a nivel del suelo",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué corresponde a la banca del grupo motriz en el contrapeso de los aparatos elevadores?",
+      "opciones": {
+        "A": "Parte del grupo encargada de la tracción",
+        "B": "Armazón donde se apoya el grupo",
+        "C": "Grupo motor que proporciona la fuerza",
+        "D": "Peso igual al peso de la cabina vacía más el 90% de la carga"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "En un ascensor electromecánico, el motor eléctrico puede ser:",
+      "opciones": {
+        "A": "De corriente alterna con una o dos velocidades",
+        "B": "De corriente alterada con dos velocidades",
+        "C": "De A.C. o C.C. con una o dos velocidades",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuántas maniobras anormales se deben hacer para que funcione un ascensor con una puerta abierta?",
+      "opciones": {
+        "A": "Una sola",
+        "B": "Dos",
+        "C": "Ninguna es correcta",
+        "D": "Tres"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En caso de instalarse una barandilla en el techo de la cabina, el espacio libre entre el borde del techo y la pared del hueco debe ser mayor de:",
+      "opciones": {
+        "A": "20 cm",
+        "B": "30 cm",
+        "C": "50 cm",
+        "D": "80 cm"
+      },
+      "correcta": "C"
+    }
+  ]
+}

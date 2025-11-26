@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:48:43.001Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué significa ‘éstasis’?",
+      "opciones": {
+        "A": "Caída gota a gota.",
+        "B": "Bajada del PH sanguíneo y bajada de la concentración de CO₂.",
+        "C": "Subida del PH sanguíneo y bajada de la concentración de CO₂.",
+        "D": "Contención."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué es el politraumatismo?",
+      "opciones": {
+        "A": "La suma de una serie de lesiones.",
+        "B": "No es la suma de una serie de lesiones, sino la respuesta que se genera en el organismo ante esta lesión.",
+        "C": "Las dos respuestas anteriores son incorrectas.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿A qué se refiere el término anoxia?",
+      "opciones": {
+        "A": "Una deficiencia de hidrógeno.",
+        "B": "Una deficiencia de oxígeno.",
+        "C": "Las dos respuestas anteriores son correctas.",
+        "D": "Ninguna."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de sangre transportan las arterias?",
+      "opciones": {
+        "A": "Transportan sangre arterial.",
+        "B": "Transportan sangre arterial o venosa.",
+        "C": "Transportan sangre arterial o venosa, en función de si estos vasos salgan o entren del corazón.",
+        "D": "Transportan sangre arterial en la circulación menor."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Ante una vía aérea colapsada, si no disponemos de la cánula orofaríngea de la medida correcta, ¿cuál de estas sería la más acertada para usar?",
+      "opciones": {
+        "A": "Una más pequeña a la indicada.",
+        "B": "Una más grande a la indicada.",
+        "C": "Es indistinto ya que ninguna servirá.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué significa ‘ectomía’?",
+      "opciones": {
+        "A": "Extirpación quirúrgica.",
+        "B": "Acción de suturar.",
+        "C": "Eliminar tejido.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En toda intoxicación, lo primero que hay que hacer (si no hay que hacer maniobras de RCP) será:",
+      "opciones": {
+        "A": "Administrar agua que es el diluyente universal.",
+        "B": "Efectuar un lavado gástrico.",
+        "C": "Trasladar urgentemente a un centro hospitalario.",
+        "D": "Averiguar el tóxico o agente causante."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el tamaño máximo de las partículas, para que puedan penetrar en el aparato respiratorio, sin ser expulsadas?",
+      "opciones": {
+        "A": "100 micras.",
+        "B": "10 micras.",
+        "C": "10 milimicras.",
+        "D": "100 milimicras."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Zonas de las quemaduras de mayor daño:",
+      "opciones": {
+        "A": "Zona de coagulación.",
+        "B": "Zona de estasis.",
+        "C": "Zona de éxtasis.",
+        "D": "Zona de hiperemia."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Consecuencias de la pérdida de 750 a 1.500 c.c. de sangre en 15 minutos sobre 5 litros totales:",
+      "opciones": {
+        "A": "Taquicardia, taquipnea, disnea, agitación.",
+        "B": "Bradicardia, bradipnea, disnea, agitación.",
+        "C": "Dolor en la piel.",
+        "D": "Choque y sueño."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Huesos de la parte central del cráneo:",
+      "opciones": {
+        "A": "Frontales.",
+        "B": "Occipitales.",
+        "C": "Parietales.",
+        "D": "Temporales."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué vasos salen del corazón?",
+      "opciones": {
+        "A": "Arterias, si transportan sangre arterial.",
+        "B": "Arterias, transporten sangre arterial o venosa.",
+        "C": "Venas, si transportan sangre arterial.",
+        "D": "Venas, transporten sangre arterial o venosa."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Huesos que forman parte de la base del cráneo:",
+      "opciones": {
+        "A": "El etmoides y el esfenoides.",
+        "B": "Los dos frontales y los dos occipitales.",
+        "C": "Los dos parietales.",
+        "D": "Los dos temporales."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Número de huesos del cráneo:",
+      "opciones": {
+        "A": "8 huesos.",
+        "B": "12 huesos.",
+        "C": "14 huesos.",
+        "D": "22 huesos."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El bulbo raquídeo controla:",
+      "opciones": {
+        "A": "El ritmo respiratorio, impulso cardíaco y la termorregulación.",
+        "B": "El equilibrio y la orientación.",
+        "C": "La respuesta del dolor.",
+        "D": "La motricidad voluntaria."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La hipotonía se caracteriza por:",
+      "opciones": {
+        "A": "Temblores incontrolados por fallo en el sistema nervioso central.",
+        "B": "Contracción muscular involuntaria.",
+        "C": "Ninguna es correcta.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué caracteriza a la hiperventilación?",
+      "opciones": {
+        "A": "Disminución en el volumen de aire inspiratorio.",
+        "B": "Aumento en la frecuencia respiratoria.",
+        "C": "Aumento en la retención de CO₂.",
+        "D": "Disminución de la frecuencia cardíaca."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el orden correcto de los conductos del sistema respiratorio?",
+      "opciones": {
+        "A": "Laringe, faringe y tráquea.",
+        "B": "Faringe, laringe y tráquea.",
+        "C": "Farre, laringe; eslapo y tráquea.",
+        "D": "Intercostales y diafragma."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En la mayoría de las lesiones que afectan a la columna vertebral, los síntomas de lesión vertebral más característicos son:",
+      "opciones": {
+        "A": "Dolor y rigidez.",
+        "B": "Dolor, rigidez y deformidad.",
+        "C": "Rigidez y deformidad.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el vaso sanguíneo que sale del ventrículo izquierdo del corazón?",
+      "opciones": {
+        "A": "Arteria aorta.",
+        "B": "Vena cava.",
+        "C": "Arteria pulmonar.",
+        "D": "Vena pulmonar."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la puntuación mínima y máxima en la escala de Glasgow?",
+      "opciones": {
+        "A": "Mínima 0, máximo 10.",
+        "B": "Mínima 0, máximo 15.",
+        "C": "Mínima 1, máximo 10.",
+        "D": "Mínima 3, máximo 15."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué significa antiemético?",
+      "opciones": {
+        "A": "Que inhibe los vómitos.",
+        "B": "Que inhibe las hemorragias.",
+        "C": "Que revierte la hipertermia.",
+        "D": "Que ayuda a la hemostasia."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Se considerará como traumatismo craneoencefálico severo, si la puntuación en la escala de Glasgow es:",
+      "opciones": {
+        "A": "Entre 12 y 9.",
+        "B": "Entre 11 y 10.",
+        "C": "9 o menos.",
+        "D": "8 ó menos."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Una víctima de un accidente de tráfico presenta una herida en la cabeza de la que sale abundante sangre lentamente y con un color oscuro, podemos suponer que se trata de una hemorragia:",
+      "opciones": {
+        "A": "En 'presión'.",
+        "B": "Arterial.",
+        "C": "Venosa.",
+        "D": "Difusa."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué afirmación de las siguientes es correcta respecto a la posición lateral de seguridad?",
+      "opciones": {
+        "A": "Todos los accidentados deberán de permanecer en posición lateral de seguridad hasta que llegue un equipo médico.",
+        "B": "La posición lateral de seguridad está contraindicada en mujeres embarazadas.",
+        "C": "Si un traumatizado en posición lateral de seguridad vomita, deberemos volver a colocarlo en posición neutra para evitar la asfixia.",
+        "D": "Ninguna de las afirmaciones anteriores es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué no corresponde a un síntoma del shock?",
+      "opciones": {
+        "A": "Epistaxis.",
+        "B": "Respiración superficial.",
+        "C": "Pupilas dilatadas y arreactivas.",
+        "D": "Pulso rápido y débil."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Dónde se localiza la válvula mitral?",
+      "opciones": {
+        "A": "Lado izquierdo del corazón, entre la aurícula y el ventrículo.",
+        "B": "Lado derecho del corazón, entre la aurícula y el ventrículo.",
+        "C": "Lado derecho del corazón, entre la aurícula y la vena cava.",
+        "D": "Lado izquierdo del corazón, entre la aurícula y la vena pulmonar."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes fracturas puede provocar una hemorragia interna de 600 ml?",
+      "opciones": {
+        "A": "Fractura de fémur",
+        "B": "Fractura de tibia",
+        "C": "Fractura de pelvis",
+        "D": "Fractura conminuta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Un corte profundo producido con el borde de un cristal roto sería una herida?",
+      "opciones": {
+        "A": "Incisa",
+        "B": "Contusa",
+        "C": "Punzante",
+        "D": "Erosiva"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La compresión digital ante una hemorragia arterial se aplicará, como principio general:",
+      "opciones": {
+        "A": "En la parte distal de la herida",
+        "B": "Entre la herida y el corazón",
+        "C": "Entre la honda y el extremo del miembro afectado",
+        "D": "Entre la arteria y el corazón"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué indica la etiqueta del color amarillo en la clasificación de víctimas de la OMS?",
+      "opciones": {
+        "A": "Prioridad a cuidados no inmediatos",
+        "B": "Prioridad a cuidados de menos importancia",
+        "C": "Prioridad a cuidados inmediatos",
+        "D": "No indica prioridad"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿La hematemesis es una hemorragia en la que la sangre procede de?",
+      "opciones": {
+        "A": "El aparato respiratorio",
+        "B": "El aparato digestivo",
+        "C": "Procedente de los genitales",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿La compresión de la arteria femoral se realiza?",
+      "opciones": {
+        "A": "En la ingle o en el tercio superior de la pierna",
+        "B": "Entre la mandíbula y los labios",
+        "C": "Por encima de la clavícula",
+        "D": "Detrás de la clavícula"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La compresión de la arteria humeral se realiza?",
+      "opciones": {
+        "A": "En la ingle o en el tercio superior de la pierna",
+        "B": "En la cara interna del brazo, en la axila",
+        "C": "Por encima de la clavícula",
+        "D": "Detrás de la clavícula"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "EN las reanimaciones cardiopulmonares, ¿la combinación a realizar entre compresiones torácicas e insuflaciones será?",
+      "opciones": {
+        "A": "Para no entrenados solo compresiones",
+        "B": "5 compresiones y 1 insuflación",
+        "C": "15 compresiones y 2 insuflaciones",
+        "D": "Todas las respuestas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La posición lateral de seguridad en mujeres embarazadas se realizará?",
+      "opciones": {
+        "A": "Siempre sobre el lado izquierdo",
+        "B": "Indistintamente",
+        "C": "No se debe utilizar en estos casos",
+        "D": "Alrededor del tobillo en forma de 8"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué precaución debemos tener a la hora de movilizar a un paciente con lesiones traumáticas?",
+      "opciones": {
+        "A": "Elevar los miembros inferiores",
+        "B": "Movilizar con control cervical",
+        "C": "Hacerlo rápidamente",
+        "D": "No movilizarlo en absoluto"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Dónde se localizan las válvulas sigmoideas?",
+      "opciones": {
+        "A": "Entre ventrículos y arterias o venas",
+        "B": "Entre ventrículos y arterias",
+        "C": "Entre ventrículos y venas",
+        "D": "Entre ventrículos y arterias y venas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué efecto fisiológico ocurre con una temperatura de 54°C en el interior del traje de protección térmica?",
+      "opciones": {
+        "A": "Peligro de abatimiento, desmayo.",
+        "B": "Choque térmico.",
+        "C": "Hipertermia y colapso vascular periférico.",
+        "D": "Ninguno de los anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes lesiones no corresponde a una lesión de prioridad 1?",
+      "opciones": {
+        "A": "Hemorragias importantes.",
+        "B": "Fuerte inhalación de humos.",
+        "C": "Todas son lesiones de prioridad 1.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La carga térmica del organismo representa:",
+      "opciones": {
+        "A": "Calor del metabolismo basal.",
+        "B": "Calor del metabolismo basal más el calor recibido del ambiente.",
+        "C": "Calor del metabolismo basal más el calor recibido del ambiente por radiación y convección.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el sistema afectado en un incremento medio del nivel térmico?",
+      "opciones": {
+        "A": "Sistema cardio-vascular.",
+        "B": "Epitelios internos y externos.",
+        "C": "Epitelios internos.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál no corresponde a una capa de la pared del corazón?",
+      "opciones": {
+        "A": "Intracardio.",
+        "B": "Membrana serosa.",
+        "C": "Miocardio.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El síndrome de aplastamiento se caracteriza por?",
+      "opciones": {
+        "A": "Necrosis muscular o muerte del tejido muscular.",
+        "B": "Shock.",
+        "C": "Afectación renal.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué medida indica la presión de inyección del ventrículo izquierdo?",
+      "opciones": {
+        "A": "20 mmHg.",
+        "B": "80 mmHg.",
+        "C": "120 mmHg.",
+        "D": "180 mmHg."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál corresponde al primer ruido del ciclo del corazón?",
+      "opciones": {
+        "A": "Sonido seco, corto y muy intenso.",
+        "B": "Sonido grave, corto y muy intenso.",
+        "C": "Sonido grave, prolongado y de poca intensidad.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué regula los latidos del corazón?",
+      "opciones": {
+        "A": "Hipotálamo.",
+        "B": "Sistema nervioso autónomo.",
+        "C": "El cortex cerebral.",
+        "D": "El cerebelo."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la duración del ciclo completo del corazón?",
+      "opciones": {
+        "A": "0,68 seg.",
+        "B": "0,86 seg.",
+        "C": "1,06 seg.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la temperatura del aire que podemos soportar gracias a la sudoración con ropa protectora?",
+      "opciones": {
+        "A": "100 °C durante un máximo de 4 minutos.",
+        "B": "155 °C durante un máximo de 4 minutos.",
+        "C": "205 °C durante un máximo de 4 minutos.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué cantidad de calorías elimina 1 litro de sudor?",
+      "opciones": {
+        "A": "600 cal.",
+        "B": "480 cal.",
+        "C": "460 cal.",
+        "D": "640 kcal."
+      },
+      "correcta": "A"
+    }
+  ]
+}

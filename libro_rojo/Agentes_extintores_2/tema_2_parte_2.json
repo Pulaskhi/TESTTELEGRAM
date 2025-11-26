@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-2",
+  "fecha": "2025-11-26T07:56:45.339Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué se entiende por manejo de un extintor?",
+      "opciones": {
+        "A": "La forma de atacar a fuego.",
+        "B": "La forma de utilización.",
+        "C": "El manejo que hay que realizar después del uso.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué se considera un extintor completo según la normativa?",
+      "opciones": {
+        "A": "El manómetro marca más de 15 bar.",
+        "B": "El manómetro marca más de 35 bar.",
+        "C": "No tiene manómetro y debe ser pesado.",
+        "D": "El manómetro marca más de 75 bar."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "En los ensayos de combustibles de la clase A, se utilizarán vigas de madera con qué porcentaje de humedad?",
+      "opciones": {
+        "A": "Entre un 12 y 15%.",
+        "B": "Entre un 10 y 15%.",
+        "C": "Ninguna es correcta.",
+        "D": "Ambas son correctas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué presión máxima se permite para los ensayos de clase B en el interior?",
+      "opciones": {
+        "A": "Superior a 3 m/s.",
+        "B": "Superior a 2 m/s.",
+        "C": "Ninguna de las anteriores.",
+        "D": "Imposible de determinar."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál será la distancia mínima del suelo para colocar los extintores en posiciones verticales?",
+      "opciones": {
+        "A": "0,80 m desde la parte inferior del extintor.",
+        "B": "0,80 m desde la parte superior del extintor.",
+        "C": "0,20 m desde el suelo a la parte inferior del extintor.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuánto polvo o CO2 debe tener un extintor conforme a la normativa para 2500 m²?",
+      "opciones": {
+        "A": "25 kg de polvo o CO2",
+        "B": "50 kg de polvo",
+        "C": "15 kg de polvo",
+        "D": "5 kg de polvo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La eficacia de un extintor en los fuegos de clase A está regulada desde:",
+      "opciones": {
+        "A": "SA hasta 55A",
+        "B": "4A hasta 60A",
+        "C": "50 kg de polvo",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuándo debe llevar un extintor una manguera de descarga?",
+      "opciones": {
+        "A": "Si pesa 3 kg o más",
+        "B": "Si pesa 4 kg o más",
+        "C": "Nunca",
+        "D": "Siempre"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La válvula de seguridad de un extintor portátil tiene que soportar:",
+      "opciones": {
+        "A": "Una presión de 16,68 MPa",
+        "B": "Una presión de 18,63 MPa",
+        "C": "Ninguna de las anteriores",
+        "D": "Ambas anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La norma que regula los extintores móviles es:",
+      "opciones": {
+        "A": "UNE-EN 1666",
+        "B": "UNE-EN 1766",
+        "C": "UNE-EN 1866",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el tiempo de funcionamiento no debe sobrepasar para un extintor manual?",
+      "opciones": {
+        "A": "40 seg",
+        "B": "45 seg",
+        "C": "50 seg",
+        "D": "55 seg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los extintores de polvo, la manguera es del tipo:",
+      "opciones": {
+        "A": "Semirrígida",
+        "B": "Semitlexible",
+        "C": "Rígida",
+        "D": "Flexible"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La distancia mínima del aparato extintor en instalaciones eléctricas de 15 a 66 kV es:",
+      "opciones": {
+        "A": "0,5 metros",
+        "B": "1 metro",
+        "C": "2 metros",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La carga mínima para que un extintor portátil no deba tener manguera es:",
+      "opciones": {
+        "A": "3 kg",
+        "B": "4 kg",
+        "C": "5 kg",
+        "D": "6 kg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los extintores de hidrocarburos halogenados podrán verificarse por:",
+      "opciones": {
+        "A": "Pesada",
+        "B": "Manómetro",
+        "C": "Ambas son correctas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cada cuánto tiempo debe revisarse el estado de la manguera en ensayos de la clase A?",
+      "opciones": {
+        "A": "Tres meses",
+        "B": "6 meses",
+        "C": "Anual",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué organismo lleva a cabo las inspecciones de control para el cumplimiento de normativas?",
+      "opciones": {
+        "A": "La Comunidad autónoma",
+        "B": "Ministerio de Industria",
+        "C": "Fabricante",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántos tipos de extintores deben existir como mínimo en instalaciones de GLP?",
+      "opciones": {
+        "A": "1 de 6 kg de polvo químico seco",
+        "B": "1 de 12 kg de polvo químico seco",
+        "C": "2 de 6 kg de polvo químico seco",
+        "D": "2 de 12 kg de polvo químico seco"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la capacidad máxima de llenado de Halon 1311?",
+      "opciones": {
+        "A": "112 kg",
+        "B": "1,61 kg",
+        "C": "162 kg",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué presión de impulsión oscila en los extintores permanentemente presurizados?",
+      "opciones": {
+        "A": "De 15 a 20 kg/cm²",
+        "B": "De 16 kg/cm²",
+        "C": "De 0 a 10 kg/cm²",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según la norma UNE-EN 3+A1:2007, la eficacia de un extintor en hogares tipo clase F será de:",
+      "opciones": {
+        "A": "Apto o No Apto",
+        "B": "Desde 5 F hasta 75 F",
+        "C": "Ninguna de las anteriores",
+        "D": "Un porcentaje fijo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el periodo de prueba de los extintores de polvoanales?",
+      "opciones": {
+        "A": "Normalmente 20 kg/cm²",
+        "B": "Normalmente 18 kg/cm²",
+        "C": "Normalmente 23 kg/cm²",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué materiales se pueden usar en la construcción de extintores?",
+      "opciones": {
+        "A": "Chapa plegada y reforzada",
+        "B": "Acero inoxidable y aleaciones especiales de aluminio",
+        "C": "Bronce, latón y acero",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué artículo de la Directiva regula los extintores automáticos que disparan por la presencia de fuego directo?",
+      "opciones": {
+        "A": "Artículo 13 de la Directiva 76/767/CEE",
+        "B": "Artículo 15 de la Directiva 77/767/CEE",
+        "C": "Artículo 13 de la Directiva 77/767/CEE",
+        "D": "Artículo 15 de la Directiva 76/767/CEE"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿ quién dicta el programa de mantenimiento de los extintores?",
+      "opciones": {
+        "A": "Según el R.D. 513/1988, de 22 de mayo",
+        "B": "Según el R.D. 1972 6 de noviembre",
+        "C": "Según el R.D. 513/2017, de 22 de mayo",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se le conoce también al retimbrado?",
+      "opciones": {
+        "A": "Prueba hidrostática",
+        "B": "Recarga",
+        "C": "Prueba hiperbárica",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el peso máximo despreciable de los extintores manuales portátiles?",
+      "opciones": {
+        "A": "21 kg",
+        "B": "20 kg",
+        "C": "15 kg",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué comportamiento tienen los detectores termovelocímetros respecto a la temperatura?",
+      "opciones": {
+        "A": "Sube más de 8°C o 9°C en 1 minuto",
+        "B": "Sube más de 7°C o 8°C en 1 minuto",
+        "C": "Sube más de 7°C o 8°C en 30 segundos",
+        "D": "Sube más de 8°C o 9°C en 30 segundos"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué riesgos se deben tener en cuenta al utilizar sistemas de extinción tipo tubería mojada?",
+      "opciones": {
+        "A": "No es apto para recintos en los que la temperatura puede bajar de los 4°C",
+        "B": "No es apto para recintos en los que la temperatura puede bajar de los 5°C",
+        "C": "No es apto para recintos en los que la temperatura puede bajar de los 0°C",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema es el HI-FOG?",
+      "opciones": {
+        "A": "Sistemas de extinción por agua nebulizada",
+        "B": "Sistemas portátiles de extinción por agua nebulizada",
+        "C": "Sistemas fijos de extinción por agua pulverizada",
+        "D": "Sistemas portátiles de extinción por agua pulverizada"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el porcentaje de CO2 en los sistemas de extinción que utilizan este gas en inundación total?",
+      "opciones": {
+        "A": "El porcentaje de CO2 será del 20 %",
+        "B": "El porcentaje de CO2 será del 40 %",
+        "C": "El porcentaje de CO2 será del 60 %",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuáles son las presiones de funcionamiento en los sistemas de agua nebulizada en media presión?",
+      "opciones": {
+        "A": "Presiones de funcionamiento de hasta 12 bar",
+        "B": "Presiones de funcionamiento de hasta 100 bar",
+        "C": "Presiones de funcionamiento entre 12 y 33 bar",
+        "D": "Presiones de funcionamiento superiores a 33 bar"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué se espera de la presión en un sistema de agua nebulizada?",
+      "opciones": {
+        "A": "Nitrógeno, aire y CO",
+        "B": "Nitrógeno y aire",
+        "C": "Nitrógeno y CO",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿En qué condiciones exige el CTE un sistema de alarma de incendio en uso administrativo?",
+      "opciones": {
+        "A": "Si la superficie construida excede de 1.000 m²",
+        "B": "Si la superficie construida excede de 2.000 m²",
+        "C": "Si excede de 5.000 m²",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la instalación de BIE's solo de uso exclusivo de bomberos?",
+      "opciones": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "Depende quién la utilice",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según el CTE, la instalación de bocas de incendios equipadas es exigible en aparcamientos de más de 30 vehículos cuando:",
+      "opciones": {
+        "A": "Las dos BIES más desfavorables funcionando mutuamente y con presión mínima de 3 a 6 kg/cm².",
+        "B": "Aparcamientos de menos de 20 vehículos.",
+        "C": "Aparcamientos, sea cual sea su número de vehículos.",
+        "D": "Aparcamientos, si la superficie construida excede de 500 m²."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El tiempo de reserva de agua, según el RIPCI, en aparcamientos mayores a 30 vehículos es:",
+      "opciones": {
+        "A": "10 horas.",
+        "B": "1 hora.",
+        "C": "2 horas.",
+        "D": "24 horas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según el CTE, los periodos de mantenimiento mínimo contemplados para sistemas de detección y alarma son:",
+      "opciones": {
+        "A": "Cada año y cada 5 años.",
+        "B": "Cada seis meses, cada año y cada 5 años.",
+        "C": "Sólo cada año.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La normativa europea de la BIE de manguera plana de 70 mm es:",
+      "opciones": {
+        "A": "UNE-EN 671",
+        "B": "UNE-EN 23402.",
+        "C": "Depende de la cantidad de vehículos.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "A partir de qué altura una columna seca sustituye a una BIE:",
+      "opciones": {
+        "A": "24m.",
+        "B": "50m.",
+        "C": "34m.",
+        "D": "Nunca."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La separación mínima entre BIEs es de:",
+      "opciones": {
+        "A": "10 metros.",
+        "B": "25 metros.",
+        "C": "50 metros.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Una botella se define como 'recipiente a presión transportable, de una capacidad...':",
+      "opciones": {
+        "A": "Igual o inferior a 180 litros.",
+        "B": "Igual o inferior a 120 litros.",
+        "C": "Inferior a 150 litros.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los detectores de humos pueden ser:",
+      "opciones": {
+        "A": "Termostáticos, termovelocimétricos y ópticos.",
+        "B": "Ópticos y termostáticos.",
+        "C": "Iónicos y ópticos.",
+        "D": "Iónicos, ópticos y termostáticos."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La distancia máxima a la salida de cada sector de incendio de una BIE debe ser de:",
+      "opciones": {
+        "A": "10 metros.",
+        "B": "20 metros.",
+        "C": "5 metros.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los hidrantres de columna deben ser adecuados para su uso a la presión máxima de funcionamiento permitida de:",
+      "opciones": {
+        "A": "16 bar.",
+        "B": "20 bar.",
+        "C": "25 bar.",
+        "D": "20 Mpa."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según la norma UNE correspondiente, la instalación de abastecimiento de agua contra incendios debe:",
+      "opciones": {
+        "A": "Ser común para varias instalaciones de protección contra incendios.",
+        "B": "Derivada de la de agua potable siempre que asegure los caudales y presiones requeridas.",
+        "C": "Ser independiente y exclusiva para cada instalación de protección contra incendios.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Según la norma EN, la válvula de una BIE de 25 puede ser:",
+      "opciones": {
+        "A": "De dos tipos: válvula manual y válvula automática.",
+        "B": "Apertura rápida y apertura lenta.",
+        "C": "Válvula especial, junta tórica y cierre.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La válvula manual de una BIE incluida en la EN de 25, deberá abrirse en un:",
+      "opciones": {
+        "A": "Mínimo de 4 vueltas.",
+        "B": "Máximo de 3,5 vueltas de devanadera.",
+        "C": "Cuando se tire de la lanza-boquilla.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las operaciones de mantenimiento de las BIEs seguirán:",
+      "opciones": {
+        "A": "Lo estipulado en la CTE, apartado instalación.",
+        "B": "Lo estipulado en RIPCI.",
+        "C": "Ninguna de las anteriores.",
+        "D": "Para todos los elementos de la instalación."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Según el RIPCI, ¿cada cuánto tiempo se debe comprobar que las llaves de seccionamiento de una columna seca están abiertas?",
+      "opciones": {
+        "A": "Cada 6 meses.",
+        "B": "Cada 3 meses.",
+        "C": "Cada año.",
+        "D": "Cada 5 años."
+      },
+      "correcta": "A"
+    }
+  ]
+}

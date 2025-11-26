@@ -1,0 +1,327 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T09:03:35.129Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "Según la normativa UNE, las categorías de los vehículos dependiendo de su capacidad de paso en diversas configuraciones de terreno son:",
+      "opciones": {
+        "A": "1 Forestal, 2 rural, 3 urbano.",
+        "B": "1 Rural, 2 todo terreno, 3 urbano.",
+        "C": "1 Urbano, 2 rural, 3 todo terreno.",
+        "D": "1 Todo terreno, 2 urbano, 3 rural."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La capacidad mínima de la cisterna en una autobomba es:",
+      "opciones": {
+        "A": "1.500 litros.",
+        "B": "2.400 litros.",
+        "C": "3.000 litros.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se podrá añadir al vehículo ADEMÁS DEL EQUIPO UNITARIO BÁSICO A?",
+      "opciones": {
+        "A": "No se podrá añadir al vehículo más material.",
+        "B": "El vehículo no necesitará más material.",
+        "C": "Se podrán añadir otros materiales ateniéndose a los M4.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La distancia recorrida por un vehículo en el tiempo de reacción si va a 70 km/h es:",
+      "opciones": {
+        "A": "21 m aproximadamente.",
+        "B": "24 m aproximadamente.",
+        "C": "30 m aproximadamente.",
+        "D": "15 m aproximadamente."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué capacidad, como mínimo, tiene el depósito principal de agua de un BRP?",
+      "opciones": {
+        "A": "3.000 litros.",
+        "B": "3.500 litros.",
+        "C": "4.000 litros.",
+        "D": "5.000 litros."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según norma UNE, las baterías de los vehículos de extinción de incendios y salvamentos:",
+      "opciones": {
+        "A": "Llevarán un desconectador.",
+        "B": "Se podrán realizar operaciones de mantenimiento sin desconexión.",
+        "C": "Las respuestas a y b son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Un vehículo de categoría 3 se refiere a un vehículo tipo:",
+      "opciones": {
+        "A": "Todo terreno.",
+        "B": "Rural.",
+        "C": "Urbano.",
+        "D": "No existe esa categoría."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La cisterna de agua de una autobomba urbana pesada cumplirá lo recogido en la norma:",
+      "opciones": {
+        "A": "UNE-EN 1846.",
+        "B": "UNE-EN 1846 + equipamiento.",
+        "C": "UNE-EN 1846 + equipamiento fijo + bombero y conductor.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El tiempo para recorrer 100 m arrancando de parado con un vehículo clase medio categorías es:",
+      "opciones": {
+        "A": "Menos de 10 segundos.",
+        "B": "Entre 10 y 15 segundos.",
+        "C": "Más de 15 segundos.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La diferencia de altura entre el nivel del agua en el lado de aspiración y el centro de la boca de aspiración se denomina:",
+      "opciones": {
+        "A": "Cota de cavitación.",
+        "B": "Altura de aspiración geodésica.",
+        "C": "Altura mínima de vadeo.",
+        "D": "Altura libre."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El color del exterior de la carrocería dos, según UNE 23900, es:",
+      "opciones": {
+        "A": "Rojo brillante.",
+        "B": "Rojo brillante (B).",
+        "C": "Rojo vivo (B).",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, el freno de aparcamiento de emergencia será capaz de mantener inmóvil el vehículo en una rampa del:",
+      "opciones": {
+        "A": "40%.",
+        "B": "20%.",
+        "C": "10%.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es el color de los puntos de engrase de 450x400 mm?",
+      "opciones": {
+        "A": "Amarillo vivo",
+        "B": "Rojo vivo",
+        "C": "Ninguna es correcta",
+        "D": "Amarillo vivo (B)"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, los focos piratas de los vehículos permitirán ver a una distancia:",
+      "opciones": {
+        "A": "Superior a 125 m",
+        "B": "Superior a 70 m",
+        "C": "Superior a 110 m",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es el color de los brazos de plataformas articuladas?",
+      "opciones": {
+        "A": "Blanco",
+        "B": "Blanco brillante (B)",
+        "C": "Ninguna es correcta",
+        "D": "Blanco (B)"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es la longitud del carretel del faro?",
+      "opciones": {
+        "A": "25 m",
+        "B": "150 m",
+        "C": "30 m",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el ángulo de vuelco de un vehículo clase ligero, categoría 1 (urbano) según en 1846?",
+      "opciones": {
+        "A": ">32°",
+        "B": "=27°",
+        "C": "Ninguna es correcta",
+        "D": "=25°"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el peso total según UNE 22900?",
+      "opciones": {
+        "A": "Peso del vehículo carrozado en orden de marcha",
+        "B": "Peso total del vehículo aislado",
+        "C": "Ninguna es correcta",
+        "D": "Peso del vehículo carrozado en orden de marcha, menos la carga normalizada"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es el tiempo máximo para recorrer 100 m desde parado con su peso total real?",
+      "opciones": {
+        "A": "17 segundos máximo para vehículo normal",
+        "B": "40 segundos máximo para vehículo normal",
+        "C": "17 segundos máximo para todoterrenos",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En 1846, ¿cuál es la distancia mínima desde el asiento al techo interior de la cabina?",
+      "opciones": {
+        "A": "105 cm",
+        "B": "90 cm",
+        "C": "Ninguna es correcta",
+        "D": "80 cm"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23800, la potencia sonora mínima de la sirena debe ser:",
+      "opciones": {
+        "A": "95 dB a 30 m delante del vehículo",
+        "B": "90 dB a 30 m a 45° del eje del vehículo",
+        "C": "Ninguna es correcta",
+        "D": "105 dB a 30 m delante del vehículo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el concepto de seguridad pasiva?",
+      "opciones": {
+        "A": "Elementos que proporcionan mayor eficacia y estabilidad en marcha y contribuyen a evitar un accidente.",
+        "B": "Elementos que reducen al mínimo los posibles daños que se producen en caso de accidente.",
+        "C": "Elementos que proporcionan menor eficacia y estabilidad en marcha y contribuyen a evitar un accidente.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cómo se debe actuar ante una fuga de gasolina del depósito de un vehículo?",
+      "opciones": {
+        "A": "No cortar nunca la bolsa.",
+        "B": "Nada, actúan igual que los de una etapa.",
+        "C": "Cortarlo lo antes posible para evitar una reacción del gas generado.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son los lugares donde podemos encontrar los anagramas de los airbags?",
+      "opciones": {
+        "A": "Airbag del conductor: en el centro del triángulo del volante.",
+        "B": "Airbag de acompañante: en el salpicadero en el tapizado o en el interior de la guantera.",
+        "C": "Cortina de techo: una etiqueta de tela cosida en los laterales.",
+        "D": "Todos son lugares donde podemos encontrar los correspondientes anagramas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes se considera un elemento de seguridad activa?",
+      "opciones": {
+        "A": "Sistema de dirección.",
+        "B": "Sistema de pretensores.",
+        "C": "Sistema de suspensión.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es un material del que están formados los cristales laminados de seguridad?",
+      "opciones": {
+        "A": "Dos láminas de vidrio entre las que se insertan PBV.",
+        "B": "Dos láminas de policarbonato entre las que se insertan PBV.",
+        "C": "Ninguna respuesta es correcta.",
+        "D": "Ambas respuestas son correctas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántos anillos longitudinales poseen los vehículos más comunes?",
+      "opciones": {
+        "A": "Son dos, ambos lados del vehículo.",
+        "B": "Uno en la parte inferior del vehículo.",
+        "C": "Uno en la parte superior del vehículo.",
+        "D": "De dos a tres en la parte delantera y trasera del vehículo."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué significa la norma UNE-EN 1846?",
+      "opciones": {
+        "A": "Norma que regula los vehículos contra incendios en España.",
+        "B": "Norma que regula la capacidad de un vehí­culo contra incendios.",
+        "C": "Norma que especifica los requisitos de seguridad para vehículos industriales.",
+        "D": "Norma que indica los tipos de vehículos utilizados en rescate."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la norma que regula los vehículos contra incendios y servicios auxiliares en España?",
+      "opciones": {
+        "A": "UNE 21.900.",
+        "B": "UNE 23.900.",
+        "C": "UNE 23.603.",
+        "D": "UNE 23.300."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué norma regula la señalización óptica del vehículo?",
+      "opciones": {
+        "A": "UNE 23900.",
+        "B": "UNE 26150.",
+        "C": "Reglamento general de vehículos.",
+        "D": "UNE 23902."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué significa UlV?",
+      "opciones": {
+        "A": "Unidad de inteligencia y vigilancia",
+        "B": "Unidad de intendencia y vigilancia",
+        "C": "Unidad de intervención y vigilancia",
+        "D": "Unidad de inspección y vigilancia"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué significa RUV?",
+      "opciones": {
+        "A": "Remolque urbano de viveres",
+        "B": "Remolque químico",
+        "C": "Remolque usos varios",
+        "D": "Este vehiculo no existe"
+      },
+      "correcta": "A"
+    }
+  ]
+}

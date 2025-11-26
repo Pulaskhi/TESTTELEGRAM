@@ -1,0 +1,37 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:57:11.903Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué afirmación es aplicable en la definición de 'escalera protegida' según el CTE?",
+      "opciones": {
+        "A": "Es un recinto destinado exclusivamente a circulación de incendio.",
+        "B": "Es un espacio abierto a todo el público.",
+        "C": "Es un espacio no restringido.",
+        "D": "Es un acceso principal al edificio."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En las tapas de registro de canalizaciones de servicios públicos, ¿cuál de las siguientes dimensiones debe cumplirse?",
+      "opciones": {
+        "A": "Inferiores a 0,25 x 0,25 m.",
+        "B": "Superiores a 0,15 x 0,15 m.",
+        "C": "Superiores a 0,25 x 0,25 m.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de instalaciones de protección contra incendios se deben utilizar en un accidente de tráfico?",
+      "opciones": {
+        "A": "Instalación de baja-media expansión.",
+        "B": "Instalación de media alta expansión.",
+        "C": "Instalación de baja expansión.",
+        "D": "Instalación de media expansión."
+      },
+      "correcta": "C"
+    }
+  ]
+}

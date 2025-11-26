@@ -1,0 +1,207 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:41:13.465Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la máxima distancia entre tramos contiguos en los colectores enterrados de una red de saneamiento?",
+      "opciones": {
+        "A": "25 m",
+        "B": "10 m",
+        "C": "15 m",
+        "D": "30 m"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Dónde se debe colocar el filtro de la instalación de alcantarillado cuando la cota es mayor de 80 centímetros?",
+      "opciones": {
+        "A": "Antes de la llave de corte general",
+        "B": "A continuación de la llave de corte general",
+        "C": "En un local privado",
+        "D": "En cualquier lugar"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la presión mínima requerida en la instalación de suministro de agua?",
+      "opciones": {
+        "A": "150 kPa",
+        "B": "100 kPa",
+        "C": "175 kPa",
+        "D": "200 kPa"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En una red de pequeña evacuación, ¿cuál es la distancia máxima del bote sifónico a la bajante?",
+      "opciones": {
+        "A": "2,00 m",
+        "B": "1,00 m",
+        "C": "3,00 m",
+        "D": "5,00 m"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la función de un sifón en las instalaciones de aguas residuales?",
+      "opciones": {
+        "A": "Impedir el flujo de olores",
+        "B": "Impedir el flujo de agua",
+        "C": "Permitir el flujo de agua",
+        "D": "Aumentar la presión"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Dónde debe situarse el grupo de presión según la normativa?",
+      "opciones": {
+        "A": "En un local comunitario",
+        "B": "En un local privado",
+        "C": "En el exterior del edificio",
+        "D": "En un local de uso exclusivo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se entiende por purgado en una instalación de saneamiento?",
+      "opciones": {
+        "A": "Hacer entrar aire en las tuberías",
+        "B": "Eliminar la humedad de las tuberías",
+        "C": "Cerrar el paso del agua",
+        "D": "Evacuar aguas residuales"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el tipo de filtro requerido en las instalaciones de saneamiento?",
+      "opciones": {
+        "A": "Filtro de bobina intercambiable",
+        "B": "Filtro de metal",
+        "C": "Filtro de carbono",
+        "D": "Filtro de papel"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la presión máxima permitida en cualquier punto de consumo en una instalación de agua?",
+      "opciones": {
+        "A": "500 kPa",
+        "B": "600 kPa",
+        "C": "700 kPa",
+        "D": "800 kPa"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se deben tender las tuberías de agua fría y caliente según la normativa?",
+      "opciones": {
+        "A": "Siempre separadas",
+        "B": "Juntas en la misma canalización",
+        "C": "Sin distancias específicas",
+        "D": "Solo en si hay espacio"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el caudal instantáneo mínimo requerido para las tuberías verticales descendentes que recogen agua fría del bidé?",
+      "opciones": {
+        "A": "0,10 dm/s",
+        "B": "0,20 dm/s",
+        "C": "0,05 dm/s",
+        "D": "0,15 dm/s"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se instalará inexcusablemente en la salida de impulsión de una bomba en un grupo de presión?",
+      "opciones": {
+        "A": "Válvula de seguridad",
+        "B": "Válvula de retención",
+        "C": "Válvula de paso",
+        "D": "Llave de corte"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el caudal instantáneo mínimo requerido para el agua fría de la lavadora doméstica?",
+      "opciones": {
+        "A": "0,10 dm/s",
+        "B": "0,20 dm/s",
+        "C": "0,05 dm/s",
+        "D": "0,15 dm/s"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de dispositivo permite el paso del fluido en un solo sentido, impidiendo los retornos no deseados?",
+      "opciones": {
+        "A": "Válvula de evacuación",
+        "B": "Válvula de retención",
+        "C": "Válvula de seguridad",
+        "D": "Ninguna respuesta es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la pendiente mínima de las derivaciones?",
+      "opciones": {
+        "A": "Un 10%",
+        "B": "Un 25%",
+        "C": "Serán totalmente horizontales",
+        "D": "No es necesaria"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se instalará antes de cada contador divisionario?",
+      "opciones": {
+        "A": "Llave de corte",
+        "B": "Válvula de retención",
+        "C": "Válvula antirretorno",
+        "D": "Válvula de paso"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Las galerías de servicio que discurren por el subsuelo contienen fundamentalmente qué temas?",
+      "opciones": {
+        "A": "Electricidad, agua potable y telefonía",
+        "B": "Electricidad, alumbrado, telefonía y gas",
+        "C": "Electricidad, alumbrado, saneamiento, telefonía y gas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué elemento no forma parte del grupo tractor de un ascensor eléctrico?",
+      "opciones": {
+        "A": "Tomillo sinfín",
+        "B": "Polea motriz",
+        "C": "Freno electromagnético",
+        "D": "Limitador de velocidad"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo deben ser las guías del camarín en un ascensor eléctrico?",
+      "opciones": {
+        "A": "De acero únicamente",
+        "B": "De materiales homologados",
+        "C": "De plástico",
+        "D": "De probados mediante ensayo"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué característica no corresponde con un tipo de limitador de velocidad?",
+      "opciones": {
+        "A": "De oscilante",
+        "B": "De velocidad centrífuga",
+        "C": "De trinquete centrífugo",
+        "D": "De velocidad manual"
+      },
+      "correcta": "D"
+    }
+  ]
+}

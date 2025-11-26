@@ -1,0 +1,217 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:48:43.014Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "Ante un accidentado inconsciente que respira, ¿qué se debe hacer?",
+      "opciones": {
+        "A": "Colocarlo en decúbito supino.",
+        "B": "Colocarlo en decúbito dorsal.",
+        "C": "Colocarlo en posición lateral de seguridad.",
+        "D": "Todos son correctos."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuántos rescatadores son necesarios para realizar el puente mejorado?",
+      "opciones": {
+        "A": "9+1",
+        "B": "5",
+        "C": "4",
+        "D": "3"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la medida inicial más eficaz para el tratamiento de una quemadura?",
+      "opciones": {
+        "A": "Aplicar una pomada para quemaduras.",
+        "B": "Cubrir la zona de la quemadura.",
+        "C": "Enfriar la zona de la quemadura.",
+        "D": "Prender fuego a la quemadura."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el orden en la conducta a observar ante un accidentado?",
+      "opciones": {
+        "A": "Socorrer, alertar y balizar.",
+        "B": "Alertar, socorrer y balizar.",
+        "C": "Balizar, alertar y socorrer.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es lo primero que haría ante una víctima que se atraganta y está tosiendo?",
+      "opciones": {
+        "A": "Tumbarla.",
+        "B": "Realizar maniobra de Hemlich.",
+        "C": "Animarla a toser.",
+        "D": "Llamar a emergencias."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes tipos de muerte es susceptible de ser recuperable?",
+      "opciones": {
+        "A": "Muerte biológica.",
+        "B": "Muerte clínica.",
+        "C": "Muerte real.",
+        "D": "Una hemorragia exteriorizada."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Ante la observación de salida de sangre por la nariz y/o por los oídos, ¿qué podríamos sospechar?",
+      "opciones": {
+        "A": "Lesiones bucales.",
+        "B": "Traumatismo cervical.",
+        "C": "Fractura de cráneo.",
+        "D": "Rotura de tímpano."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Para el traslado en camilla de víctimas con lesiones abdominales, ¿cómo se debe colocar?",
+      "opciones": {
+        "A": "En decúbito abdominal con un cojín bajo el pecho.",
+        "B": "Con el tronco en una ligera inclinación oblicua y piernas flexionadas.",
+        "C": "En decúbito prono.",
+        "D": "En decúbito supino."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué posición es recomendada para el traslado en embarazadas?",
+      "opciones": {
+        "A": "Decúbito supino.",
+        "B": "Decúbito prono.",
+        "C": "Posición lateral izquierda.",
+        "D": "Semi-incorporado."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En una intoxicación aguda por opiáceos, ¿qué signo determina la gravedad de la intoxicación?",
+      "opciones": {
+        "A": "Estado confuso.",
+        "B": "Descoordinación psicomotriz.",
+        "C": "Miosis poco reactiva.",
+        "D": "Depresión respiratoria."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre las hemorragias externas y las exteriorizadas?",
+      "opciones": {
+        "A": "En las externas, la sangre sale por una herida.",
+        "B": "En las exteriorizadas, la sangre sale por una herida.",
+        "C": "Ambas son iguales.",
+        "D": "En las exteriores, la sangre sale por un orificio natural."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es síntoma de una hemorragia?",
+      "opciones": {
+        "A": "Pulso débil y rápido.",
+        "B": "Respiración lenta y profunda.",
+        "C": "Bradicardia.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es un signo de una fractura cerrada?",
+      "opciones": {
+        "A": "Deformidad del miembro.",
+        "B": "Movilidad anormal.",
+        "C": "Hematoma.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué dispositivo se debe utilizar para inmovilizar a una víctima con lesiones vertebrales?",
+      "opciones": {
+        "A": "La camilla cuchara.",
+        "B": "El collarín cervical.",
+        "C": "El dispositivo de extricación Kendrich.",
+        "D": "La tabla espinal."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuánto tiempo debe permanecer un vendaje compresivo hecho sobre una quemadura?",
+      "opciones": {
+        "A": "De 4 a 7 días.",
+        "B": "De 7 a 15 días.",
+        "C": "Nunca debe realizarse un vendaje compresivo.",
+        "D": "De 10 a 14 días."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A partir de cuánto tiempo se considera una herida contaminada?",
+      "opciones": {
+        "A": "Después de 6 horas.",
+        "B": "Antes de 6 horas.",
+        "C": "Después de 10 horas.",
+        "D": "Nunca es contaminada."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántos huesos hay en el cuerpo humano?",
+      "opciones": {
+        "A": "206",
+        "B": "269",
+        "C": "382",
+        "D": "602"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuándo debe realizarse la maniobra de RCP?",
+      "opciones": {
+        "A": "Antes de que transcurran 2 minutos",
+        "B": "Antes de que transcurran 4 minutos",
+        "C": "Antes de que transcurran 6 minutos",
+        "D": "Antes de que transcurran 10 minutos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se denomina al sangrado por la boca que procede del aparato digestivo?",
+      "opciones": {
+        "A": "Hematoma",
+        "B": "Hematuria",
+        "C": "Hemoptisis",
+        "D": "Hematemesis"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuántas falanginas hay en una mano?",
+      "opciones": {
+        "A": "5 Falanginas",
+        "B": "4 Falanginas",
+        "C": "14 Falanginas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se denomina la gráfica que determina la posibilidad de supervivencia tras una parada cardiorrespiratoria?",
+      "opciones": {
+        "A": "Curva de Drinker",
+        "B": "Curva de Fowler",
+        "C": "Curva Krendir",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    }
+  ]
+}

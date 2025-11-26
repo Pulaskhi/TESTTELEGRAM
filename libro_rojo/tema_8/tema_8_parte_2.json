@@ -1,0 +1,307 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:51:59.789Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿En qué posición se coloca una 'sopanda' en un apeo o apuntalamiento?",
+      "opciones": {
+        "A": "Vertical",
+        "B": "Horizontal",
+        "C": "Inclinado",
+        "D": "De voladizo"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo se denominan los elementos que soportan verticalmente un edificio?",
+      "opciones": {
+        "A": "Vigas maestras",
+        "B": "Pilares",
+        "C": "Zanjas",
+        "D": "Balcones o voladizos"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué corresponde al término “losa” en una estructura horizontal?",
+      "opciones": {
+        "A": "Tornapunta",
+        "B": "Riostras",
+        "C": "Jabalcones",
+        "D": "Pies derechos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El apuntalamiento en abanico es generalmente utilizado en?",
+      "opciones": {
+        "A": "Forjados",
+        "B": "Muros",
+        "C": "Ventanas",
+        "D": "Pilares"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué arco es de tres centros?",
+      "opciones": {
+        "A": "Arco apuntado",
+        "B": "Arco carpanel",
+        "C": "Arco rebajado",
+        "D": "Arco de herradura"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué propiedad permite hacer hilos muy finos?",
+      "opciones": {
+        "A": "Tenacidad",
+        "B": "Maleabilidad",
+        "C": "Dureza",
+        "D": "Ductilidad"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia máxima entre durmientes verticales en una estructura ligera de entibación?",
+      "opciones": {
+        "A": "Máximo 1 m",
+        "B": "Máximo 1,5 m",
+        "C": "Hasta 2,5 metros",
+        "D": "Al menos una durmiente en el 50% de la superficie"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué concepto se opone a fragilidad?",
+      "opciones": {
+        "A": "Maleabilidad",
+        "B": "Tenacidad",
+        "C": "Dureza",
+        "D": "Ductilidad"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo se denomina el cimiento parcial de la parte central de un edificio?",
+      "opciones": {
+        "A": "Quebranto",
+        "B": "Arrufo",
+        "C": "Adaptación",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el efecto de altas temperaturas en un perfil metálico dispuesto horizontalmente en un edificio durante un incendio?",
+      "opciones": {
+        "A": "Colapso del mencionado elemento.",
+        "B": "Empujes en otros elementos constructivos.",
+        "C": "Las dos anteriores con ciertas.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué se entiende por 'cargadero' en un edificio?",
+      "opciones": {
+        "A": "Un elemento lineal vertical que recibe cargas.",
+        "B": "Un elemento que recibe la carga sobre un hueco.",
+        "C": "Los muros dispuestos para soportar la transmisión de esfuerzos.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de grietas podría indicar una lesión más grave en una estructura?",
+      "opciones": {
+        "A": "Las que aparecen en la parte que trabaja a tracción de una jácena.",
+        "B": "Las discontinuas.",
+        "C": "Las que se producen por las diversas partes de una edificación recién construida.",
+        "D": "Las parabólicas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Con qué tipo de viga se consiguen mayores luces?",
+      "opciones": {
+        "A": "Viga rata.",
+        "B": "Viga de canto.",
+        "C": "Viga plana.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué es un geoestereófono?",
+      "opciones": {
+        "A": "Aparato para captar y registrar los movimientos de la tierra.",
+        "B": "Aparato de sonido en desuso.",
+        "C": "Aparato que junto con otros conforman una instalación meteorológica.",
+        "D": "Aero medios de auliscultas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se denomina el cimiento parcial de la parte central de un edificio?",
+      "opciones": {
+        "A": "Desplome.",
+        "B": "Virotillo.",
+        "C": "Muletilla.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es una muletilla en apuntalamientos?",
+      "opciones": {
+        "A": "Elemento que une los vértices de un armazón.",
+        "B": "Pieza corta de madera que se dispone horizontalmente.",
+        "C": "Soporte de carga en estructuras temporales.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Cuando hablamos de escorrentía, ¿a qué nos referimos?",
+      "opciones": {
+        "A": "Flujo de aguas pluviales.",
+        "B": "Deslizamientos de tierras.",
+        "C": "Efectos de viento.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el aspecto positivo de las estructuras de hormigón armado?",
+      "opciones": {
+        "A": "Pierden propiedades resistentes con rapidez en caso de incendio.",
+        "B": "No son combustibles y no contribuyen al fuego.",
+        "C": "No se producen deformaciones apreciables.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué corresponde al término 'loza'?",
+      "opciones": {
+        "A": "Pieza colocada en la parte superior del tomapunta.",
+        "B": "Piedra delgada y plana.",
+        "C": "Piedra plana horizontal.",
+        "D": "Barro fino, cocido y bamizado."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son los tipos de materiales en orden de menor a mayor granulometría?",
+      "opciones": {
+        "A": "Arcillas < limos < arenas < gravas < cantos rodados.",
+        "B": "Arcillas < limos < gravas < arenas < cantos rodados.",
+        "C": "Arcillas < arenas < limos < gravas < cantos rodados.",
+        "D": "Arcillas < gravas < limos < arenas < cantos rodados."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es una pieza que tiene forma de ladrillo hecha con una masa de barro?",
+      "opciones": {
+        "A": "Corte que se hace para unir piezas de metal.",
+        "B": "Tope para absorber los empujes inclinados.",
+        "C": "Une dos tornapuntas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son los tipos de viguetas de hormigón?",
+      "opciones": {
+        "A": "Vigas de castilla y pretensadas.",
+        "B": "Bloques.",
+        "C": "Todas son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿En torno a qué temperatura colapsa el aluminio?",
+      "opciones": {
+        "A": "450 °C.",
+        "B": "200 °C.",
+        "C": "300 °C.",
+        "D": "700 °C."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La densidad media del acero es:",
+      "opciones": {
+        "A": "8.750 kg/m3.",
+        "B": "7.850 kg/m3.",
+        "C": "6.350 kg/m3.",
+        "D": "5.850 kg/m3."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Los puntales son piezas que:",
+      "opciones": {
+        "A": "Transmite el esfuerzo al durmiente y trabajan a compresión.",
+        "B": "Transmite el esfuerzo al durmiente y trabajan a flexión.",
+        "C": "Ninguna es correcta.",
+        "D": "Ninguna de las respuestas es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es un 'par' de una cercha?",
+      "opciones": {
+        "A": "Pieza horizontal que forma la cercha.",
+        "B": "Pieza inclinada que forma la cercha.",
+        "C": "Pieza horizontal que sujeta el pendolón.",
+        "D": "Pieza vertical que forma la cercha."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La flecha en una viga es:",
+      "opciones": {
+        "A": "La mínima desviación que presenta una viga respecto a la vertical.",
+        "B": "Sentido hacia donde apunta la viga.",
+        "C": "La máxima desviación que presenta una viga respecto a la horizontal.",
+        "D": "La mínima desviación que presenta una viga respecto a la horizontal."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se denomina 'cuchillo' en construcción?",
+      "opciones": {
+        "A": "Un elemento de unión.",
+        "B": "Una viga.",
+        "C": "Una herramienta.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué es un 'acodalamiento'?",
+      "opciones": {
+        "A": "Apuntalamiento horizontal de zanjas y túneles.",
+        "B": "Apuntalamiento vertical de edificaciones.",
+        "C": "Ninguna es correcta.",
+        "D": "Apuntalamiento de fachadas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La propiedad por la cual adquiere el acero una",
+      "opciones": {
+        "A": "Soldabilidad.",
+        "B": "Conectividad.",
+        "C": "Ninguna es correcta.",
+        "D": "Resistencia."
+      },
+      "correcta": "C"
+    }
+  ]
+}

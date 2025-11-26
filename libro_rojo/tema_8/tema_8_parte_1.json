@@ -1,0 +1,457 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:51:59.779Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué tipo de material se utiliza para los muros de mampostería?",
+      "opciones": {
+        "A": "Mármol",
+        "B": "Alabastro",
+        "C": "Escayola",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Cuando hablamos de un sillar, ¿a qué nos referimos?",
+      "opciones": {
+        "A": "A una piedra con una de sus caras planas",
+        "B": "A una piedra tal y como sale de la cantera",
+        "C": "A una piedra con sus seis caras planas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué se denomina a la combinación de un aglomerante con arena y agua?",
+      "opciones": {
+        "A": "Cemento",
+        "B": "Hormigón",
+        "C": "Mortero",
+        "D": "Nada de lo anterior"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la temperatura a la que se someterá la roca de cemento en la fase de calcinación?",
+      "opciones": {
+        "A": "Temperatura inferior a 900 °C",
+        "B": "Temperatura superior a 1.100 °C",
+        "C": "Temperatura entre 900 °C y 1.100 °C",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué color tendrá el hormigón si la temperatura ha superado los 1.000 °C?",
+      "opciones": {
+        "A": "Blanco",
+        "B": "Rosa o rojizo",
+        "C": "Gris",
+        "D": "Amarillo pálido"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué temperatura en grados Celsius se menciona para los áridos del hormigón tras 2 horas?",
+      "opciones": {
+        "A": "A500C",
+        "B": "A600C",
+        "C": "A800C",
+        "D": "De 900 a 1.200C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué color tendrá el hormigón a los 300°C?",
+      "opciones": {
+        "A": "Gris",
+        "B": "Rosáceo",
+        "C": "Gris con puntos rojos",
+        "D": "Rojo"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de esfuerzo sufrirá un elemento de hormigón armado en su parte superior bajo flexión?",
+      "opciones": {
+        "A": "Compresiones",
+        "B": "Tracciones",
+        "C": "Torsiones",
+        "D": "Dilatações"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la relación adherencia-resistencia entre el acero y el hormigón a 400°C?",
+      "opciones": {
+        "A": "Inferior al 0,03 %",
+        "B": "Entre el 0,03 y el 2 %",
+        "C": "Superior al 2 %",
+        "D": "El acero no contiene carbono"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿El hierro de fundición tiene un contenido de carbono que es?",
+      "opciones": {
+        "A": "Inferior al 0,03 %",
+        "B": "Entre el 0,03 y el 2 %",
+        "C": "Superior al 2 %",
+        "D": "No contiene carbono"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la densidad media del acero?",
+      "opciones": {
+        "A": "4.350 kg/m³",
+        "B": "7.850 kg/m³",
+        "C": "2.350 a 5.550 kg/m³",
+        "D": "3.500 kg/m³"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "A qué temperatura se derrumba el hierro?",
+      "opciones": {
+        "A": "500 °C",
+        "B": "800 °C",
+        "C": "1.375 °C",
+        "D": "De 2.350 a 5.500 °C"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué porcentaje de carbono en el acero se considera inferior al 0,3%?",
+      "opciones": {
+        "A": "0,2 %",
+        "B": "0,1 %",
+        "C": "0,5 %",
+        "D": "1,8 %"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué temperatura se deforma el hierro?",
+      "opciones": {
+        "A": "300 °C",
+        "B": "500 °C",
+        "C": "800 °C",
+        "D": "1.000 °C"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo se define la capilaridad en los materiales?",
+      "opciones": {
+        "A": "Relación entre masa y volumen",
+        "B": "Volumen de pequeños huecos y su volumen aparente",
+        "C": "Propiedad que permite que el agua ascienda",
+        "D": "Capacidad de absorción de agua"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuáles son los estados básicos de tensión que soportan las estructuras?",
+      "opciones": {
+        "A": "Rigidez, dilatación y flexibilidad",
+        "B": "Tracción, compresión y cizalladura",
+        "C": "Compresión, distensión y flexibilidad",
+        "D": "Flexión, pandeo y torsión"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tensión de rotura se menciona para los elementos de albañilería sometidos a esfuerzos de tracción?",
+      "opciones": {
+        "A": "Inferior a 10 kg/cm²",
+        "B": "Inferior a 25 kg/cm²",
+        "C": "Hasta 150 kg/cm²",
+        "D": "Hasta 300 kg/cm²"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué conceptos se relacionan con “aguantar cargas en vertical”?",
+      "opciones": {
+        "A": "Sostener",
+        "B": "Retener",
+        "C": "Solicitar",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué características definitorias tiene el esfuerzo de pandeo?",
+      "opciones": {
+        "A": "Cuando actúan dos fuerzas en la misma dirección",
+        "B": "Cuando dos fuerzas actúan en sentido contrario",
+        "C": "Arqueamiento que provoca rotura",
+        "D": "Esfuerzo por compresión prolongada"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué temperatura se considera el punto de fusión del acero?",
+      "opciones": {
+        "A": "Alrededor de 1.375 °C",
+        "B": "Alrededor de 1.510 °C",
+        "C": "Alrededor de 3.000 °C",
+        "D": "Alrededor de 3.510 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de esfuerzo corresponde a la compresión?",
+      "opciones": {
+        "A": "Esfuerzos que producen disminución de volumen",
+        "B": "Esfuerzos que producen elongación",
+        "C": "Esfuerzos que cortan un material",
+        "D": "Esfuerzos de tracción"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es un alfeizar en la edificación?",
+      "opciones": {
+        "A": "Soporta el peso de la obra situada encima de una abertura y lo transmite a las jambas.",
+        "B": "Constituye la coronación del antepecho, o parte del muro comprendido entre el suelo y la base del hueco.",
+        "C": "Es la parte vertical lateral donde apoya el dintel.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no corresponde con un tipo de muro?",
+      "opciones": {
+        "A": "Muros de carga y paredes maestras.",
+        "B": "Muros de carga de ladrillo.",
+        "C": "Muros de retención.",
+        "D": "Todos son correctos."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cómo se llama un pilar o columna empotrada en un muro del que sobresale ligeramente?",
+      "opciones": {
+        "A": "Pilar sordo.",
+        "B": "Pilastra.",
+        "C": "Columna sorda.",
+        "D": "Viga sorda."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué corresponde al concepto de 'jácenas'?",
+      "opciones": {
+        "A": "Pilares que recogen los esfuerzos transmitidos por vigas o viguetas que se apoyan en éste.",
+        "B": "Elementos verticales que transmiten los esfuerzos hacia otros elementos.",
+        "C": "Vigas que recogen los esfuerzos transmitidos por otras vigas o viguetas que se apoyan en ésta.",
+        "D": "Todos son correctos."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El espesor del muro o pared de ladrillo se fija en una jácena colocada en un forjado, en cuál de estas partes se darán esfuerzos de tracción?",
+      "opciones": {
+        "A": "En la parte superior de su centro.",
+        "B": "En la parte inferior de su centro.",
+        "C": "En los laterales en su parte inferior.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál tipo de forjado soporta más peso?",
+      "opciones": {
+        "A": "Unidireccionales.",
+        "B": "Losas macizas.",
+        "C": "De casetones.",
+        "D": "Reticulares."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuánto se estima que una pintura intumescente puede llegar a preservar una estructura metálica?",
+      "opciones": {
+        "A": "1 hora mientras la temperatura no supere los 500°C.",
+        "B": "45 minutos mientras la temperatura no supere los 500°C.",
+        "C": "30 minutos mientras la temperatura no supere los 500°C.",
+        "D": "20 minutos mientras la temperatura no supere los 500°C."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Respecto a apeos y apuntalamientos, el puntal formará con el muro a consolidar un ángulo:",
+      "opciones": {
+        "A": "No superior a 60° ni inferior a 30°.",
+        "B": "De 60°.",
+        "C": "De 90°.",
+        "D": "Ninguno es correcto."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En las cubiertas usualmente utilizadas en naves, las zonas de cumbreras reciben el nombre de:",
+      "opciones": {
+        "A": "Cercha.",
+        "B": "Pórtico.",
+        "C": "Limatesa.",
+        "D": "Limahoya."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál corresponde al concepto de apuntalamiento?",
+      "opciones": {
+        "A": "Armazón o fábrica con que se sostiene provisionalmente una construcción o terreno.",
+        "B": "Armazón con que se sostiene provisionalmente una edificación.",
+        "C": "Consolidación de los materiales de zanja, pozos, túneles...",
+        "D": "Apeo de emergencia."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Respecto a las piezas de un arco, la primera dovela de arranque del mismo recibe el nombre de:",
+      "opciones": {
+        "A": "Clave o llave.",
+        "B": "Salmer.",
+        "C": "Imposta.",
+        "D": "Estribo."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La altura del peldaño de una escalera corresponde al concepto de:",
+      "opciones": {
+        "A": "Contrahuella.",
+        "B": "Huella.",
+        "C": "Escalón.",
+        "D": "Bocel."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de estas es una pieza de apuntalamiento auxiliar?",
+      "opciones": {
+        "A": "Sopandas.",
+        "B": "Riostras.",
+        "C": "Cuñas.",
+        "D": "Compresión."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se llaman los elementos que forman los arcos en la arquitectura tradicional?",
+      "opciones": {
+        "A": "Secciones.",
+        "B": "Dovelas.",
+        "C": "Tramos.",
+        "D": "Claves."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué corresponde a las características de una cubierta de tipo 'pabellón'?",
+      "opciones": {
+        "A": "Dos aguas.",
+        "B": "Dos aguas con faldones.",
+        "C": "Cuatro aguas con faldones.",
+        "D": "Ninguna."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de cubiertas no poseen tirante o cordón inferior?",
+      "opciones": {
+        "A": "Pórtico.",
+        "B": "Cercha.",
+        "C": "Todas son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué elemento soporta las tejas en una cercha?",
+      "opciones": {
+        "A": "Tablazón.",
+        "B": "Cabios o parecills.",
+        "C": "Cumbrera o hilera.",
+        "D": "Pretil."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La acción de poner un apuntalamiento horizontal a la fachada se denomina:",
+      "opciones": {
+        "A": "Trabar.",
+        "B": "Acodalamiento.",
+        "C": "Entibación.",
+        "D": "Ninguna."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué color tendrá un elemento de hormigón que ha estado expuesto a una temperatura máxima de 875°C?",
+      "opciones": {
+        "A": "Gris amarillento.",
+        "B": "Grisáceo.",
+        "C": "Gris con partículas rojas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué acción realiza un arco esencialmente?",
+      "opciones": {
+        "A": "Tracción.",
+        "B": "Compresión.",
+        "C": "Flexión.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El término 'solivos' se relaciona con:",
+      "opciones": {
+        "A": "Vigas de madera.",
+        "B": "Pilares o postes.",
+        "C": "Cabio.",
+        "D": "Fisuras."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre de un muro pequeño que se coloca en azoteas para evitar caídas?",
+      "opciones": {
+        "A": "Pies derechos.",
+        "B": "Ej.",
+        "C": "Pretil.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué pieza de sección escuadrada o circular transmite las cargas a otras piezas?",
+      "opciones": {
+        "A": "Puentes",
+        "B": "Riostras",
+        "C": "Sopandas",
+        "D": "Cimbras"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué dilatación lineal sufre un acero de 6m de longitud al pasar de 200 °C a 350 °C?",
+      "opciones": {
+        "A": "12,6 mm",
+        "B": "10,8 mm",
+        "C": "12,8 mm",
+        "D": "63 mm"
+      },
+      "correcta": "A"
+    }
+  ]
+}

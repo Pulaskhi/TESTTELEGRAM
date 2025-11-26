@@ -1,0 +1,447 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:17:02.830Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué unidad mide la actividad de una fuente radiactiva y equivale a una desintegración nuclear por segundo?",
+      "opciones": {
+        "A": "Rad",
+        "B": "Rem",
+        "C": "Becquerel",
+        "D": "Curie"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La unidad que mide la energía de absorción de radiación ionizante por 1 kg de material es:",
+      "opciones": {
+        "A": "Rad",
+        "B": "Gray",
+        "C": "Becquerel",
+        "D": "Curie"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El menor valor de pH sería:",
+      "opciones": {
+        "A": "PH0",
+        "B": "PH1",
+        "C": "PH2",
+        "D": "Ninguna correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las materias peligrosas de clase 7 son:",
+      "opciones": {
+        "A": "Comburentes",
+        "B": "Sustancias tóxicas",
+        "C": "Sustancias radiactivas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes sustancias se clasifica en la división M8 de la clase 9?",
+      "opciones": {
+        "A": "Materias que desprenden vapores inflamables",
+        "B": "Materias contaminantes para el medio ambiente",
+        "C": "Materias que se transportan a temperaturas elevadas",
+        "D": "Microorganismos modificados genéticamente"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál podrá ser el color de una botella normalizada que contiene aire respirable no medicinal?",
+      "opciones": {
+        "A": "Ojiva negra y franja blanca, cuerpo de color amarillo.",
+        "B": "Ojiva negra y franja blanca, cuerpo de color blanco.",
+        "C": "Ojiva blanca y franja negra, cuerpo de color amarillo.",
+        "D": "Ojiva blanca y franja negra, cuerpo de color blanco."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Ordena de mayor a menor peligro las divisiones de la clase 1:",
+      "opciones": {
+        "A": "11.127 1.2; 3* 1.5; 4 1.3; 5% 1.6; 6% 1.4.",
+        "B": "19 1.1; 29 1.4; 39 1.2; 49 1.3; 5% 1.6; 6% 1.5.",
+        "C": "1 1.2: 5% 1.6; 6% 1.4.",
+        "D": "19 1.1; 29 1.5; 99 1.2; 49 1.3; 5% 1.6; 6% 1.4."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Significado de la división 1.5 de la clase 1:",
+      "opciones": {
+        "A": "Muy poco sensible. Probabilidad muy baja de riesgo de explosión en masa.",
+        "B": "Muy extremadamente poco sensible. Probabilidad muy baja de riesgo de explosión en masa.",
+        "C": "Muy poco sensible. Probabilidad muy alta de riesgo de explosión en masa.",
+        "D": "Muy extremadamente poco sensible. Probabilidad alta de riesgo de explosión en masa."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Las materias infecciosas se identifican con la clase:",
+      "opciones": {
+        "A": "Clase 6.1.",
+        "B": "Clase 6.2.",
+        "C": "Clase 7.",
+        "D": "Clase 8."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Número de identificación de peligro para gas licuado refrigerado, tóxico:",
+      "opciones": {
+        "A": "423.",
+        "B": "222.",
+        "C": "433.",
+        "D": "322."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿En qué año y lugar se firmó el ADA?",
+      "opciones": {
+        "A": "En el año 1957, en Ginebra.",
+        "B": "En el año 1977, en Suiza.",
+        "C": "En el año 1975, en Bruselas.",
+        "D": "En el año 1980, en París."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántos grupos de subdivisión tiene las materias de la clase 2?",
+      "opciones": {
+        "A": "Dos: P1, que si necesitan regulación de presión. P2, que no necesitan regulación de presión.",
+        "B": "Dos: P1, que no necesitan regulación de presión. P2, que si necesitan regulación de presión.",
+        "C": "Tres: P1, P2 y P3.",
+        "D": "Cuatro: P1, P2, P3 y P4."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de gases comprende la división 22 de la clase?",
+      "opciones": {
+        "A": "Gases inflamables y no tóxicos.",
+        "B": "Gases no inflamables y tóxicos.",
+        "C": "Gases no inflamables y no tóxicos.",
+        "D": "Gases inflamables y tóxicos."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la capacidad máxima y presión para el almacenamiento del gas ciudad en gasómetros esféricos?",
+      "opciones": {
+        "A": "10.000 m3 de capacidad máxima a 15 kg/m2 de presión.",
+        "B": "100.000 m3 de capacidad máxima a 15 kg/m2 de presión.",
+        "C": "10.000 m3 de capacidad máxima a presión atmosférica.",
+        "D": "100.000 m3 de capacidad máxima a 20 kg/m2 de presión."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué solución existe para hacer circular un eco de gas a través de una tubería en la tercera familia?",
+      "opciones": {
+        "A": "Construirla con un diámetro muy grande.",
+        "B": "Usar conductos de menor diámetro y comprimir.",
+        "C": "B y A son correctas.",
+        "D": "No existe solución."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el color de las señales indicadoras para la recarga útil máxima hasta 12,5 kg del transporte de gases licuados del petróleo?",
+      "opciones": {
+        "A": "Verde con banda amarilla",
+        "B": "Verde con banda azul",
+        "C": "Amarillo con banda verde",
+        "D": "Amarillo con banda azul"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué llave permite el corte del tramo de la instalación común de varios abonados en instalaciones de gas natural?",
+      "opciones": {
+        "A": "Llave de acometida",
+        "B": "Llave de edificio",
+        "C": "Llave de abonado",
+        "D": "Llave de montante"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo se define una botella con capacidad de hasta 150 litros en el transporte de gases licuados del petróleo?",
+      "opciones": {
+        "A": "Igual o inferior a 8 litros",
+        "B": "Superior a 8 litros e inferior a 150 litros",
+        "C": "No superior a 150 litros",
+        "D": "Superior a 20 litros e inferior a 150 litros"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la presión aproximada en el interior de una botella para el transporte de butano a 20 °C?",
+      "opciones": {
+        "A": "1,5 kg/cm²",
+        "B": "3 kg/cm²",
+        "C": "7 kg/cm²",
+        "D": "11 kg/cm²"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la carga nominal de las botellas para el transporte de gas licuado a presión denominadas 'UD 125'?",
+      "opciones": {
+        "A": "13,9 kg (+0,5)",
+        "B": "11 kg (+0,5)",
+        "C": "7 kg/cm²",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué tipo de llave en una instalación de gas natural marca el comienzo de la instalación individual?",
+      "opciones": {
+        "A": "Llave de vivienda",
+        "B": "Llave de abonado",
+        "C": "Llave de contador",
+        "D": "Llave de montante"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la densidad relativa del butano puro?",
+      "opciones": {
+        "A": "0,68",
+        "B": "0,85",
+        "C": "0,60",
+        "D": "0,75"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué capacidad tienen las botellas para el transporte de gas licuado del petróleo denominadas 'K6'?",
+      "opciones": {
+        "A": "26,1 litros (+0)",
+        "B": "12,5 kg de gas",
+        "C": "35 litros (+0)",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué temperatura de seguridad tienen los dispositivos de tipo termofusible de las botellas para el transporte de gas licuado del petróleo denominadas '6'?",
+      "opciones": {
+        "A": "100 °C",
+        "B": "115 °C",
+        "C": "80 °C",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la presión de apertura de la válvula de seguridad de las botellas tradicionales de acero al carbono y acero inoxidable?",
+      "opciones": {
+        "A": "De 16 a 20 kg/cm²",
+        "B": "De 26 a 30 kg/cm²",
+        "C": "De 96 a 40 kg/cm²",
+        "D": "Superior a 40 kg/cm²"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la presión de consumo a la que regula el regulador de presión de una conexión botella-válvula de uso doméstico?",
+      "opciones": {
+        "A": "34 g/cm² = 94,1 mbar",
+        "B": "31,4 g/cm² = 32 mbar",
+        "C": "45 g/cm² = 31,4 mbar",
+        "D": "31 g/cm² = 94,1 mbar"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la presión de diseño de los depósitos aéreos de GLP con un volumen menor de 7m³?",
+      "opciones": {
+        "A": "17 bar.",
+        "B": "20 bar.",
+        "C": "19 bar.",
+        "D": "25 bar."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿El acetileno se descompone por encima de qué peso?",
+      "opciones": {
+        "A": "1,53 kg/m³",
+        "B": "15,3 kg/m³",
+        "C": "15,5 kg/m³",
+        "D": "26 bar."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué dispositivo permite la utilización ininterrumpida de botellas apareadas?",
+      "opciones": {
+        "A": "Regulador de presión.",
+        "B": "Inversor.",
+        "C": "Válvula de retención.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el rango de inflamabilidad del acetileno en aire?",
+      "opciones": {
+        "A": "5%.",
+        "B": "25%.",
+        "C": "El acetileno no tiene rango de inflamabilidad.",
+        "D": "275 %"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la densidad relativa del acetileno?",
+      "opciones": {
+        "A": "1,907.",
+        "B": "1,097.",
+        "C": "0,807.",
+        "D": "25 bar."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el peligro si una llama incide sobre un depósito de propano?",
+      "opciones": {
+        "A": "Mayor si el punto de contacto está por encima del nivel del líquido.",
+        "B": "Mayor si incide sobre la parte de fase líquida.",
+        "C": "No existen diferencias importantes.",
+        "D": "Mayor si incide sobre la parte de fase líquida."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántas familias de gases hay?",
+      "opciones": {
+        "A": "3",
+        "B": "2",
+        "C": "5",
+        "D": "4"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué gas es un GLP?",
+      "opciones": {
+        "A": "Nafta.",
+        "B": "Butano.",
+        "C": "Metano.",
+        "D": "Helio."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál sería la forma más adecuada de actuar con una botella de acetileno si presumimos que se está descomponiendo?",
+      "opciones": {
+        "A": "Sacar la botella a un lugar aislado.",
+        "B": "Refrigerar la botella a distancia.",
+        "C": "Introducir la botella en un recipiente con agua.",
+        "D": "Las dos anteriores son ciertas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Dónde se identifica el color de las botellas de acetileno?",
+      "opciones": {
+        "A": "Cuerpo negro y ojiva blanca.",
+        "B": "Cuerpo rojo y ojiva roja.",
+        "C": "Cuerpo gris.",
+        "D": "Cuerpo verde."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué temperatura alcanza el propano la presión de emergencia surgida por falta de un suministro S31 [E] de 26 kg/emr?",
+      "opciones": {
+        "A": "A unos 80 °C.",
+        "B": "A unos 150 °C.",
+        "C": "A unos 100 °C.",
+        "D": "No se puede determinar."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la distancia mínima que separa las botellas de GLP?",
+      "opciones": {
+        "A": "No inferior a 1,00 m.",
+        "B": "No inferior a 0,5 m si se intercala una protección.",
+        "C": "No inferior a 1 metro.",
+        "D": "No hay distancia mínima."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En instalaciones de gas para viviendas, ¿qué material se utiliza para la canalización del gas en tuberías vistas?",
+      "opciones": {
+        "A": "PVC.",
+        "B": "Polimetileno.",
+        "C": "Cobre.",
+        "D": "Acero."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Cuando existe una fuga de gas natural en un edificio de viviendas, ¿qué válvula actuarán los bomberos para cortar el suministro?",
+      "opciones": {
+        "A": "Válvula de acometida.",
+        "B": "Válvula de pie.",
+        "C": "Válvula de seguridad.",
+        "D": "Válvula de usuario."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el porcentaje de propano en el butano comercial?",
+      "opciones": {
+        "A": "9%.",
+        "B": "12%.",
+        "C": "20%.",
+        "D": "No se puede determinar."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de llave corresponde al grado 2 de accesibilidad en las instalaciones de gas?",
+      "opciones": {
+        "A": "Acceso sin escalera y sin cerradura.",
+        "B": "Acceso sin escalera y con cerradura.",
+        "C": "Acceso con escalera y con cerradura.",
+        "D": "Acceso restringido."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿La distancia que mantendrán las canalizaciones de gas en los cruzamientos con redes aéreas desnudas de distribución de baja tensión?",
+      "opciones": {
+        "A": "1 metro.",
+        "B": "0,5 metros.",
+        "C": "0,2 metros.",
+        "D": "No hay distancia mínima."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El gas natural pertenece a qué familia?",
+      "opciones": {
+        "A": "1ª familia.",
+        "B": "2ª familia.",
+        "C": "3ª familia.",
+        "D": "No se puede determinar."
+      },
+      "correcta": "B"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T08:17:02.818Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué es la cabeza de un incendio forestal?",
+      "opciones": {
+        "A": "Es la parte más caliente.",
+        "B": "Es la parte del borde que avanza con menor rapidez.",
+        "C": "Es la parte del borde que avanza con mayor rapidez.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cómo se calcula la pendiente de una ladera en un incendio forestal?",
+      "opciones": {
+        "A": "Se calcula dividiendo desnivel por distancia, multiplicando por cien para calcular el porcentaje de pendiente.",
+        "B": "Se calcula dividiendo distancia por desnivel, multiplicando por cien para calcular el porcentaje de pendiente.",
+        "C": "Se calcula de forma aproximada conociendo el desnivel y la distancia.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un cortafuegos de emergencia?",
+      "opciones": {
+        "A": "Fajas auxiliares.",
+        "B": "Fajas de apoyo.",
+        "C": "Fajas de evacuación.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según la Ley 5/1999 de Prevención y Lucha contra Incendios Forestales, ¿quién requiere autorización para lanzar globos o artefactos que contengan fuego?",
+      "opciones": {
+        "A": "Delegado del Gobierno.",
+        "B": "Gobierno de la Junta de Andalucía.",
+        "C": "Delegado de Medio Ambiente en la provincia.",
+        "D": "Subdelegado del Gobierno en la provincia."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuáles son las causas inmediatas de los incendios forestales?",
+      "opciones": {
+        "A": "Estructurales y accidentales.",
+        "B": "Intencionadas y estructurales.",
+        "C": "Estructurales y humanas.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el código para el transporte de mercancías peligrosas en el Reino Unido?",
+      "opciones": {
+        "A": "Hazchem.",
+        "B": "Panel Naranja.",
+        "C": "Diamante de peligro.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el número “3” del código numérico utilizado en el ADR para identificar el peligro en la parte superior del panel naranja?",
+      "opciones": {
+        "A": "Sólidos inflamables.",
+        "B": "Inflamabilidad de materias líquidas.",
+        "C": "Emanación de gases.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué indica el número 'X' precediendo el código de peligro en el panel naranja?",
+      "opciones": {
+        "A": "Materia no identificada.",
+        "B": "Mezcla de materias.",
+        "C": "Materia muy peligrosa.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el signo convencional para las divisiones 1.1, 1.2, 1.3?",
+      "opciones": {
+        "A": "Dimensiones que las hagan claramente visibles.",
+        "B": "El número del grupo de compatibilidad.",
+        "C": "El número de la división.",
+        "D": "Un cartucho de dinamita."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuáles son las dimensiones mínimas de las 'etiquetas de peligro' para representar el riesgo de incendio en mercancías peligrosas?",
+      "opciones": {
+        "A": "25 x 25 cm.",
+        "B": "Un trébol esquematizado.",
+        "C": "Una calavera con dos tibias cruzadas.",
+        "D": "Una llama."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué no corresponde a las características de las etiquetas de peligro 'flechas de orientación'?",
+      "opciones": {
+        "A": "Pueden ir rodeadas de un trazado rectangular.",
+        "B": "Las flechas deben ser siempre negras.",
+        "C": "Todas son características correctas.",
+        "D": "Las flechas pueden ser de cualquier color."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿En qué bultos se colocará la etiqueta 'flechas de orientación'?",
+      "opciones": {
+        "A": "Los embalajes con envases interiores que contengan líquidos.",
+        "B": "Los envases/embalajes simples con orificios de ventilación.",
+        "C": "Los recipientes criogénicos concebidos para el transporte de gas licuado refrigerado.",
+        "D": "Todos son correctos."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿El peligro clase 2 comprende?",
+      "opciones": {
+        "A": "Gases inflamables.",
+        "B": "Gases y líquidos volátiles.",
+        "C": "Gases tóxicos o venenosos.",
+        "D": "Gases inflamables, tóxicos, venenosos o combustibles."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuando proceda, en la parte inferior de las 'etiquetas de peligro' figurarán diferentes indicaciones, entre las que NO se encuentra?",
+      "opciones": {
+        "A": "El texto.",
+        "B": "Número del grupo de compatibilidad.",
+        "C": "El número de la clase de división.",
+        "D": "Nombre de la mercancía."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el color del signo y panel del peligro de la clase 3?",
+      "opciones": {
+        "A": "Negro sobre fondo blanco.",
+        "B": "Negro o blanco sobre fondo verde.",
+        "C": "Negro o blanco sobre fondo rojo.",
+        "D": "Negro o blanco sobre fondo azul."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿El peligro de la clase 6.1 comprende?",
+      "opciones": {
+        "A": "Materias tóxicas.",
+        "B": "Materias infecciosas.",
+        "C": "Sustancias venenosas.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el signo convencional del peligro de la clase 8?",
+      "opciones": {
+        "A": "Líquidos vertidos de un tubo de ensayo de vidrio sobre una mano.",
+        "B": "Líquidos vertidos de un tubo de ensayo de vidrio sobre un metal.",
+        "C": "Líquidos vertidos de dos tubos de ensayo sobre una mano y un metal.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Para representar el riesgo de explosión, en la etiqueta de peligro para transporte de mercancías peligrosas aparece el dibujo de?",
+      "opciones": {
+        "A": "Materias corrosivas, que en contacto con el agua desprenden gases inflamables.",
+        "B": "Materias corrosivas, inflamables.",
+        "C": "Materias de carácter básico.",
+        "D": "Materias corrosivas líquidas, inflamables, tóxicas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son las dimensiones mínimas de las placas-etiquetas para mercancías peligrosas del orden severo?",
+      "opciones": {
+        "A": "400 x 300 mm.",
+        "B": "300 x 300 mm.",
+        "C": "250 x 250 mm.",
+        "D": "300 x 250 mm."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Con qué número de peligro identificaremos el benceno en Estados Unidos?",
+      "opciones": {
+        "A": "64",
+        "B": "63",
+        "C": "23",
+        "D": "04"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué color se utiliza en el cuadro derecho del diamante de peligro para la señalización de materias peligrosas en Estados Unidos?",
+      "opciones": {
+        "A": "Azul",
+        "B": "Rojo",
+        "C": "Amarillo",
+        "D": "Blanco"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo aumenta la cantidad mínima de energía para activarse de las sustancias explosivas por sensibilidad?",
+      "opciones": {
+        "A": "Del grupo de los primarios a los terciarios.",
+        "B": "Del grupo de los terciarios a los primarios.",
+        "C": "Del grupo de los primarios a los terciarios, siendo las de mayor potencia.",
+        "D": "No existen dichas sustancias explosivas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el significado de la segunda y tercera letra del 'Código Hazchem'?",
+      "opciones": {
+        "A": "AR.- Aparato respiratorio y guantes protectores.",
+        "B": "E.- Utilizar espuma.",
+        "C": "V.- Posibilidad de reacción violenta y/o explosión.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la intervención 'Tipo 3' en el transporte de mercancías peligrosas?",
+      "opciones": {
+        "A": "Daños en continente y contenido sin fuga.",
+        "B": "Daños en continente y contenido con fuga.",
+        "C": "Daños o incendio en continente y contenido con fuga.",
+        "D": "Daños o incendio en continente."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué indica el espacio inferior del diamante de peligro si se encuentra vacío?",
+      "opciones": {
+        "A": "Si aparece OX, reactividad no usual con el agua.",
+        "B": "Peligros de emisión reactiva.",
+        "C": "Si aparece W, productos químicos oxidantes.",
+        "D": "Puede utilizarse agua como agente extintor."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué significa el número 1.5 en la división de materias peligrosas?",
+      "opciones": {
+        "A": "Chorro sólido.",
+        "B": "Dióxido de carbono.",
+        "C": "Espuma.",
+        "D": "Pequeño riesgo de explosión en caso de ignición."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuántas divisiones y grupos de compatibilidad tiene la clase 1?",
+      "opciones": {
+        "A": "Cinco divisiones y once grupos.",
+        "B": "Cinco divisiones y trece grupos.",
+        "C": "Seis divisiones y once grupos.",
+        "D": "Seis divisiones y trece grupos."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de estas opciones no corresponde con una característica del cloro?",
+      "opciones": {
+        "A": "Gas combustible que facilita la combustión de otras sustancias.",
+        "B": "Gas altamente corrosivo.",
+        "C": "Gas muy tóxico.",
+        "D": "Todas son características del cloro."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué contiene la división 1.3 en materias peligrosas?",
+      "opciones": {
+        "A": "Riesgo de proyección sin riesgo de explosión.",
+        "B": "Riesgo de incendio con ligero riesgo de explosión.",
+        "C": "Pequeño riesgo de explosión en caso de ignición.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál no corresponde a la definición de gas inflamable?",
+      "opciones": {
+        "A": "Es cualquier gas cuyo límite inferior de inflamabilidad en aire sea menor o igual al 12%.",
+        "B": "Es un líquido a temperatura ambiente altamente explosivo.",
+        "C": "Es una mezcla de gases que tenga un límite de inflamabilidad.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el número de grupos de compatibilidad que corresponden a las sustancias explosivas primarias?",
+      "opciones": {
+        "A": "8.",
+        "B": "11.",
+        "C": "12.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se considera un gas asfixiante?",
+      "opciones": {
+        "A": "Gas que diluye el oxígeno de la atmósfera.",
+        "B": "Gas que es tóxico y reemplaza el oxígeno.",
+        "C": "Gas no comburente y no inflamable.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la función principal de la válvula de sobrepresión en los depósitos para transporte de gases licuados?",
+      "opciones": {
+        "A": "Prevenir un aumento de presión por encima de 120% de la presión normal.",
+        "B": "Las válvulas son del tipo resorte para aligerar la presión.",
+        "C": "Crear un vacío dentro del depósito.",
+        "D": "Controlar la temperatura del gas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el número máximo de botellas que pueden llevar los trailers destinados al transporte por carretera?",
+      "opciones": {
+        "A": "Una sola botella.",
+        "B": "De dos a tres botellas.",
+        "C": "De una a doce botellas.",
+        "D": "De una a veinticuatro botellas."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué grupo de compatibilidad pertenece a las materias pirotécnicas?",
+      "opciones": {
+        "A": "Grupo H.",
+        "B": "Grupo J.",
+        "C": "Grupo K.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes números de identificación - E81 [E] corresponde a una materia infecciosa?",
+      "opciones": {
+        "A": "303",
+        "B": "603",
+        "C": "306",
+        "D": "169"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿A aproximadamente cuántos bares se taran las válvulas de sobrepresión de una cisterna criogénica de transporte de gas natural licuado?",
+      "opciones": {
+        "A": "7,5 bar",
+        "B": "8,5 bar",
+        "C": "17,5 bar",
+        "D": "12 bar"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué color identifica el riesgo en la parte superior de una botella de gas según la normativa de códigos de colores?",
+      "opciones": {
+        "A": "Cuerpo de la botella",
+        "B": "Parte superior de la botella",
+        "C": "Combinación de colores cuerpo-ojiva",
+        "D": "Etiqueta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué define a una materia líquida inflamable?",
+      "opciones": {
+        "A": "Presión de vapor mínima de 101,3 kPa a 20 °C",
+        "B": "Presión de vapor mínima de 300 kPa a 20 °C",
+        "C": "Presión de vapor mínima de 300 kPa a 50 °C",
+        "D": "Que sea completamente gaseosa a 20 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según el ADR, ¿qué incluye la clase 3?",
+      "opciones": {
+        "A": "Líquidos inflamables",
+        "B": "Sustancias combustibles",
+        "C": "Materiales explosivos",
+        "D": "Sustancias corrosivas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se incluye en la clase 4.2 según el ADR?",
+      "opciones": {
+        "A": "Materias que desprenden gases inflamables en contacto con el agua",
+        "B": "Sustancias autorreactivas",
+        "C": "Materias que pueden incendiarse espontáneamente",
+        "D": "Materias explosivas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no es una característica del sodio?",
+      "opciones": {
+        "A": "Metal blando y ligero",
+        "B": "Reacciona con agua",
+        "C": "Extremadamente inflamable",
+        "D": "No se encuentra libre en la naturaleza"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el punto de inflamación de los líquidos combustibles según la ITC-MIE-APQ-O?",
+      "opciones": {
+        "A": "Superior a 60 °C",
+        "B": "Menor a 55 °C",
+        "C": "Máximo de 55 °C",
+        "D": "Inferior a 38 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿En qué condiciones debe estar un líquido inflamable según la Instrucción Técnica Complementaria MIE-APQ?",
+      "opciones": {
+        "A": "Con punto de inflamación inferior a 60 °C",
+        "B": "Con punto de inflamación superior a 60 °C",
+        "C": "Con alta resistencia a la combustión",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Los incendios de magnesio no se extinguirán con?",
+      "opciones": {
+        "A": "Mucha agua",
+        "B": "Grafito",
+        "C": "Gas específico",
+        "D": "Cal muerta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones NO corresponde a las iniciales IPVS?",
+      "opciones": {
+        "A": "Indica la concentración inmediatamente peligrosa para la vida y la salud",
+        "B": "Indica la concentración máxima de contaminante en la atmósfera",
+        "C": "Indica el valor límite ambiental para exposiciones de corta duración",
+        "D": "Todas corresponden con las iniciales IPVS"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El número ONU 1942, según el panel de peligro, corresponde a:",
+      "opciones": {
+        "A": "Trinitrotolueno",
+        "B": "Benceno",
+        "C": "Nitrato amónico",
+        "D": "TLV"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el ADR, se consideran sustancias tóxicas:",
+      "opciones": {
+        "A": "Aquellas que su DL 50 es inferior a 1.500 ppm",
+        "B": "Aquellas que su CL 50 es inferior a 1.500 ppm",
+        "C": "Ninguna es correcta",
+        "D": "Ambas A y B"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿En qué unidades se expresan los índices de toxicidad, como el TLV, MAC o CMP?",
+      "opciones": {
+        "A": "En partes por centenar",
+        "B": "En partes por millar",
+        "C": "En partes por millón",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La capacidad de penetración de las radiaciones alfa es:",
+      "opciones": {
+        "A": "Prácticamente nula",
+        "B": "Muy alta",
+        "C": "Mucho mayor que las radiaciones beta",
+        "D": "Intermedia entre beta y gamma"
+      },
+      "correcta": "A"
+    }
+  ]
+}

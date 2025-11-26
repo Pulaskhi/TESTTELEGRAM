@@ -1,0 +1,398 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T09:07:35.182Z",
+  "feedback": "",
+  "preguntas": [
+
+    {
+      "pregunta": "Diámetros de las salidas de impulsión de una autobomba, según norma:",
+      "opciones": {
+        "A": "25, 45, 70 mm",
+        "B": "25, 45, 70, 100 mm",
+        "C": "25, 45, 70, 100, 150 mm",
+        "D": "25, 45 mm"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Carga normalizada (CN) en una autobomba urbana ligera es:",
+      "opciones": {
+        "A": "1.000 kg, mínimo",
+        "B": "2.000 kg, mínimo",
+        "C": "3.000 kg, mínimo",
+        "D": "4.000 kg, mínimo"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La inclinación de las salidas de impulsión de una autobomba será:",
+      "opciones": {
+        "A": "Hacia abajo entre 15° y 30°",
+        "B": "Hacia abajo entre 15° y 25°",
+        "C": "Hacia abajo entre 10° y 15°",
+        "D": "Hacia abajo entre 15° y 35°"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El peso disponible (PD) en una autobomba es:",
+      "opciones": {
+        "A": "100 kg, mínimo",
+        "B": "200 kg, mínimo",
+        "C": "300 kg, mínimo",
+        "D": "400 kg, mínimo"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "El vehículo BUP permite el acceso a incendios de tipo forestal porque:",
+      "opciones": {
+        "A": "Esta descripción corresponde a la BUP",
+        "B": "Esta descripción corresponde a la BRP",
+        "C": "Esta descripción corresponde al BUS",
+        "D": "Esta descripción corresponde a la BFP"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Capacidad del dispositivo de remolque en el BUP es:",
+      "opciones": {
+        "A": "1.000 kg",
+        "B": "750 kg",
+        "C": "350 kg",
+        "D": "850 kg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El ataque a incendio con 200 Um de caudal mínimo, es requisito para:",
+      "opciones": {
+        "A": "BUP",
+        "B": "BRL",
+        "C": "Ninguna de las anteriores",
+        "D": "Todos los anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Segun norma UNE 23902, la relación potencia-peso de un BUP es de:",
+      "opciones": {
+        "A": "19,26 CV/ton",
+        "B": "14 kW/ton",
+        "C": "200 kg",
+        "D": "437 kg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las dimensiones máximas de una autobomba urbana ligera son:",
+      "opciones": {
+        "A": "3,00 m de longitud, por 2,2 m de ancho, por 6,00 m de alto",
+        "B": "2,2 m de longitud, por 6 m de ancho, por 3,00 m de alto",
+        "C": "6,00 m de longitud, por 2,2 m de ancho, por 3,00 m de alto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El peso en que se valora, al bombero equipado, es:",
+      "opciones": {
+        "A": "95 kg",
+        "B": "80 kg",
+        "C": "90 kg",
+        "D": "100 kg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La norma UNE obliga a dotar al vehículo de otros accesorios, recambios y herramientas:",
+      "opciones": {
+        "A": "Sí",
+        "B": "No",
+        "C": "Solo en caso de accidente",
+        "D": "No aplica a bomberos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las devanaderas fijas tendrán una longitud de:",
+      "opciones": {
+        "A": "25 metros y un diámetro de 40 mm",
+        "B": "40 metros y un diámetro de 40 mm",
+        "C": "40 metros y un diámetro de 25 mm",
+        "D": "25 metros y un diámetro de 25 mm"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El volumen disponible mínimo en la BUP es:",
+      "opciones": {
+        "A": "0,5 m², mínimo",
+        "B": "0,2 m², mínimo",
+        "C": "0,1 m², mínimo",
+        "D": "0,3 m², mínimo"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La capacidad mínima de la cisterna en el BNP, según norma es:",
+      "opciones": {
+        "A": "Desde 5.500 litros",
+        "B": "Hasta 3.500 litros",
+        "C": "Inferior a 8.000 litros",
+        "D": "Gupdona 4500 litros"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La altura manométrica de una bomba se refiere a:",
+      "opciones": {
+        "A": "Altura manométrica medida en mca cuando la bomba trabaja a su potencia y revoluciones/minuto nominales",
+        "B": "Diferencia entre el nivel del agua y el centro de la bomba",
+        "C": "Presión en m.c.a., medida inmediatamente después del racor de acoplamiento de la bomba",
+        "D": "Vacio o presión en m.ca. medida en el centro de la boca de aspiración"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La definición de altura de transporte nominal de una bomba es:",
+      "opciones": {
+        "A": "Altura manométrica medida en mca cuando la bomba trabaja a su potencia y revoluciones/minuto nominales",
+        "B": "Presión en m.c.a. medida en el centro de la boca de aspiración",
+        "C": "Diferencia entre el nivel del agua y el centro de la bomba",
+        "D": "Vacio o presión en m.ca"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre el nivel del agua en el lado de aspiración y el centro de la boca de aspiración?",
+      "opciones": {
+        "A": "Vacio o presión en m.c.a. medida en el centro de la boca de aspiración.",
+        "B": "Presión en m.c.a., medida inmediatamente después del racor de acoplamiento.",
+        "C": "Diferencia entre el nivel del agua y el centro de la boca de aspiración.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué color debe tener un parachoques según normativa?",
+      "opciones": {
+        "A": "Blanco mate.",
+        "B": "Negro brillante.",
+        "C": "Blanco brillante.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La carga normalizada es:",
+      "opciones": {
+        "A": "Peso en orden de marcha y personal, valorando el peso de un bombero equipado en 90 kg.",
+        "B": "El peso máximo autorizado y el peso total real.",
+        "C": "Pesos del material de intervención, productos extintores.",
+        "D": "El peso de un bombero equipado en 90 kg."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué especifica la normativa sobre la conexión de las baterías para sumar 24 voltios?",
+      "opciones": {
+        "A": "Se conecta el borne negativo de la primera, con el borne negativo de la segunda.",
+        "B": "Se conecta el borne positivo de la primera, con el borne positivo de la segunda.",
+        "C": "El borne negativo de la primera está conectado al generador.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la capacidad de una autobomba rural ligera construida en 2006 según normativa?",
+      "opciones": {
+        "A": "Norma UNE 23.900",
+        "B": "Norma UNE 23.901",
+        "C": "Norma UNE 23.400",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La capacidad de carga de las cestas de las autoescalas es aproximadamente:",
+      "opciones": {
+        "A": "240 kg.",
+        "B": "210 kg.",
+        "C": "180 kg.",
+        "D": "290 kg."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La presión que resistirá la columna seca en las autoescalas es:",
+      "opciones": {
+        "A": "Hasta 15 bares de presión.",
+        "B": "Hasta 10 bares de presión.",
+        "C": "Ninguna de las anteriores.",
+        "D": "Hasta 20 bares de presión."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué indica un testigo de color amarillo en el tablero de instrumentos del vehículo?",
+      "opciones": {
+        "A": "Indica fallo en algún sistema debiendo inmovilizar el vehículo.",
+        "B": "Indica fallo en algún sistema pero no tiene por qué implicar la inmovilización del vehículo.",
+        "C": "Indica fallo en algún sistema, pero podemos seguir circulando sin preocuparnos por ello.",
+        "D": "Todos los anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Según la normativa UNE, las categorías de los vehículos dependiendo de su capacidad de paso en diversas configuraciones de terreno son:",
+      "opciones": {
+        "A": "1 Forestal, 2 rural, 3 urbano.",
+        "B": "1 Rural, 2 todo terreno, 3 urbano.",
+        "C": "1 Urbano, 2 rural, 3 todo terreno.",
+        "D": "1 Todo terreno, 2 urbano, 3 rural."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La capacidad mínima de la cisterna en una autobomba es:",
+      "opciones": {
+        "A": "1.500 litros.",
+        "B": "2.400 litros.",
+        "C": "3.000 litros.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se podrá añadir al vehículo ADEMÁS DEL EQUIPO UNITARIO BÁSICO A?",
+      "opciones": {
+        "A": "No se podrá añadir al vehículo más material.",
+        "B": "El vehículo no necesitará más material.",
+        "C": "Se podrán añadir otros materiales ateniéndose a los M4.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La distancia recorrida por un vehículo en el tiempo de reacción si va a 70 km/h es:",
+      "opciones": {
+        "A": "21 m aproximadamente.",
+        "B": "24 m aproximadamente.",
+        "C": "30 m aproximadamente.",
+        "D": "15 m aproximadamente."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué capacidad, como mínimo, tiene el depósito principal de agua de un BRP?",
+      "opciones": {
+        "A": "3.000 litros.",
+        "B": "3.500 litros.",
+        "C": "4.000 litros.",
+        "D": "5.000 litros."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según norma UNE, las baterías de los vehículos de extinción de incendios y salvamentos:",
+      "opciones": {
+        "A": "Llevarán un desconectador.",
+        "B": "Se podrán realizar operaciones de mantenimiento sin desconexión.",
+        "C": "Las respuestas a y b son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Un vehículo de categoría 3 se refiere a un vehículo tipo:",
+      "opciones": {
+        "A": "Todo terreno.",
+        "B": "Rural.",
+        "C": "Urbano.",
+        "D": "No existe esa categoría."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La cisterna de agua de una autobomba urbana pesada cumplirá lo recogido en la norma:",
+      "opciones": {
+        "A": "UNE-EN 1846.",
+        "B": "UNE-EN 1846 + equipamiento.",
+        "C": "UNE-EN 1846 + equipamiento fijo + bombero y conductor.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El tiempo para recorrer 100 m arrancando de parado con un vehículo clase medio categorías es:",
+      "opciones": {
+        "A": "Menos de 10 segundos.",
+        "B": "Entre 10 y 15 segundos.",
+        "C": "Más de 15 segundos.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La diferencia de altura entre el nivel del agua en el lado de aspiración y el centro de la boca de aspiración se denomina:",
+      "opciones": {
+        "A": "Cota de cavitación.",
+        "B": "Altura de aspiración geodésica.",
+        "C": "Altura mínima de vadeo.",
+        "D": "Altura libre."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El color del exterior de la carrocería dos, según UNE 23900, es:",
+      "opciones": {
+        "A": "Rojo brillante.",
+        "B": "Rojo brillante (B).",
+        "C": "Rojo vivo (B).",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, el freno de aparcamiento de emergencia será capaz de mantener inmóvil el vehículo en una rampa del:",
+      "opciones": {
+        "A": "40%.",
+        "B": "20%.",
+        "C": "10%.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es el color de los puntos de engrase de 450x400 mm?",
+      "opciones": {
+        "A": "Amarillo vivo",
+        "B": "Rojo vivo",
+        "C": "Ninguna es correcta",
+        "D": "Amarillo vivo (B)"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, los focos piratas de los vehículos permitirán ver a una distancia:",
+      "opciones": {
+        "A": "Superior a 125 m",
+        "B": "Superior a 70 m",
+        "C": "Superior a 110 m",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según UNE 23900, ¿cuál es el color de los brazos de plataformas articuladas?",
+      "opciones": {
+        "A": "Blanco",
+        "B": "Blanco brillante (B)",
+        "C": "Ninguna es correcta",
+        "D": "Blanco (B)"
+      },
+      "correcta": "A"
+    }
+  ]
+}

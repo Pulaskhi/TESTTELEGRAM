@@ -1,0 +1,177 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T09:07:35.195Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "La tubería de aspiración de una bomba centrífuga tendrá una sección:",
+      "opciones": {
+        "A": "Sección convergente",
+        "B": "Sección divergente",
+        "C": "Sección paralela",
+        "D": "Sección ovalada"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Elemento de una bomba centrífuga que imprime aceleración al agua:",
+      "opciones": {
+        "A": "Manómetro de baja",
+        "B": "Manómetro de alta",
+        "C": "Manovacuómetro de baja",
+        "D": "El colector"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La cámara espiral o caracol se conoce como:",
+      "opciones": {
+        "A": "Difusor",
+        "B": "Colector",
+        "C": "Voluta",
+        "D": "Corona directriz"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "El colector de impulsión en una bomba es:",
+      "opciones": {
+        "A": "Donde se conectan las mangueras",
+        "B": "Donde se conecta el mangote de aspiración",
+        "C": "Donde está el impulsor",
+        "D": "Donde entra el fluido"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La entrada de agua en una bomba centrífuga será:",
+      "opciones": {
+        "A": "Tangencial",
+        "B": "Radial",
+        "C": "Perimetral",
+        "D": "Axial"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "No corresponde al número de salidas en las bombas centrífugas contra incendios según normativa UNE 23900:",
+      "opciones": {
+        "A": "2 de 70; 1 de 45 mm y 1 de 25 mm",
+        "B": "2 de 70; 1 de 25 mm",
+        "C": "2 de 70 y 1 de 25 mm",
+        "D": "2 de 70 và 1 de 45 mm"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Las bombas fabricadas con hypalon:",
+      "opciones": {
+        "A": "Son resistentes al cloro",
+        "B": "Son resistentes a ácidos concentrados",
+        "C": "Son incorrectas",
+        "D": "Las palas de los álabes no están curvadas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué presión puede haber en el colector de aspiración de una bomba?",
+      "opciones": {
+        "A": "Altura de transporte nominal (H), 850 m.c.a. y caudal nominal (Q) = 250 l/m",
+        "B": "Altura de transporte nominal (H), 80 m.c.a. y caudal nominal (Q) = 1.600 l/m",
+        "C": "Todas son incorrectas.",
+        "D": "Todas son ciertas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué condiciona la presión en punta de lanza en una instalación hidráulica de extinción?",
+      "opciones": {
+        "A": "Depende de las pérdidas de carga.",
+        "B": "Condiciona la presión en la bomba.",
+        "C": "Nos fija el caudal de la instalación.",
+        "D": "Todas son ciertas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Según la norma UNE 23900, ¿qué no corresponde a la clave en las bombas centrífugas contra incendios?",
+      "opciones": {
+        "A": "Alta presión.",
+        "B": "Todas son incorrectas.",
+        "C": "Todas corresponden a la clave.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo se designa la bomba de incendios de baja presión según la norma UNE?",
+      "opciones": {
+        "A": "B",
+        "B": "Bp",
+        "C": "Bb",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué corresponde a la definición “motobomba montada en un chasis fijo o transportable” según la norma UNE-EN 1028?",
+      "opciones": {
+        "A": "Motobomba sobre patín.",
+        "B": "Bomba de remolque.",
+        "C": "Bomba portátil.",
+        "D": "Todas son incorrectas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué condiciones se deben considerar para medir las alturas de aspiración según norma UNE-EN 1028?",
+      "opciones": {
+        "A": "1013 mbar y 4 °C.",
+        "B": "1013 mbar y 20 °C.",
+        "C": "Por debajo de esos valores.",
+        "D": "Todas son incorrectas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se expresa la presión de la sección de entrada según la norma UNE-EN 1028?",
+      "opciones": {
+        "A": "Pe.",
+        "B": "Pa.",
+        "C": "Hgeo.",
+        "D": "Todas son incorrectas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué determina el rendimiento de una bomba según la norma UNE-EN 1028?",
+      "opciones": {
+        "A": "La potencia de descarga dividida entre la potencia de accionamiento.",
+        "B": "La potencia de descarga menos potencia de accionamiento.",
+        "C": "La presión de la sección de entrada.",
+        "D": "Presión máxima admisible."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según la norma UNE-EN 1028, ¿qué iniciales identifican ‘presión a válvula cerrada’?",
+      "opciones": {
+        "A": "P0.",
+        "B": "Pd.",
+        "C": "PL.",
+        "D": "PH."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué debemos hacer al purgar el agua del cuerpo de bomba después de usar una motobomba?",
+      "opciones": {
+        "A": "Se reducirá la corrosión y eliminaremos sedimentos.",
+        "B": "Envejeceremos la vida del motor.",
+        "C": "Evitaremos malos olores.",
+        "D": "Evitar que los residuos obstruyan el motor."
+      },
+      "correcta": "A"
+    }
+  ]
+}
