@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-2",
+  "fecha": "2025-11-26T07:46:46.069Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es el peso específico del agua en el sistema?",
+      "opciones": {
+        "A": "9.810 kg/m³",
+        "B": "9.81 kg/m³",
+        "C": "1.000 kg/m³",
+        "D": "981 kg/m³"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "No corresponde al concepto de polaridad:",
+      "opciones": {
+        "A": "La molécula del agua es polar por lo que no será miscible con líquidos o moléculas apolares.",
+        "B": "Liquidos de semejante polaridad serán miscibles entre sí.",
+        "C": "Algunas moléculas pueden ser tanto polares como apolares.",
+        "D": "Todas corresponden al concepto de polaridad."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Un fluido incomprensible es aquel que:",
+      "opciones": {
+        "A": "Varía su densidad al ser sometido a presión.",
+        "B": "Mantiene constante la densidad al ser sometido a presión.",
+        "C": "Mantiene constante la presión al variar su densidad.",
+        "D": "Todas corresponden al concepto de incomprensibilidad."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La temperatura crítica del agua es:",
+      "opciones": {
+        "A": "La que el agua no permanece en estado gaseoso, independientemente de la presión a la que esté sometida.",
+        "B": "La que el agua permanece en estado gaseoso, independientemente de la presión a la que esté sometida.",
+        "C": "La que el agua no permanece en estado gaseoso, dependiendo de la presión a la que esté sometida.",
+        "D": "Todas corresponden al concepto de temperatura crítica."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "No corresponde al concepto de viscosidad:",
+      "opciones": {
+        "A": "Cohesión entre las moléculas.",
+        "B": "Resistencia interna que presentan los líquidos al fluir.",
+        "C": "Para aumentar la poca viscosidad del agua, se añaden aditivos espesantes.",
+        "D": "Todas corresponden al concepto de viscosidad."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "No corresponde al concepto de disolventes polares:",
+      "opciones": {
+        "A": "Son sustancias cuyas moléculas presentan un polo positivo y otro negativo separados por una cierta distancia.",
+        "B": "Ejemplos de solventes polares son el agua y los alcoholes de baja masa molecular.",
+        "C": "Acetonas.",
+        "D": "Todas son disolventes polares."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿A qué temperatura alcanza el agua su máxima densidad?",
+      "opciones": {
+        "A": "4,98 °C.",
+        "B": "3,98 °C.",
+        "C": "10 °C.",
+        "D": "0 °C."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La densidad del agua salada, en el sistema internacional, es:",
+      "opciones": {
+        "A": "1.000 kg/m³.",
+        "B": "1.030 kg/m³.",
+        "C": "1.200 kg/m³.",
+        "D": "1.100 kg/m³."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Parte de la física que trata los fluidos en reposo es:",
+      "opciones": {
+        "A": "La hidrostática.",
+        "B": "La hidrodinámica.",
+        "C": "Ambas.",
+        "D": "Ninguna."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "No corresponde al concepto de presión dinámica:",
+      "opciones": {
+        "A": "Es la presión debida a la velocidad del fluido.",
+        "B": "El valor de la presión dinámica depende de la velocidad que tiene el fluido.",
+        "C": "Es la presión que experimenta un fluido en reposo.",
+        "D": "Todas corresponden al concepto de presión dinámica."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿A qué se denomina 'golpe de ariete'?",
+      "opciones": {
+        "A": "La fuerza de reacción que se origina en una boquilla por la salida y desplazamiento de una masa de agua.",
+        "B": "Una onda de presión, consecuencia de los cambios de velocidad en el líquido.",
+        "C": "La tendencia al cambio alternativo de dirección en una boquilla.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Cuando un cuerpo está sumergido en un fluido, experimenta una pérdida de peso debido a la aparición de una fuerza denominada:",
+      "opciones": {
+        "A": "Gravedad.",
+        "B": "Empuje.",
+        "C": "Presión.",
+        "D": "Resistencia."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué presión existirá en el agua a la salida de un orificio de una lanza?",
+      "opciones": {
+        "A": "Depende de la presión suministrada.",
+        "B": "Depende de la presión suministrada y las pérdidas de carga.",
+        "C": "O bar.",
+        "D": "Nada de lo anterior."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué alcance horizontal en metros tiene el chorro con energía dinámica en punta de aro de una manguera a 12 bares y con un orificio de salida de 14 mm?",
+      "opciones": {
+        "A": "29 metros.",
+        "B": "32 metros.",
+        "C": "27 metros.",
+        "D": "El caudal conseguido será el mismo."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Con qué tipo de chorro conseguiremos un mayor alcance horizontal?",
+      "opciones": {
+        "A": "En chorro sólido.",
+        "B": "En cortina.",
+        "C": "En punta de lanza no hay presión dinámica.",
+        "D": "En chorro difuso."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la velocidad del agua que sale por un orificio con 'K = 1', si este se encuentra situado 10 metros por debajo de la superficie del agua del depósito que la contiene?",
+      "opciones": {
+        "A": "1,5 metros/segundo.",
+        "B": "2,5 metros/segundo.",
+        "C": "3,5 metros/segundo.",
+        "D": "4,5 metros/segundo."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el caudal máximo a trasvasar para una manguera utilizada en las instalaciones de extinción de 45 mm de diámetro?",
+      "opciones": {
+        "A": "173 Lp.m.",
+        "B": "238 Lp.m.",
+        "C": "273 Lp.m.",
+        "D": "470 Lp.m."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el caudal másico máximo a trasvasar para una instalación de extinción de 45 mm de diámetro?",
+      "opciones": {
+        "A": "250 Lp.m.",
+        "B": "300 Lp.m.",
+        "C": "400 Lp.m.",
+        "D": "600 Lp.m."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la fórmula del número de Reynolds?",
+      "opciones": {
+        "A": "R = 2P-V-n/r",
+        "B": "R = 2P-V/r:n",
+        "C": "R = 2PV/n",
+        "D": "R = 2nP/V"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué porcentaje de pérdida de carga estimada, si colocamos las mangas en zig-zag, en comparación con recta?",
+      "opciones": {
+        "A": "Entre un 3 % y un 4 % de pérdida de carga más que en disposición recta.",
+        "B": "Entre un 5 % y un 6 % de pérdida de carga más que en disposición recta.",
+        "C": "Entre un 1 % y un 2 % de pérdida de carga más que en disposición recta.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la pérdida de carga en mca en una instalación de 30 m de longitud y un diámetro de 45 mm con un caudal de 200 L/m?",
+      "opciones": {
+        "A": "1,20.",
+        "B": "0,65.",
+        "C": "0,50.",
+        "D": "2,00."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué nos demuestra la curva característica de la bomba de un vehículo de bomberos?",
+      "opciones": {
+        "A": "La capacidad de la bomba para generar energía hidráulica.",
+        "B": "La capacidad de la bomba para la transmisión del calor.",
+        "C": "La capacidad de la bomba para la transmisión de agua.",
+        "D": "La capacidad de la bomba para expulsar aire."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué presión mínima que tendremos en punta de lanza si tenemos un depósito elevado 50 metros?",
+      "opciones": {
+        "A": "Unos 50 kg/cm².",
+        "B": "Unos 5 kg/cm².",
+        "C": "Unos 4 kg/cm².",
+        "D": "Unos 0,5 kg/cm²."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué ocurre al cerrar en punta de lanza, dejando la bomba para un caudal constante?",
+      "opciones": {
+        "A": "Una cavitación.",
+        "B": "El calentamiento de la bomba.",
+        "C": "Una sobrepresión.",
+        "D": "Una pérdida de vacío."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué etapa acusa más el sobrecalentamiento de una bomba contraincendios?",
+      "opciones": {
+        "A": "La etapa de alta.",
+        "B": "La etapa de baja.",
+        "C": "No corresponde con el concepto de golpe de ariete.",
+        "D": "Todas corresponden."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿En qué porcentaje, en comparación con el agua corriente, es más densa el agua del mar?",
+      "opciones": {
+        "A": "Entre un 15 % y 13 % más densa.",
+        "B": "Entre un 10 % y 13 % más densa.",
+        "C": "Entre un 4 % y 3 % más densa.",
+        "D": "Entre un 1 % y 3 % más densa."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es la cavitación?",
+      "opciones": {
+        "A": "Es el fenómeno que se produce en la entrada de la bomba.",
+        "B": "Es un fenómeno que se produce en los extremos de una instalación hidráulica.",
+        "C": "Es la formación de burbujas de aire debido a la baja presión.",
+        "D": "Todas son correctas."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la pérdida de aspiración que se calcula debido a la mayor densidad del agua del mar?",
+      "opciones": {
+        "A": "0,25 mea.",
+        "B": "0,25 bar.",
+        "C": "0,025 mea.",
+        "D": "0,125 bar."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál de estas afirmaciones no es correcta respecto al agua a través de las mangueras para realizar la aspiración?",
+      "opciones": {
+        "A": "10,33 metros.",
+        "B": "96m.",
+        "C": "Hasta 7,5 m.",
+        "D": "Hasta 6 m."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué presión tendré en una lanza cerrada si tengo 100 m de manguera horizontal, el manómetro marca 7 kg/em? y la pérdida de carga es 2 kg/em2 cada 50 m?",
+      "opciones": {
+        "A": "7 kg/em?.",
+        "B": "3 kg/em.",
+        "C": "11 kg/em.",
+        "D": "No hay presión al estar cerrada."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué sistema es muy eficaz para evitar el 'golpe de ariete'?",
+      "opciones": {
+        "A": "Instalar en la línea reguladores de flujo.",
+        "B": "Hacer circular el agua en régimen laminar.",
+        "C": "Abrir y cerrar suavemente los mandos de la lanza.",
+        "D": "No intercalar bifurcaciones en la línea."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué ocurre en la boquilla cuando una manguera reduce su sección?",
+      "opciones": {
+        "A": "Disminuye la velocidad.",
+        "B": "Disminuye la altura.",
+        "C": "Aumenta la velocidad.",
+        "D": "Aumenta la presión."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué relación hay entre el volumen de un cuerpo sumergido en un líquido y el peso del líquido desalojado?",
+      "opciones": {
+        "A": "La masa del volumen del cuerpo.",
+        "B": "Peso del volumen de agua desalojada por el cuerpo.",
+        "C": "La masa del volumen de agua desalojada por el líquido.",
+        "D": "La masa del peso del líquido."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la velocidad de agua en m/s en una conducción de 30 mm de diámetro, sabiendo que su caudal o descarga es de 600 L/min?",
+      "opciones": {
+        "A": "10 m/s.",
+        "B": "16 m/s.",
+        "C": "Todas son incorrectas.",
+        "D": "Ninguna respuesta es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿A cuántos bares equivalen 1.000.000 bar?",
+      "opciones": {
+        "A": "1 bar",
+        "B": "2 bar",
+        "C": "3 bar",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la unidad de la densidad del agua en el sistema técnico?",
+      "opciones": {
+        "A": "Gramo/m³",
+        "B": "Gramo/m²",
+        "C": "UTM",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿En qué consiste la viscosidad de un líquido?",
+      "opciones": {
+        "A": "La cohesión entre moléculas",
+        "B": "La resistencia interna que presentan los líquidos al fluir",
+        "C": "Ambas respuestas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué magnitudes están relacionadas en la curva Clausius-Clapeyron?",
+      "opciones": {
+        "A": "La presión y la temperatura",
+        "B": "La temperatura y el volumen",
+        "C": "La presión y el volumen",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes propiedades no poseen los líquidos perfectos?",
+      "opciones": {
+        "A": "Comprensibilidad",
+        "B": "Isotropía",
+        "C": "Movilidad",
+        "D": "Viscosidad"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué denominamos tensión interfacial?",
+      "opciones": {
+        "A": "A la tensión existente en la interfaz entre un líquido y el aire",
+        "B": "A la tensión existente en la interfaz entre dos líquidos no miscibles",
+        "C": "Ambas respuestas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la definición de la temperatura o punto de ebullición?",
+      "opciones": {
+        "A": "Temperatura en la que se produce el paso de líquido a gas",
+        "B": "Temperatura en la que se produce el paso de gas a líquido",
+        "C": "Temperatura en la que se produce el paso de sólido a líquido",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿La presión vapor del gasoil a 50 °C es?",
+      "opciones": {
+        "A": "26 mmHg",
+        "B": "109 mmHg",
+        "C": "90 mmHg",
+        "D": "190 mmHg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La hidrostática es la parte de la física que estudia los fluidos en?",
+      "opciones": {
+        "A": "Movimiento",
+        "B": "Reposo",
+        "C": "Ambos",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Definición de cambio de una sustancia de estado sólido a vapor sin pasar por el estado líquido?",
+      "opciones": {
+        "A": "Sublimación",
+        "B": "Evaporación",
+        "C": "Condensación",
+        "D": "Solidificación"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuánto es el calor latente de vaporización del agua?",
+      "opciones": {
+        "A": "540 cal/gr",
+        "B": "80 cal/gr",
+        "C": "63 kcal/gr",
+        "D": "163 kcal/gr"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El calor específico se refiere a?",
+      "opciones": {
+        "A": "Calor latente",
+        "B": "El calor necesario para elevar la temperatura de un gramo de sustancia un grado centígrado",
+        "C": "Calor de combustión",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿El punto de ebullición de los alcoholes es superior, igual o inferior al de los hidrocarburos?",
+      "opciones": {
+        "A": "Superior",
+        "B": "Inferior",
+        "C": "Igual",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El etileno también es conocido como?",
+      "opciones": {
+        "A": "Etano",
+        "B": "Eteno",
+        "C": "Acetileno",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Los trajes de protección química para salpicaduras se clasifican en el nivel?",
+      "opciones": {
+        "A": "Nivel 1",
+        "B": "Nivel 2",
+        "C": "Nivel 3",
+        "D": "Nivel 4"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántos trajes de protección térmica existen?",
+      "opciones": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "correcta": "A"
+    }
+  ]
+}

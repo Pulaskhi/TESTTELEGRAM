@@ -1,0 +1,227 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T07:36:58.164Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "Trabajo necesario para expandir la superficie de un líquido por unidad de área:",
+      "opciones": {
+        "A": "Fuerza expansiva",
+        "B": "Adaptabilidad superficial",
+        "C": "Elasticidad superficial",
+        "D": "Tensión superficial"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La altura de una columna de mercurio equivalente a 1 atm (atmósfera física) es:",
+      "opciones": {
+        "A": "760 mm",
+        "B": "760 cm",
+        "C": "670 mm",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La temperatura en el punto crítico del agua es:",
+      "opciones": {
+        "A": "473 °C",
+        "B": "218 °C",
+        "C": "019 °C",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "No corresponde al concepto de punto triple:",
+      "opciones": {
+        "A": "Condiciones de presión y temperatura en las que pueden coexistir en equilibrio los tres estados de agregación de la sustancia",
+        "B": "Temperatura a la que coinciden las presiones de vapor de las tres fases",
+        "C": "La temperatura del punto triple es casi igual a la temperatura de ebullición normal",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "corresponde al concepto de tensión superficial:",
+      "opciones": {
+        "A": "Es una propiedad específica del estado gaseoso",
+        "B": "Es una propiedad específica del estado sólido",
+        "C": "Es una propiedad específica del estado líquido",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Una botella de aire a presión que pasa de 20 °C a 40 °C:",
+      "opciones": {
+        "A": "Aumentará ligeramente su presión",
+        "B": "Aumentará la presión al doble",
+        "C": "Los gases permanentes no se pueden licuar por compresión si no se baja la temperatura",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "No corresponde al concepto de densidad relativa:",
+      "opciones": {
+        "A": "Indica la densidad respecto a una materia determinada, que recibe el valor de referencia 1",
+        "B": "Se trata de una magnitud adimensional",
+        "C": "30,6%",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Señale de las siguientes sustancias, cuál de ellas tiene menor tensión superficial a 20 °C:",
+      "opciones": {
+        "A": "Benceno",
+        "B": "Tetracloruro de benceno",
+        "C": "Etanol",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Corresponde al concepto de difusibilidad:",
+      "opciones": {
+        "A": "Capacidad de una sustancia de pasar del estado sólido a cualquier otro de menor densidad",
+        "B": "Capacidad de una sustancia de pasar del estado sólido al estado líquido",
+        "C": "Tendencia de un gas a ocupar todo el espacio disponible",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La expresión de la ley de Henry:",
+      "opciones": {
+        "A": "La cantidad de gas que se disuelve en un líquido, es proporcional a la presión parcial de ese gas y a la temperatura del líquido",
+        "B": "La cantidad de gas que se disuelve en un líquido, es proporcional a la temperatura de ese gas",
+        "C": "Ninguna es correcta",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Temperatura crítica del metano:",
+      "opciones": {
+        "A": "-24 °C bajo cero",
+        "B": "82 °C",
+        "C": "96 °C",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La isotropía es una cualidad fundamental de los líquidos, consistente en:",
+      "opciones": {
+        "A": "Cualidad de poseer propiedades iguales en cualquier dirección",
+        "B": "Propiedad de adaptarse a la forma del recipiente",
+        "C": "Cualidad de poseer propiedades de incompresibilidad en cualquier dirección",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Respecto a la solubilidad de la molécula de amoniaco, no corresponde:",
+      "opciones": {
+        "A": "Es soluble en agua",
+        "B": "Es soluble en tetracloruro de carbono",
+        "C": "No es soluble en disolventes apolares",
+        "D": "Solo es soluble en disolventes polares"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Propiedad de la que carecen los líquidos perfectos:",
+      "opciones": {
+        "A": "Viscosidad",
+        "B": "Isotropía",
+        "C": "Compresibilidad",
+        "D": "Todas estas propiedades pertenecen a los líquidos perfectos"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Temperatura a la que un kilogramo de agua tendrá el volumen de un litro:",
+      "opciones": {
+        "A": "0 °C",
+        "B": "A partir de 0 °C",
+        "C": "Ninguna es correcta",
+        "D": "Todas son correctas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "A qué ley nos estamos refiriendo cuando hablamos de 'la cantidad de gas en un líquido es proporcional a su presión parcial y a su coeficiente de solubilidad':",
+      "opciones": {
+        "A": "Ley de Amagat",
+        "B": "Ley de Dalton",
+        "C": "Ninguna es correcta",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Cuando la transformación reversible de un gas perfecto se produce a volumen constante se denomina:",
+      "opciones": {
+        "A": "Transformación isoterma",
+        "B": "Transformación isóstera o isócora",
+        "C": "Transformación isóbara",
+        "D": "Transformación adiabática"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Corresponde a la propiedad de un material que mantiene ocupar un espacio determinado:",
+      "opciones": {
+        "A": "Impenetrabilidad",
+        "B": "Extensión",
+        "C": "Vaporación",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La dilatación producida en los líquidos será:",
+      "opciones": {
+        "A": "Isostera",
+        "B": "Isocora",
+        "C": "Isobara",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Expresión de la ley de Charles Gay-Lussac:",
+      "opciones": {
+        "A": "Pi * Vi = P2 * Vo = Constante",
+        "B": "P1 / V1 = P2 / V2 = Constante",
+        "C": "V1 / T1 = V2 / T2 = Constante",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La conductividad del agua en fase sólida (hielo) es:",
+      "opciones": {
+        "A": "96 veces mayor debido a la unión uniforme de sus enlaces moleculares",
+        "B": "106 veces mayor",
+        "C": "103 veces menor",
+        "D": "96 veces menor"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Poseen la propiedad de fluidez:",
+      "opciones": {
+        "A": "Los líquidos y gases",
+        "B": "Los gases",
+        "C": "Ninguna es correcta",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    }
+  ]
+}

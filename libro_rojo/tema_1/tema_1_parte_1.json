@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T07:36:58.124Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué norma define el concepto de fuego?",
+      "opciones": {
+        "A": "UNE-EN ISO 13943 2012",
+        "B": "UNE-EN 1SO 23026 2012",
+        "C": "UNE-EN 18O 14943: 2012",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es una definición de temperatura?",
+      "opciones": {
+        "A": "Grado o nivel de energía de los cuerpos o del medio ambiente",
+        "B": "Grado o nivel de excitación de los cuerpos o del medio ambiente",
+        "C": "Energía que pasa de un cuerpo a otro",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué reacción se caracteriza por tener las moléculas de reactivos iguales a las de los productos?",
+      "opciones": {
+        "A": "Reacciones físicas",
+        "B": "Reacciones químicas",
+        "C": "Reacciones sintéticas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En una reacción exotérmica, ¿cómo se consideran el combustible y el comburente?",
+      "opciones": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "Falso, ya que dependerá del estado en que se encuentre",
+        "D": "El comburente no, el combustible sí"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El calor de combustión se define como:",
+      "opciones": {
+        "A": "La temperatura alcanzada por un incendio",
+        "B": "La temperatura de una llama de difusión laminar",
+        "C": "Energía desprendida por la combustión completa de una sustancia",
+        "D": "Energía térmica producida por combustión de la unidad de masa de una sustancia dada"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de reacción es la oxidación estequiométrica?",
+      "opciones": {
+        "A": "Se produce cuando la relación combustible-comburente es óptima",
+        "B": "Se produce cuando hay excesos de reactivos",
+        "C": "Se produce en ausencia de oxígeno",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué se refiere el calor latente de vaporización?",
+      "opciones": {
+        "A": "Temperatura a la que comienza la ebullición de un líquido",
+        "B": "Cantidad de energía necesaria para convertir un líquido en vapor",
+        "C": "Temperatura a la que se produce la condensación",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "En la combustión de la madera, ¿a qué temperatura comienza a disminuir la llama?",
+      "opciones": {
+        "A": "De 300 a 500 °C",
+        "B": "De 200 a 300 °C",
+        "C": "Superior a 500 °C",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los fuegos de metales cuando entran en contacto con el dióxido de carbono:",
+      "opciones": {
+        "A": "Rompen los enlaces de la molécula de CO2",
+        "B": "Se apagan inmediatamente",
+        "C": "No tienen reacciones significativas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La fuerza de cohesión de las moléculas es mayor en:",
+      "opciones": {
+        "A": "Líquidos",
+        "B": "Sólidos",
+        "C": "Gases",
+        "D": "Plasmas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo afecta el método de enfriamiento de gases al plano neutro?",
+      "opciones": {
+        "A": "Lo eleva protegiendo al bombero.",
+        "B": "Lo desciende mejorando las condiciones de trabajo.",
+        "C": "No le afecta ya que dicho plano depende de otros factores.",
+        "D": "Las opciones A y C son correctas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuáles son productos de la reacción de combustión?",
+      "opciones": {
+        "A": "Calor.",
+        "B": "Humos.",
+        "C": "Comburente.",
+        "D": "Las tres anteriores son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La norma UNE-EN ISO vigente define combustible como:",
+      "opciones": {
+        "A": "Cualquier sustancia susceptible a arder bajo condiciones de ensayo determinadas.",
+        "B": "Objeto capaz de combustión.",
+        "C": "Agente oxidante, que se reduce y pierde electrones.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿La extinción total de un incendio se puede realizar suprimiendo cualquiera de los factores que componen el tetraedro del fuego?",
+      "opciones": {
+        "A": "Falso.",
+        "B": "Verdadero, ya que sin la participación de alguno de los lados es imposible que se desarrolle ningún tipo de combustión.",
+        "C": "Verdadero, aunque el poder de extinción fruto de la supresión de algún factor es mayor que la de los otros.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Una combustión con llama se mantiene con una cantidad de oxígeno entre:",
+      "opciones": {
+        "A": "14% al 16%",
+        "B": "21%",
+        "C": "Las dos anteriores.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La definición de retardante de incendio es:",
+      "opciones": {
+        "A": "Sustancia añadida a un material con el fin de retrasar la ignición o reducir la llama.",
+        "B": "Producto aplicado a un material que tiene la propiedad de retardar la aparición de la llama.",
+        "C": "Propiedad de un material de retardar la aparición de la llama.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Los productos de una reacción son:",
+      "opciones": {
+        "A": "Materias primas resultantes tras la reacción.",
+        "B": "Especies químicas resultantes tras la reacción.",
+        "C": "Los reactivos resultantes tras la reacción.",
+        "D": "Las tres anteriores son correctas."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuántos litros producirá la vaporización de 20 m³ de agua a 20°C?",
+      "opciones": {
+        "A": "3400.",
+        "B": "400.",
+        "C": "4000.",
+        "D": "34 millones."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La combustión se desarrollará progresando por la superficie del líquido hasta cubrirla en su totalidad, en función de qué tipo de velocidad?",
+      "opciones": {
+        "A": "Propagación.",
+        "B": "Evaporación.",
+        "C": "Aportación.",
+        "D": "En líquidos no influye ningún tipo de velocidad."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las reacciones redox son:",
+      "opciones": {
+        "A": "Reacciones en las que la naturaleza de los productos es químicamente distinta a la de los reactivos.",
+        "B": "Reacciones químicas.",
+        "C": "Reacciones en las que la naturaleza de los productos es físicamente distinta a la de los reactivos.",
+        "D": "Las dos anteriores son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la temperatura a partir de la cual puede iniciarse la pirólisis?",
+      "opciones": {
+        "A": "300 °C",
+        "B": "150 °C",
+        "C": "2700 °C",
+        "D": "80 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el mecanismo de transmisión de calor que se produce siempre?",
+      "opciones": {
+        "A": "Conducción",
+        "B": "Convección",
+        "C": "Radiación",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En incendiios limitados por el techo, ¿la temperatura de la capa de techo es mayor o menor que cuando no está limitado?",
+      "opciones": {
+        "A": "Menor",
+        "B": "Mayor",
+        "C": "Igual",
+        "D": "Depende del flujo de calor"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes combustibles tiene mayor rango de inflamabilidad?",
+      "opciones": {
+        "A": "Butano",
+        "B": "Gasolina",
+        "C": "Propano",
+        "D": "Hidrógeno"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué ocurre a la presión de oxígeno en incendios con ventilación insuficiente?",
+      "opciones": {
+        "A": "Desarrollo del incendio en fase latente",
+        "B": "Desarrollo exponencial del nivel de inhibición del oxígeno",
+        "C": "No condicionará nada",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es verdadero sobre los incendios confinados?",
+      "opciones": {
+        "A": "No pueden ser ventilados adecuadamente",
+        "B": "El crecimiento del fuego depende del oxígeno",
+        "C": "La combustión es más intensa",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué se entiende por mezcla estequiométrica?",
+      "opciones": {
+        "A": "Proporciones ideales de reactivos químicos",
+        "B": "Proporción de aire y comburente para la mejor combustión",
+        "C": "Ambas anteriores",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de explosiones se pueden dar en incendios confinados?",
+      "opciones": {
+        "A": "Explosiones por vapor",
+        "B": "Explosiones químicas",
+        "C": "Explosiones por flujo reverso",
+        "D": "Todas las anteriores son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿La capacidad de refrigeración de una sustancia depende de qué factores?",
+      "opciones": {
+        "A": "Calor específico y calor latente",
+        "B": "Densidad y temperatura",
+        "C": "Efecto de presión y volumen",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la forma en que se introduce oxígeno en un incendio confinando?",
+      "opciones": {
+        "A": "A través de paredes",
+        "B": "Por conductos de ventilación",
+        "C": "Por fisuras en la estructura",
+        "D": "Todas las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué tipo de combustión se produce en una reacción en cadena?",
+      "opciones": {
+        "A": "Combustión lenta",
+        "B": "Combustión rápida",
+        "C": "Combustión de propagación",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué tipo de combustión se refiere a una combustión de explosión?",
+      "opciones": {
+        "A": "Combustión deflagrante",
+        "B": "Combustión detonante",
+        "C": "Combustión de tipo normal",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Podemos encontrar diferentes tipos de llamas?",
+      "opciones": {
+        "A": "Sí, de difusión y de premezcla",
+        "B": "Sí, de combustión y de fusión",
+        "C": "Sí, de ignición y de inflamación",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Una onda de presión se puede dar en combustiones:",
+      "opciones": {
+        "A": "Deflagrantes",
+        "B": "Detonantes",
+        "C": "Ordinarias o no turbulentas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el fenómeno por el que se mezclan de manera espontánea dos o más gases, sin agitación previa?",
+      "opciones": {
+        "A": "Difusión gaseosa",
+        "B": "Distorsión gaseosa",
+        "C": "Derivación gaseosa",
+        "D": "Mezcla gaseosa"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En agua, el sonido viaja aproximadamente a:",
+      "opciones": {
+        "A": "1.570 m/s",
+        "B": "1.470 m/s",
+        "C": "1.870 m/s",
+        "D": "2.000 m/s"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Temperatura mínima a la cual se prende un material y continúa ardiendo durante un tiempo especificado es:",
+      "opciones": {
+        "A": "Fire Point - Norma UNE 23026",
+        "B": "Fire Point - Norma UNE EN ISO 19943",
+        "C": "Flash Point - Norma UNE EN ISO 13943",
+        "D": "Temperatura de inflamación"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué diferencia claramente la deflagración de la detonación?",
+      "opciones": {
+        "A": "Las sobrepresiones",
+        "B": "La velocidad química de reacción",
+        "C": "Ambas son correctas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué sucede en combustiones de velocidad química de reacción igual o superior a 1 m/s e inferior a la velocidad del sonido?",
+      "opciones": {
+        "A": "Son combustibles pero no inflamables",
+        "B": "Arden desprendiendo humo abundante",
+        "C": "Son inflamables y desprenden humo negro",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué se considera explosión?",
+      "opciones": {
+        "A": "Cuando la llama de premezcla se expande a una velocidad superior a 3,25 m/s",
+        "B": "Cuando hay fuego y humo",
+        "C": "Cuando la reacción genera gases",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En condiciones adiabáticas, la máxima presión que se puede desarrollar en una deflagración en recinto cerrado es aproximadamente:",
+      "opciones": {
+        "A": "8 bar",
+        "B": "16 bar",
+        "C": "64 bar",
+        "D": "82 bar"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las descargas eléctricas de rayo negativo se dirigen:",
+      "opciones": {
+        "A": "De la nube (+) al suelo (-)",
+        "B": "De nube a nube",
+        "C": "De la nube (-) al suelo (+)",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué temperatura máxima se requiere para licuar propileno?",
+      "opciones": {
+        "A": "-15°C",
+        "B": "-30°C",
+        "C": "-5°C",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "La licuefacción consiste en:",
+      "opciones": {
+        "A": "El paso de gas a líquido",
+        "B": "El paso de gas a sólido",
+        "C": "El paso de aerosol a líquido",
+        "D": "El paso de gas a aerosol"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué precisa toda reacción de combustión como mínima para ser mantenida?",
+      "opciones": {
+        "A": "Presión de vapor superior a 3 bar a 50°C",
+        "B": "Temperatura crítica inferior a 50°C",
+        "C": "Tres componentes fundamentales",
+        "D": "Cuatro componentes fundamentales"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué se considera a una materia como gas comprimido?",
+      "opciones": {
+        "A": "Temperatura crítica mayor o igual a 0°C",
+        "B": "Temperatura crítica superior a 0°C",
+        "C": "Temperatura crítica inferior a 50°C",
+        "D": "Temperatura crítica menor a 50°C"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La máxima velocidad de combustión de una mezcla atómica de gas inflamable y aire tiene lugar:",
+      "opciones": {
+        "A": "En el LLE",
+        "B": "En el L.S.E",
+        "C": "Más cerca del L.E que del LS.E",
+        "D": "En el punto medio del rango de inflamabilidad"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En las combustiones incandescentes, el oxígeno reacciona directamente con:",
+      "opciones": {
+        "A": "El comburente",
+        "B": "El combustible en fase sólida",
+        "C": "El combustible en fase gas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las causas de los incendios producidos por los focos eléctricos son:",
+      "opciones": {
+        "A": "Chispas, cortocircuitos, sobrecargas",
+        "B": "Descargas eléctricas",
+        "C": "Roce mecánicos",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Ejemplos de líquidos inflamables que pueden producir espontáneamente reacción violenta:",
+      "opciones": {
+        "A": "Acetato de vinilo y tolueno",
+        "B": "Acetato de vinilo y estireno",
+        "C": "Acetato de vinilo y acetona",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T07:46:46.062Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "Un líquido se considera muy inflamable por el ADR cuando su punto de inflamación es:",
+      "opciones": {
+        "A": "Inferior a 23°C.",
+        "B": "Inferior a 38°C.",
+        "C": "Entre 23°C y 38°C.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El bicarbonato sódico produce:",
+      "opciones": {
+        "A": "Nada.",
+        "B": "Agua.",
+        "C": "Nitrógeno.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El CO2 producirá CO cuando se expone a temperaturas más altas de:",
+      "opciones": {
+        "A": "1.848°C.",
+        "B": "648°C.",
+        "C": "1.648°C.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Al halón se le considera generalmente una densidad respecto al aire?",
+      "opciones": {
+        "A": "A partir del 10%",
+        "B": "Ninguna de las anteriores",
+        "C": "10 a 20 veces más pesados",
+        "D": "Mucho menos pesado"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Es el nitrógeno un gas que solo se almacena en fase gas?",
+      "opciones": {
+        "A": "Falso",
+        "B": "Verdadero, al igual que los halones",
+        "C": "Ninguna de las anteriores",
+        "D": "Depende de la temperatura"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el quinto elemento utilizado en los halones?",
+      "opciones": {
+        "A": "Bromo",
+        "B": "Cloro",
+        "C": "Nitrógeno",
+        "D": "Flúor"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿La eficacia del polvo ABC para sólidos es?",
+      "opciones": {
+        "A": "Adecuado",
+        "B": "No",
+        "C": "Aceptable",
+        "D": "Muy adecuado"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué agente extintor no se puede utilizar como agente extintor gaseoso?",
+      "opciones": {
+        "A": "Agente extintor HFC 125",
+        "B": "Agente extintor HFC 227",
+        "C": "Dióxido de carbono",
+        "D": "Ninguno de los anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué significa PA.O. en extintores?",
+      "opciones": {
+        "A": "Tiempo de vida en la atmósfera",
+        "B": "Potencial de calentamiento ordinario",
+        "C": "Potencial de agotamiento del ozono",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes compuestos forman parte de los agentes extintores limpios?",
+      "opciones": {
+        "A": "MCFC",
+        "B": "HFC",
+        "C": "HCC",
+        "D": "Todos son correctos"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué características específicas deben reunir las espumas?",
+      "opciones": {
+        "A": "Homogeneidad, resistencia al calor e inestabilidad",
+        "B": "Resistencia al calor, homogeneidad, estabilidad, fluidez y resistencia a la contaminación",
+        "C": "Solubilidad en agua y resistencia al fuego",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la presión de vapor del agua a 2°C?",
+      "opciones": {
+        "A": "5,6 mmHg",
+        "B": "4,6 mmHg",
+        "C": "3,6 mmHg",
+        "D": "6,6 mmHg"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El agente extintor FM 200 también se conoce con el nombre de:",
+      "opciones": {
+        "A": "Firemaster 200",
+        "B": "Fireman 200",
+        "C": "Fireguard 200",
+        "D": "Fireextinguisher 200"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El Inergen se almacena en fase gas en botellas de?",
+      "opciones": {
+        "A": "40 L de capacidad con 6 m³ de gas",
+        "B": "80 L de capacidad con 14 m³ de gas",
+        "C": "60 L de capacidad con 12 m³ de gas",
+        "D": "50 L de capacidad con 10 m³ de gas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cómo se conoce al agente extintor CEA 410?",
+      "opciones": {
+        "A": "Perfluoruro de hexano",
+        "B": "Perfluoruro de metano",
+        "C": "Porfuottiro de butano",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿De qué está compuesto el agente extintor Inergen?",
+      "opciones": {
+        "A": "Nitrógeno, argón y CO2",
+        "B": "Nitrógeno, kripton y CO",
+        "C": "Todas son correctas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el principio de extinción del Argón?",
+      "opciones": {
+        "A": "Enfriamiento",
+        "B": "Sofoca",
+        "C": "Inhibición",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué significa las siglas GWP en extintores?",
+      "opciones": {
+        "A": "PRO",
+        "B": "PAC",
+        "C": "PCO",
+        "D": "POR"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué porcentaje de CO2 contiene el Inergen?",
+      "opciones": {
+        "A": "40%",
+        "B": "20%",
+        "C": "8%",
+        "D": "Todas son falsas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿El polvo G se compone de?",
+      "opciones": {
+        "A": "Hidrocarbonato sódico",
+        "B": "Coque de fundición",
+        "C": "Cloruro sódico",
+        "D": "Ninguno de los anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la presión de almacenaje del NAF SIll?",
+      "opciones": {
+        "A": "25 a 45 bares",
+        "B": "45 a 50 bares",
+        "C": "66 °C",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Con qué otro nombre se conoce el agente extintor CEA 614?",
+      "opciones": {
+        "A": "Perfluoruro de hexano",
+        "B": "Polvo Met L-X",
+        "C": "Cloruro eutéctico temario",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Para qué tipo de fuegos se utiliza el LITH-X?",
+      "opciones": {
+        "A": "Sodio",
+        "B": "Aleaciones Sodio - Potasio",
+        "C": "Lito",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿El polvo Met L-X está compuesto por?",
+      "opciones": {
+        "A": "Cloruro sódico",
+        "B": "Fosfatos tricálcicos",
+        "C": "Estearatos metálicos",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿El tiempo de descarga del agente extintor NAF Sil para fuegos de neumáticos es inferior a?",
+      "opciones": {
+        "A": "10 seg",
+        "B": "15 seg",
+        "C": "20 seg",
+        "D": "25 seg"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el mecanismo principal y secundario de extinción del polvo químico polivalente?",
+      "opciones": {
+        "A": "Sofocación y eliminación",
+        "B": "Sofocación y enfriamiento",
+        "C": "Inhibición y sofocación",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué agente halocarbonado se almacena en botellas de aluminio a presiones de 25 ó 45 bares?",
+      "opciones": {
+        "A": "FM",
+        "B": "Carbonato de calcio",
+        "C": "Carbonato de calcio y magnesio",
+        "D": "NAF $ II"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál agente extintor se compone de coque de fundición más un fosfato orgánico?",
+      "opciones": {
+        "A": "Polvo Met L-X",
+        "B": "Ninguna de las anteriores",
+        "C": "Polvo Na-X",
+        "D": "Polvo G"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Indica cuál de estos compuestos es válido para fuegos de Mg y Ca?",
+      "opciones": {
+        "A": "Polvo G, polvo Met L-X",
+        "B": "Polvo NA-X",
+        "C": "Polvo G, polvo TEC",
+        "D": "Polvo L-X, polvo TEC, polvo Na-X"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El CEA 410 ó PFC 410 es conocido como?",
+      "opciones": {
+        "A": "Perfluoruro de etano",
+        "B": "Perfluoruro de bútano",
+        "C": "Perfluoruro de meteno",
+        "D": "Polvo L-X"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la opción falsa respecto a la propiedad del agente extintor HFC 2361a?",
+      "opciones": {
+        "A": "Menor penetración del agua",
+        "B": "Se emplea en general en fuegos donde la convección es la principal causa de la propagación del fuego",
+        "C": "Aumento de las pérdidas de carga",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿El tamaño de las partículas de polvo utilizadas en los polvos de extinción es de?",
+      "opciones": {
+        "A": "Superior a 0,5 milímetros",
+        "B": "Entre 0,5 y 0,2 milímetros",
+        "C": "Entre 10 y 20 micras",
+        "D": "Entre 100 y 250 micras"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes agentes no corresponde a la característica de necesitar reducir el oxígeno del recinto entre el 11 y el 13%?",
+      "opciones": {
+        "A": "1",
+        "B": "6",
+        "C": "16",
+        "D": "Ninguna de las respuestas anteriores es correcta"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el mecanismo secundario de extinción del nitrógeno?",
+      "opciones": {
+        "A": "Inhibición",
+        "B": "Enfriamiento",
+        "C": "Todas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes polvos en su descomposición deja una costra de 'carbonato sódico'?",
+      "opciones": {
+        "A": "Polvo BC",
+        "B": "Polvo convencional",
+        "C": "CEA",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes compuestos se le conoce como perfluoropropano?",
+      "opciones": {
+        "A": "Polvo BC",
+        "B": "Polvo convencional",
+        "C": "CEA",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál de los gases inertes puede ser mencionado?",
+      "opciones": {
+        "A": "CO",
+        "B": "Nitrógeno",
+        "C": "Amoníaco",
+        "D": "Todos son correctos"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué volumen ocupan 3 litros de agua lanzada al punto de ebullición del etano?",
+      "opciones": {
+        "A": "164 °C bajo cero",
+        "B": "100,7 °C",
+        "C": "103 °C bajo cero",
+        "D": "88,6 °C bajo cero"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Un gramo de agua al pasar de líquido a 100 °C, a la temperatura a la cual la presión de vapor llega a ser igual a la presión exterior, absorbe:",
+      "opciones": {
+        "A": "100 calorías",
+        "B": "840 calorías",
+        "C": "457 calorías",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La presión de vapor no depende de:",
+      "opciones": {
+        "A": "La naturaleza del líquido",
+        "B": "La temperatura",
+        "C": "La cantidad de líquido",
+        "D": "Todos los factores anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "A menor punto de ebullición:",
+      "opciones": {
+        "A": "Mayor índice de evaporación y menor presión vapor",
+        "B": "Menor índice de evaporación y mayor presión vapor",
+        "C": "Mayor índice de evaporación y mayor presión vapor",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Corresponde al concepto de líquido sobrecalentado:",
+      "opciones": {
+        "A": "Líquidos que están por encima de su punto de ebullición",
+        "B": "Se entiende como tal cuando su temperatura es superior a la que le correspondería si se hallara en equilibrio con su presión de vapor",
+        "C": "Líquidos muy puros que no forman burbujas de vapor",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Vaporización de toda la masa líquida:",
+      "opciones": {
+        "A": "Disipación",
+        "B": "Evaporación",
+        "C": "Ebullición",
+        "D": "Calor latente de fusión"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "No corresponde al concepto de punto de ebullición:",
+      "opciones": {
+        "A": "Los alcoholes tienen puntos de ebullición muy superiores a los hidrocarburos",
+        "B": "La mayoría de los compuestos del carbono de masa molecular análoga, tienen puntos de ebullición muy superiores a los alcoholes",
+        "C": "Todas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "No corresponde al concepto de temperatura crítica:",
+      "opciones": {
+        "A": "A partir de esta temperatura un gas no se podrá licuar aunque se apliquen grandes presiones",
+        "B": "Cuando la temperatura crítica es superior a la ambiente, el vapor se puede licuar por compresión a temperaturas inferiores a la ambiente",
+        "C": "Todas son correctas",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "No corresponde al concepto de peso específico:",
+      "opciones": {
+        "A": "Peso específico es igual al peso dividido por el volumen",
+        "B": "Peso específico es igual a la masa por la gravedad dividida por el volumen",
+        "C": "Densidad",
+        "D": "Peso específico es igual a la densidad dividida por el volumen"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Definición de transformación adiabática:",
+      "opciones": {
+        "A": "Aquella que se produce en un gas ideal sin variación de presión",
+        "B": "Aquella que se produce en un gas ideal sin variación de temperatura",
+        "C": "Aquella que se produce en un gas ideal sin intercambio de calor",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "No corresponde al concepto de presión de vapor:",
+      "opciones": {
+        "A": "Es la presión que ejerce un vapor sobre su líquido en el equilibrio entre la velocidad de ebullición y la de condensación",
+        "B": "La presión de vapor nos indica la tendencia del fluido a ser o pasar a estado de vapor",
+        "C": "Ninguna es correcta",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "No corresponde al concepto de densidad de vapor:",
+      "opciones": {
+        "A": "Densidad resultante de dividir el peso de un vapor entre el peso medio del aire",
+        "B": "Densidad resultante de dividir el peso molecular de un vapor entre el peso molecular medio del aire",
+        "C": "Ninguna es correcta",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "No corresponde al concepto de calor latente de sublimación:",
+      "opciones": {
+        "A": "Cambio de una sustancia del estado sólido al vapor sin pasar por el estado líquido",
+        "B": "El calor latente de sublimación de una sustancia es igual a la suma del calor latente de fusión más el calor latente de vaporización",
+        "C": "El calor latente de sublimación del CO2 es de 78,48°C bajo cero",
+        "D": "Todos los gases anteriores poseen temperaturas superiores a la del aire"
+      },
+      "correcta": "D"
+    }
+  ]
+}

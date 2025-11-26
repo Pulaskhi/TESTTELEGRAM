@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T07:46:46.061Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Cómo se obtiene la espuma física?",
+      "opciones": {
+        "A": "Mezclando aire con espumante",
+        "B": "Mezclando aire con espumógeno",
+        "C": "Mezclando aire con agua",
+        "D": "Todas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué coeficiente de expansión tienen las espumas de baja expansión según norma UNE-EN vigente?",
+      "opciones": {
+        "A": "30",
+        "B": "Hasta 20",
+        "C": "a y b son correctas",
+        "D": "Mezcla espumante + aire"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "La forma adecuada de apagar un fuego de gas es:",
+      "opciones": {
+        "A": "Un extintor de polvo ABC",
+        "B": "Un extintor de polvo BC",
+        "C": "Ninguna de las anteriores",
+        "D": "Cortar el gas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué características tienen las espumas AFFF, especialmente indicadas para?",
+      "opciones": {
+        "A": "Inundación total de locales",
+        "B": "Líquidos inflamables",
+        "C": "Fuegos eléctricos por no conducir la corriente",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "En espumas fluoroproteínicas se debe trabajar con presiones de...",
+      "opciones": {
+        "A": "Sobre 5 bares",
+        "B": "Por debajo de 13,5 bares",
+        "C": "Por debajo de 13,5 bares, y por encima de 35 bares",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué aditivos contienen los espumógenos fluoroproteínicos?",
+      "opciones": {
+        "A": "Fosfatos",
+        "B": "Surfactantes fluorados",
+        "C": "Bicarbonatos",
+        "D": "Ninguno de los anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Característica de las espumas proteínicas convencionales?",
+      "opciones": {
+        "A": "Muy resistentes al calor",
+        "B": "Buena cohesión",
+        "C": "Poco fluidas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Para la producción de espuma, podemos utilizar varios tipos de premezcladores. ¿Cuál es la respuesta correcta?",
+      "opciones": {
+        "A": "Premezclador situado en el depósito del vehículo por sistema venturi",
+        "B": "Premezclador de inyección indirecta",
+        "C": "Premezclador venturi y por inyección directa",
+        "D": "Premezclador por alimentación controlada"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es la mezcla espumante?",
+      "opciones": {
+        "A": "Agua más aire",
+        "B": "Espumógeno más agua",
+        "C": "Espumógeno más aire",
+        "D": "Todas son falsas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué es el agua pulverizada para fuego de sólidos?",
+      "opciones": {
+        "A": "Aceptable",
+        "B": "Inaceptable",
+        "C": "Recomendable",
+        "D": "No especificado"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el pH ideal del espumógeno que no debe ser?",
+      "opciones": {
+        "A": "Menor que 6,5 ni mayor que 9,5 a 20 +1°C",
+        "B": "Menor que 6 ni mayor que 9,5 a 20 +1°C",
+        "C": "Muy adecuado",
+        "D": "Menor que 6 ni mayor que 9 a 20 +1°C"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Para qué tipos de incendios se usa el Boralon?",
+      "opciones": {
+        "A": "Para incendios de metales",
+        "B": "Para incendios de gases",
+        "C": "Para incendios de líquidos",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué es el espumante?",
+      "opciones": {
+        "A": "Una mezcla de agua con espumógeno",
+        "B": "Una mezcla de agua con aire",
+        "C": "Una mezcla de agua y aditivos",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Cuando hablamos de norma UNE 23522, nos referimos a una norma que regula:",
+      "opciones": {
+        "A": "Sistemas de extinción por espuma física de baja",
+        "B": "Sistemas de extinción de rociadores automáticos",
+        "C": "Sistemas de extinción de espuma química",
+        "D": "Normas de seguridad en los extintores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la función de los aditivos gelificadores en las espumas?",
+      "opciones": {
+        "A": "Para superficies de madera",
+        "B": "Para superficies extremadamente rugosas",
+        "C": "Para superficies extremadamente lisas",
+        "D": "Para mejorar la estabilidad de la espuma"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El polvo ABC para fuego de gases se considera:",
+      "opciones": {
+        "A": "Aceptable",
+        "B": "Adecuado",
+        "C": "Muy adecuado",
+        "D": "Inadecuado"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El CAFS trabaja a una proporción de espumógeno:",
+      "opciones": {
+        "A": "Entre el 0,3 % y el 2%",
+        "B": "Entre el 0,1 % y el 1%",
+        "C": "Entre el 2 % y el 5%",
+        "D": "No tiene una proporción específica"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los agentes extintores que actúan por inhibición:",
+      "opciones": {
+        "A": "Impiden que la energía calorífica se pueda transmitir entre partículas elementales del combustible",
+        "B": "Reducen la temperatura del fuego",
+        "C": "Son efectivos solo en líquidos",
+        "D": "No afectan a los gases"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Las espumas de base fluorosintéticas se caracterizan por:",
+      "opciones": {
+        "A": "Mayor poder refrigerante",
+        "B": "Se pueden usar en lanzas convencionales",
+        "C": "Adecuadas para alta expansión",
+        "D": "Son incompatibles con agua"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la composición del Inergen?",
+      "opciones": {
+        "A": "52 % nitrógeno, 40 % argón y 8 % CO",
+        "B": "52 % argón, 40 % nitrógeno y 8 % CO2",
+        "C": "50 % argón, 50 % nitrógeno",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿El aire se dilata al doble de su volumen inicial por qué temperatura?",
+      "opciones": {
+        "A": "A%C",
+        "B": "A78%C",
+        "C": "355 *C",
+        "D": "255 *C"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la temperatura en el punto triple del agua?",
+      "opciones": {
+        "A": "1,0199 °C",
+        "B": "0,0299 °C",
+        "C": "0,0099 °C",
+        "D": "Los dos anteriores"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la presión de vapor en el punto triple del agua?",
+      "opciones": {
+        "A": "4,6 mmHg",
+        "B": "166 mmHg",
+        "C": "5,8 mmHg",
+        "D": "No se establece"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Si tenemos un fuego de acetona, atacaremos con espumógenos preferentemente:",
+      "opciones": {
+        "A": "AFFF",
+        "B": "Fluoroproteínicas",
+        "C": "Sintética convencional",
+        "D": "AFFF antialcohol"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los polvos polivalentes son apropiados para combatir los fuegos de clase A, B y C. Están compuestos por:",
+      "opciones": {
+        "A": "Bicarbonato sódico o potásico, bicarbonato de urea-potasio, cloruro potásico",
+        "B": "Fosfato monosimónico",
+        "C": "Fosfatos o una mezcla de sales amónicas",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la fecha de cese total de la utilización, retirada y desmontaje de los halones?",
+      "opciones": {
+        "A": "31/12/2002",
+        "B": "31/12/2003",
+        "C": "31/12/2000",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La relación de agentes extintores que son empleados para combatir fuegos de metales es la siguiente, indica el incorrecto:",
+      "opciones": {
+        "A": "Para fuegos tipo A de base sintética",
+        "B": "Para fuegos tipo B de base sintética",
+        "C": "Para fuegos tipo C",
+        "D": "Fuegos metálicos"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Para mejorar la fluidez de los polvos se le añaden aditivos como:",
+      "opciones": {
+        "A": "Fosfato monoamónico",
+        "B": "Bicarbonato cálcico",
+        "C": "Fosfato tricálcico",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántos litros de mezcla espumante se producirá con 95 litros de agua utilizando un espumógeno al 5% y un índice de expansión de 30?",
+      "opciones": {
+        "A": "3000 litros",
+        "B": "1500 litros",
+        "C": "100 litros",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El agua no se debe usar en líquidos con puntos de inflamación inferior a:",
+      "opciones": {
+        "A": "28 °C",
+        "B": "48 °C",
+        "C": "97 °C",
+        "D": "88 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La densidad del gasoil es:",
+      "opciones": {
+        "A": "520 g/l",
+        "B": "830 g/l",
+        "C": "550 g/l",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué agente extintor se inicia la búsqueda de nuevos debido al daño en la capa de ozono?",
+      "opciones": {
+        "A": "Halones",
+        "B": "Dióxido de carbono",
+        "C": "Espumas",
+        "D": "Agua"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un componente de un extintor de polvo de 13,5 kg?",
+      "opciones": {
+        "A": "PA.O., P'G.C y tiempo de permanencia",
+        "B": "PA.O, P.C.G y efecto invernadero",
+        "C": "PA.O, P.C.G y tiempo de permanencia",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los halones utilizados como agentes extintores provienen de la sustitución de: ",
+      "opciones": {
+        "A": "Hidrógeno por hidrocarburos",
+        "B": "Carbono por oxígeno",
+        "C": "Cloro por nitrógeno",
+        "D": "Bromo por oxígeno"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el tamaño de partícula de los polvos químicos secos?",
+      "opciones": {
+        "A": "10 a 90 mm",
+        "B": "10 a 75 mm",
+        "C": "10 a 80 mm",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué operación con una espuma antialcohol se realiza?",
+      "opciones": {
+        "A": "Aumenta los efectos humectantes",
+        "B": "Disminuye los índices de expansión",
+        "C": "Aumenta la degradación",
+        "D": "No existen"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los gases nobles, tales como helio, neón o argón, como agentes extintores:",
+      "opciones": {
+        "A": "No sirven para la extinción",
+        "B": "Son muy eficaces",
+        "C": "Se utilizan por su bajo costo",
+        "D": "Aumentan la tensión del vapor"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuánto es más eficaz el bicarbonato sódico que los espumógenos AFFF?",
+      "opciones": {
+        "A": "Un 50 %",
+        "B": "Un 40 %",
+        "C": "Entre el 40 % y 50 %",
+        "D": "Ninguna de los anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué porción del agua se aprovecha en la extinción utilizando chorro compacto?",
+      "opciones": {
+        "A": "Del 5 al 10%",
+        "B": "Del 1 al 10%",
+        "C": "Del 20 al 30%",
+        "D": "Del 30 al 40%"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "El dióxido de carbono en incendios de la clase B es:",
+      "opciones": {
+        "A": "Aceptable",
+        "B": "Adecuado",
+        "C": "Muy adecuado",
+        "D": "No se debe utilizar"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la densidad del petróleo?",
+      "opciones": {
+        "A": "Entre 750 g/l y 950 g/l",
+        "B": "Entre 850 g/l y 950 g/l",
+        "C": "Menor de 720 g/l",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La espuma es la mezcla de:",
+      "opciones": {
+        "A": "Espumógeno + agua",
+        "B": "Espumante + agua",
+        "C": "Espumante + aire",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Las gelatinas derivadas de algas pertenecen a?",
+      "opciones": {
+        "A": "Humectantes.",
+        "B": "Viscosantes.",
+        "C": "Retardantes de efecto prolongado.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El efecto Davy se relaciona con:",
+      "opciones": {
+        "A": "Polvos ABC.",
+        "B": "Espumas físicas.",
+        "C": "Espumas químicas.",
+        "D": "Polvos químicos secos."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El agua posee una elevada tensión superficial, esto se refiere a:",
+      "opciones": {
+        "A": "Hasta el 5 %",
+        "B": "Hasta el 10 %",
+        "C": "Hasta el 9 %",
+        "D": "Esto es falso."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Son agentes inertes:",
+      "opciones": {
+        "A": "El NAF SIN.",
+        "B": "El FM200 y CEA410.",
+        "C": "Argón y argonita.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "El polvo extintor más recomendado para la clase A es:",
+      "opciones": {
+        "A": "El seco.",
+        "B": "El especial para metales.",
+        "C": "El polivalente.",
+        "D": "El carbonoso."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La densidad del halón H es:",
+      "opciones": {
+        "A": "1,83 kg/l.",
+        "B": "1,57 kg/l.",
+        "C": "1,79 kg.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La temperatura crítica del anhídrido carbónico es:",
+      "opciones": {
+        "A": "38°C.",
+        "B": "21°C.",
+        "C": "61°C.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La máxima tolerancia de una persona de CO2 en aire es:",
+      "opciones": {
+        "A": "7%.",
+        "B": "8%.",
+        "C": "9%.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    }
+  ]
+}

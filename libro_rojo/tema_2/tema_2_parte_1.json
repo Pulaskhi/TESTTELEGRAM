@@ -1,0 +1,327 @@
+{
+  "tema": "TEMA-2",
+  "fecha": "2025-11-26T07:46:46.072Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "Los trajes de tipo 3 están regulados en la norma:",
+      "opciones": {
+        "A": "UNE-EN 14605",
+        "B": "Equipos de aire comprimido en circuito abierto.",
+        "C": "Ninguna de las anteriores.",
+        "D": "UNE-EN 943"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Los trajes de intervención son EPIs de categoría:",
+      "opciones": {
+        "A": "120 %C",
+        "B": "160 %C",
+        "C": "150 %C",
+        "D": "140 %C"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "El chaquetón de intervención de bomberos permite mantener una distancia de seguridad de:",
+      "opciones": {
+        "A": "2 metros.",
+        "B": "1,5 metros.",
+        "C": "1 metro.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Las botas de intervención de bomberos están reguladas bajo la normativa:",
+      "opciones": {
+        "A": "UNE-EN 15090",
+        "B": "UNE-EN 354",
+        "C": "AUNE-EN 10050",
+        "D": "UNE-EN 466"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En los trajes de penetración, el contacto directo con las llamas no deberá superar:",
+      "opciones": {
+        "A": "3 minutos con temperatura ambiente superior a 800 °C.",
+        "B": "2 minutos con temperatura ambiente superior a 800 °C.",
+        "C": "3 minutos con temperatura ambiente superior a 1000 °C.",
+        "D": "2 minutos con temperatura ambiente superior a 1000 °C."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué % de oxígeno en aire se necesita como mínimo para poder usarse los equipos de filtro?",
+      "opciones": {
+        "A": "21%",
+        "B": "14%",
+        "C": "18%",
+        "D": "16%"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Para que productos se usan los equipos respiratorios de filtro de color verde de tipo K:",
+      "opciones": {
+        "A": "Dióxido de azufre y amoniaco.",
+        "B": "Mercurio.",
+        "C": "Amoniaco y derivados.",
+        "D": "Oxígeno."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El peso aproximado del casco integral de intervención de bomberos es:",
+      "opciones": {
+        "A": "1.080 g.",
+        "B": "1.180 g.",
+        "C": "1.280 g.",
+        "D": "1.480 g."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La normativa para el arnés anticaídas es:",
+      "opciones": {
+        "A": "UNE-EN 361",
+        "B": "UNE-EN 362",
+        "C": "UNE-EN 465",
+        "D": "UNE-EN 466"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La bolsa respiratoria forma parte de los equipos de:",
+      "opciones": {
+        "A": "Adición de oxígeno.",
+        "B": "Regeneración química.",
+        "C": "Sistemas de aire comprimido.",
+        "D": "Equipos de filtración."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El forro que da confort al cuerpo en el chaquetón de intervención está compuesto por:",
+      "opciones": {
+        "A": "50 % metaramida y 50 % viscosa ignífuga.",
+        "B": "50 % aramida y 50 % viscosa ignífuga.",
+        "C": "25 % metaramida, 25 % aramida y 50 % viscosa ignífuga.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Las punteras cubre-dedos de seguridad son capaces de resistir una radiación de calor producida por una botas de intervención. ¿Qué aumento de temperatura en el interior del casco no debe superar?",
+      "opciones": {
+        "A": "40°C",
+        "B": "30°C",
+        "C": "20°C",
+        "D": "25°C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La máscara cumple normativa UNE-EN que indica su cumplimiento. ¿Cuál es?",
+      "opciones": {
+        "A": "UNE-EN 137",
+        "B": "UNE-EN 146",
+        "C": "UNE-EN 136",
+        "D": "UNE-EN 138"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿En cuál de las siguientes prendas de protección de bomberos no se emplean fibras aramidas como Nomex o similares?",
+      "opciones": {
+        "A": "En el guante de intervención",
+        "B": "Traje antisalpicaduras",
+        "C": "Capa externa del traje de intervención",
+        "D": "Chaqueta de intervención"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La UNE-EN 443 identifica la zona del protector desde el borde inferior del casco. ¿Qué zona corresponde a la que se indica?",
+      "opciones": {
+        "A": "Zona 1A",
+        "B": "Zona 2A",
+        "C": "Zona 3B",
+        "D": "Zona 1B"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Las botellas de composite están compuestas entre otras piezas de los equipos de respiración. ¿Qué material describe esta composición?",
+      "opciones": {
+        "A": "Fibra de carbono con un esqueleto interno de 1,5 mm de polietileno",
+        "B": "Acero inoxidable",
+        "C": "Aluminio",
+        "D": "Plástico reforzado"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los trajes antigás de neopreno son resistentes a:",
+      "opciones": {
+        "A": "De la presión de la botella a media presión",
+        "B": "Al amoniaco, carburantes, aceites y grasas",
+        "C": "De media a baja presión",
+        "D": "A la temperatura alta"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La vida útil de las botellas de acero de los ERAs es de:",
+      "opciones": {
+        "A": "10 años",
+        "B": "20 años",
+        "C": "15 años",
+        "D": "25 años"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Los trajes de penetración están compuestos por:",
+      "opciones": {
+        "A": "9 capas de fibra",
+        "B": "8 capas de fibra",
+        "C": "7 capas de fibra",
+        "D": "6 capas de fibra"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué norma regula los equipos de protección respiratoria en la que aparecen definiciones y pictogramas?",
+      "opciones": {
+        "A": "UNE-EN 132",
+        "B": "UNE-EN 12942",
+        "C": "UNE-EN 12941",
+        "D": "UNE-EN 114"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La presión de prueba hidráulica en las botellas de aire comprimido utilizadas en los ERAs es:",
+      "opciones": {
+        "A": "300 bar",
+        "B": "450 bar",
+        "C": "400 bar",
+        "D": "350 bar"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué indica la letra 'SX' en los filtros químicos?",
+      "opciones": {
+        "A": "Eficaz contra vapores orgánicos y gases ácidos",
+        "B": "Eficaz contra vapores orgánicos y materiales particulados",
+        "C": "Eficaz contra disolventes",
+        "D": "Eficaz contra partículas sólidas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué presión se produce la primera ETA en el manorreductor?",
+      "opciones": {
+        "A": "Al bajar de 50 bar.",
+        "B": "Al alcanzar unos 30 bar.",
+        "C": "Al alcanzar unos 55 bar.",
+        "D": "Al bajar de 150 bar."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué caudal se debe realizar según el fabricante para el mantenimiento de los equipos?",
+      "opciones": {
+        "A": "1.000 a 550 litros/minuto a 20 bar.",
+        "B": "1.000 a 550 litros/minuto a 30 bar.",
+        "C": "800 a 550 litros/minuto a 30 bar.",
+        "D": "Las anteriores son falsas."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A qué presión sonará el avisador acústico del manómetro?",
+      "opciones": {
+        "A": "Aproximadamente a 50 bar.",
+        "B": "Aproximadamente a 90 bar.",
+        "C": "Aproximadamente a 80 bar.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "Según la norma EN 443, el casco que protege al respirador puede clasificarse en:",
+      "opciones": {
+        "A": "Casco Tipo A.",
+        "B": "Casco Tipo B.",
+        "C": "Casco Tipo 1A.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿En qué rango de temperaturas debe operar sin problemas el equipo según la norma EN 137?",
+      "opciones": {
+        "A": "De 0°C y 60°C.",
+        "B": "De -10°C y 60°C.",
+        "C": "De -20°C y 60°C.",
+        "D": "De 0°C y 40°C."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cada cuánto tiempo se deben someter a prueba hidrostática las botellas de composite?",
+      "opciones": {
+        "A": "Cada 10 años.",
+        "B": "Cada 20 años.",
+        "C": "Cada 3 años.",
+        "D": "Nunca."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el volumen normal de las botellas de acero?",
+      "opciones": {
+        "A": "8 litros.",
+        "B": "6,8 litros.",
+        "C": "6 litros.",
+        "D": "Las respuestas B y C son correctas."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la máxima penetración permitida de la máscara en el guante de bomberos?",
+      "opciones": {
+        "A": "0,10 %",
+        "B": "0,03 %",
+        "C": "0,05 %",
+        "D": "Categoría IV."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuánto aire consume un bombero que inicia su trabajo en un incendio con un equipo de respiración?",
+      "opciones": {
+        "A": "1520 litros.",
+        "B": "1680 litros.",
+        "C": "1720 litros.",
+        "D": "1200 litros."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué norma regula los equipos de protección respiratoria y en la que aparecen las definiciones?",
+      "opciones": {
+        "A": "UNE-EN 192.",
+        "B": "UNE-EN 12942.",
+        "C": "UNE-EN 114.",
+        "D": "UNE-EN 12941."
+      },
+      "correcta": "B"
+    }
+  ]
+}

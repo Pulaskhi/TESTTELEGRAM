@@ -1,0 +1,507 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-26T07:46:46.059Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es el fenómeno por el que se mezclan de manera espontánea dos o más gases?",
+      "opciones": {
+        "A": "Difusión gaseosa.",
+        "B": "Efecto mecha.",
+        "C": "Condensación.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la unidad de flujo radiante?",
+      "opciones": {
+        "A": "W.",
+        "B": "W/seg.",
+        "C": "Julio/minuto.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuáles son las condiciones que afectan la propagación del fuego según las normas NFPA?",
+      "opciones": {
+        "A": "Líquidos.",
+        "B": "Gases.",
+        "C": "Fluidos.",
+        "D": "Todas las anteriores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el punto de inflamación de los compuestos mencionados?",
+      "opciones": {
+        "A": "Aguarrás.",
+        "B": "Amoniaco.",
+        "C": "Gasóleo.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la velocidad de combustión de los combustibles orgánicos?",
+      "opciones": {
+        "A": "5 kJ/g de aire",
+        "B": "4 kJ/g de aire",
+        "C": "0.5 m/segundo",
+        "D": "5 mm/minuto"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuánto puede alcanzar una llama de acetileno en temperatura?",
+      "opciones": {
+        "A": "25600 °C",
+        "B": "3.560 °C",
+        "C": "3.120 °C",
+        "D": "4.230 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el alcance de los fragmentos en un incendio?",
+      "opciones": {
+        "A": "Más de 60 metros",
+        "B": "45 metros",
+        "C": "30 metros",
+        "D": "10 metros"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es el color que se obtiene si la temperatura ha sobrepasado los 1000 °C?",
+      "opciones": {
+        "A": "Blanco",
+        "B": "Rosa o rojizo",
+        "C": "Gris",
+        "D": "Amarillo"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Las cualidades características de cualquier sustancia dependen de?",
+      "opciones": {
+        "A": "Cualidades intrínsecas",
+        "B": "Cualidades extrínsecas",
+        "C": "Ambas",
+        "D": "Ninguna"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes componentes tiene menor poder calorífico?",
+      "opciones": {
+        "A": "Hierro",
+        "B": "Níquel",
+        "C": "Estaño",
+        "D": "Magnesio"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué define el punto de ebullición?",
+      "opciones": {
+        "A": "Igualdad de presión",
+        "B": "Evaporación completa",
+        "C": "Fusión de sólido a líquido",
+        "D": "Cambio de estado"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué sustancia huele a almendras amargas en los incendios?",
+      "opciones": {
+        "A": "Amoníaco",
+        "B": "Ácido cianhídrico",
+        "C": "Dióxido de nitrógeno",
+        "D": "Metano"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de combustión persiste tras la retirada de la fuente de ignición?",
+      "opciones": {
+        "A": "Combustión incandescente",
+        "B": "Combustión residual",
+        "C": "Combustión latente",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la temperatura de una llama rojo salmón?",
+      "opciones": {
+        "A": "450 °C",
+        "B": "700 °C",
+        "C": "800 °C",
+        "D": "900 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuáles son los tipos de escenarios más habituales en incendios en un recinto?",
+      "opciones": {
+        "A": "Flashover, Backdraft",
+        "B": "Explosiones de gases de incendio",
+        "C": "Las respuestas a y b son las correctas",
+        "D": "Todas son correctas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el orden de capacidad de enfriamiento de diferentes agentes extintores?",
+      "opciones": {
+        "A": "Agua > Espuma > Halón > CO2",
+        "B": "Agua > Espuma > CO2 > Halón",
+        "C": "Agua > Halón > Espuma > CO2",
+        "D": "Agua > CO2 > Espuma > Halón"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué plásticos generan humos ácidos en su combustión?",
+      "opciones": {
+        "A": "Polímeros estirénicos",
+        "B": "Plásticos celulósicos",
+        "C": "Baquelitas",
+        "D": "Acetatos de celulosa"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿La temperatura de la llama depende de?",
+      "opciones": {
+        "A": "El índice de CO",
+        "B": "El calor específico",
+        "C": "Ninguna es correcta",
+        "D": "ay b son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuándo se considera que un gas es inflamable?",
+      "opciones": {
+        "A": "Cuando su banda de inflamabilidad con el aire es de al menos 13 puntos de porcentaje",
+        "B": "Cuando su banda de inflamabilidad con el aire es de al menos 12 puntos de porcentaje",
+        "C": "Ninguna es correcta",
+        "D": "Ambas son correctas"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la temperatura a la que un líquido se considera inflamable?",
+      "opciones": {
+        "A": "No superior a 60 °C",
+        "B": "No superior a 55 °C",
+        "C": "No superior a 50 °C",
+        "D": "No superior a 38 °C"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes gases no es inflamable?",
+      "opciones": {
+        "A": "Dióxido de carbono",
+        "B": "Acetileno",
+        "C": "Ninguno",
+        "D": "Ambos anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿A partir de cuál concentración el CO puede producir la muerte sin aviso sensorial previo?",
+      "opciones": {
+        "A": "1%",
+        "B": "5%",
+        "C": "10%",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es la principal sustancia producida en la combustión de materiales que contienen nitrógeno?",
+      "opciones": {
+        "A": "Acroleína",
+        "B": "Azufre",
+        "C": "Ninguna",
+        "D": "Ambos anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuándo se produce un flash-over, qué tipo de calor se genera?",
+      "opciones": {
+        "A": "Superior a 12 KW/m²",
+        "B": "Hasta 12 KW/m²",
+        "C": "Entre 12 y 20 KW/m²",
+        "D": "Inferior a 12 KW/m²"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cómo se clasificarán los refrigerantes inflamables o explosivos mezclados con aire en un porcentaje inferior al 35%?",
+      "opciones": {
+        "A": "Al grupo de alta seguridad",
+        "B": "Al grupo de media seguridad",
+        "C": "Al grupo de baja seguridad",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "Según las fichas internacionales de seguridad, los humos están formados en su mayor parte por partículas pequeñas de:",
+      "opciones": {
+        "A": "Alquitrán, polvo de materias inflamables y flujos",
+        "B": "Sulfuro de carbono",
+        "C": "Carbono, alquitrán, polvo, vapores y gases calientes",
+        "D": "Óxidos de ebonita, polvo, vapores y gases calientes"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál de estos compuestos tiene el punto de autoignición más bajo?",
+      "opciones": {
+        "A": "Alquinos",
+        "B": "Alguenilo",
+        "C": "Etenilo",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Entre las propiedades de los compuestos hidroxílicos, ¿cuál no se encuentra?",
+      "opciones": {
+        "A": "Punto de fusión y punto de ebullición mucho más altos que los hidrocarburos",
+        "B": "Al aumentar la masa molecular, aumentan sus punto de fusión y ebullición",
+        "C": "Algunos alcoholes tienen una densidad mayor que la del agua",
+        "D": "Sus punto de fusión y ebullición suelen estar muy juntos"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de estos compuestos tiene el punto de ebullición a 111°C (en condiciones normales)?",
+      "opciones": {
+        "A": "Etano",
+        "B": "Enoles",
+        "C": "Fenoles",
+        "D": "Todos son compuestos hidroxálicos"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La temperatura de la llama depende fundamentalmente de los siguientes factores:",
+      "opciones": {
+        "A": "Tipo de combustible y del índice de oxígeno",
+        "B": "Tipo de combustión y del índice de oxígeno",
+        "C": "Ninguna es correcta",
+        "D": "Tipo de combustible y presión"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El acetileno también se conoce como:",
+      "opciones": {
+        "A": "Etino",
+        "B": "Etenilo",
+        "C": "Acetino",
+        "D": "Ninguna de las anteriores"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En función de la velocidad de propagación, la denominación de las ondas con una velocidad subsónica es:",
+      "opciones": {
+        "A": "Ondas de presión",
+        "B": "Presión de choque",
+        "C": "Ondas de choque",
+        "D": "Presión de aire"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El rango de inflamabilidad del benceno es:",
+      "opciones": {
+        "A": "1.4%",
+        "B": "1.2%",
+        "C": "1.3%",
+        "D": "15%"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "En cuanto a las llamas difusoras, ¿cuál de las siguientes afirmaciones es incorrecta?",
+      "opciones": {
+        "A": "Se forman en el lugar donde combustible y aire se encierran",
+        "B": "1* Gases, 2* Humo, 3* Calor, 4* Llamas",
+        "C": "Evitan el contacto indirecto entre superficie y oxígeno",
+        "D": "Todos son correctos"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "La zona de oxidación de la llama se sitúa:",
+      "opciones": {
+        "A": "En la zona más externa de la llama",
+        "B": "En la zona intermedia de la llama",
+        "C": "En la zona más interna de la llama",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "La zona de oxidación de la llama se sitúa:",
+      "opciones": {
+        "A": "En la zona más externa de la llama",
+        "B": "En la zona intermedia de la llama",
+        "C": "En la zona más interna de la llama",
+        "D": "Ninguna es correcta"
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "El gas dióxido de nitrógeno se le atribuye el color:",
+      "opciones": {
+        "A": "Azul",
+        "B": "Acre",
+        "C": "Marrón rojizo",
+        "D": "Verde"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál de estas moléculas no suele encontrarse presente en los gases de los incendios?",
+      "opciones": {
+        "A": "Aldehídos",
+        "B": "Ácidos orgánicos",
+        "C": "Ácidos inorgánicos",
+        "D": "Todos son gases explosivos"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es la afirmación correcta sobre la ventilación de un incendio en un edificio?",
+      "opciones": {
+        "A": "La ventilación negativa es más efectiva que la ventilación positiva.",
+        "B": "La ventilación positiva es el doble de efectiva que la ventilación negativa.",
+        "C": "La ventilación negativa es más peligrosa cuando existe riesgo de reignición.",
+        "D": "Todos son correctos."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuáles son los tipos de gases tóxicos que se producen en una combustión?",
+      "opciones": {
+        "A": "Tres tipos asfixiantes, irritantes y venenosos.",
+        "B": "Cuatro tipos asfixiantes, irritantes, nocivos y venenosos.",
+        "C": "Cinco tipos asfixiantes, irritantes, nocivos, tóxicos y venenosos.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Dónde se origina el dióxido de azufre en una combustión?",
+      "opciones": {
+        "A": "Materiales que contienen azufre.",
+        "B": "Incendios con implicación de maderas.",
+        "C": "Caucho/polisulfuro.",
+        "D": "El SO₂ se origina en la combustión de todos los materiales anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué se conoce como HCN?",
+      "opciones": {
+        "A": "Fosgeno o cloruro de carbonilo.",
+        "B": "Cloruro de carbono.",
+        "C": "Oxicloruro de cloroformilo.",
+        "D": "El HCN se origina en la combustión de todos los materiales anteriores."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál es una propiedad que no corresponde al fosgeno?",
+      "opciones": {
+        "A": "Inflamable y fácilmente explosivo.",
+        "B": "Muy tóxico.",
+        "C": "Tres veces menos denso que el aire.",
+        "D": "Todas estas propiedades les corresponden."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué sustancias se consideran que pueden dar lugar a ácido sulfhídrico?",
+      "opciones": {
+        "A": "Materias orgánicas que contengan sulfuro.",
+        "B": "Caucho o polisulfuro.",
+        "C": "Las dos respuestas anteriores son correctas.",
+        "D": "Lanas, sedas o plásticos."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cómo se clasifican las explosiones?",
+      "opciones": {
+        "A": "Físicas, mecánicas, eléctricas, y nucleares.",
+        "B": "Físicas, mecánicas, eléctricas, y químicas.",
+        "C": "Físicas o mecánicas, químicas, eléctricas y nucleares.",
+        "D": "Ninguna es correcta."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué ocurre en un backdraft?",
+      "opciones": {
+        "A": "Define la habitación incendiada alcanzando el estado de incendio totalmente desarrollado.",
+        "B": "Define la habitación incendiada sin alcanzar el estado de incendio.",
+        "C": "No afecta a la habitación incendiada.",
+        "D": "Es un incendio controlado y extinguido."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué produce el HCl (ácido clorhídrico) en la combustión?",
+      "opciones": {
+        "A": "Materiales que contienen cloro (PVC).",
+        "B": "En condiciones normales, sin fuego, en graneros.",
+        "C": "Incendios sin llama de materiales sintéticos.",
+        "D": "Fuego de madera, papel, vegetales."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de estas propiedades no corresponde al HCl?",
+      "opciones": {
+        "A": "No es tóxico, pero produce asfixia.",
+        "B": "Irritante.",
+        "C": "Tóxico.",
+        "D": "Corrosivo."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "¿Qué coeficiente de expansión tienen las espumas de alta expansión según norma UNE 206037?",
+      "opciones": {
+        "A": "30",
+        "B": "500",
+        "C": "250",
+        "D": "Todas son falsas"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué gas se encuentra en la burbuja de la espuma?",
+      "opciones": {
+        "A": "Nitrógeno",
+        "B": "Oxígeno",
+        "C": "CO",
+        "D": "Todas son falsas"
+      },
+      "correcta": "A"
+    }
+  ]
+}
