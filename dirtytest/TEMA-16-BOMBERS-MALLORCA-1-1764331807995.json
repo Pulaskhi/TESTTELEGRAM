@@ -1,0 +1,434 @@
+[
+  {
+    "pregunta": "¿Qué tipo de numeración utilizan las vías radiales con centro en Palma según el nuevo sistema de nomenclatura de carreteras de Mallorca?",
+    "respuestas": [
+      "Número par",
+      "Número impar",
+      "Cinco dígitos"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la red de carreteras de Mallorca, ¿cuál es la función principal de la red primaria básica?",
+    "respuestas": [
+      "Conectar zonas residenciales",
+      "Facilitar tráficos de interés general y conectar principales núcleos económicos",
+      "Servir únicamente para tráfico local"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes carreteras forma parte de la red primaria complementaria?",
+    "respuestas": [
+      "Ma-1",
+      "Ma-15B",
+      "Ma-3XXX"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué indicador se utiliza para las vías de circunvalación en el sistema de nomenclatura de Mallorca?",
+    "respuestas": [
+      "Número par",
+      "Número impar",
+      "Letra mayúscula"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo se identifica una carretera que sigue el trazado antiguo o una travesía de población en Mallorca?",
+    "respuestas": [
+      "Número par",
+      "Número de cinco dígitos",
+      "Parte numérica seguida de una letra mayúscula"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué carretera conecta Palma con Puerto de Sóller y cuál es su identificación?",
+    "respuestas": [
+      "Ma-11 Carretera de Sóller",
+      "Ma-15 Desdoblamiento de Manacor",
+      "Ma-19 Eje de Levante"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el identificador de la vía que realiza la función de segundo cinturón en Mallorca?",
+    "respuestas": [
+      "Ma-20",
+      "Ma-30",
+      "Ma-15"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el rediseño de las nomenclaturas, ¿qué ajuste se realizó a las vías que anteriormente disponían de tres dígitos?",
+    "respuestas": [
+      "Se les añadió una letra",
+      "Se les eliminó un dígito",
+      "Se les añadió un cero"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál zona de la red secundaria abarca principalmente el este y sudeste de Mallorca?",
+    "respuestas": [
+      "Zona 2",
+      "Zona 4",
+      "Zona 5"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué identificador se usa para las carreteras de la zona 5 en la red secundaria de Mallorca?",
+    "respuestas": [
+      "Ma-2XXX",
+      "Ma-3XXX",
+      "Ma-5XXX"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué área abarca la Zona 3 en la red secundaria de carreteras de Mallorca?",
+    "respuestas": [
+      "Norte de la isla",
+      "Pla de Mallorca y algunas áreas de Raiguer y Levante",
+      "Sur del Pla de Mallorca"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la longitud del Eje de Poniente (Ma-1) y qué recorrido realiza?",
+    "respuestas": [
+      "26 km, Palma de Mallorca - Andrach",
+      "83 km, Palma - Capdepera",
+      "50 km, Palma - Santanyi"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué función principal tiene la red primaria complementaria en la red de carreteras de Mallorca?",
+    "respuestas": [
+      "Servir de enlace entre municipios locales",
+      "Comunicación intercomarcal superando el ámbito municipal",
+      "Conectar únicamente áreas comerciales"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Dentro de la red secundaria, ¿cómo se clasifica una carretera que conecta municipios dentro del mismo término municipal?",
+    "respuestas": [
+      "Red primaria básica",
+      "Red secundaria",
+      "Red primaria complementaria"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué carretera representa el primer cinturón de la vía de circunvalación de Palma?",
+    "respuestas": [
+      "Ma-19",
+      "Ma-20",
+      "Ma-15"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cómo se identifican las carreteras en la Zona 1 de la red secundaria de Mallorca?",
+    "respuestas": [
+      "Ma-1XXX",
+      "Ma-2XXX",
+      "Ma-10XXX"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el procedimiento estándar para actuar en un fuego que afecta a un vehículo en la Ma-1?",
+    "respuestas": [
+      "Acordonar el área y utilizar extintores de CO2",
+      "Esperar refuerzos sin intervenir",
+      "Usar agua a presión directamente sobre el fuego"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una emergencia en el túnel de la Ma-11, ¿cuál es el protocolo inicial para los bomberos?",
+    "respuestas": [
+      "Evacuar inmediatamente a todos los vehículos",
+      "Inspeccionar el origen del incidente",
+      "Establecer un puesto de mando avanzado"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué equipo es esencial cuando se responde a un accidente con materiales peligrosos en el puerto de Palma?",
+    "respuestas": [
+      "Equipo de respiración autónoma",
+      "Detector de gases portátil",
+      "Ambas opciones son correctas"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Si se reporta un incendio en los muelles comerciales del puerto de Palma, ¿qué tipo de extintor es más adecuado utilizar?",
+    "respuestas": [
+      "Extintor de agua",
+      "Extintor de espuma",
+      "Extintor de polvo químico seco"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la prioridad en la gestión de accidentes en las carreteras Ma-15 durante condiciones climáticas adversas?",
+    "respuestas": [
+      "Control del tráfico",
+      "Evacuación de heridos",
+      "Seguridad del personal de emergencia"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "En el contexto de un derrame de combustible en la Ma-20, ¿qué medida es prioritaria?",
+    "respuestas": [
+      "Contención del derrame",
+      "Evacuación de civiles",
+      "Neutralización del combustible"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo de comunicación se debe seguir en un rescate complicado en la Ma-30?",
+    "respuestas": [
+      "Usar solo comunicación radial",
+      "Comunicación directa entre equipos",
+      "Utilizar un sistema de comunicación jerárquico y claro"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuáles son las acciones iniciales ante un incendio en las instalaciones de almacenamiento de gas butano en el puerto de Alcudia?",
+    "respuestas": [
+      "Solicitar apoyo aéreo",
+      "Establecer un perímetro de seguridad",
+      "Ambas opciones son correctas"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué recurso técnico es indispensable en la lucha contra incendios en embarcaciones menores del puerto de Alcudia?",
+    "respuestas": [
+      "Bombas de achique",
+      "Mangueras de alta presión",
+      "Sistemas de espuma"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Ante un accidente vehicular en la Ma-13 con múltiples heridos, ¿cuál es el protocolo para la clasificación de víctimas?",
+    "respuestas": [
+      "Clasificación por edad",
+      "Clasificación por gravedad de las heridas",
+      "Clasificación por nacionalidad del herido"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué método de extinción es preferible en un incendio forestal cerca de la Ma-19?",
+    "respuestas": [
+      "Uso de retardantes químicos",
+      "Ataque directo con agua",
+      "Uso de barreras naturales"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo se debe proceder en la evaluación del riesgo en un accidente de tráfico en la Ma-1 con sospecha de carga explosiva?",
+    "respuestas": [
+      "Evacuar y esperar a los especialistas en explosivos",
+      "Inspeccionar visualmente sin acercarse",
+      "Realizar una evaluación con drones"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el equipo de protección personal mínimo requerido para una intervención en un incendio químico en zona industrial?",
+    "respuestas": [
+      "Traje de aproximación al fuego",
+      "Traje químico nivel A",
+      "Traje de agua"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué medida es crucial antes de iniciar la extinción de un incendio en un almacén de MM PP cerca del Puerto de Palma?",
+    "respuestas": [
+      "Identificar el tipo de material",
+      "Solicitar refuerzos adicionales",
+      "Iniciar la evacuación general"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En un rescate en altura en la Ma-11, ¿qué técnica se prefiere para asegurar la estabilidad de las víctimas?",
+    "respuestas": [
+      "Uso de escalera manual",
+      "Implementación de sistemas de poleas",
+      "Uso de plataforma elevadora"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la formación básica que debe tener un bombero para actuar en el dique del Oeste del puerto de Palma?",
+    "respuestas": [
+      "Manejo de embarcaciones",
+      "Formación en sustancias peligrosas",
+      "Certificación en buceo de rescate"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué medida de seguridad es prioritaria cuando se manejan MMPP de la Clase 3 en el puerto de Palma?",
+    "respuestas": [
+      "Control de derrames",
+      "Inspección visual de contenedores",
+      "Monitoreo de la temperatura ambiental"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el caso de un incendio involucrando gases inflamables en el puerto de Alcudia, ¿qué tipo de extintor es más adecuado usar?",
+    "respuestas": [
+      "Extintor de agua",
+      "Extintor de espuma",
+      "Extintor de polvo químico seco"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál es el protocolo inicial para la respuesta a emergencias con MMPP de la clase 9 en el puerto de Alcudia?",
+    "respuestas": [
+      "Evacuación inmediata",
+      "Identificación de la sustancia",
+      "Establecimiento de un perímetro de seguridad"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Si se produce un vertido de líquidos inflamables de la clase 3 en Mallorca, ¿qué acción es fundamental realizar primero?",
+    "respuestas": [
+      "Neutralización de la sustancia",
+      "Contención del vertido",
+      "Notificación a autoridades locales"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué tipo de formación específica deben tener los bomberos para actuar en emergencias con gases inflamables en Mallorca?",
+    "respuestas": [
+      "Formación en manejo de sustancias radioactivas",
+      "Formación en sustancias inflamables y explosivas",
+      "Formación en rescate acuático"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En un escenario de fuga de materia corrosiva en el puerto de Alcúdia, ¿cuál es el equipo de protección personal imprescindible?",
+    "respuestas": [
+      "Guantes de látex",
+      "Traje encapsulado resistente a productos químicos",
+      "Gafas de seguridad básicas"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el procedimiento estándar para el transporte seguro de MMPP de la clase 3 en la isla de Mallorca?",
+    "respuestas": [
+      "Transporte sin medidas de seguridad específicas",
+      "Uso obligatorio de contenedores herméticos",
+      "Revisión continua durante el trayecto"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes es un posible riesgo al manejar MMPP de la clase 9 en las instalaciones portuarias?",
+    "respuestas": [
+      "Explosión inmediata",
+      "Reacción alérgica en personal no equipado",
+      "Liberación de sustancias tóxicas al ambiente"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué indicador es crucial monitorear durante el transporte de gases inflamables a través de Alcudia?",
+    "respuestas": [
+      "Presión atmosférica",
+      "Humedad relativa",
+      "Temperatura"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Durante un rescate en un incendio de un depósito de gasolina, ¿qué técnica de extinción es la más recomendada?",
+    "respuestas": [
+      "Uso de agua a presión",
+      "Uso de agentes espumógenos",
+      "Ventilación controlada"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué protocolo sigue el cuerpo de bomberos para inspecciones regulares en zonas de alto riesgo como los puertos con MMPP?",
+    "respuestas": [
+      "Inspecciones mensuales sin reportes",
+      "Inspecciones sorpresa sin previo aviso",
+      "Inspecciones programadas con registro detallado"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál es la principal consideración operativa al establecer un perímetro de seguridad en un incidente con MMPP Clase 2 en Alcudia?",
+    "respuestas": [
+      "Velocidad del viento",
+      "Proximidad a zonas residenciales",
+      "Número de personal disponible"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué procedimiento es vital al recibir una alerta de derrame de materias corrosivas en un puerto?",
+    "respuestas": [
+      "Realizar una evaluación de impacto ambiental",
+      "Establecer control de acceso al área",
+      "Solicitar apoyo de equipos especializados en materiales peligrosos"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la gestión de un incidente con líquidos inflamables de la Clase 3, ¿qué factor determina la necesidad de evacuación inmediata?",
+    "respuestas": [
+      "Cantidad de sustancia derramada",
+      "Hora del día en que ocurrió el incidente",
+      "Tipo de contenedor utilizado"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo se clasifican las MMPP de la clase 9 que entran por el puerto de Alcudia?",
+    "respuestas": [
+      "Materias explosivas",
+      "Gases inertes",
+      "Materias y objetos peligrosos diversos"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué entrenamiento adicional es recomendable para los operadores de puertos que manejan continuamente MMPP de clase 3 y 2?",
+    "respuestas": [
+      "Entrenamiento en primeros auxilios básicos",
+      "Entrenamiento especializado en manejo de MMPP",
+      "Curso de seguridad básica industrial"
+    ],
+    "correcta": 2
+  }
+]
