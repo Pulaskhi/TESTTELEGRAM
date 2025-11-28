@@ -1,0 +1,114 @@
+[
+  {
+    "titulo": "Autonomía Municipal",
+    "explicacion": "El artículo 138 de la Constitución Española establece que el Estado garantiza la autonomía de los municipios, regulada por los Ayuntamientos y Alcaldes.",
+    "clave_memoria": "Visualiza un mapa de municipios donde cada uno tiene su propio alcalde a cargo.",
+    "pregunta_rapida": "¿Qué garantiza el artículo 138 de la Constitución Española?",
+    "respuesta_corta": "La autonomía de los municipios."
+  },
+  {
+    "titulo": "Iniciativa Autonómica",
+    "explicacion": "El artículo 143 establece que la iniciativa para iniciar el proceso autonómico puede ser tomada por las provincias o islas.",
+    "clave_memoria": "Imagínate un grupo de islas que levantan la mano para pedir autonomía.",
+    "pregunta_rapida": "¿Quién tiene la iniciativa para iniciar el proceso autonómico según el artículo 143?",
+    "respuesta_corta": "Las provincias o islas."
+  },
+  {
+    "titulo": "Requisitos para Autonomía",
+    "explicacion": "El artículo 143 especifica que para iniciar el proceso de autonomía, se requiere un acuerdo del 50% de los municipios de la provincia o isla.",
+    "clave_memoria": "Visualiza un gran número de municipios levantando banderas a la vez, simbolizando el acuerdo.",
+    "pregunta_rapida": "¿Qué requisito establece el artículo 143 para iniciar el proceso de autonomía?",
+    "respuesta_corta": "Acuerdo del 50% de los municipios."
+  },
+  {
+    "titulo": "Prohibiciones entre CCAA",
+    "explicacion": "El artículo 145 prohíbe cualquier tipo de discriminación o desigualdad entre las Comunidades Autónomas.",
+    "clave_memoria": "Imagina dos comunidades en una balanza, buscando un equilibrio perfecto.",
+    "pregunta_rapida": "¿Qué está prohibido entre las Comunidades Autónomas según el artículo 145?",
+    "respuesta_corta": "Discriminación o desigualdad."
+  },
+  {
+    "titulo": "Competencias Exclusivas",
+    "explicacion": "El artículo 149 otorga competencia exclusiva al Estado sobre la regulación de condiciones básicas para garantizar la igualdad de todos los españoles.",
+    "clave_memoria": "Visualiza un escudo que simboliza la igualdad entre todos los españoles.",
+    "pregunta_rapida": "¿Quién tiene competencia exclusiva sobre la igualdad según el artículo 149?",
+    "respuesta_corta": "El Estado."
+  },
+  {
+    "titulo": "Autonomía Financiera",
+    "explicacion": "El artículo 156 establece que las Comunidades Autónomas deben tener autonomía financiera, regida por principios de suficiencia y estabilidad.",
+    "clave_memoria": "Piensa en una hucha que debe ser suficiente para cubrir las necesidades de una comunidad.",
+    "pregunta_rapida": "¿Qué principios rigen la autonomía financiera de las Comunidades Autónomas según el artículo 156?",
+    "respuesta_corta": "Suficiencia y estabilidad."
+  },
+  {
+    "titulo": "Procedimiento de Estatuto",
+    "explicacion": "El artículo 151 detalla el procedimiento para la elaboración de Estatutos de autonomía, comenzando con la convocatoria del Gobierno.",
+    "clave_memoria": "Imagínate un grupo de parlamentarios convocando a una reunión para crear un nuevo estatuto.",
+    "pregunta_rapida": "¿Quién convoca al Gobierno para elaborar el proyecto de Estatuto según el artículo 151?",
+    "respuesta_corta": "La Asamblea de Parlamentarios."
+  },
+  {
+    "titulo": "Verificación Constitucional",
+    "explicacion": "El artículo 153 señala que el Tribunal Constitucional es el encargado de verificar la constitucionalidad de las disposiciones de las Comunidades Autónomas.",
+    "clave_memoria": "Visualiza un juez revisando documentos con una lupa, simbolizando la verificación.",
+    "pregunta_rapida": "¿Qué órgano verifica la constitucionalidad de las disposiciones normativas de las CCAA según el artículo 153?",
+    "respuesta_corta": "El Tribunal Constitucional."
+  },
+  {
+    "titulo": "Intervención CCAA",
+    "explicacion": "El artículo 155 establece el procedimiento para intervenir una Comunidad Autónoma que no cumpla con sus obligaciones legales.",
+    "clave_memoria": "Piensa en un superhéroe que interviene para ayudar a una comunidad en problemas legales.",
+    "pregunta_rapida": "¿Qué establece el artículo 155 respecto a la intervención de una CCAA?",
+    "respuesta_corta": "Procedimiento para intervenir si no cumple obligaciones."
+  },
+  {
+    "titulo": "Fondo de Compensación",
+    "explicacion": "El Fondo de Compensación se establece en los Presupuestos Generales del Estado para ayudar a las Comunidades Autónomas con menos recursos.",
+    "clave_memoria": "Imagínate un fondo común donde las comunidades más ricas ayudan a las más pobres.",
+    "pregunta_rapida": "¿Cuál es la función principal del Fondo de Compensación?",
+    "respuesta_corta": "Ayudar a CCAA con menos recursos."
+  },
+  {
+    "titulo": "Títulos del Estatuto de Baleares",
+    "explicacion": "El Estatuto de Autonomía de las Islas Baleares se compone de 13 títulos que abarcan desde el gobierno hasta las competencias.",
+    "clave_memoria": "Visualiza un libro con 13 capítulos, cada uno dedicado a un tema diferente sobre la autonomía.",
+    "pregunta_rapida": "¿Cuántos títulos componen el Estatuto de Autonomía de las Islas Baleares?",
+    "respuesta_corta": "13 títulos."
+  },
+  {
+    "titulo": "Regulación del Turismo",
+    "explicacion": "Según el Estatuto de Autonomía de las Islas Baleares, el Gobierno es responsable de la ordenación del turismo, crucial para la economía local.",
+    "clave_memoria": "Imagina un mapa turístico donde el gobierno es el guía que organiza las visitas.",
+    "pregunta_rapida": "¿Quién regula el turismo en las Islas Baleares según su Estatuto?",
+    "respuesta_corta": "El Gobierno de las Islas Baleares."
+  },
+  {
+    "titulo": "Protección Civil en Baleares",
+    "explicacion": "La CAIB tiene competencias en temas de protección civil y emergencias, garantizando la seguridad de la población.",
+    "clave_memoria": "Visualiza a un grupo de rescatistas listos para actuar en caso de emergencia.",
+    "pregunta_rapida": "¿Quién es responsable de la protección civil en las Islas Baleares?",
+    "respuesta_corta": "La CAIB."
+  },
+  {
+    "titulo": "Competencias en Salud",
+    "explicacion": "El Estatuto de Autonomía de las Islas Baleares otorga a la CAIB competencias en salud y sanidad, asegurando el bienestar de los ciudadanos.",
+    "clave_memoria": "Imagina un médico que representa la salud de la comunidad.",
+    "pregunta_rapida": "¿Qué competencia tiene la CAIB respecto a la salud?",
+    "respuesta_corta": "Competencias en salud y sanidad."
+  },
+  {
+    "titulo": "Regulaciones sobre Educación",
+    "explicacion": "La CAIB controla las competencias sobre la enseñanza no universitaria, asegurando una educación de calidad para todos.",
+    "clave_memoria": "Piensa en una escuela donde la CAIB establece las normas educativas.",
+    "pregunta_rapida": "¿Cómo se clasifica la competencia de las Islas Baleares sobre la enseñanza no universitaria?",
+    "respuesta_corta": "Competencia en educación no universitaria."
+  },
+  {
+    "titulo": "Decretos Leyes",
+    "explicacion": "En caso de necesidad urgente, el Consejo de Gobierno tiene 30 días para que sus decretos leyes sean convalidados por el parlamento.",
+    "clave_memoria": "Visualiza un reloj que cuenta los días hasta la validación de un decreto.",
+    "pregunta_rapida": "¿Cuántos días tiene el Consejo de Gobierno para convalidar decretos leyes?",
+    "respuesta_corta": "30 días."
+  }
+]

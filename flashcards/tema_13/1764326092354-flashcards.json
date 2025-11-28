@@ -1,0 +1,107 @@
+[
+  {
+    "titulo": "Experimento de Galileo",
+    "explicacion": "Galileo demostró que el aire tiene peso, lo cual fue fundamental para entender la presión atmosférica.",
+    "clave_memoria": "Imagina a Galileo con una balanza y un gran globo de aire.",
+    "pregunta_rapida": "¿Qué demostró Galileo con su experimento?",
+    "respuesta_corta": "El aire tiene peso."
+  },
+  {
+    "titulo": "Columna de mercurio",
+    "explicacion": "Una columna de mercurio de 760 mm de altura representa la presión atmosférica estándar a nivel del mar.",
+    "clave_memoria": "Visualiza un termómetro gigante lleno de mercurio.",
+    "pregunta_rapida": "¿Qué representa una columna de mercurio de 760 mm?",
+    "respuesta_corta": "La presión atmosférica estándar."
+  },
+  {
+    "titulo": "Principio de Pascal",
+    "explicacion": "El principio de Pascal establece que la presión aplicada en un fluido se transmite de manera uniforme en todas direcciones.",
+    "clave_memoria": "Imagina una burbuja de aire expandiéndose uniformemente.",
+    "pregunta_rapida": "¿Cómo se aplica el principio de Pascal?",
+    "respuesta_corta": "La presión se transmite uniformemente en un fluido."
+  },
+  {
+    "titulo": "Unidad de presión atmosférica",
+    "explicacion": "El milibar es una unidad de medida de presión atmosférica, donde 1 milibar es igual a 100 pascales.",
+    "clave_memoria": "Recuerda 'mil' como una partida de 100, así que milibar significa 100 pascales.",
+    "pregunta_rapida": "¿Qué unidad mide la presión atmosférica equivalente al milibar?",
+    "respuesta_corta": "Hectopascal (hPa)."
+  },
+  {
+    "titulo": "Presión a diferentes altitudes",
+    "explicacion": "La presión atmosférica disminuye con la altitud; a 5,5 km, es aproximadamente la mitad de la presión al nivel del mar.",
+    "clave_memoria": "Piensa en un globo que se desinfla al subir.",
+    "pregunta_rapida": "¿Cómo varía la presión atmosférica al subir de altitud?",
+    "respuesta_corta": "Disminuye."
+  },
+  {
+    "titulo": "Isobaras en mapas",
+    "explicacion": "Las isobaras en los mapas meteorológicos son líneas que conectan puntos de igual presión atmosférica; las de alta presión son paralelas y separadas.",
+    "clave_memoria": "Visualiza ríos paralelos de aire.",
+    "pregunta_rapida": "¿Qué forma adoptan las isobaras de alta presión?",
+    "respuesta_corta": "Paralelas y separadas."
+  },
+  {
+    "titulo": "Anticiclón y tiempo",
+    "explicacion": "En un anticiclón, el aire desciende y se calienta, lo que reduce la probabilidad de lluvias y fenómenos severos.",
+    "clave_memoria": "Imagina un sol brillando en un cielo despejado.",
+    "pregunta_rapida": "¿Qué fenómeno meteorológico es menos probable en un anticiclón?",
+    "respuesta_corta": "Lluvias."
+  },
+  {
+    "titulo": "Frente frío",
+    "explicacion": "Un frente frío se forma cuando el aire frío desplaza al aire cálido, generando nubes de tipo cumulonimbus y potencialmente tormentas.",
+    "clave_memoria": "Imagina un bloque de hielo empujando una nube esponjosa.",
+    "pregunta_rapida": "¿Qué nubes se forman en un frente frío?",
+    "respuesta_corta": "Cumulonimbus."
+  },
+  {
+    "titulo": "Corrientes en chorro",
+    "explicacion": "Las corrientes en chorro son vientos fuertes en la tropopausa que influyen en el tiempo, dirigiendo sistemas meteorológicos.",
+    "clave_memoria": "Visualiza un río rápido en el cielo.",
+    "pregunta_rapida": "¿Qué son las corrientes en chorro?",
+    "respuesta_corta": "Vientos fuertes en la tropopausa."
+  },
+  {
+    "titulo": "Isotermas en mapas",
+    "explicacion": "Las isotermas en los mapas de altura indican áreas de igual temperatura, ayudando a prever la evolución del tiempo.",
+    "clave_memoria": "Imagina un mapa de calor en el que las zonas cálidas brillan.",
+    "pregunta_rapida": "¿Cuál es la función de las isotermas en mapas meteorológicos?",
+    "respuesta_corta": "Indicar áreas de igual temperatura."
+  },
+  {
+    "titulo": "Inundaciones y urbanización",
+    "explicacion": "La urbanización incrementa el riesgo de inundaciones al reducir la capacidad del suelo para absorber agua.",
+    "clave_memoria": "Piensa en una esponja saturada de agua.",
+    "pregunta_rapida": "¿Cómo afecta la urbanización al riesgo de inundaciones?",
+    "respuesta_corta": "Lo aumenta."
+  },
+  {
+    "titulo": "Efectos del relieve en el tiempo",
+    "explicacion": "El relieve montañoso, como la Sierra de Tramuntana, influye en los patrones de viento y precipitación en Mallorca.",
+    "clave_memoria": "Imagina montañas que desvían las nubes.",
+    "pregunta_rapida": "¿Cómo influye la Sierra de Tramuntana en Mallorca?",
+    "respuesta_corta": "Modifica el viento y la precipitación."
+  },
+  {
+    "titulo": "Crecida de ríos",
+    "explicacion": "Cuando un río crece más allá de su capacidad, inunda las llanuras circundantes, causando daños significativos.",
+    "clave_memoria": "Visualiza un río desbordándose y cubriendo campos.",
+    "pregunta_rapida": "¿Qué sucede cuando un río supera su capacidad de desagüe?",
+    "respuesta_corta": "Causa inundaciones."
+  },
+  {
+    "titulo": "Depósitos en abanico",
+    "explicacion": "Los depósitos de sedimentos en forma de abanico se forman al perder energía el agua al salir de un canal estrecho.",
+    "clave_memoria": "Imagina un abanico que se abre y dispersa arena.",
+    "pregunta_rapida": "¿Qué describe un depósito en abanico?",
+    "respuesta_corta": "Sedimentos dispersos al perder energía."
+  },
+  {
+    "titulo": "Vientos de embat",
+    "explicacion": "Los vientos de embat en Mallorca son vientos locales que soplan hacia el mar durante el verano, provocando un cambio en las temperaturas.",
+    "clave_memoria": "Visualiza un soplo de aire fresco que viene del mar.",
+    "pregunta_rapida": "¿Qué son los vientos de embat?",
+    "respuesta_corta": "Vientos locales que soplan hacia el mar en verano."
+  }
+]

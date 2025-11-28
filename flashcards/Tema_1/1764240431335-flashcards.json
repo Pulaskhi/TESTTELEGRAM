@@ -1,0 +1,352 @@
+[
+  {
+    "titulo": "Reacción química",
+    "explicacion": "Es un proceso donde las sustancias se transforman en otras con una naturaleza distinta. A diferencia de las mezclas, las reacciones químicas alteran la composición de los reactivos.",
+    "clave_memoria": "Transformación de sustancias.",
+    "pregunta_rapida": "¿Qué es una reacción química según el texto?",
+    "respuesta_corta": "Un proceso donde las sustancias se transforman en otras con una naturaleza distinta."
+  },
+  {
+    "titulo": "Combustión",
+    "explicacion": "Es una reacción química de oxidación rápida que libera energía en forma de calor y luz. Este fenómeno ocurre entre un combustible y un comburente, normalmente oxígeno.",
+    "clave_memoria": "Oxidación rápida y energía.",
+    "pregunta_rapida": "¿Qué describe mejor una reacción de combustión?",
+    "respuesta_corta": "Una reacción química de oxidación rápida que libera energía en forma de calor y luz."
+  },
+  {
+    "titulo": "Reacción exotérmica",
+    "explicacion": "Se caracteriza por liberar energía al exterior, normalmente en forma de calor. Estas reacciones generan un aumento de temperatura en el entorno.",
+    "clave_memoria": "Libera energía (calor).",
+    "pregunta_rapida": "¿Qué caracteriza a una reacción exotérmica?",
+    "respuesta_corta": "El sistema libera energía al exterior, normalmente en forma de calor."
+  },
+  {
+    "titulo": "Óxido de hierro",
+    "explicacion": "Indica una reacción química donde el hierro se combina con el oxígeno. Esta reacción es común y es un proceso de corrosión.",
+    "clave_memoria": "Hierro + oxígeno = óxido.",
+    "pregunta_rapida": "¿Qué indica la formación de óxido de hierro?",
+    "respuesta_corta": "Es una reacción química donde el hierro se combina con el oxígeno."
+  },
+  {
+    "titulo": "Fenómenos fisicoquímicos",
+    "explicacion": "Afectan tanto la composición interna como la disposición externa de las sustancias. Son procesos complejos que involucran cambios físicos y químicos.",
+    "clave_memoria": "Cambio interno y externo.",
+    "pregunta_rapida": "¿Qué caracteriza a los fenómenos fisicoquímicos?",
+    "respuesta_corta": "Son procesos que afectan tanto la composición interna como la disposición externa de las sustancias."
+  },
+  {
+    "titulo": "Reacción REDOX",
+    "explicacion": "En una reacción de oxidación, el número de oxidación de la especie que se oxida aumenta. Esto refleja la pérdida de electrones por parte de esa especie.",
+    "clave_memoria": "Oxidación = aumento del número.",
+    "pregunta_rapida": "¿Qué sucede con el número de oxidación en una reacción REDOX?",
+    "respuesta_corta": "Aumenta su número de oxidación."
+  },
+  {
+    "titulo": "Rol del oxígeno",
+    "explicacion": "En una reacción de combustión, el oxígeno actúa como agente oxidante. Es esencial para la combustión eficiente del combustible.",
+    "clave_memoria": "Oxígeno = agente oxidante.",
+    "pregunta_rapida": "¿Qué rol cumple el oxígeno en combustión?",
+    "respuesta_corta": "Actúa como agente oxidante."
+  },
+  {
+    "titulo": "Relación combustible-comburente",
+    "explicacion": "En una reacción REDOX, el combustible se oxida y el comburente se reduce. Esta relación es fundamental para entender las reacciones de combustión.",
+    "clave_memoria": "Combustible se oxida, comburente se reduce.",
+    "pregunta_rapida": "¿Cómo se relacionan combustible y comburente en REDOX?",
+    "respuesta_corta": "El combustible se oxida y el comburente se reduce."
+  },
+  {
+    "titulo": "Fuego e incendio",
+    "explicacion": "Según la norma ISO 13943, un fuego está controlado y un incendio no. Esta definición es crucial para la gestión de emergencias.",
+    "clave_memoria": "Fuego controlado, incendio no.",
+    "pregunta_rapida": "¿Qué diferencia hay entre fuego e incendio según la norma ISO?",
+    "respuesta_corta": "El fuego está controlado y el incendio no."
+  },
+  {
+    "titulo": "Condiciones de combustión",
+    "explicacion": "Para que se produzca una combustión, es necesaria la presencia de materiales reaccionantes y energía de activación, además de la fase gaseosa.",
+    "clave_memoria": "Materiales, fase gaseosa y energía.",
+    "pregunta_rapida": "¿Qué condiciones son necesarias para la combustión?",
+    "respuesta_corta": "Presencia de materiales reaccionantes, fase gaseosa y energía de activación."
+  },
+  {
+    "titulo": "Rol del combustible",
+    "explicacion": "En la combustión, el combustible actúa como agente reductor al ceder electrones al agente oxidante. Es esencial para el proceso de oxidación.",
+    "clave_memoria": "Combustible = agente reductor.",
+    "pregunta_rapida": "¿Qué papel tiene el combustible en la combustión?",
+    "respuesta_corta": "Actúa como agente reductor, cediendo electrones al agente oxidante."
+  },
+  {
+    "titulo": "Inflamabilidad de combustibles sólidos",
+    "explicacion": "El aumento de la densidad del material disminuye la facilidad de ignición en combustibles sólidos. Esto afecta la combustión en situaciones de emergencia.",
+    "clave_memoria": "Densidad alta = menor ignición.",
+    "pregunta_rapida": "¿Qué factor disminuye la facilidad de ignición en combustibles sólidos?",
+    "respuesta_corta": "Aumento de la densidad del material."
+  },
+  {
+    "titulo": "Pirólisis",
+    "explicacion": "Durante la pirólisis, el material se descompone térmicamente en ausencia de oxígeno. Esto es relevante para entender los incendios y su control.",
+    "clave_memoria": "Descomposición sin oxígeno.",
+    "pregunta_rapida": "¿Qué ocurre en la pirólisis?",
+    "respuesta_corta": "El material se descompone térmicamente en ausencia de oxígeno."
+  },
+  {
+    "titulo": "Inflamabilidad de combustibles líquidos",
+    "explicacion": "La inflamabilidad de los líquidos pulverizados aumenta con la mayor superficie de contacto entre el combustible y el comburente, lo que favorece la combustión.",
+    "clave_memoria": "Superficie mayor = inflamabilidad mayor.",
+    "pregunta_rapida": "¿Qué aumenta la inflamabilidad de combustibles líquidos pulverizados?",
+    "respuesta_corta": "Mayor superficie de contacto entre el combustible y el comburente."
+  },
+  {
+    "titulo": "Límite inferior de inflamabilidad (LII)",
+    "explicacion": "El LII es la mínima concentración de gas en el aire necesaria para que se produzca una combustión. Es un concepto clave en la seguridad contra incendios.",
+    "clave_memoria": "LII = mínima concentración para combustión.",
+    "pregunta_rapida": "¿Qué indica el límite inferior de inflamabilidad?",
+    "respuesta_corta": "Es la mínima concentración de gas en el aire necesaria para que se produzca una combustión."
+  },
+  {
+    "titulo": "Porcentaje de oxígeno en el aire",
+    "explicacion": "El aire contiene aproximadamente 21% de oxígeno. Esta proporción es esencial para entender la combustión y la propagación del fuego.",
+    "clave_memoria": "21% = oxígeno en el aire.",
+    "pregunta_rapida": "¿Qué porcentaje de oxígeno se encuentra en el aire?",
+    "respuesta_corta": "21%."
+  },
+  {
+    "titulo": "Comburente adicional",
+    "explicacion": "El nitrógeno puede actuar como comburente en situaciones específicas, haciendo que ciertos metales como el aluminio ardan. Es importante en la química del fuego.",
+    "clave_memoria": "Nitrógeno = comburente para algunos metales.",
+    "pregunta_rapida": "¿Qué comburente puede hacer arder al aluminio?",
+    "respuesta_corta": "Nitrógeno."
+  },
+  {
+    "titulo": "Tipos de combustión",
+    "explicacion": "La combustión completa ocurre cuando hay suficiente oxígeno. Este tipo de reacción produce menos contaminantes y es más eficiente.",
+    "clave_memoria": "Suficiente oxígeno = combustión completa.",
+    "pregunta_rapida": "¿Qué tipo de combustión ocurre con suficiente oxígeno?",
+    "respuesta_corta": "Combustión completa."
+  },
+  {
+    "titulo": "Productos de combustión completa",
+    "explicacion": "Los principales productos de una combustión completa son dióxido de carbono y vapor de agua. Estos son los resultados deseados de la combustión eficiente.",
+    "clave_memoria": "CO₂ y H₂O = combustión completa.",
+    "pregunta_rapida": "¿Qué productos se obtienen de una combustión completa?",
+    "respuesta_corta": "Dióxido de carbono y vapor de agua."
+  },
+  {
+    "titulo": "Comportamiento de los gases",
+    "explicacion": "Los gases tienen una alta velocidad explosiva de combustión, lo que los hace peligrosos en incendios. Este comportamiento es crucial para la seguridad.",
+    "clave_memoria": "Gases = explosivos.",
+    "pregunta_rapida": "¿Cuál es la característica principal de los gases en combustión?",
+    "respuesta_corta": "Velocidad explosiva de combustión."
+  },
+  {
+    "titulo": "Composición de fibras vegetales",
+    "explicacion": "Las fibras vegetales como el algodón y el lino están principalmente compuestas de celulosa. Esto determina su inflamabilidad y comportamiento en incendios.",
+    "clave_memoria": "Celulosa = fibra vegetal.",
+    "pregunta_rapida": "¿Cuál es la principal composición de fibras vegetales?",
+    "respuesta_corta": "Celulosa."
+  },
+  {
+    "titulo": "Temperatura en madera",
+    "explicacion": "Cuando la madera alcanza entre 300 °C y 500 °C, se desarrolla una pirólisis intensa, lo que puede hacer que la llama comience a disminuir.",
+    "clave_memoria": "300-500 °C = pirólisis intensa.",
+    "pregunta_rapida": "¿Qué ocurre con la madera entre 300 °C y 500 °C?",
+    "respuesta_corta": "Se desarrolla una pirólisis intensa y la llama comienza a disminuir."
+  },
+  {
+    "titulo": "Rapidez de combustión en polvo",
+    "explicacion": "La temperatura ambiente no influye en la rapidez de combustión de una nube de polvo. Otros factores como la humedad y el tamaño de las partículas son más determinantes.",
+    "clave_memoria": "Temperatura ambiente = sin influencia.",
+    "pregunta_rapida": "¿Qué factor no influye en la rapidez de combustión de una nube de polvo?",
+    "respuesta_corta": "La temperatura ambiente."
+  },
+  {
+    "titulo": "Metales y combustión",
+    "explicacion": "El aluminio en forma de virutas es más propenso a arder en condiciones de disgregación y alta temperatura. Esto resalta la importancia del estado del material en incendios.",
+    "clave_memoria": "Aluminio virutas = alta propensión al fuego.",
+    "pregunta_rapida": "¿Qué metal es más propenso a arder en condiciones específicas?",
+    "respuesta_corta": "Aluminio en forma de virutas."
+  },
+  {
+    "titulo": "Límites de inflamabilidad",
+    "explicacion": "Al aumentar la temperatura, el rango de inflamabilidad se ensancha, lo que puede resultar en condiciones más peligrosas en un incendio.",
+    "clave_memoria": "Temperatura alta = rango ancho.",
+    "pregunta_rapida": "¿Qué ocurre con los límites de inflamabilidad al aumentar la temperatura?",
+    "respuesta_corta": "El rango se ensancha."
+  },
+  {
+    "titulo": "Concentración de oxígeno",
+    "explicacion": "Un aumento de la concentración de oxígeno en el aire aumenta el límite superior de inflamabilidad (LSI) mientras el límite inferior (LII) permanece estable. Esto incrementa el riesgo de incendio.",
+    "clave_memoria": "Oxígeno alto = LSI alta.",
+    "pregunta_rapida": "¿Cómo afecta el oxígeno a los límites de inflamabilidad?",
+    "respuesta_corta": "Aumenta el LSI y el LII permanece estable."
+  },
+  {
+    "titulo": "Punto estequiométrico",
+    "explicacion": "Es el punto donde la mezcla de combustible y comburente tiene la proporción óptima para una combustión intensa, maximizando la eficiencia y minimizando los residuos.",
+    "clave_memoria": "Proporción óptima = combustión intensa.",
+    "pregunta_rapida": "¿Qué caracteriza al punto estequiométrico?",
+    "respuesta_corta": "Es el punto donde la mezcla tiene una proporción óptima para una combustión intensa."
+  },
+  {
+    "titulo": "Límites de inflamabilidad y temperatura",
+    "explicacion": "El LII disminuye y el LSI aumenta al aumentar la temperatura, lo que indica un riesgo creciente en situaciones de incendio.",
+    "clave_memoria": "LII baja, LSI alta = más peligro.",
+    "pregunta_rapida": "¿Qué sucede con los límites de inflamabilidad al aumentar la temperatura?",
+    "respuesta_corta": "El LII disminuye y el LSI aumenta."
+  },
+  {
+    "titulo": "Bajo punto de inflamación",
+    "explicacion": "Un bajo punto de inflamación indica que una sustancia tiene un mayor riesgo de incendio, ya que puede inflamarse a temperaturas más bajas.",
+    "clave_memoria": "Bajo = alto riesgo de incendio.",
+    "pregunta_rapida": "¿Qué indica un bajo punto de inflamación en una sustancia?",
+    "respuesta_corta": "Que tiene un mayor riesgo de incendio."
+  },
+  {
+    "titulo": "Punto de autoignición vs. inflamación",
+    "explicacion": "El punto de autoignición es la temperatura a la que una sustancia se inflama sin fuente externa. El punto de inflamación requiere proximidad de una fuente de ignición.",
+    "clave_memoria": "Autoignición = sin fuente externa.",
+    "pregunta_rapida": "¿Cuál es la diferencia entre autoignición e inflamación?",
+    "respuesta_corta": "El punto de autoignición se inflama sin fuente externa, el de inflamación sí la necesita."
+  },
+  {
+    "titulo": "Fuego clase D",
+    "explicacion": "Los fuegos clase D son extremadamente peligrosos ya que no deben apagarse con agua debido a posibles reacciones violentas. Estos fuegos requieren un tratamiento especial.",
+    "clave_memoria": "Clase D = no agua.",
+    "pregunta_rapida": "¿Qué caracteriza a un fuego clase D?",
+    "respuesta_corta": "No deben apagarse con agua debido a posibles salpicaduras violentas."
+  },
+  {
+    "titulo": "Incendio de envergadura",
+    "explicacion": "Un incendio de envergadura se caracteriza por tener una superficie activa que supera los 100 m². Esta medida ayuda a evaluar la gravedad del incendio.",
+    "clave_memoria": "Superficie > 100 m² = envergadura.",
+    "pregunta_rapida": "¿Qué indica que un fuego es de 'envergadura'?",
+    "respuesta_corta": "La superficie activa supera los 100 m²."
+  },
+  {
+    "titulo": "Fuego alimentado",
+    "explicacion": "Un fuego alimentado se mantiene activo por un suministro continuo de combustible desde depósitos no afectados, lo que puede complicar su extinción.",
+    "clave_memoria": "Fuego activo con combustible continuo.",
+    "pregunta_rapida": "¿Qué describe mejor un fuego alimentado?",
+    "respuesta_corta": "El incendio se mantiene activo por un suministro continuo de combustible desde depósitos no afectados."
+  },
+  {
+    "titulo": "ILC vs ILV",
+    "explicacion": "Un ILC tiene mala visibilidad y alta concentración de gases tóxicos, mientras que un ILV tiene buena visibilidad y baja concentración de gases. Importante para la estrategia de intervención.",
+    "clave_memoria": "ILC = mala visibilidad, ILV = buena visibilidad.",
+    "pregunta_rapida": "¿Qué diferencia un ILC de un ILV?",
+    "respuesta_corta": "Un ILC tiene mala visibilidad y alta concentración de gases, mientras que un ILV tiene buena visibilidad."
+  },
+  {
+    "titulo": "Atmósfera rica en gases inflamables",
+    "explicacion": "Se caracteriza por un ambiente explosivo, lo que aumenta el riesgo de incendios y explosiones. Comprender esto es clave para la prevención de accidentes.",
+    "clave_memoria": "Riesgo alto = ambiente explosivo.",
+    "pregunta_rapida": "¿Qué caracteriza a una atmósfera rica en gases inflamables?",
+    "respuesta_corta": "Ambiente explosivo."
+  },
+  {
+    "titulo": "Poder calorífico",
+    "explicacion": "Se mide en kilojulios por kilogramo o kilojulios por metro cúbico, indicando la cantidad de energía liberada durante la combustión de un combustible.",
+    "clave_memoria": "Poder calorífico = energía liberada.",
+    "pregunta_rapida": "¿Qué unidades se utilizan para medir el poder calorífico?",
+    "respuesta_corta": "Kilojulios por kilogramo, kilojulios por metro cúbico."
+  },
+  {
+    "titulo": "Propagación del calor",
+    "explicacion": "La conducción es el mecanismo que describe el movimiento de calor mediante contacto directo entre materiales. Esto es crucial en incendios para entender cómo se disipa el calor.",
+    "clave_memoria": "Conducción = calor por contacto.",
+    "pregunta_rapida": "¿Qué describe el movimiento de calor por contacto directo?",
+    "respuesta_corta": "Conducción."
+  },
+  {
+    "titulo": "Poder calorífico superior vs inferior",
+    "explicacion": "El PCS es el calor emitido y el PCI es el calor aprovechable. Esto es vital para evaluar la eficiencia energética de diferentes combustibles.",
+    "clave_memoria": "PCS = calor emitido, PCI = calor aprovechable.",
+    "pregunta_rapida": "¿Cuál es la diferencia entre PCS y PCI?",
+    "respuesta_corta": "El PCS es el calor emitido y el PCI es el calor aprovechable."
+  },
+  {
+    "titulo": "Masa y temperatura",
+    "explicacion": "Más masa no implica automáticamente una temperatura más alta. La temperatura es una propiedad física independiente de la cantidad de masa presente.",
+    "clave_memoria": "Masa no = temperatura alta.",
+    "pregunta_rapida": "¿Es correcta la afirmación de que más masa implica temperatura más alta?",
+    "respuesta_corta": "Más masa no implica automáticamente una temperatura más alta."
+  },
+  {
+    "titulo": "Llama de premezcla",
+    "explicacion": "Se produce cuando el combustible y el comburente se mezclan antes de la ignición. Esto permite una combustión más eficiente.",
+    "clave_memoria": "Mezcla previa = mejor combustión.",
+    "pregunta_rapida": "¿Qué caracteriza a una llama de premezcla?",
+    "respuesta_corta": "Se produce cuando el combustible y el comburente se mezclan antes de la ignición."
+  },
+  {
+    "titulo": "Temperatura de la llama azuly",
+    "explicacion": "El color azulado de la llama corresponde a temperaturas alrededor de 6500 ºC. Este color es indicativo de una combustión eficiente.",
+    "clave_memoria": "Azulado = 6500 ºC.",
+    "pregunta_rapida": "¿Cuál es la temperatura correspondiente al color azulado de la llama?",
+    "respuesta_corta": "6500 ºC."
+  },
+  {
+    "titulo": "Zona interna de la llama",
+    "explicacion": "Es una zona fría y oscura donde no hay combustión por falta de oxígeno. Esta área es crucial para entender la dinámica del fuego.",
+    "clave_memoria": "Zona fría = falta de oxígeno.",
+    "pregunta_rapida": "¿Qué sucede en la zona interna de una llama?",
+    "respuesta_corta": "Es una zona fría y oscura donde no hay combustión por falta de oxígeno."
+  },
+  {
+    "titulo": "Formación de humo",
+    "explicacion": "La alta concentración de oxígeno no favorece la formación de humo. La humedad de los materiales y su naturaleza residuales son más determinantes.",
+    "clave_memoria": "Más oxígeno = menos humo.",
+    "pregunta_rapida": "¿Qué factor NO favorece la formación de humo?",
+    "respuesta_corta": "Alta concentración de oxígeno."
+  },
+  {
+    "titulo": "Composición del humo blanco",
+    "explicacion": "El principal componente del humo blanco es el vapor de agua. Identificar esto ayuda a entender la naturaleza de los incendios.",
+    "clave_memoria": "Humo blanco = vapor de agua.",
+    "pregunta_rapida": "¿Cuál es el principal componente del humo blanco?",
+    "respuesta_corta": "Vapor de agua."
+  },
+  {
+    "titulo": "Inhalación de CO₂",
+    "explicacion": "La inhalación de dióxido de carbono (CO₂) provoca un aumento del ritmo respiratorio, lo que puede indicar peligro en situaciones de incendio.",
+    "clave_memoria": "CO₂ = aumento respiratorio.",
+    "pregunta_rapida": "¿Qué efecto tiene la inhalación de CO₂ en incendios?",
+    "respuesta_corta": "Provoca un aumento del ritmo respiratorio."
+  },
+  {
+    "titulo": "Monóxido de carbono en incendios",
+    "explicacion": "Un aumento de monóxido de carbono (CO) indica que la combustión es incompleta. Esto es un signo de que el fuego no es eficiente.",
+    "clave_memoria": "CO alto = combustión incompleta.",
+    "pregunta_rapida": "¿Qué indica un aumento de CO en un incendio?",
+    "respuesta_corta": "Que la combustión es incompleta."
+  },
+  {
+    "titulo": "Intoxicación por CO",
+    "explicacion": "El tratamiento adecuado para la intoxicación por monóxido de carbono (CO) es la administración de oxígeno al 100%, lo que ayuda a despejar el gas del sistema.",
+    "clave_memoria": "CO = oxígeno al 100%.",
+    "pregunta_rapida": "¿Cuál es el tratamiento adecuado para intoxicación por CO?",
+    "respuesta_corta": "Administración de oxígeno al 100%."
+  },
+  {
+    "titulo": "Amoniaco en mucosas",
+    "explicacion": "El amoniaco se convierte en hidróxido amónico, que es muy cáustico e irritante al contacto con la humedad de las mucosas. Esto puede causar graves lesiones.",
+    "clave_memoria": "Amoniaco = irritante en mucosas.",
+    "pregunta_rapida": "¿Qué propiedad tiene el amoniaco en contacto con las mucosas?",
+    "respuesta_corta": "Se convierte en hidróxido amónico, muy cáustico e irritante."
+  },
+  {
+    "titulo": "Densidad del cianuro de hidrógeno",
+    "explicacion": "La densidad relativa del vapor de cianuro de hidrógeno es 0.94, lo que lo hace menos pesado que el aire, aumentando su riesgo de inhalación.",
+    "clave_memoria": "Cianuro = menos pesado que aire.",
+    "pregunta_rapida": "¿Cuál es la densidad relativa del vapor de cianuro de hidrógeno?",
+    "respuesta_corta": "0.94, menos pesado que el aire."
+  },
+  {
+    "titulo": "Rango de inflamabilidad del ácido sulfhídrico",
+    "explicacion": "El ácido sulfhídrico tiene un rango de inflamabilidad entre 4.5% y 45% en mezclas con aire. Esto es crucial para la seguridad en el manejo de este compuesto.",
+    "clave_memoria": "Ácido sulfhídrico = 4.5% - 45% inflamabilidad.",
+    "pregunta_rapida": "¿Cuál es el rango de inflamabilidad del ácido sulfhídrico?",
+    "respuesta_corta": "4,5% - 45%."
+  }
+]

@@ -1,62 +1,64 @@
+// ===========================================
+// 📦 DEPENDENCIAS
+// ===========================================
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const TelegramBot = require("node-telegram-bot-api");
 const db = require("./db"); // BBDD
+const versus = require("./versus");
 
-// ============================================================
-// 📌 CONFIGURACIÓN INICIAL
-// ============================================================
+// ===========================================
+// 🧠 CONFIG INICIAL
+// ===========================================
 const TOKEN = process.env.TELEGRAM_TOKEN;
-console.log("TOKEN CARGADO:", TOKEN);
-const bot = new TelegramBot(TOKEN, { polling: true });
-
 const CODIGO_ACCESO = "camagrok";
+const bot = new TelegramBot(TOKEN, { polling: true });
 
 const RUTA_GENERADOS = path.join(__dirname, "generados");
 const RUTA_LIBRO_ROJO = path.join(__dirname, "libro_rojo");
+const RUTA_FLASHCARDS = path.join(__dirname, "flashcards");
+
 if (!fs.existsSync(RUTA_GENERADOS)) fs.mkdirSync(RUTA_GENERADOS);
 if (!fs.existsSync(RUTA_LIBRO_ROJO)) fs.mkdirSync(RUTA_LIBRO_ROJO);
+if (!fs.existsSync(RUTA_FLASHCARDS)) fs.mkdirSync(RUTA_FLASHCARDS);
 
 let TESTS = {};
 let usuarios = {};
 
-// ============================================================
-// 📂 CARGA DE TESTS
-// ============================================================
+// ===========================================
+// 📂 CARGA TESTS
+// ===========================================
 function cargarTestsDeCarpeta(rutaCarpeta) {
   let tests = {};
   if (!fs.existsSync(rutaCarpeta)) return tests;
   const archivos = fs.readdirSync(rutaCarpeta).filter(f => f.endsWith(".json"));
 
-  archivos.forEach((nombre) => {
+  archivos.forEach(nombre => {
     const contenido = JSON.parse(fs.readFileSync(path.join(rutaCarpeta, nombre), "utf8"));
     const clave = nombre.replace(".json", "");
-    tests[clave] = Array.isArray(contenido)
-      ? { tema: clave, preguntas: contenido }
-      : contenido;
+    tests[clave] = Array.isArray(contenido) ? { tema: clave, preguntas: contenido } : contenido;
   });
   return tests;
 }
 
-TESTS = cargarTestsDeCarpeta(RUTA_GENERADOS);
+TESTS = { ...cargarTestsDeCarpeta(RUTA_GENERADOS) };
 
 function listarCarpetas(ruta) {
   return fs.readdirSync(ruta).filter(n => fs.lstatSync(path.join(ruta, n)).isDirectory());
 }
 
-// ============================================================
-// 🧾 MENÚ PRINCIPAL
-// ============================================================
+// ===========================================
+// 📌 MENÚ PRINCIPAL
+// ===========================================
 function mostrarMenu(chatId, nombre) {
-  bot.sendMessage(chatId, `🔥 Bienvenido, <b>${nombre}</b>
-
-Selecciona una categoría:`, {
+  bot.sendMessage(chatId, `🔥 Bienvenido, <b>${nombre}</b>`, {
     parse_mode: "HTML",
     reply_markup: {
       inline_keyboard: [
         [{ text: "📂 Generados", callback_data: "grupo:generados" }],
         [{ text: "📕 Libro Rojo", callback_data: "grupo:libro_rojo" }],
+        [{ text: "📸 Flashcards", callback_data: "grupo:flashcards" }],
         [{ text: "📊 Mis estadísticas", callback_data: "stats" }],
         [{ text: "🧠 Mis puntos débiles", callback_data: "debiles" }]
       ]
@@ -64,19 +66,24 @@ Selecciona una categoría:`, {
   });
 }
 
-// ============================================================
+// ===========================================
 // 🔐 LOGIN & REGISTRO
-// ============================================================
-bot.onText(/\/logout/, (msg) => {
-  const chatId = msg.chat.id;
-  db.run("DELETE FROM usuarios WHERE chatId = ?", [chatId], () => {
+// ===========================================
+bot.onText(/\/logout/, msg => {
+  const chatId = String(msg.chat.id);
+  db.run("DELETE FROM usuarios WHERE chatId = ?", [chatId], function(err) {
+    if (err) {
+      console.error("❌ Error eliminando usuario:", err);
+      return bot.sendMessage(chatId, "❌ Error al eliminar registro.");
+    }
     delete usuarios[chatId];
+    console.log(`✅ Usuario ${chatId} eliminado de la BBDD`);
     bot.sendMessage(chatId, "🔄 Registro eliminado. Escribe /start para registrarte otra vez.");
   });
 });
 
-bot.onText(/\/start/, (msg) => {
-  const chatId = msg.chat.id;
+bot.onText(/\/start/, msg => {
+  const chatId = String(msg.chat.id);
   db.get("SELECT * FROM usuarios WHERE chatId = ?", [chatId], (err, row) => {
     if (!row) return bot.sendMessage(chatId, "🔐 Bienvenido. Escribe la clave de acceso:");
     if (!row.nombre) return bot.sendMessage(chatId, "📝 ¿Cómo te llamas?");
@@ -84,29 +91,160 @@ bot.onText(/\/start/, (msg) => {
   });
 });
 
-bot.on("message", (msg) => {
-  const chatId = msg.chat.id;
+bot.on("message", msg => {
+  const chatId = String(msg.chat.id);
   const texto = (msg.text || "").trim();
   if (!texto || texto.startsWith("/")) return;
 
   db.get("SELECT * FROM usuarios WHERE chatId = ?", [chatId], (err, row) => {
     if (!row) {
       if (texto === CODIGO_ACCESO) {
-        db.run("INSERT INTO usuarios (chatId, autorizado) VALUES (?, 1)", [chatId]);
-        bot.sendMessage(chatId, "🔓 Acceso correcto. ¿Cómo te llamas?");
+        db.run("INSERT INTO usuarios (chatId, autorizado) VALUES (?, 1)", [chatId], function(err) {
+          if (err) {
+            console.error("❌ Error insertando usuario:", err);
+            return bot.sendMessage(chatId, "❌ Error al registrarse.");
+          }
+          console.log(`✅ Usuario ${chatId} registrado exitosamente en BBDD`);
+          bot.sendMessage(chatId, "🔓 Acceso correcto. ¿Cómo te llamas?");
+        });
       } else bot.sendMessage(chatId, "❌ Clave incorrecta.");
       return;
     }
-    if (!row.nombre) {
-      db.run("UPDATE usuarios SET nombre = ? WHERE chatId = ?", [texto, chatId]);
-      bot.sendMessage(chatId, `👋 Perfecto, ${texto}. Escribe /start`);
+    if (row.autorizado === 1 && !row.nombre) {
+      db.run("UPDATE usuarios SET nombre = ? WHERE chatId = ?", [texto, chatId], function(err) {
+        if (err) {
+          console.error("❌ Error actualizando nombre:", err);
+          return bot.sendMessage(chatId, "❌ Error al guardar nombre.");
+        }
+        console.log(`✅ Nombre '${texto}' guardado para usuario ${chatId} en BBDD`);
+        bot.sendMessage(chatId, `👋 Perfecto, ${texto}. Escribe /start`);
+      });
     }
   });
 });
 
-// ============================================================
-// 📌 FORMATEAR PREGUNTAS
-// ============================================================
+// ===========================================
+// ⚔️ VERSUS: comandos públicos
+// ===========================================
+bot.onText(/\/versus/, msg => {
+  const chatId = String(msg.chat.id);
+  db.get("SELECT nombre FROM usuarios WHERE chatId = ?", [chatId], (err, row) => {
+    if (!row || !row.nombre) {
+      return bot.sendMessage(chatId, "⚠️ Primero debes estar registrado. Escribe /start");
+    }
+    versus.iniciarVersus(bot, chatId, row.nombre);
+  });
+});
+
+bot.onText(/\/invitar (.+)/, (msg, match) => {
+  const retadorId = String(msg.chat.id);
+  const nombreRival = match[1].trim();
+  db.get("SELECT nombre FROM usuarios WHERE chatId = ?", [retadorId], (err, row) => {
+    if (!row || !row.nombre) {
+      return bot.sendMessage(retadorId, "⚠️ Primero debes estar registrado. Escribe /start");
+    }
+    db.get("SELECT chatId FROM usuarios WHERE nombre = ?", [nombreRival], (err, rivalRow) => {
+      if (!rivalRow) {
+        return bot.sendMessage(retadorId, `⚠️ No encontré un usuario con nombre "${nombreRival}"`);
+      }
+      versus.invitar(bot, retadorId, rivalRow.chatId, row.nombre, nombreRival);
+    });
+  });
+});
+
+bot.onText(/\/aceptar (.+)/, (msg, match) => {
+  const rivalId = String(msg.chat.id);
+  const nombreRetador = match[1].trim();
+  db.get("SELECT nombre FROM usuarios WHERE chatId = ?", [rivalId], (err, row) => {
+    if (!row || !row.nombre) {
+      return bot.sendMessage(rivalId, "⚠️ Primero debes estar registrado. Escribe /start");
+    }
+    db.get("SELECT chatId FROM usuarios WHERE nombre = ?", [nombreRetador], (err, retadorRow) => {
+      if (!retadorRow) {
+        return bot.sendMessage(rivalId, `⚠️ No encontré un usuario con nombre "${nombreRetador}"`);
+      }
+      versus.aceptar(bot, rivalId, retadorRow.chatId, TESTS, row.nombre, nombreRetador);
+    });
+  });
+});
+
+// ⚔️ DUELOS GRUPALES
+bot.onText(/\/invitar_grupo (.+)/, (msg, match) => {
+  const creadorId = String(msg.chat.id);
+  const nombresTexto = match[1];
+  // Parse: /invitar_grupo nombre1 nombre2 nombre3
+  const nombresRivales = nombresTexto.split(/\s+/).map(x => x.trim()).filter(x => x);
+  
+  if (nombresRivales.length === 0) {
+    return bot.sendMessage(creadorId, "⚠️ Uso: /invitar_grupo NOMBRE1 NOMBRE2 NOMBRE3 ...\nEjemplo: /invitar_grupo Marco Juan Pedro");
+  }
+  
+  db.get("SELECT nombre FROM usuarios WHERE chatId = ?", [creadorId], (err, creadorRow) => {
+    if (!creadorRow || !creadorRow.nombre) {
+      return bot.sendMessage(creadorId, "⚠️ Primero debes estar registrado. Escribe /start");
+    }
+    
+    // Buscar todos los usuarios por nombre
+    let idsRivales = [];
+    let encontrados = 0;
+    
+    nombresRivales.forEach((nombre, idx) => {
+      db.get("SELECT chatId FROM usuarios WHERE nombre = ?", [nombre], (err, row) => {
+        if (!row) {
+          console.log(`⚠️ No encontrado: ${nombre}`);
+        } else {
+          idsRivales.push(row.chatId);
+          encontrados++;
+        }
+        
+        // Cuando procesamos todos
+        if (idx === nombresRivales.length - 1) {
+          setTimeout(() => {
+            if (idsRivales.length === 0) {
+              return bot.sendMessage(creadorId, `⚠️ No encontré ninguno de los usuarios: ${nombresRivales.join(", ")}`);
+            }
+            if (idsRivales.length < nombresRivales.length) {
+              const noEncontrados = nombresRivales.filter(n => !idsRivales.includes(n)).join(", ");
+              bot.sendMessage(creadorId, `⚠️ No encontré: ${noEncontrados}`);
+            }
+            
+            console.log(`📢 /invitar_grupo llamado. TESTS disponibles: ${Object.keys(TESTS).length}`);
+            versus.invitarGrupo(bot, creadorId, idsRivales, creadorRow.nombre, TESTS, 60000);
+          }, 100);
+        }
+      });
+    });
+  });
+});
+
+bot.onText(/\/aceptar_grupo (.+)/, (msg, match) => {
+  const usuarioId = String(msg.chat.id);
+  const grupoId = match[1];
+  
+  db.get("SELECT nombre FROM usuarios WHERE chatId = ?", [usuarioId], (err, row) => {
+    if (!row || !row.nombre) {
+      return bot.sendMessage(usuarioId, "⚠️ Primero debes estar registrado. Escribe /start");
+    }
+    versus.aceptarGrupoUsuario(bot, grupoId, usuarioId, row.nombre);
+  });
+});
+
+bot.onText(/\/rechazar_grupo (.+)/, (msg, match) => {
+  const usuarioId = String(msg.chat.id);
+  const grupoId = match[1];
+  
+  db.get("SELECT nombre FROM usuarios WHERE chatId = ?", [usuarioId], (err, row) => {
+    if (!row || !row.nombre) {
+      return bot.sendMessage(usuarioId, "⚠️ Primero debes estar registrado. Escribe /start");
+    }
+    versus.rechazarGrupo(bot, grupoId, usuarioId, row.nombre);
+  });
+});
+
+
+// ===========================================
+// 📌 FORMATEAR OPCIONES
+// ===========================================
 function formatearOpciones(p, sel = null, correcta = null) {
   let out = "";
   for (const [k, t] of Object.entries(p.opciones)) {
@@ -121,15 +259,16 @@ function formatearOpciones(p, sel = null, correcta = null) {
   return out;
 }
 
-// ============================================================
-// 💾 GUARDAR RESULTADOS
-// ============================================================
+// ===========================================
+// 💾 GUARDAR RESULTADOS + FALLOS
+// ===========================================
 function guardarResultados(chatId, estado) {
   const numFallos = estado.fallos.length;
-
   db.run(`
     UPDATE usuarios 
-    SET tests = tests + 1, aciertos = aciertos + ?, fallos = fallos + ?
+    SET tests = tests + 1,
+        aciertos = aciertos + ?,
+        fallos = fallos + ?
     WHERE chatId = ?
   `, [estado.aciertos, numFallos, chatId]);
 
@@ -138,37 +277,36 @@ function guardarResultados(chatId, estado) {
     VALUES (?, ?, ?, ?, ?)
   `, [chatId, estado.tema, estado.aciertos, numFallos, new Date().toISOString()]);
 
-  estado.fallos.forEach((p) => {
-    db.get(`SELECT id, veces_fallada FROM fallo_stats WHERE chatId = ? AND pregunta = ?`,
+  estado.fallos.forEach(p => {
+    db.get(
+      `SELECT id, veces_fallada FROM fallo_stats WHERE chatId = ? AND pregunta = ?`,
       [chatId, p.pregunta],
       (err, row) => {
         if (!row) {
-          db.run(
-            `INSERT INTO fallo_stats (chatId, tema, pregunta, veces_fallada)
-            VALUES (?, ?, ?, 1)`,
-            [chatId, estado.tema, p.pregunta]
-          );
+          db.run(`INSERT INTO fallo_stats (chatId, tema, pregunta, veces_fallada) VALUES (?, ?, ?, 1)`,
+            [chatId, estado.tema, p.pregunta]);
         } else {
           db.run(`UPDATE fallo_stats SET veces_fallada = veces_fallada + 1 WHERE id = ?`,
             [row.id]);
         }
-      });
+      }
+    );
   });
 }
 
-// ============================================================
+// ===========================================
 // 📌 ENVIAR PREGUNTA
-// ============================================================
+// ===========================================
 function enviarPregunta(chatId) {
   const estado = usuarios[chatId];
-  const preguntas = estado.preguntas || TESTS[estado.tema].preguntas;
+  const preguntas = estado.preguntas;
   const i = estado.indice;
 
   if (i >= preguntas.length) {
     guardarResultados(chatId, estado);
-
+    let txt = `🏁 FINALIZADO (${estado.tema})\nAciertos: ${estado.aciertos}/${preguntas.length}`;
     if (estado.fallos.length > 0) {
-      return bot.sendMessage(chatId, `🏁 TEST ACABADO\nAciertos: ${estado.aciertos}/${preguntas.length}`, {
+      return bot.sendMessage(chatId, txt, {
         reply_markup: {
           inline_keyboard: [
             [{ text: "🔁 Repetir fallos", callback_data: "retest" }],
@@ -177,60 +315,109 @@ function enviarPregunta(chatId) {
         }
       });
     }
-    return bot.sendMessage(chatId, "🎉 ¡Buen trabajo!");
+    return bot.sendMessage(chatId, txt + "\n🎯 ¡Muy bien!");
   }
 
   const p = preguntas[i];
   bot.sendMessage(chatId, `
 <b>Pregunta ${i + 1}/${preguntas.length}</b>
-━━━━━━━━━━━━
+━━━━━━━━━━━
 ${p.pregunta}
 
 ${formatearOpciones(p)}
 `, {
     parse_mode: "HTML",
+    reply_markup: { inline_keyboard: [Object.keys(p.opciones).map(k => ({ text: k, callback_data: k }))] }
+  });
+}
+
+// ===========================================
+// 📸 ENVIAR FLASHCARD
+// ===========================================
+function enviarFlashcard(chatId) {
+  const estado = usuarios[chatId];
+  const t = estado.tarjetas[estado.indice];
+
+  if (!t) {
+    delete usuarios[chatId];
+    return bot.sendMessage(chatId, "🎉 Flashcards completadas.");
+  }
+
+  bot.sendMessage(chatId, `
+<b>${t.titulo}</b>
+━━━━━━━━━━━
+${t.explicacion}
+<b>❓ Pregunta rápida:</b> ${t.pregunta_rapida}
+<b>✔ Respuesta:</b> ${t.respuesta_corta}
+`, {
+    parse_mode: "HTML",
     reply_markup: {
-      inline_keyboard: [
-        Object.keys(p.opciones).map(k => ({ text: k, callback_data: k }))
-      ]
+      inline_keyboard: [[{ text: "➡ Siguiente", callback_data: "flash_next" }]]
     }
   });
 }
 
-// ============================================================
-// 🧠 CONSULTA FALLAS
-// ============================================================
-function consultaFallos(chatId, nivel, isBoss = false) {
-  const query = isBoss
-    ? `SELECT * FROM fallo_stats WHERE chatId = ? AND veces_fallada >= ? ORDER BY veces_fallada DESC`
-    : `SELECT * FROM fallo_stats WHERE chatId = ? AND veces_fallada = ?`;
+// ===========================================
+// 🧠 MOSTRAR FALLOS POR TEMA
+// ===========================================
+function mostrarFallosPorTema(chatId) {
+  db.all(
+    `SELECT tema, COUNT(*) as total 
+     FROM fallo_stats 
+     WHERE chatId = ?
+     GROUP BY tema
+     ORDER BY total DESC`,
+    [chatId],
+    (err, rows) => {
+      if (!rows || !rows.length) {
+        return bot.sendMessage(chatId, "👏 No tienes fallos registrados todavía.");
+      }
 
-  db.all(query, [chatId, nivel], (err, rows) => {
-    if (!rows || !rows.length) {
-      return bot.sendMessage(chatId, "👏 No hay fallos en ese nivel.");
+      let respuesta = "🧠 <b>PUNTOS DÉBILES POR TEMA</b>\n━━━━━━━━━━━━━━\n";
+      rows.forEach(r => respuesta += `📌 <b>${r.tema}</b> → ${r.total} fallos\n`);
+
+      bot.sendMessage(chatId, respuesta, {
+        parse_mode: "HTML",
+        reply_markup: {
+          inline_keyboard: rows.map(r => [
+            { text: `🔁 Repasar ${r.tema}`, callback_data: `retestTema:${r.tema}` }
+          ])
+        }
+      });
     }
-
-    const lista = rows.map(r => `⚔ ${r.pregunta} → ${r.veces_fallada} fallos`).join("\n\n");
-    bot.sendMessage(chatId, `📌<b>FALLOS NIVEL ${nivel}${isBoss ? "+" : ""}</b>\n━━━━━━━━━\n${lista}`,
-      { parse_mode: "HTML" });
-  });
+  );
 }
 
-// ============================================================
-// ❓ CALLBACKS
-// ============================================================
-bot.on("callback_query", (cb) => {
+// ===========================================
+// 🚀 CALLBACK QUERY  (ORDEN CORRECTO)
+// ===========================================
+bot.on("callback_query", cb => {
   const chatId = cb.message.chat.id;
   const data = cb.data;
-  const estado = usuarios[chatId];
   bot.answerCallbackQuery(cb.id);
 
+  // ⚔️ VERSUS
+  const enDuelo = Object.keys(versus.duelos || {}).some(
+    d => d == chatId || (versus.duelos[d] && versus.duelos[d].rivalId == chatId)
+  );
+  if (enDuelo) return versus.respuestaVersus(bot, chatId, data);
+
+  // ⚔️ DUELOS GRUPALES
+  if (data.startsWith("grupo:")) {
+    const partes = data.split(":");
+    const grupoId = partes[1];
+    const respuesta = partes[2];
+    return versus.respuestaGrupo(bot, chatId, grupoId, respuesta);
+  }
+
+  // 📊 ESTADÍSTICAS
   if (data === "stats") {
     return db.get("SELECT * FROM usuarios WHERE chatId = ?", [chatId], (err, row) => {
+      if (!row) return bot.sendMessage(chatId, "⚠ No estás registrado.");
       const tot = row.aciertos + row.fallos;
       const pct = tot > 0 ? ((row.aciertos / tot) * 100).toFixed(1) : 0;
       bot.sendMessage(chatId, `
-📊 <b>${row.nombre}</b>
+📊 ESTADÍSTICAS DE <b>${row.nombre}</b>
 Tests: ${row.tests}
 Aciertos: ${row.aciertos}
 Fallos: ${row.fallos}
@@ -238,21 +425,146 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
     });
   }
 
+  // 🧠 PUNTOS DÉBILES
   if (data === "debiles") {
-    return bot.sendMessage(chatId, "🧠 ¿Qué quieres ver?", {
-      reply_markup: {
-        inline_keyboard: [
-          [{ text: "📘 Fallos leves (1 vez)", callback_data: "weak1" }],
-          [{ text: "⚠ Fallos repetidos (2 veces)", callback_data: "weak2" }],
-          [{ text: "😈 Enemigos (3+ veces)", callback_data: "boss" }]
-        ]
+    return mostrarFallosPorTema(chatId);
+  }
+
+  // 🔁 REPASAR TEMA DESDE PUNTOS DÉBILES
+  if (data.startsWith("retestTema:")) {
+    const tema = data.split(":")[1];
+    db.all(`SELECT pregunta FROM fallo_stats WHERE chatId = ? AND tema = ?`, [chatId, tema], (err, rows) => {
+      if (!rows || !rows.length) return bot.sendMessage(chatId, "⚠ No pude recuperar las preguntas.");
+      let preguntasFalladas = [];
+
+      for (const t in TESTS) {
+        rows.forEach(r => {
+          let original = TESTS[t].preguntas?.find(p => p.pregunta === r.pregunta);
+          if (original) preguntasFalladas.push(original);
+        });
       }
+
+      usuarios[chatId] = {
+        tipo: "retest",
+        tema,
+        preguntas: preguntasFalladas,
+        indice: 0,
+        aciertos: 0,
+        fallos: []
+      };
+      bot.sendMessage(chatId, `📘 Repasando <b>${tema}</b> (${preguntasFalladas.length} preguntas)`, { parse_mode: "HTML" });
+      return enviarPregunta(chatId);
     });
   }
 
-  if (data === "weak1") return consultaFallos(chatId, 1);
-  if (data === "weak2") return consultaFallos(chatId, 2);
-  if (data === "boss") return consultaFallos(chatId, 3, true);
+  // 📂 GENERADOS
+  if (data === "grupo:generados") {
+    TESTS = { ...cargarTestsDeCarpeta(RUTA_GENERADOS) };
+    const claves = Object.keys(TESTS);
+    if (!claves.length) return bot.sendMessage(chatId, "⚠️ No hay tests en /generados");
+    return bot.sendMessage(chatId, "📂 Selecciona un test:", {
+      reply_markup: { inline_keyboard: claves.map(t => [{ text: t, callback_data: `tema:${t}` }]) }
+    });
+  }
+
+  // 📕 LIBRO ROJO
+  if (data === "grupo:libro_rojo") {
+    const carpetas = listarCarpetas(RUTA_LIBRO_ROJO);
+    if (!carpetas.length) return bot.sendMessage(chatId, "⚠️ No hay carpetas en /libro_rojo");
+    return bot.sendMessage(chatId, "📕 Selecciona un tema:", {
+      reply_markup: { inline_keyboard: carpetas.map(c => [{ text: c.toUpperCase(), callback_data: `subtema:${c}` }]) }
+    });
+  }
+
+  // 📕 CARGAR TESTS REALES DE LIBRO ROJO
+  if (data.startsWith("subtema:")) {
+    const carpeta = data.split(":")[1];
+    const rutaSub = path.join(RUTA_LIBRO_ROJO, carpeta);
+    const archivos = fs.readdirSync(rutaSub).filter(f => f.endsWith(".json"));
+
+    archivos.forEach(file => {
+      const contenido = JSON.parse(fs.readFileSync(path.join(rutaSub, file), "utf8"));
+      TESTS[file.replace(".json", "")] = Array.isArray(contenido)
+        ? { tema: file.replace(".json", ""), preguntas: contenido }
+        : contenido;
+    });
+
+    return bot.sendMessage(chatId, `📘 Test disponibles en ${carpeta}:`, {
+      reply_markup: { inline_keyboard: archivos.map(f => [{ text: f.replace(".json", ""), callback_data: `tema:${f.replace(".json", "")}` }]) }
+    });
+  }
+
+  // 📌 FLASHCARDS (IGUAL QUE TENÍAS)
+  if (data === "grupo:flashcards") {
+    const carpetas = listarCarpetas(RUTA_FLASHCARDS);
+    return bot.sendMessage(chatId, "📸 Selecciona un tema general:", {
+      reply_markup: { inline_keyboard: carpetas.map(c => [{ text: c.toUpperCase(), callback_data: `flash_subtema:${c}` }]) }
+    });
+  }
+
+  if (data.startsWith("flash_subtema:")) {
+    const carpeta = data.split(":")[1];
+    const rutaSub = path.join(RUTA_FLASHCARDS, carpeta);
+    const archivos = fs.readdirSync(rutaSub).filter(f => f.endsWith(".json"));
+
+    archivos.forEach(file => {
+      const contenido = JSON.parse(fs.readFileSync(path.join(rutaSub, file), "utf8"));
+      TESTS[file.replace(".json", "")] = Array.isArray(contenido)
+        ? { tema: file.replace(".json", ""), preguntas: contenido }
+        : contenido;
+    });
+
+    return bot.sendMessage(chatId, `📘 Flashcards ${carpeta}`, {
+      parse_mode: "HTML",
+      reply_markup: { inline_keyboard: archivos.map(f => [{ text: f.replace(".json", ""), callback_data: `flash:${f.replace(".json", "")}` }]) }
+    });
+  }
+
+  if (data.startsWith("flash:")) {
+    const tema = data.split(":")[1];
+    const pack = TESTS[tema];
+    const tarjetas = pack.preguntas || pack;
+    usuarios[chatId] = { tipo: "flashcards", tarjetas, indice: 0 };
+    return enviarFlashcard(chatId);
+  }
+  // ➡ AVANZAR FLASHCARD
+  if (data === "flash_next") {
+    const estado = usuarios[chatId];
+    if (estado && estado.tipo === "flashcards") {
+      estado.indice++;
+      return enviarFlashcard(chatId);
+    }
+  }
+
+
+  // ▶ INICIAR CUALQUIER TEST AQUÍ (ARREGLADO)
+  if (data.startsWith("tema:")) {
+    const tema = data.split(":")[1];
+    const pack = TESTS[tema];
+
+    if (!pack) return bot.sendMessage(chatId, "⚠ No encontré ese test.");
+
+    const preguntas = Array.isArray(pack) ? pack : pack.preguntas;
+    if (!preguntas || !preguntas.length) return bot.sendMessage(chatId, "⚠ El test está vacío.");
+
+    usuarios[chatId] = {
+      tipo: "test",
+      tema,
+      preguntas,
+      indice: 0,
+      aciertos: 0,
+      fallos: []
+    };
+
+    bot.sendMessage(chatId, `🧠 Iniciando test: <b>${tema}</b>`, { parse_mode: "HTML" });
+    return enviarPregunta(chatId);
+  }
+
+  // ===================================
+  // 🔥 TEST NORMAL — ÚLTIMO BLOQUE
+  // ===================================
+  const estado = usuarios[chatId];
+  if (!estado) return bot.sendMessage(chatId, "⚠ No tienes un test activo.");
 
   if (data === "finish") {
     delete usuarios[chatId];
@@ -260,25 +572,21 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
   }
 
   if (data === "retest") {
-    usuarios[chatId].preguntas = [...estado.fallos];
-    usuarios[chatId].indice = 0;
-    usuarios[chatId].fallos = [];
-    usuarios[chatId].aciertos = 0;
+    estado.preguntas = [...estado.fallos];
+    estado.indice = 0;
+    estado.aciertos = 0;
+    estado.fallos = [];
     return enviarPregunta(chatId);
   }
 
-  if (data.startsWith("tema:")) {
-    const temaId = data.split(":")[1];
-    usuarios[chatId] = { tema: temaId, indice: 0, aciertos: 0, fallos: [] };
-    return enviarPregunta(chatId);
-  }
-
-  // RESPUESTA PREGUNTA
-  const p = (estado?.preguntas || TESTS[estado?.tema]?.preguntas)[estado?.indice];
+  const p = estado.preguntas[estado.indice];
   if (!p) return;
 
-  if (data === p.correcta) estado.aciertos++;
-  else estado.fallos.push(p);
+  if (data === p.correcta) {
+    estado.aciertos++;
+  } else {
+    estado.fallos.push(p);
+  }
 
   bot.editMessageText(`${p.pregunta}\n\n${formatearOpciones(p, data, p.correcta)}`, {
     chat_id: chatId,
@@ -290,4 +598,4 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
   setTimeout(() => enviarPregunta(chatId), 700);
 });
 
-console.log("🤖 BOT ACTIVADO");
+console.log("🤖 BOT ACTIVADO 🎯");

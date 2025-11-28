@@ -17,11 +17,38 @@ function dividirArray(array, size) {
     return partes;
 }
 
+function transformarPregunta(pregunta) {
+    // Convertir array de respuestas a objeto opciones (A, B, C, ...)
+    const opciones = {};
+    const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    
+    if (pregunta.respuestas && Array.isArray(pregunta.respuestas)) {
+        pregunta.respuestas.forEach((respuesta, index) => {
+            opciones[letras[index]] = respuesta;
+        });
+    }
+    
+    // Convertir índice numérico a letra (0->A, 1->B, 2->C, ...)
+    let correcta = pregunta.correcta;
+    if (typeof pregunta.correcta === 'number') {
+        correcta = letras[pregunta.correcta];
+    }
+    
+    return {
+        pregunta: pregunta.pregunta,
+        opciones: opciones,
+        correcta: correcta
+    };
+}
+
 function convertirArchivo(nombreArchivo, indice) {
     const ruta = path.join(DIRTY_DIR, nombreArchivo);
     const data = JSON.parse(fs.readFileSync(ruta, 'utf8'));
 
-    const partes = dividirArray(data, LIMITE); // 🧠 dividir en bloques
+    // Transformar preguntas al nuevo formato
+    const preguntasTransformadas = data.map(transformarPregunta);
+    
+    const partes = dividirArray(preguntasTransformadas, LIMITE); // 🧠 dividir en bloques
 
     partes.forEach((preguntasBloque, parteIndex) => {
         const nuevoFormato = {

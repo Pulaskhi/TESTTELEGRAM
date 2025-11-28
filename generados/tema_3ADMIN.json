@@ -1,0 +1,457 @@
+{
+  "tema": "TEMA-1",
+  "fecha": "2025-11-28T09:33:46.834Z",
+  "feedback": "",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué artículo de la Constitución Española establece que el Estado garantiza la autonomía de los municipios y define su gobierno y administración por los Ayuntamientos y Alcaldes?",
+      "opciones": {
+        "A": "Artículo 140",
+        "B": "Artículo 137",
+        "C": "Artículo 141"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Según el artículo 138 de la Constitución Española, ¿qué no pueden implicar las diferencias entre los Estatutos de las distintas Comunidades Autónomas?",
+      "opciones": {
+        "A": "Diferencias en derechos fundamentales",
+        "B": "Privilegios económicos o sociales",
+        "C": "Diferencias en la administración de justicia"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "De acuerdo con el artículo 143 de la Constitución Española, ¿quién tiene la iniciativa para iniciar el proceso autonómico?",
+      "opciones": {
+        "A": "El Gobierno Central",
+        "B": "Las Cortes Generales",
+        "C": "Las Diputaciones interesadas o el órgano interinsular correspondiente"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué requisitos específica el artículo 143 para que una provincia o isla pueda iniciar el proceso de autonomía?",
+      "opciones": {
+        "A": "Aprobación por referéndum local",
+        "B": "Apoyo de las dos terceras partes de los municipios representando al menos la mayoría del censo electoral",
+        "C": "Consenso en el Parlamento nacional"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el artículo 145 de la Constitución Española, ¿qué está prohibido entre las Comunidades Autónomas?",
+      "opciones": {
+        "A": "La cooperación en educación y salud",
+        "B": "La federación de Comunidades Autónomas",
+        "C": "La creación de una moneda regional común"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la base legal que permite a las comunidades autónomas asumir competencias en la organización de sus instituciones de autogobierno?",
+      "opciones": {
+        "A": "Ley Orgánica de Autonomía Comunitaria",
+        "B": "Artículo 148 de la Constitución española",
+        "C": "Reglamento del Autogobierno Local"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el artículo 149 de la Constitución española, ¿quién tiene la competencia exclusiva sobre la regulación de las condiciones básicas que garantizan la igualdad de todos los españoles?",
+      "opciones": {
+        "A": "El Gobierno de cada comunidad autónoma",
+        "B": "El Estado",
+        "C": "El Parlamento europeo"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué entidad tiene la competencia exclusiva en la legislación sobre propiedad intelectual e industrial, según el artículo 149?",
+      "opciones": {
+        "A": "Las comunidades autónomas",
+        "B": "El Estado",
+        "C": "Las corporaciones locales"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuántos años deben transcurrir antes de que las comunidades autónomas puedan ampliar sucesivamente sus competencias, según el artículo 148?",
+      "opciones": {
+        "A": "Cinco años",
+        "B": "Diez años",
+        "C": "Tres años"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué organismo es responsable de la regulación del comercio exterior según el artículo 149?",
+      "opciones": {
+        "A": "Cada gobierno autonómico",
+        "B": "El Estado",
+        "C": "El consejo de ministros de la UE"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué nivel de mayoría es requerido en las Cortes Generales para apreciar la necesidad de armonizar disposiciones normativas de Comunidades Autónomas, incluso en materias de su competencia?",
+      "opciones": {
+        "A": "Mayoría simple en una de las cámaras",
+        "B": "Mayoría absoluta en cada Cámara",
+        "C": "Mayoría cualificada en ambas cámaras"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el artículo 150 de la Constitución, ¿qué deben prever las Leyes Orgánicas al transferir competencias estatales a las Comunidades Autónomas?",
+      "opciones": {
+        "A": "Transferencia de medios financieros y formas de control estatal",
+        "B": "Únicamente la transferencia de medios financieros",
+        "C": "Únicamente las formas de control que se reserve el Estado"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué se establece como requisito para que no sea necesario esperar cinco años para iniciar un proceso autonómico según el artículo 151?",
+      "opciones": {
+        "A": "Aprobación por mayoría simple en un referéndum provincial",
+        "B": "Ratificación por mayoría absoluta de electores en referéndum provincial",
+        "C": "Aprobación por las Cortes Generales"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué instancia debe convocar al Gobierno para la elaboración del proyecto de Estatuto de autonomía, según el procedimiento descrito en el artículo 151?",
+      "opciones": {
+        "A": "La Comisión Constitucional del Congreso",
+        "B": "Los Diputados y Senadores de las circunscripciones afectadas",
+        "C": "El Tribunal Constitucional"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el procedimiento correcto una vez aprobado el proyecto de Estatuto por la Asamblea de Parlamentarios, según el artículo 151?",
+      "opciones": {
+        "A": "Es sometido directamente a referéndum",
+        "B": "Se remite a la Comisión Constitucional del Congreso para acuerdo sobre la formulación definitiva",
+        "C": "Se envía al Senado para su aprobación final"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué órgano es responsable de verificar la constitucionalidad de las disposiciones normativas con fuerza de ley de las Comunidades Autónomas según el artículo 153 de la Constitución Española?",
+      "opciones": {
+        "A": "El Tribunal Supremo",
+        "B": "El Tribunal Constitucional",
+        "C": "El Consejo de Estado"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el artículo 154 de la Constitución Española, ¿cuál es la principal función del delegado nombrado por el Gobierno en el territorio de una Comunidad Autónoma?",
+      "opciones": {
+        "A": "Dirigir la administración autonómica",
+        "B": "Dirigir la administración estatal y coordinarla con la administración autonómica",
+        "C": "Supervisar las elecciones autonómicas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el procedimiento establecido por la Constitución Española en su artículo 155 para intervenir una Comunidad Autónoma que no cumple sus obligaciones legales?",
+      "opciones": {
+        "A": "Requerimiento del Presidente del Gobierno y aprobación del Tribunal Constitucional",
+        "B": "Requerimiento del Presidente de la Comunidad y aprobación por mayoría absoluta del Senado",
+        "C": "Dictamen del Consejo de Estado y aprobación por el Congreso de los Diputados"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "De acuerdo con el artículo 156 de la Constitución Española, ¿qué principios deben regir la autonomía financiera de las Comunidades Autónomas?",
+      "opciones": {
+        "A": "Principios de independencia financiera y no intervención",
+        "B": "Principios de coordinación con la Hacienda estatal y solidaridad entre españoles",
+        "C": "Principios de autogestión y competencia fiscal directa"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el artículo 157 de la Constitución Española, ¿cuál de las siguientes no es una fuente de recursos para las Comunidades Autónomas?",
+      "opciones": {
+        "A": "Impuestos internacionales gestionados por la Comunidad",
+        "B": "Impuestos cedidos por el Estado y otras participaciones en ingresos del Estado",
+        "C": "Rendimientos del patrimonio e ingresos de derecho privado"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es la fecha de entrada en vigor de la Ley Orgánica 1/2007 que reforma el Estatuto de Autonomía de las Islas Baleares?",
+      "opciones": {
+        "A": "02-03-2007",
+        "B": "01-03-2007",
+        "C": "25-02-1983"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "De acuerdo con el Estatuto de Autonomía de las Islas Baleares, ¿qué órganos de gobierno corresponden a las islas?",
+      "opciones": {
+        "A": "Los Consejos Provinciales",
+        "B": "Los Consejos Insulares",
+        "C": "Las Diputaciones Insulares"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la función principal del Fondo de Compensación establecido en los Presupuestos Generales del Estado?",
+      "opciones": {
+        "A": "Financiar proyectos educativos",
+        "B": "Corregir desequilibrios económicos interterritoriales",
+        "C": "Apoyar a las empresas públicas"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuántos títulos componen el Estatuto de Autonomía de las Islas Baleares?",
+      "opciones": {
+        "A": "9",
+        "B": "10",
+        "C": "12"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué establece el Título VIII del Estatuto de Autonomía de las Islas Baleares?",
+      "opciones": {
+        "A": "De la Reforma del Estatuto",
+        "B": "Financiación y Hacienda",
+        "C": "De las Instituciones de la CAIB"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué institución es responsable de la ordenación del turismo en las Islas Baleares según el Estatuto de Autonomía de las Islas Baleares?",
+      "opciones": {
+        "A": "El Gobierno Central",
+        "B": "La Comunidad Autónoma de las Islas Baleares",
+        "C": "Los Consejos Insulares"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Dentro del ámbito de competencias de la CAIB, ¿cuáles son responsables por la protección civil y emergencias?",
+      "opciones": {
+        "A": "Solo la CAIB",
+        "B": "La CAIB en el marco de la legislación básica del Estado",
+        "C": "Los entes locales sin intervención de la CAIB"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el Estatuto de Autonomía de las Islas Baleares, ¿qué competencia tiene la CAIB respecto a la salud y sanidad?",
+      "opciones": {
+        "A": "Competencia exclusiva",
+        "B": "Competencia compartida con el Estado",
+        "C": "No tiene competencias"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En relación a la protección del medio ambiente y la ordenación del territorio, ¿qué nivel de competencia posee la CAIB?",
+      "opciones": {
+        "A": "Competencia exclusiva en la ordenación del territorio pero compartida en medio ambiente",
+        "B": "Competencia exclusiva tanto en la ordenación del territorio como en medio ambiente",
+        "C": "Sin competencias en ninguno de los dos campos"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el papel de la CAIB en la regulación del transporte marítimo interinsular según su estatuto de autonomía?",
+      "opciones": {
+        "A": "Regulación completa sin intervención del estado",
+        "B": "Colaboración con el estado para la regulación",
+        "C": "Ninguna responsabilidad directa"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Cuál es el plazo máximo para la constitución del Parlamento de las Islas Baleares tras la celebración de las elecciones según el Estatuto?",
+      "opciones": {
+        "A": "15 días",
+        "B": "30 días",
+        "C": "45 días"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En el Estatuto de las Islas Baleares, ¿quién preside la Diputación Permanente?",
+      "opciones": {
+        "A": "El Presidente de la CCAA",
+        "B": "El Presidente del Parlamento",
+        "C": "El Presidente del Consejo Insular"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el Estatuto balear, ¿qué proporción de diputados necesarios es requerida para convocar una sesión extraordinaria del Parlamento?",
+      "opciones": {
+        "A": "Una quinta parte",
+        "B": "Una tercera parte",
+        "C": "La mitad"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué mayoría es necesaria para la aprobación y la reforma del Reglamento del Parlamento de las Islas Baleares?",
+      "opciones": {
+        "A": "Mayoría simple",
+        "B": "Mayoría absoluta",
+        "C": "Mayoría cualificada de dos tercios"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cómo se clasifica la competencia de las Islas Baleares sobre la enseñanza no universitaria según su Estatuto?",
+      "opciones": {
+        "A": "Competencia compartida",
+        "B": "Competencia exclusiva",
+        "C": "Competencia ejecutiva"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué institución puede el Parlamento de la CAIB crear para la defensa de las libertades y derechos fundamentales de los ciudadanos?",
+      "opciones": {
+        "A": "La sindicatura de cuentas",
+        "B": "La sindicatura de Greuges",
+        "C": "El consejo de defensa jurídica"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En caso de extraordinaria y urgente necesidad, ¿cuántos días tiene el Consejo de Gobierno para que sus decretos leyes sean convalidados por el parlamento antes de que queden derogados?",
+      "opciones": {
+        "A": "15 días",
+        "B": "30 días",
+        "C": "45 días"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué mayoría es necesaria para elegir al síndico de la sindicatura de Greuges en el Parlamento de la CAIB?",
+      "opciones": {
+        "A": "Mayoría absoluta",
+        "B": "Mayoría simple",
+        "C": "Tres quintas partes"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el plazo máximo para que los consejos insulares se constituyan después de las elecciones?",
+      "opciones": {
+        "A": "30 días",
+        "B": "45 días",
+        "C": "60 días"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Si el Consejo de Gobierno de la CAIB recurre a la disolución anticipada del Parlamento, ¿qué condición no debe darse para proceder con esta acción?",
+      "opciones": {
+        "A": "Que esté en trámite una moción de censura",
+        "B": "Que haya pasado un año desde la última disolución",
+        "C": "Que haya una moción de confianza en trámite"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes organismos es el máximo órgano consultivo de la Comunidad Autónoma de las Islas Baleares?",
+      "opciones": {
+        "A": "Consejo Audiovisual de las Islas Baleares",
+        "B": "Consejo Consultivo de las Islas Baleares",
+        "C": "Consejo Económico y Social de las Illes Balears"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "En el ámbito de las Islas Baleares, ¿quién es responsable de la publicación del nombramiento del Presidente del Tribunal Superior de Justicia en el Boletín oficial?",
+      "opciones": {
+        "A": "El Presidente del Consejo Insular",
+        "B": "El Presidente de la CAIB",
+        "C": "El Consejo General del Poder Judicial"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué organismo tiene como una de sus funciones la fiscalización externa de la actividad económica y contable del sector público de las Islas Baleares?",
+      "opciones": {
+        "A": "Tribunal de Cuentas",
+        "B": "Sindicatura de Comptes",
+        "C": "Consejo de Justicia de las Islas Baleares"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es la misión primordial del Consejo Audiovisual de las Islas Baleares?",
+      "opciones": {
+        "A": "Gestionar el patrimonio audiovisual de la CAIB",
+        "B": "Asegurar que los medios de comunicación pública cumplan con los principios del modelo audiovisual",
+        "C": "Promover la cultura local a través de medios audiovisuales"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Según el Estatuto de Autonomía de las Islas Baleares, ¿quién tiene la potestad de firmar convenios internacionales en nombre de las Islas Baleares?",
+      "opciones": {
+        "A": "El Consejo de Justicia de las Islas Baleares",
+        "B": "El presidente del Parlamento de las Islas Baleares",
+        "C": "El gobierno de la Comunidad Autónoma"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál es el periodo máximo para la constitución del Consejo Insular de Formentera tras la celebración de elecciones locales según el estatuto mencionado?",
+      "opciones": {
+        "A": "30 días",
+        "B": "45 días",
+        "C": "60 días"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "Con respecto a la reforma del Estatuto, ¿qué mayoría es requerida en el Parlamento para su aprobación?",
+      "opciones": {
+        "A": "Mayoría absoluta",
+        "B": "Mayoría simple",
+        "C": "Mayoría de dos tercios"
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué entidad se crea bajo la normativa del Estado para regular la composición y las funciones del Archivo de la Corona de Aragón?",
+      "opciones": {
+        "A": "El Patronato del Archivo de la Corona de Aragón",
+        "B": "La Comisión Técnica Interinsular",
+        "C": "La Comisión Mixta de Economía y Hacienda"
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "Según el estatuto, ¿qué organismo es la institución oficial consultiva para todo lo referente a la lengua catalana?",
+      "opciones": {
+        "A": "El Parlamento de la CAIB",
+        "B": "La UIB",
+        "C": "El Consejo Insular de Mallorca"
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "¿Cuál es el recurso que no forma parte de la hacienda de la CAIB según el estatuto?",
+      "opciones": {
+        "A": "Ingresos de multas y sanciones",
+        "B": "Rendimiento de los tributos propios",
+        "C": "Participación en los ingresos del Estado"
+      },
+      "correcta": "B"
+    }
+  ]
+}
