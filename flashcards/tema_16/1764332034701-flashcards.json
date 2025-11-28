@@ -1,0 +1,114 @@
+[
+  {
+    "titulo": "Nomenclatura de Carreteras en Mallorca",
+    "explicacion": "Las vías radiales con centro en Palma siguen un sistema de numeración que las identifica por su función y ubicación. Este sistema está diseñado para facilitar la localización y gestión del tráfico.",
+    "clave_memoria": "Imagina un sol radiante en Palma, donde cada rayo es una carretera numerada.",
+    "pregunta_rapida": "¿Qué tipo de numeración utilizan las vías radiales con centro en Palma?",
+    "respuesta_corta": "Un sistema de numeración según su función y ubicación."
+  },
+  {
+    "titulo": "Red Primaria Básica",
+    "explicacion": "La red primaria básica en Mallorca tiene la función principal de conectar los puntos estratégicos de la isla, asegurando un acceso eficiente y rápido.",
+    "clave_memoria": "Visualiza una autopista que conecta las principales ciudades, como un hilo en un mapa.",
+    "pregunta_rapida": "¿Cuál es la función principal de la red primaria básica?",
+    "respuesta_corta": "Conectar puntos estratégicos de la isla."
+  },
+  {
+    "titulo": "Red Primaria Complementaria",
+    "explicacion": "Esta red complementa la red primaria básica, facilitando conexiones adicionales y mejorando el acceso a áreas menos céntricas.",
+    "clave_memoria": "Imagina piezas de un rompecabezas que encajan y completan la imagen de la red de carreteras.",
+    "pregunta_rapida": "¿Cuál es la función principal de la red primaria complementaria?",
+    "respuesta_corta": "Facilitar conexiones adicionales en áreas menos céntricas."
+  },
+  {
+    "titulo": "Identificación de Carreteras",
+    "explicacion": "Las carreteras que siguen el trazado antiguo o una travesía de población se identifican de forma específica para asegurar su correcta señalización y uso.",
+    "clave_memoria": "Visualiza un mapa antiguo con caminos marcados en verde para los trazados antiguos.",
+    "pregunta_rapida": "¿Cómo se identifica una carretera que sigue el trazado antiguo?",
+    "respuesta_corta": "Se identifica de forma específica según el nuevo sistema."
+  },
+  {
+    "titulo": "Eje de Poniente (Ma-1)",
+    "explicacion": "El Eje de Poniente (Ma-1) tiene una longitud significativa, conectando Palma con el Puerto de Sóller, y es crucial para el transporte en la isla.",
+    "clave_memoria": "Imagina una flecha larga que conecta las dos ubicaciones, simbolizando el Eje de Poniente.",
+    "pregunta_rapida": "¿Cuál es la longitud del Eje de Poniente (Ma-1)?",
+    "respuesta_corta": "Conecta Palma con el Puerto de Sóller."
+  },
+  {
+    "titulo": "Protocolo de Rescate en Túneles",
+    "explicacion": "En caso de emergencias en túneles, los bomberos siguen un protocolo inicial que incluye la evaluación de riesgos y la coordinación de rescate.",
+    "clave_memoria": "Visualiza a los bomberos con un mapa y radio, organizando su rescate en el túnel.",
+    "pregunta_rapida": "¿Cuál es el protocolo inicial para emergencias en el túnel de la Ma-11?",
+    "respuesta_corta": "Evaluación de riesgos y coordinación de rescate."
+  },
+  {
+    "titulo": "Accidente con Materiales Peligrosos",
+    "explicacion": "En un accidente relacionado con materiales peligrosos, el equipo esencial debe incluir trajes de protección y herramientas específicas para manejar la situación con seguridad.",
+    "clave_memoria": "Imagina a los bomberos con equipos en una escena de accidente, como superhéroes de la seguridad.",
+    "pregunta_rapida": "¿Qué equipo es esencial en un accidente con materiales peligrosos?",
+    "respuesta_corta": "Trajes de protección y herramientas específicas."
+  },
+  {
+    "titulo": "Incendio en el Puerto",
+    "explicacion": "En caso de incendios en los muelles comerciales del puerto de Palma, se deben utilizar extintores adecuados, como los de espuma o polvos químicos.",
+    "clave_memoria": "Visualiza un extintor de espuma como un gran olas apagando el fuego.",
+    "pregunta_rapida": "¿Qué tipo de extintor es más adecuado en un incendio en el puerto?",
+    "respuesta_corta": "Extintores de espuma o polvos químicos."
+  },
+  {
+    "titulo": "Gestión de Accidentes en Condiciones Adversas",
+    "explicacion": "Durante condiciones climáticas adversas, la prioridad en la gestión de accidentes es asegurar la seguridad de las víctimas y el equipo de rescate, manteniendo las comunicaciones claras.",
+    "clave_memoria": "Imagina un faro guiando a los equipos en medio de una tormenta.",
+    "pregunta_rapida": "¿Cuál es la prioridad en accidentes en la Ma-15 en condiciones adversas?",
+    "respuesta_corta": "Asegurar la seguridad de víctimas y equipo."
+  },
+  {
+    "titulo": "Acciones Iniciales en Incendios de Gas Butano",
+    "explicacion": "En un incendio de instalaciones de almacenamiento de gas butano, las acciones iniciales incluyen la evacuación de personas y el establecimiento de un perímetro de seguridad.",
+    "clave_memoria": "Visualiza un escudo que protege a las personas mientras se evacuan.",
+    "pregunta_rapida": "¿Cuáles son las acciones iniciales ante un incendio de gas butano?",
+    "respuesta_corta": "Evacuación y establecimiento de un perímetro de seguridad."
+  },
+  {
+    "titulo": "Rescate en Altura",
+    "explicacion": "En rescates en altura, se prefiere el uso de cuerdas de seguridad y arneses para garantizar la estabilidad de las víctimas y del rescatista.",
+    "clave_memoria": "Imagina un superhéroe volando con cuerdas de seguridad atadas a su cuerpo.",
+    "pregunta_rapida": "¿Qué técnica se prefiere en rescates en altura?",
+    "respuesta_corta": "Uso de cuerdas de seguridad y arneses."
+  },
+  {
+    "titulo": "Incendios de Líquidos Inflamables",
+    "explicacion": "En la gestión de incendios con líquidos inflamables, la técnica de extinción más recomendada es la de enfriamiento y sofocamiento, utilizando agua o espumas específicas.",
+    "clave_memoria": "Visualiza un gran cubo de agua vertiéndose sobre un fuego brillante.",
+    "pregunta_rapida": "¿Cuál es la técnica recomendada para incendios de líquidos inflamables?",
+    "respuesta_corta": "Enfriamiento y sofocamiento con agua o espumas."
+  },
+  {
+    "titulo": "Clasificación de Víctimas",
+    "explicacion": "En un accidente vehicular con múltiples heridos, se sigue un protocolo para clasificar víctimas según la gravedad de sus heridas, priorizando la atención.",
+    "clave_memoria": "Imagina un semáforo donde el rojo representa a los más graves y el verde a los menos graves.",
+    "pregunta_rapida": "¿Cómo se clasifica a las víctimas en un accidente con múltiples heridos?",
+    "respuesta_corta": "Según la gravedad de las heridas."
+  },
+  {
+    "titulo": "Equipo de Protección Personal en Incendios Químicos",
+    "explicacion": "Para intervenciones en incendios químicos en zonas industriales, el equipo de protección personal mínimo requerido incluye trajes especiales y respiradores.",
+    "clave_memoria": "Visualiza a los bomberos como astronautas equipados para el espacio químico.",
+    "pregunta_rapida": "¿Cuál es el equipo de protección mínimo para incendios químicos?",
+    "respuesta_corta": "Trajes especiales y respiradores."
+  },
+  {
+    "titulo": "Evaluación de Riesgo en Accidentes",
+    "explicacion": "La evaluación del riesgo en un accidente de tráfico con sospecha de carga explosiva requiere un análisis exhaustivo del entorno y la situación antes de actuar.",
+    "clave_memoria": "Imagina a un detective tomando notas en una escena del crimen.",
+    "pregunta_rapida": "¿Cómo se debe proceder en la evaluación del riesgo en un accidente con carga explosiva?",
+    "respuesta_corta": "Análisis exhaustivo del entorno y situación."
+  },
+  {
+    "titulo": "Protocolo de Comunicación en Rescates",
+    "explicacion": "En rescates complicados, se debe seguir un protocolo de comunicación claro para coordinar el esfuerzo del equipo y garantizar la seguridad.",
+    "clave_memoria": "Visualiza un equipo de bomberos comunicándose con walkie-talkies como en una película de acción.",
+    "pregunta_rapida": "¿Qué protocolo de comunicación se debe seguir en rescates complicados?",
+    "respuesta_corta": "Un protocolo de comunicación claro y coordinado."
+  }
+]
