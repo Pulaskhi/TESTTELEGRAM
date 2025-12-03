@@ -394,6 +394,7 @@ function mostrarFallosPorTema(chatId) {
 bot.on("callback_query", cb => {
   const chatId = cb.message.chat.id;
   const data = cb.data;
+  console.log('DEBUG callback_query from', chatId, 'data=', data);
   bot.answerCallbackQuery(cb.id);
 
   // ⚔️ VERSUS
@@ -466,6 +467,7 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
   if (data === "grupo:generados") {
     TESTS = { ...cargarTestsDeCarpeta(RUTA_GENERADOS) };
     const claves = Object.keys(TESTS);
+    console.log('DEBUG grupo:generados -> found', claves.length, 'tests');
     if (!claves.length) return bot.sendMessage(chatId, "⚠️ No hay tests en /generados");
     return bot.sendMessage(chatId, "📂 Selecciona un test:", {
       reply_markup: { inline_keyboard: claves.map(t => [{ text: t, callback_data: `tema:${t}` }]) }
@@ -474,7 +476,14 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
 
   // 📕 LIBRO ROJO
   if (data === "grupo:libro_rojo") {
-    const carpetas = listarCarpetas(RUTA_LIBRO_ROJO);
+    let carpetas = [];
+    try {
+      carpetas = listarCarpetas(RUTA_LIBRO_ROJO);
+    } catch (e) {
+      console.error('ERROR listing libro_rojo:', e);
+      return bot.sendMessage(chatId, "❌ Error accediendo a /libro_rojo");
+    }
+    console.log('DEBUG grupo:libro_rojo -> carpetas=', carpetas);
     if (!carpetas.length) return bot.sendMessage(chatId, "⚠️ No hay carpetas en /libro_rojo");
     return bot.sendMessage(chatId, "📕 Selecciona un tema:", {
       reply_markup: { inline_keyboard: carpetas.map(c => [{ text: c.toUpperCase(), callback_data: `subtema:${c}` }]) }
@@ -485,23 +494,50 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
   if (data.startsWith("subtema:")) {
     const carpeta = data.split(":")[1];
     const rutaSub = path.join(RUTA_LIBRO_ROJO, carpeta);
-    const archivos = fs.readdirSync(rutaSub).filter(f => f.endsWith(".json"));
+    if (!fs.existsSync(rutaSub)) {
+      console.warn('WARN subtema ruta no existe:', rutaSub);
+      return bot.sendMessage(chatId, "⚠️ No pude encontrar ese subtema en /libro_rojo");
+    }
 
+    let archivos = [];
+    try {
+      archivos = fs.readdirSync(rutaSub).filter(f => f.endsWith(".json"));
+    } catch (e) {
+      console.error('ERROR leyendo rutaSub', rutaSub, e);
+      return bot.sendMessage(chatId, "❌ Error leyendo los tests del subtema");
+    }
+
+    const added = [];
     archivos.forEach(file => {
-      const contenido = JSON.parse(fs.readFileSync(path.join(rutaSub, file), "utf8"));
-      TESTS[file.replace(".json", "")] = Array.isArray(contenido)
-        ? { tema: file.replace(".json", ""), preguntas: contenido }
-        : contenido;
+      try {
+        const contenido = JSON.parse(fs.readFileSync(path.join(rutaSub, file), "utf8"));
+        TESTS[file.replace(".json", "")] = Array.isArray(contenido)
+          ? { tema: file.replace(".json", ""), preguntas: contenido }
+          : contenido;
+        added.push(file);
+      } catch (e) {
+        console.error('ERROR parseando JSON en', file, e);
+      }
     });
 
+    console.log('DEBUG subtema loaded files:', added);
+    if (!added.length) return bot.sendMessage(chatId, `⚠️ No hay tests válidos en ${carpeta}`);
+
     return bot.sendMessage(chatId, `📘 Test disponibles en ${carpeta}:`, {
-      reply_markup: { inline_keyboard: archivos.map(f => [{ text: f.replace(".json", ""), callback_data: `tema:${f.replace(".json", "")}` }]) }
+      reply_markup: { inline_keyboard: added.map(f => [{ text: f.replace(".json", ""), callback_data: `tema:${f.replace(".json", "")}` }]) }
     });
   }
 
   // 📌 FLASHCARDS (IGUAL QUE TENÍAS)
   if (data === "grupo:flashcards") {
-    const carpetas = listarCarpetas(RUTA_FLASHCARDS);
+    let carpetas = [];
+    try {
+      carpetas = listarCarpetas(RUTA_FLASHCARDS);
+    } catch (e) {
+      console.error('ERROR listing flashcards:', e);
+      return bot.sendMessage(chatId, "❌ Error accediendo a /flashcards");
+    }
+    if (!carpetas.length) return bot.sendMessage(chatId, "⚠️ No hay flashcards disponibles");
     return bot.sendMessage(chatId, "📸 Selecciona un tema general:", {
       reply_markup: { inline_keyboard: carpetas.map(c => [{ text: c.toUpperCase(), callback_data: `flash_subtema:${c}` }]) }
     });
@@ -510,25 +546,46 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
   if (data.startsWith("flash_subtema:")) {
     const carpeta = data.split(":")[1];
     const rutaSub = path.join(RUTA_FLASHCARDS, carpeta);
-    const archivos = fs.readdirSync(rutaSub).filter(f => f.endsWith(".json"));
+    if (!fs.existsSync(rutaSub)) {
+      console.warn('WARN flash_subtema ruta no existe:', rutaSub);
+      return bot.sendMessage(chatId, "⚠️ No pude encontrar ese subtema de flashcards");
+    }
 
+    let archivos = [];
+    try {
+      archivos = fs.readdirSync(rutaSub).filter(f => f.endsWith(".json"));
+    } catch (e) {
+      console.error('ERROR leyendo flashcards en', rutaSub, e);
+      return bot.sendMessage(chatId, "❌ Error leyendo flashcards del subtema");
+    }
+
+    const added = [];
     archivos.forEach(file => {
-      const contenido = JSON.parse(fs.readFileSync(path.join(rutaSub, file), "utf8"));
-      TESTS[file.replace(".json", "")] = Array.isArray(contenido)
-        ? { tema: file.replace(".json", ""), preguntas: contenido }
-        : contenido;
+      try {
+        const contenido = JSON.parse(fs.readFileSync(path.join(rutaSub, file), "utf8"));
+        TESTS[file.replace(".json", "")] = Array.isArray(contenido)
+          ? { tema: file.replace(".json", ""), preguntas: contenido }
+          : contenido;
+        added.push(file);
+      } catch (e) {
+        console.error('ERROR parseando JSON flashcard', file, e);
+      }
     });
+
+    if (!added.length) return bot.sendMessage(chatId, `⚠️ No hay flashcards válidas en ${carpeta}`);
 
     return bot.sendMessage(chatId, `📘 Flashcards ${carpeta}`, {
       parse_mode: "HTML",
-      reply_markup: { inline_keyboard: archivos.map(f => [{ text: f.replace(".json", ""), callback_data: `flash:${f.replace(".json", "")}` }]) }
+      reply_markup: { inline_keyboard: added.map(f => [{ text: f.replace(".json", ""), callback_data: `flash:${f.replace(".json", "")}` }]) }
     });
   }
 
   if (data.startsWith("flash:")) {
     const tema = data.split(":")[1];
     const pack = TESTS[tema];
+    if (!pack) return bot.sendMessage(chatId, "⚠️ No encontré ese paquete de flashcards.");
     const tarjetas = pack.preguntas || pack;
+    if (!tarjetas || !tarjetas.length) return bot.sendMessage(chatId, "⚠️ Ese paquete de flashcards está vacío.");
     usuarios[chatId] = { tipo: "flashcards", tarjetas, indice: 0 };
     return enviarFlashcard(chatId);
   }
