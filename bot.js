@@ -405,9 +405,14 @@ bot.on("callback_query", cb => {
   // ⚔️ DUELOS GRUPALES
   if (data.startsWith("grupo:")) {
     const partes = data.split(":");
-    const grupoId = partes[1];
-    const respuesta = partes[2];
-    return versus.respuestaGrupo(bot, chatId, grupoId, respuesta);
+    // solo tratar como respuesta grupal si contiene 3 partes: "grupo:<grupoId>:<respuesta>"
+    if (partes.length >= 3) {
+      const grupoId = partes[1];
+      const respuesta = partes[2];
+      return versus.respuestaGrupo(bot, chatId, grupoId, respuesta);
+    }
+    // si no tiene 3 partes, dejar que los handlers específicos (p.ej. grupo:generados)
+    // sigan procesando el callback más abajo
   }
 
   // 📊 ESTADÍSTICAS
