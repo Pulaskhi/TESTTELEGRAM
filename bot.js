@@ -404,14 +404,14 @@ function mostrarFallosPorTema(chatId) {
 // 🚀 CALLBACK QUERY  (ORDEN CORRECTO)
 // ===========================================
 bot.on("callback_query", cb => {
-  const chatId = cb.message.chat.id;
+  const chatId = String(cb.message.chat.id);
   const data = cb.data;
   console.log('DEBUG callback_query from', chatId, 'data=', data);
   bot.answerCallbackQuery(cb.id);
 
   // ⚔️ VERSUS
   const enDuelo = Object.keys(versus.duelos || {}).some(
-    d => d == chatId || (versus.duelos[d] && versus.duelos[d].rivalId == chatId)
+    d => d === chatId || (versus.duelos[d] && String(versus.duelos[d].rivalId) === chatId)
   );
   if (enDuelo) return versus.respuestaVersus(bot, chatId, data);
 
