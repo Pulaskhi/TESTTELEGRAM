@@ -32,12 +32,24 @@ let usuarios = {};
 function cargarTestsDeCarpeta(rutaCarpeta) {
   let tests = {};
   if (!fs.existsSync(rutaCarpeta)) return tests;
-  const archivos = fs.readdirSync(rutaCarpeta).filter(f => f.endsWith(".json"));
+  let archivos = [];
+  try {
+    archivos = fs.readdirSync(rutaCarpeta).filter(f => f.endsWith(".json"));
+  } catch (e) {
+    console.error('ERROR leyendo carpeta de tests:', rutaCarpeta, e);
+    return tests;
+  }
 
   archivos.forEach(nombre => {
-    const contenido = JSON.parse(fs.readFileSync(path.join(rutaCarpeta, nombre), "utf8"));
-    const clave = nombre.replace(".json", "");
-    tests[clave] = Array.isArray(contenido) ? { tema: clave, preguntas: contenido } : contenido;
+    const rutaArchivo = path.join(rutaCarpeta, nombre);
+    try {
+      const contenidoStr = fs.readFileSync(rutaArchivo, "utf8");
+      const contenido = JSON.parse(contenidoStr);
+      const clave = nombre.replace(".json", "");
+      tests[clave] = Array.isArray(contenido) ? { tema: clave, preguntas: contenido } : contenido;
+    } catch (e) {
+      console.error('ERROR parseando o leyendo JSON:', rutaArchivo, e.message || e);
+    }
   });
   return tests;
 }
