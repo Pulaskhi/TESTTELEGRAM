@@ -1,2 +1,8 @@
+# Ignorar archivos y carpetas generadas
+generados/
+node_modules/
+.DS_Store
+*.log
+.vscode/
 /node_modules
 /.env

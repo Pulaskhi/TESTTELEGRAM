@@ -1,0 +1,507 @@
+{
+  "tema": "CONSTITUCION_ESP_1978",
+  "fecha": "2025-01-01T00:00:00.000Z",
+  "preguntas": [
+    {
+      "pregunta": "1. De quants de títols consta la Constitució espanyola de 1978?",
+      "opciones": {
+        "A": "a) Nou títols.",
+        "B": "b) Deu títols.",
+        "C": "c) Onze títols.",
+        "D": "d) Dotze títols."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "2. Quin títol de la Constitució espanyola regula la Corona?",
+      "opciones": {
+        "A": "a) Títol I.",
+        "B": "b) Títol II.",
+        "C": "c) Títol III.",
+        "D": "d) Títol IV."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "3. Quin títol de la Constitució espanyola regula les Corts Generals?",
+      "opciones": {
+        "A": "a) Títol VI.",
+        "B": "b) Títol V.",
+        "C": "c) Títol III.",
+        "D": "d) Títol IV."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "4. Segons l’article 1 de la Constitució espanyola, en quin tipus d’Estat es constitueix Espanya?",
+      "opciones": {
+        "A": "a) Un Estat democràtic i plural.",
+        "B": "b) Un Estat social i monàrquic.",
+        "C": "c) Un Estat parlamentari democràtic.",
+        "D": "d) Un Estat social i democràtic de dret."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "5. On es regula que la sobirania nacional resideix en el poble espanyol, del qual emanen els poders de l’Estat?",
+      "opciones": {
+        "A": "a) En el títol preliminar de la Constitució espanyola.",
+        "B": "b) En el preàmbul de la Constitució espanyola.",
+        "C": "c) En el títol I de la constitució espanyola.",
+        "D": "d) En el títol II de la Constitució espanyola."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "6. Segons l’article 1 de la Constitució espanyola, quina és la forma política de l’Estat espanyol?",
+      "opciones": {
+        "A": "a) La democràcia popular.",
+        "B": "b) La monarquia presidencialista.",
+        "C": "c) La monarquia parlamentària.",
+        "D": "d) La democràcia parlamentària."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "7. Segons l’article 2 de la Constitució espanyola, la Constitució es fonamenta:",
+      "opciones": {
+        "A": "a) En la indissoluble unitat de la Nació Espanyola.",
+        "B": "b) En el principi democràtic i social.",
+        "C": "c) En la sobirania nacional que resideix en el poble.",
+        "D": "d) En el principi de justícia social."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "8. Segons l’article 3 de la Constitució espanyola, les diferents modalitats lingüístiques d’Espanya són:",
+      "opciones": {
+        "A": "a) Un dret dels ciutadans espanyols.",
+        "B": "b) Un patrimoni cultural, objecte d’especial respecte i protecció.",
+        "C": "c) Un valor fonamental de la cultura espanyola.",
+        "D": "d) Les respostes a) i b) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "9. La Constitució espanyola estableix que el castellà és la llengua espanyola oficial de l’Estat?",
+      "opciones": {
+        "A": "a) Sí, en el preàmbul.",
+        "B": "b) No.",
+        "C": "c) Sí, en el títol preliminar.",
+        "D": "d) Sí, en el títol I."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "10. Segons l’article 6 de la Constitució espanyola, l’estructura interna i el funcionament dels partits polítics han de ser:",
+      "opciones": {
+        "A": "a) Plurals.",
+        "B": "b) Independents.",
+        "C": "c) Objectius.",
+        "D": "d) Democràtics."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "11. Segons l’article 1 de la Constitució espanyola, els poders de l’Estat emanen de:",
+      "opciones": {
+        "A": "a) La corona.",
+        "B": "b) El poble espanyol.",
+        "C": "c) El rei.",
+        "D": "d) Les Corts Generals."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "12. Segons l’article 4 de la Constitució espanyola, les comunitats autònomes poden reconèixer banderes i ensenyes pròpies?",
+      "opciones": {
+        "A": "a) Sí, amb autorització prèvia del Congrés i del Senat.",
+        "B": "b) Sí, amb autorització prèvia del Govern.",
+        "C": "c) Sí, si està reconegut per l’Estatut d’autonomia corresponent.",
+        "D": "d) Les respostes b) i c) són correctes."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "13. Segons l’article 4 de la Constitució espanyola, les banderes i les ensenyes pròpies de les comunitats autònomes:",
+      "opciones": {
+        "A": "a) Només s’utilitzaran en els seus edificis públics.",
+        "B": "b) S’utilitzaran juntament amb la bandera d’Espanya en els seus edificis públics.",
+        "C": "c) S’utilitzaran juntament amb la bandera d’Espanya i de la Unió Europea en els seus edificis públics.",
+        "D": "d) S’utilitzaran juntament amb la bandera d’Espanya en els seus edificis públics i en els seus actes oficials."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "14. On es regula que es reconeix i es garanteix el dret a l’autonomia de les nacionalitats i de les regions que integren la Nació espanyola i la solidaritat entre totes elles?",
+      "opciones": {
+        "A": "a) En el títol preliminar de la Constitució espanyola.",
+        "B": "b) En el preàmbul de la Constitució espanyola.",
+        "C": "c) En el títol I de la Constitució espanyola.",
+        "D": "d) En el títol II de la Constitució espanyola."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "15. Segons l’article 6 de la Constitució espanyola, els partits polítics:",
+      "opciones": {
+        "A": "a) Contribueixen a la defensa i a la promoció dels interessos econòmics i socials.",
+        "B": "b) Defensen l’ordenament constitucional.",
+        "C": "c) Expressen el pluralisme polític.",
+        "D": "d) Garanteixen la participació democràtica."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "16. Segons l’article 7 de la Constitució espanyola, els sindicats:",
+      "opciones": {
+        "A": "a) Contribueixen a la defensa i a la promoció dels interessos econòmics i socials que els són propis.",
+        "B": "b) Defensen l’ordenament constitucional.",
+        "C": "c) Expressen el pluralisme social.",
+        "D": "d) Garanteixen la participació democràtica."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "17. Segons l’article 7 de la Constitució espanyola, qui contribueix a la defensa i a la promoció dels interessos econòmics i socials que els són propis?",
+      "opciones": {
+        "A": "a) Els partits polítics.",
+        "B": "b) Els sindicats de treballadors.",
+        "C": "c) Les associacions empresarials.",
+        "D": "d) Les respostes b) i c) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "18. Segons l’article 8 de la Constitució espanyola, qui té com a missió garantir la sobirania i la independència d’Espanya?",
+      "opciones": {
+        "A": "a) El poder judicial.",
+        "B": "b) Les forces armades.",
+        "C": "c) El rei.",
+        "D": "d) El Govern."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "19. Segons l’article 8 de la Constitució espanyola, les forces armades tenen com a missió:",
+      "opciones": {
+        "A": "a) Garantir la sobirania i la independència d’Espanya.",
+        "B": "b) Defensar la integritat territorial d’Espanya.",
+        "C": "c) Defensar l’ordenament constitucional espanyol.",
+        "D": "d) Les respostes a) i c) són correctes."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "20. Segons l’article 9 de la Constitució espanyola, els ciutadans i els poders públics resten subjectes a:",
+      "opciones": {
+        "A": "a) La Constitució.",
+        "B": "b) La Constitució i les lleis.",
+        "C": "c) La Constitució i la resta de l’ordenament jurídic.",
+        "D": "d) Les lleis."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "21. Segons l’article 9 de la Constitució espanyola, es garanteix el principi de:",
+      "opciones": {
+        "A": "a) Jerarquia institucional.",
+        "B": "b) Retroactivitat de les disposicions sancionadores no favorables o restrictives de drets individuals.",
+        "C": "c) Irretroactivitat de les disposicions sancionadores no favorables o restrictives de drets individuals.",
+        "D": "d) Solidaritat."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "22. Segons l’article 9 de la Constitució espanyola, es garanteix el principi de:",
+      "opciones": {
+        "A": "a) Jerarquia normativa.",
+        "B": "b) Retroactivitat de les disposicions sancionadores no favorables o restrictives de drets individuals.",
+        "C": "c) Irretroactivitat de les disposicions sancionadores no favorables o restrictives de drets individuals.",
+        "D": "d) Les respostes a) i c) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "23. Segons l’article 10 de la Constitució espanyola, les normes relatives als drets fonamentals i a les llibertats que la Constitució reconeix s’interpretaran de conformitat amb:",
+      "opciones": {
+        "A": "a) La Declaració Universal de Drets Humans.",
+        "B": "b) La Carta Social Europea.",
+        "C": "c) El Conveni de Drets Humans i Socials Europeu.",
+        "D": "d) La Directiva 5/2017 de drets humans."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "24. On es regula la majoria d’edat dels espanyols?",
+      "opciones": {
+        "A": "a) En el títol preliminar de la Constitució espanyola.",
+        "B": "b) En el preàmbul de la Constitució espanyola.",
+        "C": "c) En el títol I de la Constitució espanyola.",
+        "D": "d) En el títol II de la Constitució espanyola."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "25. Segons l’article 11 de la Constitució espanyola, pot l’Estat espanyol concertar tractats de doble nacionalitat amb altres països?",
+      "opciones": {
+        "A": "a) No.",
+        "B": "b) Sí, amb els països iberoamericans.",
+        "C": "c) Sí, amb els països que hagin tingut o tenguin una vinculació particular amb Espanya.",
+        "D": "d) Les respostes b) i c) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "26. Segons l’article 11 de la Constitució espanyola, pot un espanyol d’origen ser privat de la seva nacionalitat?",
+      "opciones": {
+        "A": "a) Sí, en els casos prevists per llei.",
+        "B": "b) En cap cas.",
+        "C": "c) Només en cas de terrorisme o pertinença a banda armada.",
+        "D": "d) Només en cas de delicte flagrant."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "27. D’acord amb l’article 13 de la Constitució espanyola, en quin cas resta exclosa l’extradició?",
+      "opciones": {
+        "A": "a) En els delictes polítics.",
+        "B": "b) En els delictes d’hisenda.",
+        "C": "c) En els actes de terrorisme.",
+        "D": "d) Les respostes a) i c) són correctes."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "28. Segons l’article 16 de la Constitució espanyola, quina confessió religiosa té caràcter estatal?",
+      "opciones": {
+        "A": "a) Cap.",
+        "B": "b) La religió cristiana.",
+        "C": "c) La religió catòlica.",
+        "D": "d) La creença religiosa que històricament i tradicionalment és pròpia d’Espanya."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "29. Segons l’article 17 de la Constitució espanyola, quant pot durar com a màxim la detenció preventiva?",
+      "opciones": {
+        "A": "a) Seixanta-cinc hores.",
+        "B": "b) Seixanta-dues hores.",
+        "C": "c) Setanta-cinc hores.",
+        "D": "d) Setanta-dues hores."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "30. D’acord amb l’article 17 de la Constitució espanyola, una persona detinguda té dret a:",
+      "opciones": {
+        "A": "a) Ser informada immediatament dels seus drets i de les raons de la detenció.",
+        "B": "b) No ser obligada a declarar.",
+        "C": "c) L’assistència d’advocat.",
+        "D": "d) Les respostes a), b) i c) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "31. Segons l’article 22 de la Constitució espanyola, quin tipus d’associacions estan prohibides?",
+      "opciones": {
+        "A": "a) Cap.",
+        "B": "b) Les associacions de caràcter lucratiu.",
+        "C": "c) Les associacions secretes i les de caràcter paramilitar.",
+        "D": "d) Cap, excepte les de caràcter paramilitar."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "32. Segons l’article 25 de la Constitució espanyola, les penes privatives de llibertat restaran orientades:",
+      "opciones": {
+        "A": "a) A la reeducació.",
+        "B": "b) Al compliment estricte de la pena.",
+        "C": "c) A la reinserció social.",
+        "D": "d) Les respostes a) i c) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "33. Segons l’article 25 de la Constitució espanyola, quins tipus de sancions no pot imposar l’Administració civil?",
+      "opciones": {
+        "A": "a) Sancions que directament o subsidiàriament impliquin privació de llibertat.",
+        "B": "b) Sancions pecuniàries.",
+        "C": "c) Sancions administratives.",
+        "D": "d) Multes."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "34. D’acord amb l’article 26 de la Constitució espanyola, quins tipus de tribunals estan prohibits en l’àmbit de l’Administració civil i de les organitzacions professionals?",
+      "opciones": {
+        "A": "a) Tribunals castrenses.",
+        "B": "b) Tribunals d’honor.",
+        "C": "c) Jurats populars.",
+        "D": "d) Tribunals civils."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "35. Segons l’article 28 de la Constitució espanyola, sobre la llibertat de sindicació, tothom té dret a sindicar-se lliurement?",
+      "opciones": {
+        "A": "a) Sí, sense excepcions.",
+        "B": "b) No, la llei pot limitar o exceptuar l’exercici d’aquest dret a les forces o als instituts armats o a altres cossos amb disciplina militar.",
+        "C": "c) No, se n’exceptuen els jutges i els magistrats.",
+        "D": "d) Les respostes b) i c) són correctes."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "36. Segons l’article 54 de la Constitució espanyola, a qui es designa com a alt comissionat de les Corts Generals?",
+      "opciones": {
+        "A": "a) Al fiscal general de l’Estat.",
+        "B": "b) Al president del Consell General del Poder Judicial.",
+        "C": "c) Al Defensor del Poble.",
+        "D": "d) Al president del Consell de l’Estat."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "37. Segons l’article 54 de la Constitució espanyola, quina norma regula la institució del Defensor del Poble?",
+      "opciones": {
+        "A": "a) Una llei orgànica.",
+        "B": "b) Una llei ordinària.",
+        "C": "c) Un reglament.",
+        "D": "d) Un decret llei."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "38. D’acord amb l’article 53 de la Constitució espanyola, quin tipus de recurs judicial es pot interposar per defensar l’objecció de consciència davant el Tribunal Constitucional?",
+      "opciones": {
+        "A": "a) Un recurs d’apel·lació.",
+        "B": "b) Un recurs d’inconstitucionalitat.",
+        "C": "c) Un recurs d’empara.",
+        "D": "d) Un recurs de cassació."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "39. Segons l’article 55 de la Constitució espanyola, en quin cas la garantia al dret del secret de les comunicacions pot ser suspesa?",
+      "opciones": {
+        "A": "a) Quan sigui acordada la declaració de l’estat d’excepció.",
+        "B": "b) Mai, en cap cas.",
+        "C": "c) Quan sigui acordada la declaració de l’estat de setge.",
+        "D": "d) Les respostes a) i c) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "40. Segons l’article 54 de la Constitució espanyola, qui té la missió de defensar els drets fonamentals compresos en el títol I?",
+      "opciones": {
+        "A": "a) El Defensor del Poble.",
+        "B": "b) El Ministeri Fiscal.",
+        "C": "c) Els tribunals de justícia.",
+        "D": "d) El ministre competent en matèria de justícia."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "41. Segons l’article 166 de la Constitució espanyola, qui pot tenir la iniciativa de reforma constitucional?",
+      "opciones": {
+        "A": "a) El Govern i el Congrés.",
+        "B": "b) Les Corts Generals i les assemblees legislatives autonòmiques.",
+        "C": "c) El Govern, el Congrés, el Senat i les assemblees legislatives autonòmiques.",
+        "D": "d) El Govern estatal i els governs autonòmics."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "42. D’acord amb l’article 167 de la Constitució espanyola, quina majoria es requereix a cada una de les cambres de les Corts Generals per aprovar un projecte de reforma constitucional no essencial?",
+      "opciones": {
+        "A": "a) Majoria de dos terços.",
+        "B": "b) Majoria de les tres cinquenes parts.",
+        "C": "c) Majoria absoluta.",
+        "D": "d) Majoria de les tres quartes parts."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "43. Segons l’article 167 de la Constitució espanyola, una vegada aprovada una reforma constitucional no essencial per part de les Corts Generals es requereix un referèndum per tal de ser ratificada?",
+      "opciones": {
+        "A": "a) No, mai.",
+        "B": "b) Sí, sempre.",
+        "C": "c) Sí, sempre que ho demani una dècima part dels membres de qualsevol de les cambres.",
+        "D": "d) Sí, sempre que ho demani una cinquena part dels membres de qualsevol de les cambres."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "44. Segons l’article 168 de la Constitució espanyola, sobre la reforma constitucional, en quin cas es produeix la dissolució immediata de les Corts Generals?",
+      "opciones": {
+        "A": "a) Mai.",
+        "B": "b) Amb qualsevol tipus de reforma constitucional.",
+        "C": "c) Si es proposa la revisió total de la Constitució.",
+        "D": "d) Si es proposa una revisió parcial que afecti el títol III."
+      },
+      "correcta": "C"
+    },
+    {
+      "pregunta": "45. Segons l’article 168 de la Constitució espanyola, què es requereix per aprovar una reforma parcial de la Constitució que afecti el títol II?",
+      "opciones": {
+        "A": "a) L’aprovació de la reforma per majoria dels dos terços de cada cambra.",
+        "B": "b) La dissolució immediata de les Corts Generals.",
+        "C": "c) L’aprovació de la reforma per majoria absoluta de cada cambra.",
+        "D": "d) Les respostes a) i b) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "46. D’acord amb l’article 168 de la Constitució espanyola, què es requereix per aprovar una reforma parcial de la Constitució que afecti el títol preliminar?",
+      "opciones": {
+        "A": "a) L’aprovació de la reforma per majoria dels dos terços de cada cambra.",
+        "B": "b) L’aprovació de la reforma per majoria absoluta de cada cambra.",
+        "C": "c) La dissolució immediata de les Corts Generals.",
+        "D": "d) Les respostes a) i c) són correctes."
+      },
+      "correcta": "D"
+    },
+    {
+      "pregunta": "47. Segons l’article 168 de la Constitució espanyola, una vegada aprovada per les Corts Generals una reforma parcial de la Constitució que afecti el títol preliminar, què es requereix per ratificar-la?",
+      "opciones": {
+        "A": "a) Un referèndum.",
+        "B": "b) La sanció per part del rei.",
+        "C": "c) La publicació en el Butlletí Oficial de l’Estat.",
+        "D": "d) Les respostes b) i c) són correctes."
+      },
+      "correcta": "A"
+    },
+    {
+      "pregunta": "48. Segons l’article 168 de la Constitució espanyola, és necessari sotmetre a referèndum la reforma del títol preliminar una vegada aprovada per les Corts Generals?",
+      "opciones": {
+        "A": "a) No, no és necessari.",
+        "B": "b) Sí, en tot cas.",
+        "C": "c) Sí, sempre que ho demani una dècima part dels membres de qualsevol de les cambres.",
+        "D": "d) Únicament en cas de desacord entre el Congrés i el Senat."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "49. Segons l’article 169 de la Constitució espanyola, quan no es pot iniciar una reforma constitucional?",
+      "opciones": {
+        "A": "a) No hi ha limitacions, es pot iniciar en qualsevol moment.",
+        "B": "b) En temps de guerra.",
+        "C": "c) En un procés electoral.",
+        "D": "d) En una moció de censura."
+      },
+      "correcta": "B"
+    },
+    {
+      "pregunta": "50. D’acord amb l’article 169 de la Constitució espanyola, es pot iniciar una reforma constitucional en qualsevol moment?",
+      "opciones": {
+        "A": "a) Sí, sempre.",
+        "B": "b) Sí, excepte en temps de guerra.",
+        "C": "c) Sí, excepte durant un procés electoral.",
+        "D": "d) Sí, excepte en temps de guerra o de vigència dels estats d’alarma, d’excepció i de setge."
+      },
+      "correcta": "D"
+    }
+  ]
+}
+
