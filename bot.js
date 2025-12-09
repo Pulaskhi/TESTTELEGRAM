@@ -15,6 +15,18 @@ const TOKEN = process.env.TELEGRAM_TOKEN;
 const CODIGO_ACCESO = "camagrok";
 const bot = new TelegramBot(TOKEN, { polling: true });
 
+// registrar comando fonético (asignar números→letras y generar palabras)
+let phonetic = null;
+try {
+  phonetic = require("./phonetic");
+  if (phonetic && phonetic.registerPhonetic) {
+    phonetic.registerPhonetic(bot);
+    console.log('✅ Phonetic module registered');
+  }
+} catch (e) {
+  console.warn('⚠️ No se pudo registrar phonetic module:', e);  // Ver mensaje de error
+}
+
 const RUTA_GENERADOS = path.join(__dirname, "generados");
 const RUTA_LIBRO_ROJO = path.join(__dirname, "libro_rojo");
 const RUTA_FLASHCARDS = path.join(__dirname, "flashcards");
@@ -64,19 +76,117 @@ function listarCarpetas(ruta) {
 // 📌 MENÚ PRINCIPAL
 // ===========================================
 function mostrarMenu(chatId, nombre) {
+  // Añadir sección de tests en curso si hay archivos en test_en_curso
+  let teclado = [
+    [{ text: "🧪 Tests en curso", callback_data: "grupo:test_en_curso" }],
+    [{ text: "📂 Generados", callback_data: "grupo:generados" }],
+    [{ text: "📕 Libro Rojo", callback_data: "grupo:libro_rojo" }],
+    [{ text: "📸 Flashcards", callback_data: "grupo:flashcards" }],
+    [{ text: "📡 Código fonético", callback_data: "grupo:fonetico" }],
+    [{ text: "📊 Mis estadísticas", callback_data: "stats" }],
+    [{ text: "🧠 Mis puntos débiles", callback_data: "debiles" }]
+  ];
   bot.sendMessage(chatId, `🔥 Bienvenido, <b>${nombre}</b>`, {
     parse_mode: "HTML",
-    reply_markup: {
-      inline_keyboard: [
-        [{ text: "📂 Generados", callback_data: "grupo:generados" }],
-        [{ text: "📕 Libro Rojo", callback_data: "grupo:libro_rojo" }],
-        [{ text: "📸 Flashcards", callback_data: "grupo:flashcards" }],
-        [{ text: "📊 Mis estadísticas", callback_data: "stats" }],
-        [{ text: "🧠 Mis puntos débiles", callback_data: "debiles" }]
-      ]
-    }
+    reply_markup: { inline_keyboard: teclado }
   });
 }
+// Handler para la sección de tests en curso
+bot.on("callback_query", async cb => {
+  const chatId = String(cb.message.chat.id);
+  const data = cb.data;
+  if (data === "grupo:test_en_curso") {
+    // Listar los tests en curso del usuario
+    const testDir = path.join(__dirname, "test_en_curso");
+    let archivos = [];
+    try {
+      archivos = fs.readdirSync(testDir).filter(f => f.endsWith(".json"));
+    } catch (e) {
+      return bot.sendMessage(chatId, "⚠️ No se pudo acceder a los tests en curso.");
+    }
+    // Filtrar solo los del usuario actual
+    const propios = archivos.filter(f => f.startsWith(`${chatId}`));
+    if (!propios.length) return bot.sendMessage(chatId, "🧪 No tienes tests en curso.");
+    // Mostrar lista de tests a medias
+    let botones = propios.map(f => {
+      let tema = "(sin tema)";
+      try {
+        const test = JSON.parse(fs.readFileSync(path.join(testDir, f), "utf8"));
+        tema = test.tema || tema;
+      } catch (e) {}
+      return [{ text: `Test: ${tema}`, callback_data: `testEnCurso:${f}` }];
+    });
+    bot.sendMessage(chatId, "🧪 Tests en curso:", {
+      reply_markup: { inline_keyboard: botones }
+    });
+    return;
+  }
+  if (data.startsWith("testEnCurso:")) {
+    // Recuperar el test seleccionado y cargarlo en memoria
+    const archivo = data.split(":")[1];
+    const testPath = path.join(__dirname, "test_en_curso", archivo);
+    try {
+      const testData = JSON.parse(fs.readFileSync(testPath, "utf8"));
+      usuarios[chatId] = testData;
+      bot.sendMessage(chatId, `🧪 Test cargado: <b>${testData.tema}</b>`, { parse_mode: "HTML" });
+      enviarPregunta(chatId);
+    } catch (e) {
+      bot.sendMessage(chatId, "❌ Error cargando el test en curso.");
+    }
+    return;
+  }
+  // ...existing code...
+});
+// Handler para el botón de test en curso
+bot.on("callback_query", async cb => {
+  const chatId = String(cb.message.chat.id);
+  const data = cb.data;
+  if (data === "testEnCurso") {
+    const estado = usuarios[chatId];
+    if (!estado || estado.tipo !== "test") {
+      return bot.sendMessage(chatId, "⚠️ No tienes un test en curso.");
+    }
+    // Mostrar opciones para continuar, finalizar o guardar
+    let msg = `🧪 Test en curso: <b>${estado.tema}</b>\nPreguntas respondidas: ${estado.indice} / ${estado.preguntas.length}`;
+    bot.sendMessage(chatId, msg, {
+      parse_mode: "HTML",
+      reply_markup: {
+        inline_keyboard: [
+          [{ text: "▶ Continuar test", callback_data: "continuarTest" }],
+          [{ text: "💾 Guardar test", callback_data: "guardarTest" }],
+          [{ text: "🏁 Finalizar test", callback_data: "finish" }]
+        ]
+      }
+    });
+    return;
+  }
+  if (data === "guardarTest") {
+    const estado = usuarios[chatId];
+    if (!estado || estado.tipo !== "test") return bot.sendMessage(chatId, "⚠️ No hay test para guardar.");
+    // Guardar historial en la base de datos (o archivo)
+    db.run("INSERT INTO test_historial (chatId, tema, aciertos, fallos, total, fecha) VALUES (?, ?, ?, ?, ?, datetime('now'))", [
+      chatId,
+      estado.tema,
+      estado.aciertos,
+      estado.fallos.length,
+      estado.preguntas.length
+    ], err => {
+      if (err) return bot.sendMessage(chatId, `❌ Error guardando test: ${err.message}`);
+      bot.sendMessage(chatId, "💾 Test guardado en historial.");
+      // Eliminar test en curso y archivo
+      delete usuarios[chatId];
+      // Eliminar todos los archivos de test_en_curso del usuario
+      const testDir = path.join(__dirname, "test_en_curso");
+      try {
+        fs.readdirSync(testDir).filter(f => f.startsWith(`${chatId}`) && f.endsWith('.json')).forEach(f => {
+          fs.unlinkSync(path.join(testDir, f));
+        });
+      } catch (e) {}
+    });
+    return;
+  }
+  // ...existing code...
+});
 
 // ===========================================
 // 🔐 LOGIN & REGISTRO
@@ -131,6 +241,49 @@ bot.on("message", msg => {
         console.log(`✅ Nombre '${texto}' guardado para usuario ${chatId} en BBDD`);
         bot.sendMessage(chatId, `👋 Perfecto, ${texto}. Escribe /start`);
       });
+    }
+    else {
+      // Si el usuario ya está registrado y tiene nombre, comprobar estados interactivos
+      const estado = usuarios[chatId];
+      if (estado && estado.tipo === 'phonetic_setup') {
+        // Tomar el texto como letra para el número actual
+        const letra = texto.toUpperCase().slice(0,1);
+        const numero = estado.numbersToMap[estado.nextIndex];
+        db.run(`INSERT OR REPLACE INTO phonetic_mappings (chatId, numero, letra) VALUES (?, ?, ?)`, [chatId, numero, letra], (err) => {
+          if (err) return bot.sendMessage(chatId, `❌ Error guardando mapping: ${err.message}`);
+          estado.nextIndex++;
+          if (estado.nextIndex >= estado.numbersToMap.length) {
+            delete usuarios[chatId];
+            return bot.sendMessage(chatId, `✅ Configuración completada. Ahora puedes usar Código fonético desde el menú (📡 Código fonético).`);
+          }
+          const nextNum = estado.numbersToMap[estado.nextIndex];
+          return bot.sendMessage(chatId, `Introduce la letra para el número ${nextNum}:`);
+        });
+        return;
+      }
+
+      if (estado && estado.tipo === 'phonetic_use') {
+        // Validar longitud máxima: 10 caracteres
+        if (texto.length > 10) {
+          return bot.sendMessage(chatId, '❌ Límite: máximo 10 caracteres. Envía una secuencia más corta (ej: 1234567890).');
+        }
+
+        // Usar la secuencia introducida
+        delete usuarios[chatId];
+          // attempt to reload phonetic module if missing (recover from transient require failures)
+          if (!(phonetic && phonetic.generateWordsForSequence)) {
+            try {
+              phonetic = require("./phonetic");
+              console.log('DEBUG phonetic: reloaded module on demand');
+            } catch (e) {
+              console.error('ERROR reloading phonetic module:', e && e.message ? e.message : e);
+            }
+          }
+          if (phonetic && phonetic.generateWordsForSequence) {
+            return phonetic.generateWordsForSequence(chatId, texto, bot);
+          }
+          return bot.sendMessage(chatId, '❌ Módulo fonético no disponible. Pide al administrador que revise los logs.');
+      }
     }
   });
 });
@@ -555,6 +708,67 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
     });
   }
 
+  // 📡 CÓDIGO FONÉTICO (interactivo)
+  if (data === "grupo:fonetico") {
+    // comprobar mappings existentes
+    db.all(`SELECT numero FROM phonetic_mappings WHERE chatId = ?`, [chatId], (err, rows) => {
+      if (err) {
+        console.error('ERROR leyendo phonetic_mappings', err);
+        return bot.sendMessage(chatId, "❌ Error accediendo a tu configuración fonética.");
+      }
+      const mapped = new Set((rows || []).map(r => String(r.numero)));
+      // Pedimos los números en orden 1..9, luego 0 (para que la primera pregunta sea el número 1)
+      const allNumbers = ["1","2","3","4","5","6","7","8","9","0"];
+      const missing = allNumbers.filter(n => !mapped.has(n));
+      if (missing.length > 0) {
+        usuarios[chatId] = { tipo: 'phonetic_setup', numbersToMap: missing, nextIndex: 0 };
+        return bot.sendMessage(chatId, `🔧 Vamos a configurar tu código fonético.\nIntroduce la letra para el número ${missing[0]}:`);
+      }
+
+      return bot.sendMessage(chatId, `📡 Código fonético — opciones:`, {
+        reply_markup: {
+          inline_keyboard: [
+            [{ text: '🔢 Usar calculadora', callback_data: 'fonetico:calc' }],
+            [{ text: '🔧 Reconfigurar mapeo', callback_data: 'fonetico:reconfig' }]
+          ]
+        }
+      });
+    });
+    return;
+  }
+
+  if (data === 'fonetico:reconfig') {
+    // borrar mappings y empezar desde 0
+    db.run(`DELETE FROM phonetic_mappings WHERE chatId = ?`, [chatId], (err) => {
+      if (err) console.error('ERROR borrando mappings', err);
+      const seq = ["1","2","3","4","5","6","7","8","9","0"];
+      usuarios[chatId] = { tipo: 'phonetic_setup', numbersToMap: seq, nextIndex: 0 };
+      bot.sendMessage(chatId, `🔧 Reconfigurando código fonético.\nIntroduce la letra para el número ${seq[0]}:`);
+    });
+    return;
+  }
+
+  if (data === 'fonetico:calc') {
+    usuarios[chatId] = { tipo: 'phonetic_use' };
+    bot.sendMessage(chatId, '🔢 Introduce la secuencia de números (ej: 123):');
+    return;
+  }
+
+  // Volver a pedir secuencia tras generación fonética
+  if (data === 'fonetico:again') {
+    usuarios[chatId] = { tipo: 'phonetic_use' };
+    return bot.sendMessage(chatId, '🔢 Introduce la secuencia de números (ej: 123):');
+  }
+
+  // Volver al menú principal
+  if (data === 'fonetico:menu') {
+    db.get("SELECT nombre FROM usuarios WHERE chatId = ?", [chatId], (err, row) => {
+      const nombre = (row && row.nombre) ? row.nombre : '';
+      return mostrarMenu(chatId, nombre);
+    });
+    return;
+  }
+
   if (data.startsWith("flash_subtema:")) {
     const carpeta = data.split(":")[1];
     const rutaSub = path.join(RUTA_FLASHCARDS, carpeta);
@@ -642,6 +856,13 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
 
   if (data === "finish") {
     delete usuarios[chatId];
+    // Eliminar todos los archivos de test_en_curso del usuario
+    const testDir = path.join(__dirname, "test_en_curso");
+    try {
+      fs.readdirSync(testDir).filter(f => f.startsWith(`${chatId}`) && f.endsWith('.json')).forEach(f => {
+        fs.unlinkSync(path.join(testDir, f));
+      });
+    } catch (e) {}
     return bot.sendMessage(chatId, "🏁 Test cerrado.");
   }
 
