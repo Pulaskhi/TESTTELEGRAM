@@ -76,17 +76,17 @@ function listarCarpetas(ruta) {
 // 📌 MENÚ PRINCIPAL
 // ===========================================
 function mostrarMenu(chatId, nombre) {
-  // Añadir sección de tests en curso si hay archivos en test_en_curso
+  // Opciones alineadas a la izquierda, título primero, emoticono después
   let teclado = [
-    [{ text: "🧪 Tests en curso", callback_data: "grupo:test_en_curso" }],
-    [{ text: "📂 Generados", callback_data: "grupo:generados" }],
-    [{ text: "📕 Libro Rojo", callback_data: "grupo:libro_rojo" }],
-    [{ text: "📸 Flashcards", callback_data: "grupo:flashcards" }],
-    [{ text: "📡 Código fonético", callback_data: "grupo:fonetico" }],
-    [{ text: "📊 Mis estadísticas", callback_data: "stats" }],
-    [{ text: "🧠 Mis puntos débiles", callback_data: "debiles" }]
+    [{ text: "Tests en curso 🧪", callback_data: "grupo:test_en_curso" }],
+    [{ text: "Generados 📂", callback_data: "grupo:generados" }],
+    [{ text: "Libro Rojo 📕", callback_data: "grupo:libro_rojo" }],
+    [{ text: "Flashcards 📸", callback_data: "grupo:flashcards" }],
+    [{ text: "Código fonético 📡", callback_data: "grupo:fonetico" }],
+    [{ text: "Mis estadísticas 📊", callback_data: "stats" }],
+    [{ text: "Mis puntos débiles 🧠", callback_data: "debiles" }]
   ];
-  bot.sendMessage(chatId, `🔥 Bienvenido, <b>${nombre}</b>`, {
+  bot.sendMessage(chatId, `Bienvenido, <b>${nombre}</b>`, {
     parse_mode: "HTML",
     reply_markup: { inline_keyboard: teclado }
   });
@@ -128,8 +128,13 @@ bot.on("callback_query", async cb => {
     try {
       const testData = JSON.parse(fs.readFileSync(testPath, "utf8"));
       usuarios[chatId] = testData;
-      bot.sendMessage(chatId, `🧪 Test cargado: <b>${testData.tema}</b>`, { parse_mode: "HTML" });
-      enviarPregunta(chatId);
+      // Si hay un mensaje de pregunta anterior, intentar borrarlo
+      if (testData._lastQuestionMsgId) {
+        bot.deleteMessage(chatId, testData._lastQuestionMsgId).catch(() => {});
+        delete usuarios[chatId]._lastQuestionMsgId;
+      }
+      bot.sendMessage(chatId, `🧪 Test cargado: <b>${testData.tema}</b>`, { parse_mode: "HTML" })
+        .then(() => enviarPregunta(chatId));
     } catch (e) {
       bot.sendMessage(chatId, "❌ Error cargando el test en curso.");
     }
@@ -499,32 +504,36 @@ ${formatearOpciones(p)}
 // ===========================================
 // 📸 ENVIAR FLASHCARD
 // ===========================================
-function enviarFlashcard(chatId) {
+function enviarPregunta(chatId) {
   const estado = usuarios[chatId];
-  const t = estado.tarjetas[estado.indice];
+  const preguntas = estado.preguntas;
+  const i = estado.indice;
 
-  if (!t) {
-    delete usuarios[chatId];
-    return bot.sendMessage(chatId, "🎉 Flashcards completadas.");
+  if (i >= preguntas.length) {
+    if (estado && estado._preguntaMostrada) delete estado._preguntaMostrada;
+    guardarResultados(chatId, estado);
+    let txt = `🏁 FINALIZADO (${estado.tema})\nAciertos: ${estado.aciertos}/${preguntas.length}`;
+    if (estado.fallos.length > 0) {
+      return bot.sendMessage(chatId, txt, {
+        reply_markup: {
+          inline_keyboard: [
+            [{ text: "🔁 Repetir fallos", callback_data: "retest" }],
+            [{ text: "🏁 Terminar", callback_data: "finish" }]
+          ]
+        }
+      });
+    }
+    return bot.sendMessage(chatId, txt + "\n🎯 ¡Muy bien!");
   }
 
-  bot.sendMessage(chatId, `
-<b>${t.titulo}</b>
-━━━━━━━━━━━
-${t.explicacion}
-<b>❓ Pregunta rápida:</b> ${t.pregunta_rapida}
-<b>✔ Respuesta:</b> ${t.respuesta_corta}
-`, {
+  const p = preguntas[i];
+  bot.sendMessage(chatId, `\n<b>Pregunta ${i + 1}/${preguntas.length}</b>\n━━━━━━━━━━━\n${p.pregunta}\n\n${formatearOpciones(p)}\n`, {
     parse_mode: "HTML",
-    reply_markup: {
-      inline_keyboard: [[{ text: "➡ Siguiente", callback_data: "flash_next" }]]
-    }
+    reply_markup: { inline_keyboard: [Object.keys(p.opciones).map(k => ({ text: k, callback_data: k }))] }
   });
+  // Limpiar flag para evitar dobles preguntas
+  if (estado._preguntaMostrada) delete estado._preguntaMostrada;
 }
-
-// ===========================================
-// 🧠 MOSTRAR FALLOS POR TEMA
-// ===========================================
 function mostrarFallosPorTema(chatId) {
   db.all(
     `SELECT tema, COUNT(*) as total 
@@ -552,6 +561,7 @@ function mostrarFallosPorTema(chatId) {
     }
   );
 }
+//
 
 // ===========================================
 // 🚀 CALLBACK QUERY  (ORDEN CORRECTO)
@@ -630,6 +640,14 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
 
   // 📂 GENERADOS
   if (data === "grupo:generados") {
+    // Guardar test en curso antes de cambiar de sección
+    if (usuarios[chatId] && usuarios[chatId].tipo === "test") {
+      try {
+        fs.writeFileSync(path.join(__dirname, "test_en_curso", `${chatId}.json`), JSON.stringify(usuarios[chatId], null, 2));
+      } catch (e) {
+        console.error('ERROR guardando test en curso:', e);
+      }
+    }
     TESTS = { ...cargarTestsDeCarpeta(RUTA_GENERADOS) };
     const claves = Object.keys(TESTS);
     console.log('DEBUG grupo:generados -> found', claves.length, 'tests');
@@ -641,6 +659,14 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
 
   // 📕 LIBRO ROJO
   if (data === "grupo:libro_rojo") {
+    // Guardar test en curso antes de cambiar de sección
+    if (usuarios[chatId] && usuarios[chatId].tipo === "test") {
+      try {
+        fs.writeFileSync(path.join(__dirname, "test_en_curso", `${chatId}.json`), JSON.stringify(usuarios[chatId], null, 2));
+      } catch (e) {
+        console.error('ERROR guardando test en curso:', e);
+      }
+    }
     let carpetas = [];
     try {
       carpetas = listarCarpetas(RUTA_LIBRO_ROJO);
@@ -695,6 +721,14 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
 
   // 📌 FLASHCARDS (IGUAL QUE TENÍAS)
   if (data === "grupo:flashcards") {
+    // Guardar test en curso antes de cambiar de sección
+    if (usuarios[chatId] && usuarios[chatId].tipo === "test") {
+      try {
+        fs.writeFileSync(path.join(__dirname, "test_en_curso", `${chatId}.json`), JSON.stringify(usuarios[chatId], null, 2));
+      } catch (e) {
+        console.error('ERROR guardando test en curso:', e);
+      }
+    }
     let carpetas = [];
     try {
       carpetas = listarCarpetas(RUTA_FLASHCARDS);
@@ -729,10 +763,21 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
         reply_markup: {
           inline_keyboard: [
             [{ text: '🔢 Usar calculadora', callback_data: 'fonetico:calc' }],
+            [{ text: '📖 Ver código actual', callback_data: 'fonetico:ver_codigo' }],
             [{ text: '🔧 Reconfigurar mapeo', callback_data: 'fonetico:reconfig' }]
           ]
         }
       });
+      if (data === 'fonetico:ver_codigo') {
+        db.all(`SELECT numero, letra FROM phonetic_mappings WHERE chatId = ?`, [chatId], (err, rows) => {
+          if (err || !rows || !rows.length) {
+            return bot.sendMessage(chatId, `📭 No tienes código fonético asignado. Usa /asignar NUM LETRA`);
+          }
+          const lines = rows.sort((a,b)=>a.numero.localeCompare(b.numero)).map(r => `${r.numero}: ${r.letra}`);
+          bot.sendMessage(chatId, `<b>Código fonético actual:</b>\n${lines.join("\n")}`, { parse_mode: "HTML" });
+        });
+        return;
+      }
     });
     return;
   }
@@ -890,6 +935,14 @@ Efectividad: ${pct}%`, { parse_mode: "HTML" });
   });
 
   estado.indice++;
+  // Guardar test en curso tras cada respuesta
+  if (estado.tipo === "test") {
+    try {
+      fs.writeFileSync(path.join(__dirname, "test_en_curso", `${chatId}.json`), JSON.stringify(estado, null, 2));
+    } catch (e) {
+      console.error('ERROR guardando test en curso:', e);
+    }
+  }
   setTimeout(() => enviarPregunta(chatId), 700);
 });
 
